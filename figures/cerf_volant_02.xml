@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+
+<action abscisse="600" ordonnee="50" id="48" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Construire un cerf-volant connaissant deux côtés consécutifs de longueurs différentes}$" id="48" taille="18" couleur="noir" police="arial" mouvement="ecrire" objet="texte" />
+<action mouvement="translation" objet="texte" id="48" abscisse="50" ordonnee="50" />
+<action abscisse="50" ordonnee="75" id="49" mouvement="creer" objet="texte" />
+<action tempo="30" texte="$\text{Il s'agit de construire le cerf-volant }ABCD\text{ tel que }AB=7\text{ cm et }BC=5\text{ cm}$" id="49" taille="16" couleur="rouge" mouvement="ecrire" objet="texte" />
+
+
+<!-- Cercle de centre A -->
+
+
+<action abscisse="450" ordonnee="120" id="50" mouvement="creer" objet="texte" />
+<action tempo="20" texte="$\text{On trace un arc de cercle de centre }A\text{ et de rayon 7 cm}$" id="50" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action ordonnee="68.85" abscisse="241.45" couleur="noir" id="1" mouvement="creer" objet="point" />
+<action ordonnee="-15.55" abscisse="-31.05" couleur="noir" nom="A" id="1" mouvement="nommer" objet="point" />
+<action abscisse="100" ordonnee="280" id="1" mouvement="translation" objet="point" />
+
+<action mouvement="graduations" objet="regle" />
+<action abscisse="200" ordonnee="350" mouvement="montrer" objet="regle" tempo="10"/>
+<action tempo="10" abscisse="410" ordonnee="300" mouvement="montrer" objet="compas" />
+<action abscisse="200" ordonnee="350" mouvement="translation" objet="compas" tempo="10"/>
+<action ecart="210" mouvement="ecarter" objet="compas" tempo="20"/>
+<action mouvement="masquer" objet="regle" />
+
+<action tempo="10" cible="1" mouvement="translation" objet="compas" tempo="10"/>
+<action sens="-3" angle="-55" mouvement="rotation" objet="compas" tempo="3" />
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="lightseagreen" epaisseur="0" sens="3" fin="60" debut="-55" id="2" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="3"/>
+<action mouvement="masquer" objet="compas" />
+
+<action texte="$\text{On trace un arc de cercle de centre }A\text{ et de rayon 7 cm}$" id="50" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<!-- Points B -->
+
+
+<action abscisse="450" ordonnee="140" id="51" mouvement="creer" objet="texte" />
+<action tempo="20" texte="$\text{On place un point }B\text{ sur cet arc}$" id="51" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action ordonnee="65" abscisse="50" couleur="noir" id="3" mouvement="creer" objet="point" />
+<action ordonnee="-35.3" abscisse="-5.65" couleur="noir" nom="B" id="3" mouvement="nommer" objet="point" />
+<action abscisse="281.865" ordonnee="175" id="3" mouvement="translation" objet="point" />
+
+<action texte="$\text{On place un point }B\text{ sur cet arc}$" id="51" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+<!-- Points D -->
+
+
+<action abscisse="450" ordonnee="160" id="52" mouvement="creer" objet="texte" />
+<action tempo="20" texte="$\text{On place un point }D\text{ sur cet arc}$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action ordonnee="79" abscisse="142.75" couleur="noir" id="4" mouvement="creer" objet="point" />
+<action ordonnee="8.5" abscisse="-5.65" couleur="noir" nom="D" id="4" mouvement="nommer" objet="point" />
+<action abscisse="281.082" ordonnee="386.343" id="4" mouvement="translation" objet="point" />
+
+
+<action texte="$\text{On place un point }D\text{ sur cet arc}$" id="52" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+<!-- côtés [AB] et [AD] -->
+
+<action abscisse="450" ordonnee="180" id="53" mouvement="creer" objet="texte" />
+<action tempo="20" texte="$\text{On trace les côtés }[AB]\text{ et }[AD]$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action mouvement="vide" objet="regle" />
+<action sens="180" angle="0" mouvement="rotation" objet="regle" />
+<action abscisse="360" ordonnee="375" mouvement="montrer" objet="regle" tempo="10"/>
+
+<action cible="1" mouvement="translation" objet="regle" tempo="10"/>
+<action cible="3" mouvement="rotation" objet="regle" />
+<action sens="-180" angle="-86" mouvement="rotation" objet="crayon" />
+<action  abscisse="95.5" ordonnee="173.35"  mouvement="montrer" objet="crayon" tempo="10"/>
+<action tempo="10" cible="1" mouvement="translation" objet="crayon" />
+<action id="5" epaisseur="0" couleur="noir" cible="3" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+
+<action cible="4" mouvement="rotation" objet="regle" />
+<action sens="180" angle="-52" mouvement="rotation" objet="crayon" />
+<action cible="1" mouvement="translation" objet="crayon" vitesse="500"/>
+<action mouvement="montrer" objet="crayon" tempo="10"/>
+<action id="6" epaisseur="0" couleur="noir" cible="4" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<action texte="$\text{On trace les côtés }[AB]\text{ et }[AD]$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+<!-- Arc de centre B -->
+
+<action abscisse="450" ordonnee="200" id="54" mouvement="creer" objet="texte" />
+<action tempo="20" texte="$\text{On trace un arc de cercle de centre }B\text{ et de rayon 5 cm}$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action mouvement="graduations" objet="regle" />
+<action sens="180" angle="0" mouvement="rotation" objet="regle" />
+<action abscisse="360" ordonnee="375" mouvement="montrer" objet="regle" tempo="10"/>
+
+<action sens="-180" angle="0" mouvement="rotation" objet="compas" />
+<action ecart="0" mouvement="ecarter" objet="compas" />
+<action abscisse="462.4" ordonnee="317.1" mouvement="montrer" objet="compas" tempo="10"/>
+<action abscisse="360" ordonnee="375" mouvement="translation" objet="compas" tempo="10"/>
+<action ecart="150" mouvement="ecarter" objet="compas" tempo="20"/>
+
+<action mouvement="masquer" objet="regle" />
+<action tempo="10" cible="3" mouvement="translation" objet="compas" />
+<action sens="3" angle="32" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas"  tempo="6"/>
+<action couleur="peru" epaisseur="0" sens="2" fin="144" debut="32" id="7" mouvement="tracer" objet="compas" tempo="3" />
+<action mouvement="coucher" objet="compas" tempo="3"/>
+
+<action texte="$\text{On trace un arc de cercle de centre }B\text{ et de rayon 5 cm}$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<!-- Arc de centre D -->
+
+<action abscisse="450" ordonnee="220" id="55" mouvement="creer" objet="texte" />
+<action tempo="20" texte="$\text{On trace un arc de cercle de centre }D\text{ et de rayon 5 cm}$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action tempo="10" cible="4" mouvement="translation" objet="compas" />
+<action sens="3" angle="-144" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="peru" epaisseur="0" sens="2" fin="-32" debut="-144" id="8" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="3"/>
+<action mouvement="masquer" objet="compas" />
+
+<action texte="$\text{On trace un arc de cercle de centre }D\text{ et de rayon 5 cm}$" id="55" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<!-- Deux points possibles -->
+
+<action abscisse="450" ordonnee="240" id="56" mouvement="creer" objet="texte" />
+<action tempo="20" texte="$\text{Les deux arcs se coupent en deux points distincts}$" id="56" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action couleur="crimson" style="vecteur" epaisseur="1"  abscisse1="175.016" ordonnee1="260.277" abscisse2="175.016" ordonnee2="280.277" mouvement="tracer" id="9" objet="trait" tempo="20"/>
+<action couleur="crimson" style="vecteur" epaisseur="1"  abscisse1="387.931" ordonnee1="261.066" abscisse2="387.931" ordonnee2="281.066" mouvement="tracer" id="10" objet="trait" tempo="20"/>
+
+<action mouvement="masquer" id="9" objet="trait" />
+<action mouvement="masquer" id="10" objet="trait" />
+
+<action texte="$\text{Les deux arcs se coupent en deux points distincts}$" id="56" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<!-- Point C -->
+
+<action abscisse="450" ordonnee="260" id="57" mouvement="creer" objet="texte" />
+<action tempo="20" texte="$\text{On choisit l'une des deux intersections pour le point }C$" id="57" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action ordonnee="78.65" abscisse="429.65" couleur="noir" id="11" mouvement="creer" objet="point" />
+<action ordonnee="-12.7" abscisse="17.65" couleur="noir" nom="C" id="11" mouvement="nommer" objet="point" />
+<action abscisse="175.016" ordonnee="280.277" id="11" mouvement="translation" objet="point" />
+
+<action texte="$\text{On choisit l'une des deux intersections pour le point }C$" id="57" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<!-- côtés [BC] et [CD] -->
+
+<action abscisse="450" ordonnee="280" id="58" mouvement="creer" objet="texte" />
+<action tempo="20" texte="$\text{On trace les côtés }[BC]\text{ et }[CD]$" id="58" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action mouvement="vide" objet="regle" />
+<action sens="180" angle="0" mouvement="rotation" objet="regle" />
+<action abscisse="360" ordonnee="375" mouvement="montrer" objet="regle" tempo="10"/>
+<action cible="11" mouvement="translation" objet="regle" tempo="10"/>
+<action cible="3" mouvement="rotation" objet="regle" tempo="5"/>
+
+<action sens="-180" angle="-106.4" mouvement="rotation" objet="crayon" />
+<action abscisse="167.85" ordonnee="189.65" mouvement="montrer" objet="crayon" />
+<action tempo="10" cible="11" mouvement="translation" objet="crayon" />
+<action id="12" epaisseur="0" couleur="noir" cible="3" mouvement="tracer" objet="crayon" />
+
+<action mouvement="masquer" objet="crayon" />
+<action cible="4" mouvement="rotation" objet="regle" />
+
+
+<action sens="180" angle="-25" mouvement="rotation" objet="crayon" />
+<action cible="11" mouvement="translation" objet="crayon" vitesse="500" />
+<action mouvement="montrer" objet="crayon" tempo="10"/>
+<action id="13" epaisseur="0" couleur="noir" cible="4" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<action texte="$\text{On trace les côtés }[BC]\text{ et }[CD]$" id="58" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<!-- Conclusion -->
+
+<action abscisse="450" ordonnee="320" id="59" mouvement="creer" objet="texte" />
+<action couleur_fond="burlywood" texte="$\text{On a construit un cerf-volant }ABCD$" id="59" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+<action cibles="1,3,11,4" epaisseur="0" couleur="darkblue" forme="polygone" id="1500" mouvement="tracer" objet="crayon" opacite="5" />
+
+<action ordonnee="227.5" abscisse="190.932" forme="\" couleur="crimson" id="14" mouvement="creer" objet="longueur" />
+<action ordonnee="333.171" abscisse="190.541" forme="/" couleur="crimson" id="15" mouvement="creer" objet="longueur" />
+<action ordonnee="333.31" abscisse="228.049" forme="//" couleur="crimson" id="16" mouvement="creer" objet="longueur" />
+<action ordonnee="227.638" abscisse="228.441" forme="\\" couleur="crimson" id="17" mouvement="creer" objet="longueur" />
+
+<action abscisse="151.7" ordonnee="188.35" id="60" mouvement="creer" objet="texte" />
+<action texte="7 cm" id="60" taille="16" couleur="steelblue" mouvement="ecrire" objet="texte"/>
+
+<action abscisse="242.15" ordonnee="237.8"   id="61" mouvement="creer" objet="texte" />
+<action texte="5 cm" id="61" taille="16" couleur="steelblue" mouvement="ecrire" objet="texte"/>
+
+
+</INSTRUMENPOCHE>

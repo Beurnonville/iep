@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+
+<action  abscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Représenter un pavé droit en perspective cavalière}$" id="50" taille="19" couleur="noir" mouvement="ecrire" police="arial" objet="texte"/>
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+<action abscisse="50" ordonnee="75" id="51" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de dessiner un pavé droit de longueur 10 cm, de hauteur 5 cm et de profondeur 7 cm}$" id="51" taille="16" couleur="rouge" mouvement="ecrire" objet="texte" tempo="30"/>
+
+
+<action abscisses="50,50,580,580" ordonnees="130,480,480,130" epaisseur="0" couleur="0" forme="polygone" id="9000" mouvement="tracer" objet="crayon" opacite="2" vitesse="1000" />
+
+
+
+<action abscisse="50" ordonnee="95" id="200" mouvement="creer" objet="texte" />
+<action texte="$\text{Mode de représentation choisi : angle de 30° et rapport de }\frac{1}{2}\text{ pour les fuyantes}$" id="200" taille="16" couleur="0" mouvement="ecrire" objet="texte" tempo="30"/>
+<action texte="$\text{Mode de représentation choisi : angle de 30° et rapport de }\frac{1}{2}\text{ pour les fuyantes}$" id="200" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+<action mouvement="translation" objet="texte" id="200" abscisse="-500" ordonnee="95" />
+<action mouvement="masquer" id="200" objet="texte" />
+
+
+
+
+
+<!-- Le bonhomme -->
+
+
+<action abscisse="50" ordonnee="100" id="201" mouvement="creer" objet="texte" />
+<action texte="$\text{On oriente la feuille en dessinant un petit bonhomme en haut à droite}$" id="201" taille="16" couleur="0" mouvement="ecrire" objet="texte" tempo="20"/>
+
+
+<!-- jambes et tronc -->
+
+<action couleur="noir" epaisseur="0"  abscisse1="610" ordonnee1="175" abscisse2="615" ordonnee2="157" mouvement="tracer" id="100" objet="trait" />
+<action couleur="noir" epaisseur="0"  abscisse1="620" ordonnee1="175" abscisse2="615" ordonnee2="157" mouvement="tracer" id="101" objet="trait" />
+<action couleur="noir" epaisseur="0"  abscisse1="615" ordonnee1="146" abscisse2="615" ordonnee2="157" mouvement="tracer" id="102" objet="trait" />
+
+<!-- tête -->
+
+<action abscisse="615" ordonnee="141" mouvement="translation" objet="compas" vitesse="1000"/>
+<action ecart="5" mouvement="ecarter" objet="compas" vitesse="1000"/>
+<action mouvement="lever" objet="compas" />
+<action couleur="noir" epaisseur="0" sens="720" fin="360" debut="0" id="29" mouvement="tracer" objet="compas" />
+<action mouvement="coucher" objet="compas" />
+
+<!-- bras -->
+
+<action couleur="noir" epaisseur="0"  abscisse1="615" ordonnee1="152" abscisse2="605" ordonnee2="146" mouvement="tracer" id="103" objet="trait" />
+<action couleur="noir" epaisseur="0"  abscisse1="615" ordonnee1="152" abscisse2="625" ordonnee2="146" mouvement="tracer" id="104" objet="trait" />
+
+
+<action texte="$\text{On oriente la feuille en dessinant un petit bonhomme en haut à droite}$" id="201" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" tempo="20"/>
+<action mouvement="translation" objet="texte" id="201" abscisse="-500" ordonnee="100" />
+<action mouvement="masquer" id="201" objet="texte" />
+
+
+
+<!-- Tracé de la couchée -->
+
+<action abscisse="50" ordonnee="100" id="202" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace une couchée}$" id="202" taille="16" couleur="0" mouvement="ecrire" objet="texte" tempo="20"/>
+
+
+<action mouvement="montrer" objet="equerre" tempo="10"/>
+<action sens="2" angle="90" mouvement="rotation" objet="equerre" tempo="10"/>
+<action abscisse="50" ordonnee="400" mouvement="translation" objet="equerre" tempo="10"/>
+<action abscisse="280" ordonnee="244"  mouvement="montrer" objet="crayon" tempo="10"/>
+<action abscisse="50" ordonnee="400" mouvement="translation" objet="crayon" tempo="10"/>
+<action abscisse="240" ordonnee="400" epaisseur="0" couleur="gray" id="1" mouvement="tracer" objet="crayon" />
+<action mouvement="vide" objet="regle" />
+<action mouvement="masquer" objet="equerre" />
+<action abscisse="115" ordonnee="400" mouvement="montrer" objet="regle" />
+<action abscisse="580" ordonnee="400" epaisseur="0" couleur="gray" id="2" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<action texte="$\text{On trace une couchée}$" id="202" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" tempo="20"/>
+<action mouvement="translation" objet="texte" id="202" abscisse="-500" ordonnee="100" />
+<action mouvement="masquer" id="202" objet="texte" />
+
+
+
+<!-- Face avant-->
+
+
+<action abscisse="50" ordonnee="100" id="203" mouvement="creer" objet="texte" />
+<action texte="$\text{On représente la face avant (un rectangle de dimensions 10 cm x 5 cm) en vraie grandeur}$" id="203" taille="16" couleur="0" mouvement="ecrire" objet="texte" tempo="20"/>
+
+
+
+<!-- Segment [EF] -->
+
+<action ordonnee="170" abscisse="372" couleur="noir" id="3" mouvement="creer" objet="point" />
+<action ordonnee="4.8" abscisse="-27.05" couleur="noir" nom="E" id="3" mouvement="nommer" objet="point" />
+<action abscisse="120" ordonnee="400" id="3" mouvement="translation" objet="point" />
+
+<action mouvement="graduations" objet="regle" />
+<action abscisse="190" ordonnee="445" mouvement="montrer" objet="regle" tempo="10"/>
+<action cible="3" mouvement="translation" objet="regle" tempo="10"/>
+
+<action couleur="blue" style="vecteur" epaisseur="1"  abscisse1="420" ordonnee1="380" abscisse2="420" ordonnee2="400" mouvement="tracer" id="500" objet="trait" tempo="20"/>
+<action mouvement="masquer" id="500" objet="trait" />
+
+<action ordonnee="160" abscisse="464" couleur="noir" id="4" mouvement="creer" objet="point" />
+<action ordonnee="3.7" abscisse="9.85" couleur="noir" nom="F" id="4" mouvement="nommer" objet="point" />
+<action abscisse="420" ordonnee="400" id="4" mouvement="translation" objet="point" />
+
+<action abscisse="251" ordonnee="296" mouvement="montrer" objet="crayon" tempo="10"/>
+<action cible="3" mouvement="translation" objet="crayon" tempo="10"/>
+<action id="5" epaisseur="1.5" couleur="noir" cible="4" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<!-- Segments perpendiculaires -->
+
+<action sens="-180" angle="0" mouvement="rotation" objet="equerre" />
+<action abscisse="270" ordonnee="300" mouvement="montrer" objet="equerre" tempo="10"/>
+<action abscisse="215" ordonnee="400" mouvement="translation" objet="equerre" tempo="10"/>
+<action cible="3" mouvement="translation" objet="equerre" tempo="10"/>
+
+<action sens="-180" angle="-130" mouvement="rotation" objet="crayon" />
+<action abscisse="86" ordonnee="288" mouvement="montrer" objet="crayon" tempo="10"/>
+<action cible="3" mouvement="translation" objet="crayon" tempo="10"/>
+
+<action abscisse="120" ordonnee="180" epaisseur="0" couleur="0" id="6" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+
+<action cible="4" mouvement="translation" objet="equerre" tempo="10"/>
+<action abscisse="348" ordonnee="300.95" mouvement="montrer" objet="crayon" tempo="10"/>
+<action cible="4" mouvement="translation" objet="crayon" tempo="10"/>
+<action abscisse="420" ordonnee="180" epaisseur="0" couleur="0" id="7" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="equerre" />
+
+
+<!-- Segment [AB]  -->
+
+
+<action abscisse="159" ordonnee="320" mouvement="montrer" objet="regle" tempo="10"/>
+<action cible="3" mouvement="translation" objet="regle" tempo="10"/>
+<action sens="-3" angle="-90" mouvement="rotation" objet="regle" tempo="10"/>
+
+<action couleur="blue" style="vecteur" epaisseur="1"  abscisse1="100" ordonnee1="250" abscisse2="120" ordonnee2="250" mouvement="tracer" id="501" objet="trait" tempo="20"/>
+<action mouvement="masquer" id="501" objet="trait" />
+
+<action ordonnee="148" abscisse="67" couleur="noir" id="8" mouvement="creer" objet="point" />
+<action ordonnee="-20.95" abscisse="-31.75" couleur="noir" nom="A" id="8" mouvement="nommer" objet="point" />
+<action abscisse="120" ordonnee="250" id="8" mouvement="translation" objet="point" tempo="10"/>
+
+<action cible="4" mouvement="translation" objet="regle" tempo="10"/>
+
+<action couleur="blue" style="vecteur" epaisseur="1"  abscisse1="400" ordonnee1="250" abscisse2="420" ordonnee2="250" mouvement="tracer" id="502" objet="trait" tempo="20"/>
+<action mouvement="masquer" id="502" objet="trait" />
+
+<action ordonnee="145" abscisse="132" couleur="noir" id="9" mouvement="creer" objet="point" />
+<action ordonnee="-32.15" abscisse="-0.7" couleur="noir" nom="B" id="9" mouvement="nommer" objet="point" />
+<action abscisse="420" ordonnee="250" id="9" mouvement="translation" objet="point" tempo="10"/>
+
+<action mouvement="masquer" objet="regle" />
+
+
+<action abscisse="241" ordonnee="358" mouvement="montrer" objet="equerre" tempo="10"/>
+<action sens="3" angle="90" mouvement="rotation" objet="equerre" tempo="10"/>
+<action cible="8" mouvement="translation" objet="equerre" tempo="10"/>
+<action sens="180" angle="-53" mouvement="rotation" objet="crayon" />
+<action abscisse="262" ordonnee="196" mouvement="montrer" objet="crayon" tempo="10"/>
+<action cible="8" mouvement="translation" objet="crayon" tempo="10"/>
+<action abscisse="322" ordonnee="250" epaisseur="0" couleur="0" id="10" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="equerre" />
+<action sens="-180" angle="0" mouvement="rotation" objet="regle" />
+<action mouvement="vide" objet="regle" />
+<action abscisse="120" ordonnee="250" mouvement="montrer" objet="regle" />
+<action abscisse="420" ordonnee="250" epaisseur="0" couleur="0" id="11" mouvement="tracer" objet="crayon" />
+
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+
+<action cibles="3,4,9,8" epaisseur="2" couleur="noir" forme="polygone" id="1000" mouvement="tracer" objet="crayon" opacite="0" vitesse="1000" />
+<action mouvement="masquer" id="6" objet="trait" />
+<action mouvement="masquer" id="7" objet="trait" />
+<action mouvement="masquer" id="10" objet="trait" />
+<action mouvement="masquer" id="11" objet="trait" />
+
+<action texte="$\text{On représente la face avant (un rectangle de dimensions 10 cm x 5 cm) en vraie grandeur}$" id="203" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" tempo="20"/>
+<action mouvement="translation" objet="texte" id="203" abscisse="-600" ordonnee="100" />
+<action mouvement="masquer" id="203" objet="texte" />
+
+
+
+<!-- Les fuyantes  -->
+
+<action abscisse="50" ordonnee="100" id="204" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace les fuyantes (elles forment un angle de 30° par rapport aux couchées)}$" id="204" taille="16" couleur="0" mouvement="ecrire" objet="texte" tempo="20"/>
+
+
+
+<!-- Fuyante issue de E  -->
+
+<action sens="-180" angle="0" mouvement="rotation" objet="equerre" />
+<action abscisse="252" ordonnee="368" mouvement="montrer" objet="equerre" tempo="10"/>
+
+
+<!-- affichage de "30°" sur l'équerre  -->
+
+<action epaisseur="2" ordonnee="146.85" abscisse="252.3" rayon="47.94" angle2="89.83" angle1="59.61" forme="simple" couleur="crimson" id="400" mouvement="creer" objet="angle" />
+<action abscisse="255" ordonnee="196" id="401" mouvement="creer" objet="texte" />
+<action couleur="crimson" texte="&lt;b&gt;30°&lt;/b&gt;" id="401" mouvement="ecrire" objet="texte" tempo="30"/>
+
+<action mouvement="masquer" id="401" objet="texte" />
+<action mouvement="masquer" id="400" objet="angle" />
+
+
+
+
+
+<action sens="-2" angle="-90" mouvement="rotation" objet="equerre" tempo="10"/>
+<action abscisse="411" ordonnee="400" mouvement="translation" objet="equerre" tempo="10" />
+<action abscisse="343" ordonnee="400" mouvement="translation" objet="equerre" tempo="10" />
+
+<action sens="-180" angle="-71" mouvement="rotation" objet="crayon" />
+<action abscisse="191.05" ordonnee="276.45" mouvement="montrer" objet="crayon" tempo="10"/>
+<action cible="3" mouvement="translation" objet="crayon" tempo="10"/>
+<action abscisse="248.021" ordonnee="326.086" epaisseur="1" couleur="0" id="12" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+
+<!-- Fuyante issue de F -->
+
+<action abscisse="643" ordonnee="400" mouvement="translation" objet="equerre" tempo="10"/>
+<action mouvement="montrer" objet="crayon" tempo="5"/>
+<action cible="4" mouvement="translation" objet="crayon" tempo="10" />
+<action abscisse="548.021" ordonnee="326.086" epaisseur="1" couleur="0" id="13" mouvement="tracer" objet="crayon" />
+
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="equerre" />
+
+
+<!-- Fuyante issue de A -->
+
+<action sens="180" angle="90" mouvement="rotation" objet="requerre" />
+<action abscisse="302" ordonnee="350.2" mouvement="montrer" objet="requerre" tempo="10"/>
+<action abscisse="184.951" ordonnee="362.5" mouvement="translation" objet="requerre" tempo="10"/>
+<action sens="-2" angle="60" mouvement="rotation" objet="requerre" tempo="10"/>
+<action abscisse="-129.903811" mouvement="glisser" objet="requerre" tempo="10"/>
+
+<action abscisse="180.75" ordonnee="169.25" mouvement="montrer" objet="crayon" tempo="5" />
+<action cible="8" mouvement="translation" objet="crayon" tempo="10"/>
+<action abscisse="248.021" ordonnee="176.086" epaisseur="1" couleur="0" id="14" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+
+<!-- Fuyante issue de B -->
+
+<action abscisse="0" mouvement="glisser" objet="requerre" tempo="10"/>
+<action abscisse="484.951" ordonnee="362.5" mouvement="translation" objet="requerre" tempo="10"/>
+<action abscisse="-129.903811" mouvement="glisser" objet="requerre" tempo="10"/>
+<action abscisse="436.65" ordonnee="161.25" mouvement="montrer" objet="crayon" tempo="5" />
+<action cible="9" mouvement="translation" objet="crayon" tempo="10"/>
+<action abscisse="548.021" ordonnee="176.086" epaisseur="1" couleur="0" id="15" mouvement="tracer" objet="crayon" />
+
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="requerre" />
+
+
+
+<action texte="$\text{On trace les fuyantes (elles forment un angle de 30° par rapport aux couchées)}$" id="204" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" tempo="20"/>
+<action mouvement="translation" objet="texte" id="204" abscisse="-600" ordonnee="100" />
+<action mouvement="masquer" id="204" objet="texte" />
+
+
+
+
+<!-- Mesures sur les fuyantes -->
+
+<action abscisse="50" ordonnee="100" id="205" mouvement="creer" objet="texte" />
+<action texte="$\text{On mesure }7 \div 2 = 3,5\text{ cm sur chacune des fuyantes}$" id="205" taille="16" couleur="0" mouvement="ecrire" objet="texte" tempo="20"/>
+
+
+
+<action mouvement="graduations" objet="regle" />
+<action abscisse="189.65" ordonnee="303.8" mouvement="montrer" objet="regle" tempo="10"/>
+
+<!-- Point D -->
+
+<action cible="8" mouvement="translation" objet="regle" tempo="10"/>
+<action sens="-2" angle="-30" mouvement="rotation" objet="regle" tempo="10"/>
+<action couleur="blue" style="vecteur" epaisseur="1"  abscisse1="200.932" ordonnee1="180.979" abscisse2="210.932" ordonnee2="197.5" mouvement="tracer" id="16" objet="trait" tempo="20"/>
+<action mouvement="masquer" id="16" objet="trait" />
+<action ordonnee="104.1" abscisse="39.5" couleur="noir" id="17" mouvement="creer" objet="point" />
+<action ordonnee="-25.3" abscisse="-26.45" couleur="noir" nom="D" id="17" mouvement="nommer" objet="point" />
+<action abscisse="210.932" ordonnee="197.5" id="17" mouvement="translation" objet="point" tempo="10"/>
+
+<!-- Point C -->
+
+<action cible="9" mouvement="translation" objet="regle" tempo="10"/>
+<action couleur="blue" style="vecteur" epaisseur="1"  abscisse1="500.932" ordonnee1="180.979" abscisse2="510.932" ordonnee2="197.5" mouvement="tracer" id="18" objet="trait" tempo="20"/>
+<action mouvement="masquer" id="18" objet="trait" />
+<action ordonnee="138.6" abscisse="160.15" couleur="noir" id="19" mouvement="creer" objet="point" />
+<action ordonnee="-25" abscisse="7.8" couleur="noir" nom="C" id="19" mouvement="nommer" objet="point" />
+<action abscisse="510.932" ordonnee="197.5" id="19" mouvement="translation" objet="point" />
+
+<!-- Point G -->
+
+<action cible="4" mouvement="translation" objet="regle" tempo="10"/>
+<action couleur="blue" style="vecteur" epaisseur="1"  abscisse1="500.932" ordonnee1="330.979" abscisse2="510.932" ordonnee2="347.5" mouvement="tracer" id="20" objet="trait" tempo="20"/>
+<action mouvement="masquer" id="20" objet="trait" />
+<action ordonnee="138.6" abscisse="160.15" couleur="noir" id="21" mouvement="creer" objet="point" />
+<action ordonnee="0.3" abscisse="12" couleur="noir" nom="G" id="21" mouvement="nommer" objet="point" />
+<action abscisse="510.932" ordonnee="347.5" id="21" mouvement="translation" objet="point" />
+
+<!-- Point H -->
+
+<action cible="3" mouvement="translation" objet="regle" tempo="10"/>
+<action couleur="blue" style="vecteur" epaisseur="1"  abscisse1="200.932" ordonnee1="330.979" abscisse2="210.932" ordonnee2="347.5" mouvement="tracer" id="22" objet="trait" tempo="20"/>
+<action mouvement="masquer" id="22" objet="trait" />
+<action ordonnee="138.6" abscisse="160.15" couleur="noir" id="23" mouvement="creer" objet="point" />
+<action ordonnee="4.5" abscisse="1.45" couleur="noir" nom="H" id="23" mouvement="nommer" objet="point" />
+<action abscisse="210.932" ordonnee="347.5" id="23" mouvement="translation" objet="point" />
+
+<action mouvement="masquer" objet="regle" tempo="20"/>
+
+
+<action texte="$\text{On mesure }7 \div 2 = 3,5\text{ cm sur chacune des fuyantes}$" id="205" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" tempo="20"/>
+<action mouvement="translation" objet="texte" id="205" abscisse="-600" ordonnee="100" />
+<action mouvement="masquer" id="205" objet="texte" />
+
+
+
+
+
+<!-- Face arrière -->
+
+<action abscisse="50" ordonnee="100" id="206" mouvement="creer" objet="texte" />
+<action texte="$\text{On représente la face arrière : un rectangle de mêmes dimensions que la face avant}$" id="206" taille="16" couleur="0" mouvement="ecrire" objet="texte" tempo="20"/>
+
+
+
+
+<action mouvement="vide" objet="regle" />
+<action sens="180" angle="0" mouvement="rotation" objet="regle" />
+<action abscisse="157.05" ordonnee="414.8" mouvement="montrer" objet="regle" tempo="10"/>
+<action cible="23" mouvement="translation" objet="regle" tempo="10"/>
+
+<action abscisse="339.15" ordonnee="263.9" mouvement="montrer" objet="crayon" tempo="10"/>
+<action tempo="10" cible="23" mouvement="translation" objet="crayon" />
+<action id="24" epaisseur="1" couleur="noir" cible="21" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+
+<action sens="180" angle="0" mouvement="rotation" objet="equerre" />
+<action abscisse="363.35" ordonnee="299.55" mouvement="montrer" objet="equerre" tempo="10"/>
+<action tempo="10" cible="23" mouvement="translation" objet="equerre" />
+
+<action sens="-180" angle="-123" mouvement="rotation" objet="crayon" />
+<action abscisse="161.2" ordonnee="268.1" mouvement="montrer" objet="crayon" tempo="5"/>
+<action cible="23" mouvement="translation" objet="crayon" tempo="10"/>
+<action id="25" epaisseur="1" couleur="noir" cible="17" mouvement="tracer" objet="crayon" />
+
+<action sens="3" angle="90" mouvement="rotation" objet="equerre" tempo="10"/>
+<action tempo="10" cible="17" mouvement="translation" objet="equerre" />
+
+<action abscisse="420" ordonnee="197.5" epaisseur="1" couleur="0" id="26" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="equerre" />
+<action mouvement="vide" objet="regle" />
+<action sens="180" angle="0" mouvement="rotation" objet="regle" />
+<action abscisse="210.932" ordonnee="197.5" mouvement="montrer" objet="regle" />
+<action abscisse="510.932" ordonnee="197.5" epaisseur="1" couleur="0" id="27" mouvement="tracer" objet="crayon" />
+
+<action mouvement="masquer" objet="regle" />
+
+<action mouvement="montrer" objet="equerre" />
+<action sens="5" angle="180" mouvement="rotation" objet="equerre" tempo="10"/>
+<action cible="19" mouvement="translation" objet="equerre" tempo="10"/>
+<action sens="5" angle="-51" mouvement="rotation" objet="crayon" />
+<action id="28" epaisseur="1" couleur="noir" cible="21" mouvement="tracer" objet="crayon" />
+
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="equerre" />
+
+<!-- Dessin des faces -->
+
+
+<action cibles="8,9,19,17" epaisseur="2" couleur="navy" forme="polygone" id="1001" mouvement="tracer" objet="crayon" opacite="2" vitesse="1000" />
+
+<action cibles="9,19,21,4" epaisseur="2" couleur="navy" forme="polygone" id="1002" mouvement="tracer" objet="crayon" opacite="15" vitesse="1000" />
+
+<action cibles="3,4,9,8" epaisseur="2" couleur="navy" forme="polygone" id="1000" mouvement="tracer" objet="crayon" opacite="7" vitesse="1000" />
+
+
+<action mouvement="masquer" id="28" objet="trait" />
+<action mouvement="masquer" id="26" objet="trait" />
+<action mouvement="masquer" id="27" objet="trait" />
+<action mouvement="masquer" id="13" objet="trait" />
+<action mouvement="masquer" id="14" objet="trait" />
+<action mouvement="masquer" id="15" objet="trait" />
+
+<action texte="$\text{On représente la face arrière : un rectangle de mêmes dimensions que la face avant}$" id="206" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" tempo="20"/>
+<action mouvement="translation" objet="texte" id="206" abscisse="-600" ordonnee="100" />
+<action mouvement="masquer" id="206" objet="texte" />
+
+
+
+
+
+
+<action abscisse="50" ordonnee="100" id="207" mouvement="creer" objet="texte" />
+<action texte="$\text{On dessine les arêtes cachées en pointillés}$" id="207" taille="16" couleur="0" mouvement="ecrire" objet="texte" tempo="20"/>
+
+
+
+<action mouvement="masquer" id="24" objet="trait" />
+<action mouvement="masquer" id="25" objet="trait" />
+<action mouvement="masquer" id="12" objet="trait" />
+
+<action couleur="navy" pointille="tiret" epaisseur="2"  abscisse1="210.932" ordonnee1="197.5" abscisse2="210.932" ordonnee2="347.5" mouvement="tracer" id="1003" objet="trait" />
+<action couleur="navy" pointille="tiret" epaisseur="2"  abscisse1="120" ordonnee1="400" abscisse2="210.932" ordonnee2="347.5" mouvement="tracer" id="1004" objet="trait" />
+<action couleur="navy" pointille="tiret" epaisseur="2"  abscisse1="510.932" ordonnee1="347.5" abscisse2="210.932" ordonnee2="347.5" mouvement="tracer" id="1005" objet="trait" />
+
+
+<action texte="$\text{On dessine les arêtes cachées en pointillés}$" id="207" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" tempo="20"/>
+<action mouvement="translation" objet="texte" id="207" abscisse="-600" ordonnee="100" />
+<action mouvement="masquer" id="207" objet="texte" />
+
+<action mouvement="masquer" id="2" objet="trait" />
+<action mouvement="masquer" id="1" objet="trait" />
+
+
+
+</INSTRUMENPOCHE>

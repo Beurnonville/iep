@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+
+<action abscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action texte="${\bf\text{Construire une droite parallèle à une droite donnée}}$" id="50" taille="19" couleur="noir" mouvement="ecrire" objet="texte" police="arial" />
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+
+<action abscisse="50" ordonnee="75" id="51" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de construire la droite }(d')\text{ parallèle à la droite }(d)\text{ et passant par le point }A$" id="51" taille="16" couleur="rouge" mouvement="ecrire" objet="texte" />
+
+
+
+<action epaisseur="1" couleur="darkblue" ordonnee2="403.909" abscisse2="522.861" ordonnee1="250" abscisse1="100" id="23" mouvement="tracer" objet="trait" />
+<action ordonnee="200" abscisse="310" couleur="noir" id="1" mouvement="creer" objet="point" />
+<action ordonnee="-31.75" abscisse="12" couleur="noir" nom="A" id="1" mouvement="nommer" objet="point" />
+<action abscisse="69.15" ordonnee="227.95" id="2" mouvement="creer" objet="texte" />
+<action couleur="darkblue" texte="$(d)$" id="2" mouvement="ecrire" objet="texte" tempo="30" />
+
+
+
+<action abscisse="550" ordonnee="150" id="52" mouvement="creer" objet="texte" />
+<action texte="$\text{On utilise l'équerre.}$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action echelle="120" mouvement="zoom" objet="equerre" />
+<action abscisse="446" ordonnee="325" mouvement="montrer" objet="equerre" tempo="20"/>
+
+<action texte="$\text{On utilise l'équerre.}$" id="52" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+
+<action abscisse="550" ordonnee="170" id="53" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{@{}l}\text{On place un côté de l'angle droit} \\[-1cm] \text{le long de la droite }(d)\text{.}\end{array}$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action tempo="10" abscisse="370" ordonnee="370" mouvement="translation" objet="equerre" />
+<action sens="2" angle="110" mouvement="rotation" objet="equerre" tempo="10" />
+<action tempo="10" abscisse="376.983" ordonnee="350.813" mouvement="translation" objet="equerre" />
+
+<action texte="$\begin{array}{@{}l}\text{On place un côté de l'angle droit} \\[-1cm] \text{le long de la droite }(d)\text{.}\end{array}$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+
+
+<action abscisse="550" ordonnee="212" id="54" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\text{Puis on fait glisser l'équerre le long} \\[-1cm] \text{de la droite }(d)\text{ jusqu'au point }A\text{.}\end{array}$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="200.312" ordonnee="286.51" mouvement="translation" objet="equerre" tempo="15"/>
+
+<action texte="$\begin{array}{l}\text{Puis on fait glisser l'équerre le long} \\[-1cm] \text{de la droite }(d)\text{ jusqu'au point }A\text{.}\end{array}$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+<action abscisse="550" ordonnee="254" id="55" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\text{On place la règle le long de l'autre} \\[-1cm] \text{côté de l'angle droit de l'équerre.}\end{array}$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action mouvement="vide" objet="regle" />
+<action mouvement="montrer" objet="regle" />
+<action abscisse="200" ordonnee="150" mouvement="translation" objet="regle" tempo="5" />
+<action tempo="10" sens="5" angle="110" mouvement="rotation" objet="regle" />
+<action abscisse="256.803" ordonnee="131.304" mouvement="translation" objet="regle" tempo="15" />
+
+<action texte="$\begin{array}{l}\text{On place la règle le long de l'autre} \\[-1cm] \text{côté de l'angle droit de l'équerre.}\end{array}$" id="55" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+
+<action abscisse="550" ordonnee="296" id="56" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\text{On fait alors glisser l'équerre le long} \\[-1cm] \text{de la règle jusqu'au point }A\text{.}\end{array}$" id="56" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="240.947" ordonnee="174.867" mouvement="translation" vitesse="2" objet="equerre" tempo="15"/>
+
+<action texte="$\begin{array}{l}\text{On fait alors glisser l'équerre le long} \\[-1cm] \text{de la règle jusqu'au point }A\text{.}\end{array}$" id="56" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+<action abscisse="550" ordonnee="338" id="57" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace la droite }(d')\text{.}$" id="57" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action tempo="10" abscisse="510" ordonnee="325" mouvement="montrer" objet="crayon" />
+<action abscisse="483.057" ordonnee="262.987" mouvement="translation" objet="crayon" tempo="10" />
+<action abscisse="240.947" ordonnee="174.867" epaisseur="1" couleur="firebrick" id="3" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="equerre" />
+<action mouvement="masquer" objet="regle" />
+<action sens="-180" angle="20" mouvement="rotation" objet="regle" />
+<action abscisse="129.037" ordonnee="134.135" mouvement="montrer" objet="regle" />
+<action abscisse="129.037" ordonnee="134.135" epaisseur="1" couleur="firebrick" id="4" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+<action abscisse="499" ordonnee="253" id="5" mouvement="creer" objet="texte" />
+<action couleur="firebrick" texte="$(d')$" id="5" mouvement="ecrire" objet="texte" />
+
+
+<action texte="$\text{On trace la droite }(d')\text{.}$" id="57" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+</INSTRUMENPOCHE>

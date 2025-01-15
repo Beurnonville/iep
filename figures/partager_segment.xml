@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+<action abscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Partager un segment à la règle non graduée et au compas}$" id="50" taille="19" couleur="noir" mouvement="ecrire" police="arial" objet="texte"/>
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+
+<!-- segment [AB] -->
+
+<action mouvement="tracer" objet="trait" couleur="noir" abscisse1="50" ordonnee1="390" abscisse2="370" ordonnee2="390" id="10" />
+
+<action abscisse="50" ordonnee="390" id="12" mouvement="creer" objet="point" />
+<action ordonnee="5.25" abscisse="-30.75" couleur="0" nom="A" id="12" mouvement="nommer" objet="point" />
+
+<action abscisse="370" ordonnee="390" id="13" mouvement="creer" objet="point" />
+<action ordonnee="3" abscisse="23.25" couleur="0" nom="B" id="13" mouvement="nommer" objet="point" />
+
+
+<action abscisse="50" ordonnee="75" id="51" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de placer le point }M\text{ sur }[AB]\text{ tel que }\frac{AM}{AB}=\frac{4}{7}$" id="51" taille="16" couleur="rouge" mouvement="ecrire" objet="texte" tempo="30"/>
+
+
+
+
+<!-- demi-droite d'origine A -->
+<action abscisse="480" ordonnee="130" id="52" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace une demi-droite d'origine }A$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+<action mouvement="vide" objet="regle" />
+<action abscisse="220" ordonnee="150" mouvement="montrer" objet="regle" />
+<action abscisse="50" ordonnee="390" mouvement="translation" objet="regle" tempo="10"/>
+<action sens="-2" angle="-40" mouvement="rotation" objet="regle" tempo="7"/>
+
+<action sens="-180" angle="-110" mouvement="rotation" objet="crayon" />
+<action abscisse="220" ordonnee="150" mouvement="montrer" objet="crayon" />
+<action abscisse="50" ordonnee="390" mouvement="translation" objet="crayon" tempo="7"/>
+<action abscisse="324.1426" ordonnee="159.9671" epaisseur="1" id="15" couleur="navy" mouvement="tracer" objet="crayon" />
+
+<action mouvement="masquer" objet="crayon" />
+<action sens="-180" angle="-45" mouvement="rotation" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+
+<action texte="$\text{On trace une demi-droite d'origine }A$" id="52" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+<!-- Arcs de cercles -->
+<action abscisse="480" ordonnee="150" id="53" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\text{On choisit une ouverture de compas que}\\ \text{l'on reporte sept fois sur la demi-droite}\end{array}$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action abscisse="220" ordonnee="150" mouvement="montrer" objet="compas" />
+<action cible="12" mouvement="translation" objet="compas"tempo="10"/>
+
+<action ecart="45" mouvement="ecarter" objet="compas" tempo="10"/>
+<action sens="-1" angle="-20" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="3"/>
+
+
+<!-- arc 1 -->
+
+
+<action couleur="lightseagreen" epaisseur="0" sens="-2" fin="-60" debut="-20" id="351" mouvement="tracer" objet="compas" />
+<action mouvement="coucher" objet="compas" />
+
+
+<!-- arc 2 -->
+
+<action abscisse="84.472" ordonnee="361.0746" mouvement="translation" objet="compas" tempo="5"/>
+<action mouvement="lever" objet="compas" tempo="5"/>
+<action sens="2" couleur="lightseagreen" epaisseur="1" fin="-20" debut="-60" id="352" mouvement="tracer" objet="compas" />
+
+<!-- arc 3 -->
+<action mouvement="coucher" objet="compas" tempo="3"/>
+<action abscisse="118.944" ordonnee="332.1491" mouvement="translation" objet="compas" tempo="5"/>
+<action mouvement="lever" objet="compas" tempo="5"/>
+<action sens="-2" couleur="lightseagreen" epaisseur="1" fin="-60" debut="-20" id="353" mouvement="tracer" objet="compas" />
+
+<!-- arc 4 -->
+<action mouvement="coucher" objet="compas" tempo="3"/>
+<action abscisse="153.416" ordonnee="303.2237" mouvement="translation" objet="compas" tempo="5"/>
+<action mouvement="lever" objet="compas" tempo="5"/>
+<action sens="2" couleur="lightseagreen" epaisseur="1" fin="-20" debut="-60" id="354" mouvement="tracer" objet="compas" />
+
+<!-- arc 5 -->
+<action mouvement="coucher" objet="compas" tempo="3"/>
+<action abscisse="187.888" ordonnee="274.2982" mouvement="translation" objet="compas" tempo="5"/>
+<action mouvement="lever" objet="compas" tempo="5"/>
+<action sens="-2" couleur="lightseagreen" epaisseur="1" fin="-60" debut="-20" id="355" mouvement="tracer" objet="compas" />
+
+<!-- arc 6 -->
+<action mouvement="coucher" objet="compas" tempo="3"/>
+<action abscisse="222.36" ordonnee="245.37279" mouvement="translation" objet="compas" tempo="5"/>
+<action mouvement="lever" objet="compas" tempo="5"/>
+<action sens="2" couleur="lightseagreen" epaisseur="1" fin="-20" debut="-60" id="366" mouvement="tracer" objet="compas" />
+
+<!-- arc 7 -->
+<action mouvement="coucher" objet="compas" tempo="3"/>
+<action abscisse="256.832" ordonnee="216.4473" mouvement="translation" objet="compas" tempo="5"/>
+<action mouvement="lever" objet="compas" tempo="5"/>
+<action sens="-2" couleur="lightseagreen" epaisseur="1" fin="-60" debut="-20" id="367" mouvement="tracer" objet="compas" tempo="5"/>
+
+<action mouvement="masquer" objet="compas" />
+
+<action abscisse="50" ordonnee="100" id="16" mouvement="creer" objet="point" />
+<action ordonnee="-39.75" abscisse="-2.25" couleur="0" nom="C" id="16" mouvement="nommer" objet="point" />
+<action abscisse="291.304" ordonnee="187.5219" id="16" mouvement="translation" objet="point" />
+
+
+<action texte="$\begin{array}{l}\text{On choisit une ouverture de compas que}\\ \text{l'on reporte sept fois sur la demi-droite}\end{array}$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+<!-- Point N -->
+<action abscisse="480" ordonnee="192" id="54" mouvement="creer" objet="texte" />
+<action texte="$\text{On place le point }N\text{ sur }[AC]\text{ tel que }\frac{AN}{AC}=\frac{4}{7}$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action abscisse="50" ordonnee="50" id="17" mouvement="creer" objet="point" />
+<action ordonnee="-40.5" abscisse="0" couleur="crimson" nom="N" id="17" mouvement="nommer" objet="point" />
+<action abscisse="187.888" ordonnee="274.2982" id="17" mouvement="translation" objet="point" />
+
+
+<action texte="$\text{On place le point }N\text{ sur }[AC]\text{ tel que }\frac{AN}{AC}=\frac{4}{7}$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+<!-- Droite (BC) -->
+<action abscisse="480" ordonnee="227" id="55" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace la droite }(BC)$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+<action sens="180" angle="68.76067" mouvement="rotation" objet="regle" />
+<action abscisse="150" ordonnee="220" mouvement="montrer" objet="regle" />
+<action abscisse="258" ordonnee="104.57339" mouvement="translation" objet="regle" />
+
+<action abscisse="400" ordonnee="100" mouvement="montrer" objet="crayon" />
+<action abscisse="271.40247" ordonnee="136.31696" mouvement="translation" objet="crayon" />
+<action abscisse="382.44079" ordonnee="422.00909" epaisseur="1" id="18" couleur="sienna" mouvement="tracer" objet="crayon" />
+
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+
+<action texte="$\text{On trace la droite }(BC)$" id="55" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+<!-- Droite (NM) -->
+<action abscisse="480" ordonnee="247" id="56" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace la parallèle à }(BC)\text{ passant par }N$" id="56" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action sens="180" angle="158.76067" mouvement="rotation" objet="requerre" />
+
+
+<action abscisse="-103" mouvement="glisser" objet="requerre" />
+<action abscisse="100" ordonnee="100" mouvement="montrer" objet="requerre" />
+<action abscisse="206.75417" ordonnee="256.02389" mouvement="translation" objet="requerre" tempo="30"/>
+<action abscisse="25" mouvement="glisser" objet="requerre" />
+
+
+
+
+<action mouvement="montrer" objet="crayon" />
+<action abscisse="180.81686" ordonnee="256.10479" mouvement="translation" objet="crayon" />
+<action abscisse="236.15898" ordonnee="398.49533" epaisseur="1" id="19" couleur="sienna" mouvement="tracer" objet="crayon" />
+
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="requerre" />
+
+<action texte="$\text{On trace la parallèle à }(BC)\text{ passant par }N$" id="56" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+<!-- Point M -->
+<action abscisse="480" ordonnee="267" id="57" mouvement="creer" objet="texte" />
+<action texte="$\text{Elle coupe }(AB)\text{ en }M$" id="57" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action abscisse="50" ordonnee="50" id="20" mouvement="creer" objet="point" />
+<action ordonnee="4.5" abscisse="15.75" couleur="crimson" nom="M" id="20" mouvement="nommer" objet="point" />
+<action abscisse="232.85714" ordonnee="390" id="20" mouvement="translation" objet="point" />
+
+<action texte="$\text{Elle coupe }(AB)\text{ en }M$" id="57" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+<!-- Conclusion -->
+<action abscisse="480" ordonnee="300" id="58" mouvement="creer" objet="texte" />
+<action texte="$\definecolor{myblue}{rgb}{0,0,0.5}\begin{array}{l}\text{Le théorème de }\textbf{Thalès}\text{ permet de justifier}\\ \text{que }\textcolor{myblue}{\displaystyle\frac{AM}{AB}=\frac{4}{7}}\end{array}$" id="58" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+
+
+</INSTRUMENPOCHE>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+
+<action abscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Construire une droite perpendiculaire à une droite donnée}$" id="50" taille="19" couleur="noir" mouvement="ecrire" objet="texte" police="arial" />
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+<action abscisse="50" ordonnee="75" id="51" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de construire la droite }(d')\text{ perpendiculaire à la droite }(d)\text{ et passant par le point }A$" id="51" taille="16" couleur="rouge" mouvement="ecrire" objet="texte" />
+
+
+
+<action epaisseur="1" couleur="darkblue" ordonnee2="460" abscisse2="590" ordonnee1="230" abscisse1="40" id="23" mouvement="tracer" objet="trait" />
+<action abscisse="595" ordonnee="440" id="31" mouvement="creer" objet="texte" />
+<action texte="$(d)$" id="31" taille="24" couleur="darkblue" mouvement="ecrire" objet="texte" />
+<action abscisse="280" ordonnee="190" id="12" mouvement="creer" objet="point" />
+<action ordonnee="-21.9" abscisse="15.5" couleur="0" nom="A" id="12" mouvement="nommer" objet="point" tempo="40" />
+
+
+
+<action abscisse="380" ordonnee="140" id="33" mouvement="creer" objet="texte" />
+<action texte="$\text{On place un des côtés de l'angle droit de l'équerre sur la droite }(d)$" id="33" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action abscisse="360" ordonnee="295" mouvement="montrer" objet="equerre" />
+<action abscisse="478.386" ordonnee="413.325" mouvement="translation" objet="equerre" tempo="10" />
+<action sens="5" angle="22.693" mouvement="rotation" objet="equerre" tempo="30" />
+<action texte="$\text{On place un des côtés de l'angle droit de l'équerre sur la droite }(d)$" id="33" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+<action abscisse="380" ordonnee="160" id="34" mouvement="creer" objet="texte" />
+<action texte="$\text{Puis on fait glisser l'équerre sur la droite }(d)\text{ jusqu'au point }A$" id="34" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action abscisse="230.039" ordonnee="309.471" mouvement="translation" objet="equerre" tempo="30" />
+<action texte="$\text{Puis on fait glisser l'équerre sur la droite }(d)\text{ jusqu'au point }A$" id="34" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<action mouvement="masquer" objet="regle" />
+<action sens="360" angle="112.693" mouvement="rotation" objet="regle" />
+
+
+<action abscisse="380" ordonnee="180" id="35" mouvement="creer" objet="texte" />
+<action texte="$\text{On place alors la règle contre l'autre côté de l'équerre}$" id="35" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action mouvement="vide" objet="regle" />
+<action abscisse="105" ordonnee="180" mouvement="montrer" objet="regle" />
+<action abscisse="318.557" ordonnee="97.798" mouvement="translation" objet="regle" tempo="30" />
+<action mouvement="masquer" objet="equerre" />
+<action texte="$\text{On place alors la règle contre l'autre côté de l'équerre}$" id="35" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+<action abscisse="380" ordonnee="200" id="36" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace la droite }(d')$" id="36" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action sens="180" angle="-20" mouvement="rotation" objet="crayon" />
+<action abscisse="370" ordonnee="250" mouvement="montrer" objet="crayon" />
+<action abscisse="315.354" ordonnee="105.455" mouvement="translation" objet="crayon" tempo="10" />
+<action couleur="firebrick" abscisse="176.917" ordonnee="436.502" epaisseur="1" id="13" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+<action abscisse="146" ordonnee="400" id="38" mouvement="creer" objet="texte" />
+<action texte="$(d')$" id="38" taille="24" couleur="firebrick" mouvement="ecrire" objet="texte" />
+<action texte="$\text{On trace la droite }(d')$" id="36" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+<action abscisse="380" ordonnee="225" id="37" mouvement="creer" objet="texte" />
+<action texte="$\text{Et on code l'angle droit sur la figure}$" id="37" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action ordonnee_inter="309.471" abscisse_inter="230.039" ordonnee_sommet="298.735" abscisse_sommet="256.207" id="14" epaisseur="1" mouvement="creer" objet="angle_droit" tempo="30" />
+<action texte="$\text{Et on code l'angle droit sur la figure}$" id="37" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+</INSTRUMENPOCHE>

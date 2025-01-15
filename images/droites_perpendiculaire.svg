@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500"
+   height="500"
+   viewBox="0 0 132.29166 132.29167"
+   version="1.1"
+   id="svg2734"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="droites_perpendiculaire.svg">
+  <defs
+     id="defs2728" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="155.98675"
+     inkscape:cy="236.95424"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata2731">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-164.70832)">
+    <line
+       x1="6.7356443"
+       y1="219.81955"
+       x2="121.84374"
+       y2="267.95569"
+       style="stroke:#00008b;stroke-width:0.3175;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="line294" />
+    <line
+       x1="55.91819"
+       y1="212.49449"
+       x2="58.011047"
+       y2="210.40161"
+       style="stroke:#000000;stroke-width:0.20928749;stroke-linecap:round;stroke-opacity:1"
+       id="line302" />
+    <line
+       x1="55.91819"
+       y1="210.40161"
+       x2="58.011047"
+       y2="212.49449"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="line304" />
+    <line
+       x1="64.36377"
+       y1="193.75383"
+       x2="35.390656"
+       y2="263.03787"
+       style="stroke:#b22222;stroke-width:0.3175;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="line710" />
+    <polyline
+       transform="matrix(0.2092875,0,0,0.2092875,-1.6358673,171.68342)"
+       points="237.755 291.019 256.207 298.735 248.49099999999999 317.187"
+       style="visibility:visible;fill:none;stroke:#000000;stroke-width:1.26420987;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       visibility="visible"
+       id="polyline792" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="62.422184"
+       y="211.34029"
+       id="text3295"><tspan
+         sodipodi:role="line"
+         id="tspan3293"
+         x="62.422184"
+         y="211.34029"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';stroke-width:0.26458332">A</tspan></text>
+    <text
+       id="text3299"
+       y="263.32422"
+       x="116.94516"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00008b;fill-opacity:0.99111155;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';fill:#00008b;fill-opacity:0.99111155;stroke-width:0.26458332"
+         y="263.32422"
+         x="116.94516"
+         id="tspan3297"
+         sodipodi:role="line">(d)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#b22121;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="21.797207"
+       y="265.46237"
+       id="text3303"><tspan
+         sodipodi:role="line"
+         id="tspan3301"
+         x="21.797207"
+         y="265.46237"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';fill:#b22121;fill-opacity:1;stroke-width:0.26458332">(d')</tspan></text>
+  </g>
+</svg>

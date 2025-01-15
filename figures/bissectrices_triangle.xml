@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+
+<action  abscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Construire les bissectrices d'un triangle}$" id="50" taille="19" couleur="noir" mouvement="ecrire" police="arial" objet="texte"/>
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+<action abscisse="50" ordonnee="75" id="51" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de tracer les trois bissectrices du triangle }ABC$" id="51" taille="16" couleur="rouge" mouvement="ecrire" objet="texte"/>
+
+
+
+<action abscisse="80" ordonnee="240" couleur="noir" id="1" mouvement="creer" objet="point" />
+<action ordonnee="-12.85" abscisse="-32.4"  couleur="noir" nom="A" id="1" mouvement="nommer" objet="point" />
+
+<action abscisse="280" ordonnee="350" couleur="noir" id="2" mouvement="creer" objet="point" />
+<action ordonnee="8.05" abscisse="-0.75"  couleur="noir" nom="B" id="2" mouvement="nommer" objet="point" />
+
+<action abscisse="430" ordonnee="160" couleur="noir" id="3" mouvement="creer" objet="point" />
+<action ordonnee="-26.25" abscisse="9.05"  couleur="noir" nom="C" id="3" mouvement="nommer" objet="point" />
+
+<action cibles="1,2,3" epaisseur="0" couleur="darkblue" forme="polygone" id="1500" mouvement="tracer" objet="crayon" opacite="5" vitesse="1000" tempo="30"/>
+
+
+
+
+<action  abscisse="500" ordonnee="120" id="52" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace la bissectrice de }\widehat{BAC}$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+<!-- Les deux arcs de centre A -->
+
+<action tempo="10" abscisse="469" ordonnee="357" mouvement="montrer" objet="compas" />
+<action cible="1" mouvement="translation" objet="compas" tempo="10"/>
+<action ecart="160" mouvement="ecarter" objet="compas" tempo="10"/>
+<action sens="-2" angle="-20" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="lightseagreen" epaisseur="0" sens="2" fin="-5" debut="-20" id="4" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="4"/>
+<action sens="2" angle="22" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="lightseagreen" epaisseur="0" sens="2" fin="37" debut="22" id="5" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="5"/>
+
+<!-- Les deux autres arcs -->
+
+<action tempo="10" abscisse="220.194" ordonnee="317.107" mouvement="translation" objet="compas" />
+<action sens="-2" angle="0" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="lightseagreen" epaisseur="0" sens="-2" fin="-25" debut="0" id="6" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="3"/>
+<action abscisse="235.977" ordonnee="204.348" mouvement="translation" objet="compas" tempo="10"/>
+<action sens="2" angle="13" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="lightseagreen" epaisseur="0" sens="2" fin="43" debut="13" id="7" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="3"/>
+<action mouvement="masquer" objet="compas" />
+
+<!-- Mouvement de la règle -->
+
+
+<action mouvement="vide" objet="regle" />
+<action mouvement="montrer" objet="regle" tempo="5"/>
+<action cible="1" mouvement="translation" objet="regle" tempo="10"/>
+<action sens="2" angle="7.967896" mouvement="rotation" objet="regle" />
+
+<!-- Tracé de la bissectrice -->
+
+<action abscisse="187" ordonnee="165.95" mouvement="montrer" objet="crayon" />
+<action cible="1" mouvement="translation" objet="crayon" tempo="10"/>
+<action abscisse="433.382" ordonnee="289.462" epaisseur="0" couleur="gold" id="8" mouvement="tracer" objet="crayon" />
+
+<!-- Codage, etc -->
+
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<action ordonnee="240" abscisse="80" rayon="45" angle2="28.81" angle1="7.96" forme="/" couleur="crimson" id="9" mouvement="creer" objet="angle" />
+<action ordonnee="240" abscisse="80" rayon="55" angle2="-12.875" angle1="7.96" forme="/" couleur="crimson" id="10" mouvement="creer" objet="angle" />
+
+<action mouvement="masquer" id="4" objet="trait" />
+<action mouvement="masquer" id="5" objet="trait" />
+<action mouvement="masquer" id="6" objet="trait" />
+<action mouvement="masquer" id="7" objet="trait" />
+
+<action texte="$\text{On trace la bissectrice de }\widehat{BAC}$" id="52" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+
+
+
+
+<action  abscisse="500" ordonnee="145" id="53" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace la bissectrice de }\widehat{ABC}$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<!-- Les deux arcs de centre B -->
+
+<action ecart="0" mouvement="ecarter" objet="compas" vitesse="1000"/>
+<action sens="-180" angle="0" mouvement="rotation" objet="compas" />
+<action tempo="10" abscisse="469" ordonnee="357" mouvement="montrer" objet="compas" />
+<action cible="2" mouvement="translation" objet="compas" tempo="10"/>
+<action ecart="160" mouvement="ecarter" objet="compas" tempo="10"/>
+
+<action sens="-2" angle="-46" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="lightseagreen" epaisseur="0" sens="-2" fin="-60" debut="-44" id="11" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="4"/>
+<action sens="-2" angle="-143" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="lightseagreen" epaisseur="0" sens="-2" fin="-159" debut="-143" id="12" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="5"/>
+
+
+<!-- Les deux autres arcs -->
+
+<action tempo="10" abscisse="379.143" ordonnee="224.418" mouvement="translation" objet="compas" />
+<action sens="3" angle="-140" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="lightseagreen" epaisseur="0" sens="-2" fin="-162" debut="-140" id="13" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="3"/>
+<action abscisse="139.805" ordonnee="272.893" mouvement="translation" objet="compas" tempo="10"/>
+<action sens="3" angle="-62" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="lightseagreen" epaisseur="0" sens="2" fin="-41" debut="-62" id="14" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="3"/>
+<action mouvement="masquer" objet="compas" />
+
+
+<!-- Mouvement de la règle -->
+
+<action sens="180" angle="0" mouvement="rotation" objet="regle" />
+<action mouvement="vide" objet="regle" />
+<action abscisse="140" ordonnee="400" mouvement="montrer" objet="regle" tempo="5"/>
+<action cible="2" mouvement="translation" objet="regle" tempo="10"/>
+<action sens="-2" angle="-101.449522" mouvement="rotation" objet="regle" />
+
+<!-- Tracé de la bissectrice -->
+
+<action sens="-180" angle="-160" mouvement="rotation" objet="crayon" />
+<action abscisse="155" ordonnee="170" mouvement="montrer" objet="crayon" />
+<action cible="2" mouvement="translation" objet="crayon" tempo="10"/>
+<action abscisse="232.113" ordonnee="113.566" epaisseur="0" couleur="gold" id="15" mouvement="tracer" objet="crayon" />
+
+<!-- Codage, etc -->
+
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<action ordonnee="350" abscisse="280" rayon="45" angle2="-101.449" angle1="-51.709" forme="//" couleur="crimson" id="16" mouvement="creer" objet="angle" />
+<action ordonnee="350" abscisse="280" rayon="35" angle2="-151.189" angle1="-101.449" forme="//" couleur="crimson" id="17" mouvement="creer" objet="angle" />
+
+<action mouvement="masquer" id="11" objet="trait" />
+<action mouvement="masquer" id="12" objet="trait" />
+<action mouvement="masquer" id="13" objet="trait" />
+<action mouvement="masquer" id="14" objet="trait" />
+
+<action texte="$\text{On trace la bissectrice de }\widehat{ABC}$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+
+
+
+
+<action  abscisse="500" ordonnee="170" id="54" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace la bissectrice de }\widehat{ACB}$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<!-- Les deux arcs de centre C -->
+
+<action ecart="0" mouvement="ecarter" objet="compas" vitesse="1000"/>
+<action sens="-180" angle="0" mouvement="rotation" objet="compas" />
+<action tempo="10" abscisse="469" ordonnee="357" mouvement="montrer" objet="compas" />
+<action cible="3" mouvement="translation" objet="compas" tempo="10"/>
+<action ecart="160" mouvement="ecarter" objet="compas" tempo="10"/>
+
+<action sens="2" angle="123" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="lightseagreen" epaisseur="0" sens="2" fin="133" debut="123" id="18" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="4"/>
+<action sens="2" angle="162" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="lightseagreen" epaisseur="0" sens="2" fin="173" debut="162" id="19" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="5"/>
+
+<!-- Les deux autres arcs -->
+
+<action tempo="10" abscisse="274.022" ordonnee="195.651" mouvement="translation" objet="compas" />
+<action sens="-3" angle="143" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="lightseagreen" epaisseur="0" sens="-2" fin="115" debut="143" id="20" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="3"/>
+<action abscisse="330.856" ordonnee="285.581" mouvement="translation" objet="compas" tempo="10"/>
+<action sens="3" angle="155" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="lightseagreen" epaisseur="0" sens="2" fin="178" debut="155" id="21" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="3"/>
+<action mouvement="masquer" objet="compas" />
+
+<!-- Mouvement de la règle -->
+
+<action sens="180" angle="0" mouvement="rotation" objet="regle" />
+<action mouvement="vide" objet="regle" />
+<action abscisse="140" ordonnee="400" mouvement="montrer" objet="regle" tempo="5"/>
+<action abscisse="110.104" ordonnee="362.17" mouvement="translation" objet="regle" tempo="10"/>
+<action sens="-2" angle="-32.292419" mouvement="rotation" objet="regle" />
+
+<!-- Tracé de la bissectrice -->
+
+<action sens="-180" angle="-87" mouvement="rotation" objet="crayon" />
+<action abscisse="125" ordonnee="200" mouvement="montrer" objet="crayon" />
+<action abscisse="110.104" ordonnee="362.17" mouvement="translation" objet="crayon" tempo="10"/>
+<action cible="3" epaisseur="0" couleur="gold" id="22" mouvement="tracer" objet="crayon" />
+
+<!-- Codage, etc -->
+
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<action ordonnee="160" abscisse="430" rayon="65" angle2="167.124" angle1="147.707" forme="O" couleur="crimson" id="23" mouvement="creer" objet="angle" />
+<action ordonnee="160" abscisse="430" rayon="55" angle2="128.29" angle1="147.707" forme="O" couleur="crimson" id="24" mouvement="creer" objet="angle" />
+
+<action mouvement="masquer" id="18" objet="trait" />
+<action mouvement="masquer" id="19" objet="trait" />
+<action mouvement="masquer" id="20" objet="trait" />
+<action mouvement="masquer" id="21" objet="trait" />
+
+<action texte="$\text{On trace la bissectrice de }\widehat{ACB}$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+
+<action pris="false" ordonnee="210" abscisse="450" id="25" mouvement="creer" objet="texte" />
+<action couleur="noir" texte="$\text{Les trois bissecrtrices sont concourantes}$" id="25" mouvement="ecrire" taille="16" objet="texte" tempo="15"/>
+
+
+<!-- Point de concours des bissectrices -->
+
+<action ordonnee="89" abscisse="437" couleur="0x08000" id="26" mouvement="creer" objet="point" />
+<action ordonnee="-36" abscisse="0" couleur="0x08000" nom="K" id="26" mouvement="nommer" objet="point" />
+<action abscisse="262.906" ordonnee="265.601" id="26" mouvement="translation" objet="point" />
+
+
+
+<action pris="false" ordonnee="232" abscisse="450" id="26" mouvement="creer" objet="texte" />
+<action couleur="noir" texte="$\definecolor{ptK}{rgb}{0,0.5,0}\text{en un point qui est le }\textcolor{ptK}{\text{centre}}\text{ du}$" id="26" mouvement="ecrire" taille="16" objet="texte" />
+
+<action pris="false" ordonnee="254" abscisse="450" id="100" mouvement="creer" objet="texte" />
+<action couleur="noir" texte="$\definecolor{cercle}{rgb}{0.274,0.51,0.7}\textcolor{cercle}{\textbf{cercle inscrit}}\text{ dans le triangle }ABC$" id="100" mouvement="ecrire" taille="16" objet="texte" tempo="15"/>
+
+
+<!-- Tracé du cercle inscrit -->
+
+
+<!-- Mouvement de l'équerre -->
+
+<action abscisse="385" ordonnee="413" mouvement="montrer" objet="equerre" tempo="10"/>
+<action abscisse="155.34" ordonnee="281.437" mouvement="translation" objet="equerre" tempo="10"/>
+<action sens="-2" angle="-61.189206" mouvement="rotation" objet="equerre" tempo="10"/>
+<action abscisse="231.237" ordonnee="323.18" mouvement="translation" objet="equerre" tempo="10"/>
+
+<!-- Tracé du rayon  -->
+
+<action sens="180" angle="-30" mouvement="rotation" objet="crayon" />
+<action abscisse="351" ordonnee="158" mouvement="montrer" objet="crayon" tempo="5"/>
+<action cible="26" mouvement="translation" objet="crayon" tempo="10"/>
+<action pointille="tiret" abscisse="231.237" ordonnee="323.18" epaisseur="0" couleur="0" id="27" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="equerre" />
+
+<action ordonnee_sommet="302.808" abscisse_sommet="225.323" ordonnee_inter="323.18" abscisse_inter="231.237" couleur="crimson" id="28" mouvement="creer" objet="angle_droit" />
+
+<!-- Tracé du cercle -->
+
+<action ecart="0" mouvement="ecarter" objet="compas" vitesse="1000"/>
+<action sens="-180" angle="0" mouvement="rotation" objet="compas" />
+<action tempo="10" abscisse="469" ordonnee="357" mouvement="montrer" objet="compas" />
+<action cible="26" mouvement="translation" objet="compas" tempo="10"/>
+<action sens="3" angle="118.810794" mouvement="rotation" objet="compas" tempo="10"/>
+<action ecart="65.713711" mouvement="ecarter" objet="compas" tempo="10"/>
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="steelblue" epaisseur="0" sens="4" fin="478.81" debut="118.81" id="29" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="3"/>
+<action mouvement="masquer" objet="compas" />
+
+</INSTRUMENPOCHE>

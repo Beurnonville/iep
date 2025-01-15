@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+
+<action  abscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Construire un parallélogramme à la règle et à l'équerre}$" id="50" taille="19" couleur="noir" mouvement="ecrire" police="arial" objet="texte"/>
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+<action  abscisse="50" ordonnee="75" id="51" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de construire le parallélogramme }ABCD\text{ tel que }AB=7\text{ cm et }AD=4\text{ cm}$" id="51" taille="16" couleur="rouge" mouvement="ecrire" objet="texte" tempo="30"/>
+
+
+<action  abscisse="450" ordonnee="150" id="52" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace un segment }[AB]\text{ de longueur 7 cm}$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+<action abscisse="350" ordonnee="110" id="11" mouvement="creer" objet="point" />
+<action ordonnee="6.35" abscisse="-26.85" couleur="0" nom="A"  id="11" mouvement="nommer" objet="point" />
+<action abscisse="100" ordonnee="300" id="11" mouvement="translation" objet="point" />
+<action mouvement="graduations" objet="regle" />
+<action sens="-100" angle="-15" mouvement="rotation" objet="regle" />
+<action abscisse="400" ordonnee="200" mouvement="montrer" objet="regle" />
+<action abscisse="101" ordonnee="301" mouvement="translation" objet="regle" />
+<action abscisse="50" ordonnee="150" id="12" mouvement="creer" objet="point" />
+<action ordonnee="6.35" abscisse="19.1" couleur="0" nom="B"  id="12" mouvement="nommer" objet="point" />
+<action abscisse="302.84" ordonnee="245.64" id="12" mouvement="translation" objet="point" />
+<action abscisse="350" ordonnee="100" mouvement="montrer" objet="crayon" />
+<action abscisse="100" ordonnee="300" mouvement="translation" objet="crayon" />
+<action abscisse="302.84" ordonnee="245.64" epaisseur="1" id="13" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action texte="$\text{On trace un segment }[AB]\text{ de longueur 7 cm}$" id="52" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+<action  abscisse="450" ordonnee="170" id="53" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace un segment }[AD]\text{ de longueur 4 cm}$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+<action sens="-2" angle="-65" mouvement="rotation" objet="regle" />
+<action sens="-180" angle="-96" mouvement="rotation" objet="crayon" />
+<action abscisse="100" ordonnee="300" mouvement="montrer" objet="crayon" />
+<action abscisse="150.71" ordonnee="191.24" epaisseur="1" id="14" mouvement="tracer" objet="crayon" tempo="20"/>
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+<action abscisse="500" ordonnee="50" id="15" mouvement="creer" objet="point" />
+<action ordonnee="-33.9" abscisse="-30.35" couleur="0" nom="D"  id="15" mouvement="nommer" objet="point" />
+<action abscisse="150.71" ordonnee="191.24" id="15" mouvement="translation" objet="point" />
+<action texte="$\text{On trace un segment }[AD]\text{ de longueur 4 cm}$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+<action  abscisse="450" ordonnee="190" id="54" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace la parallèle à }(AB)\text{ qui passe par }D$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+<action sens="90" angle="90" mouvement="rotation" objet="requerre" />
+<action abscisse="400" ordonnee="230" mouvement="montrer" objet="requerre" />
+<action abscisse="131" ordonnee="292" mouvement="translation" objet="requerre" tempo="10"/>
+<action sens="-1" angle="75" mouvement="rotation" objet="requerre" tempo="15"/>
+<action abscisse="-91" mouvement="glisser" objet="requerre" tempo="7"/>
+
+<action abscisse="120.94" ordonnee="199.21" mouvement="montrer" objet="crayon" />
+<action abscisse="241.03" ordonnee="167.03" epaisseur="1"  id="500" mouvement="tracer" objet="crayon" />
+
+<action mouvement="masquer" objet="requerre" />
+
+<action sens="-100" angle="-15" mouvement="rotation" objet="regle" />
+<action mouvement="vide" objet="regle" />
+<action abscisse="0" ordonnee="232.5" mouvement="montrer" objet="regle" />
+<action abscisse="401.46" ordonnee="124.03" epaisseur="1" id="501"  mouvement="tracer" objet="crayon" />
+
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<action texte="$\text{On trace la parallèle à }(AB)\text{ qui passe par }D$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+
+
+
+<action  abscisse="450" ordonnee="210" id="55" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace la parallèle à }(AD)\text{ qui passe par }B$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action sens="90" angle="90" mouvement="rotation" objet="requerre" />
+<action abscisse="0" mouvement="glisser" objet="requerre" />
+<action abscisse="400" ordonnee="230" mouvement="montrer" objet="requerre" />
+<action abscisse="122.34" ordonnee="252.07" mouvement="translation" objet="requerre" tempo="10"/>
+<action sens="-2" angle="25" mouvement="rotation" objet="requerre" tempo="15"/>
+<action abscisse="161.8" mouvement="glisser" objet="requerre" tempo="7"/>
+
+<action abscisse="287.01" ordonnee="279.58" mouvement="montrer" objet="crayon" />
+<action abscisse="317.36" ordonnee="214.49" epaisseur="1"  id="502" mouvement="tracer" objet="crayon" />
+
+<action mouvement="masquer" objet="requerre" />
+
+<action sens="-100" angle="-65" mouvement="rotation" objet="regle" />
+<action mouvement="vide" objet="regle" />
+<action abscisse="232.5" ordonnee="398.62" mouvement="montrer" objet="regle" />
+<action abscisse="367.79" ordonnee="106.31" epaisseur="1"  id="503" mouvement="tracer" objet="crayon" />
+
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+
+<action texte="$\text{On trace la parallèle à }(AD)\text{ qui passe par }B$" id="55" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+
+<action  abscisse="450" ordonnee="230" id="56" mouvement="creer" objet="texte" />
+<action texte="$\text{On nomme le point }C$" id="56" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action abscisse="50" ordonnee="50" id="18" mouvement="creer" objet="point" />
+<action ordonnee="-31.05" abscisse="16.25"  couleur="0" nom="C" id="18" mouvement="nommer" objet="point" />
+<action abscisse="353.55" ordonnee="136.89" id="18" mouvement="translation" objet="point" />
+<action texte="$\text{On nomme le point }C$" id="56" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+
+<action  abscisse="400" ordonnee="260" id="57" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}ABCD\text{ est un quadrilatère avec les côtés opposés parallèles,}\\[-1cm] \text{c'est donc bien un parallélogramme}\end{array}$" id="57" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action mouvement="masquer" objet="crayon" />
+<action cibles="11,12,18,15" epaisseur="0" couleur="darkblue" forme="polygone" id="20" mouvement="tracer" objet="crayon" opacite="5" />
+
+
+<action texte="$\begin{array}{l}ABCD\text{ est un quadrilatère avec les côtés opposés parallèles,}\\[-1cm] \text{c'est donc bien un parallélogramme}\end{array}$" id="57" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+<action  abscisse="190" ordonnee="285" id="58" mouvement="creer" objet="texte" />
+<action texte="7 cm" id="58" taille="16" couleur="steelblue" mouvement="ecrire" objet="texte"/>
+
+<action abscisse="73" ordonnee="226"id="59" mouvement="creer" objet="texte" />
+<action texte="4 cm" id="59" taille="16" couleur="steelblue" mouvement="ecrire" objet="texte"/>
+
+
+</INSTRUMENPOCHE>

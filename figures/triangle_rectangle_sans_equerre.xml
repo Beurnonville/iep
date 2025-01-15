@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+
+
+<action abscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Construire un triangle rectangle sans équerre}$" id="50" taille="19" couleur="noir" mouvement="ecrire" police="arial" objet="texte"/>
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+
+
+<action abscisse="50" ordonnee="75" id="51" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de construire le triangle }ABC\text{ rectangle en }C\text{ tel que }AB=8\text{ cm et }BC=7\text{ cm}$" id="51" taille="16" couleur="rouge" mouvement="ecrire" objet="texte" tempo="30"/>
+
+
+
+
+<!-- segment [AB] -->
+<action abscisse="440" ordonnee="150" id="52" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace un sgement }[AB]\text{ de longueur 8 cm}$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action mouvement="graduations" objet="regle" />
+<action abscisse="20" ordonnee="100" mouvement="montrer" objet="regle" />
+<action abscisse="100" ordonnee="301" mouvement="translation" objet="regle" />
+<action abscisse="50" ordonnee="100" id="12" mouvement="creer" objet="point" />
+<action ordonnee="1.4" abscisse="-30.35" couleur="0" nom="A" id="12" mouvement="nommer" objet="point" />
+<action abscisse="100" ordonnee="300" mouvement="translation" id="12" objet="point" />
+<action abscisse="300" ordonnee="150" mouvement="montrer" objet="crayon" />
+<action abscisse="100" ordonnee="300" mouvement="translation" objet="crayon" tempo="5"/>
+<action abscisse="340" ordonnee="300" epaisseur="1" id="15" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action abscisse="500" ordonnee="100" id="16" mouvement="creer" objet="point" />
+<action ordonnee="0" abscisse="13.4" couleur="0" nom="B" id="16" mouvement="nommer" objet="point" />
+<action abscisse="340" ordonnee="300" mouvement="translation" id="16" objet="point" />
+
+<action texte="$\text{On trace un sgement }[AB]\text{ de longueur 8 cm}$" id="52" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+<!-- Milieu I -->
+<action abscisse="440" ordonnee="170" id="53" mouvement="creer" objet="texte" />
+<action texte="$\text{On place le point }I\text{ milieu de }[AB]$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+
+<action abscisse="50" ordonnee="100" id="17" mouvement="creer" objet="point" />
+<action ordonnee="8.45" abscisse="-5.65" couleur="0" nom="I"  id="17" mouvement="nommer" objet="point" />
+<action abscisse="220" ordonnee="300" mouvement="translation" id="17" objet="point" tempo="20" />
+<action mouvement="masquer" objet="regle" />
+
+<!-- Codage longueurs égales -->
+
+<action mouvement="montrer" objet="crayon" />
+<action abscisse="165" ordonnee="291.339" mouvement="translation" objet="crayon" />
+<action abscisse="155" ordonnee="308.66" epaisseur="1" id="200" couleur="crimson" mouvement="tracer" objet="crayon" />
+<action abscisse="285" ordonnee="291.339" mouvement="translation" objet="crayon" />
+<action abscisse="275" ordonnee="308.66" epaisseur="1" id="201" couleur="crimson" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+
+
+<action texte="$\text{On place le point }I\text{ milieu de }[AB]$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+<!-- Cercle de diamètre [AB] -->
+<action abscisse="440" ordonnee="190" id="54" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace le cercle de diamètre }[AB]$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action abscisse="150" ordonnee="100" mouvement="montrer" objet="compas" tempo="10"/>
+<action cible="17" mouvement="translation" objet="compas" tempo="10"/>
+<action ecart="120" mouvement="ecarter" objet="compas" tempo="10"/>
+<action mouvement="lever" objet="compas" tempo="5"/>
+<action sens="-5" couleur="goldenrod" epaisseur="1" fin="-360" debut="0" id="500" mouvement="tracer" objet="compas" />
+<action mouvement="coucher" objet="compas" tempo="5"/>
+<action mouvement="masquer" objet="compas" />
+
+<action texte="$\text{On trace le cercle de diamètre }[AB]$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+<!-- Arc de cercle de centre B -->
+<action abscisse="440" ordonnee="210" id="55" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace un arc de cercle de centre }B\text{ et de rayon 7 cm}$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action abscisse="210" ordonnee="380" mouvement="montrer" objet="regle" />
+<action ecart="0" mouvement="ecarter" objet="compas" />
+<action abscisse="403" ordonnee="300" mouvement="montrer" objet="compas" />
+<action tempo="10" abscisse="210" ordonnee="380" mouvement="translation" objet="compas" />
+<action tempo="20" ecart="210" mouvement="ecarter" objet="compas" />
+<action mouvement="masquer" objet="regle" />
+<action cible="16" mouvement="translation" objet="compas" tempo="10" />
+<action sens="-3" angle="-135" mouvement="rotation" objet="compas" tempo="5" />
+<action mouvement="lever" objet="compas" tempo="6" />
+<action couleur="lightseagreen" epaisseur="0" sens="-2" fin="-225" debut="-135" id="1" mouvement="tracer" objet="compas" />
+<action mouvement="coucher" objet="compas" tempo="5" />
+<action mouvement="masquer" objet="compas" />
+
+
+<action texte="$\text{On trace un arc de cercle de centre }B\text{ et de rayon 7 cm}$" id="55" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+<!-- Point C-->
+<action abscisse="440" ordonnee="230" id="56" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\text{Les cercles se coupent en deux points : le point }C\text{ est}\\[-1cm] \text{l'un des deux points d'intersection}\end{array}$" id="56" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action abscisse="500" ordonnee="100" id="18" mouvement="creer" objet="point" />
+<action ordonnee="-32.45" abscisse="-24" couleur="0" nom="C"  id="18" mouvement="nommer" objet="point" />
+<action abscisse="156.25" ordonnee="198.33419" mouvement="translation" id="18" objet="point" />
+
+<action texte="$\begin{array}{l}\text{Les cercles se coupent en deux points : le point }C\text{ est}\\[-1cm] \text{l'un des deux points d'intersection}\end{array}$" id="56" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+<!-- Triangle ABC -->
+<action abscisse="440" ordonnee="272" id="57" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace le triangle }ABC$" id="57" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action mouvement="vide" objet="regle" />
+<action mouvement="montrer" objet="regle" />
+<action sens="5" angle="28.955" mouvement="rotation" objet="regle" />
+<action abscisse="83.71445" ordonnee="159" mouvement="translation" objet="regle" />
+<action abscisse="400" ordonnee="70" mouvement="montrer" objet="crayon" />
+<action cible="18" mouvement="translation" objet="crayon" />
+<action cible="16" epaisseur="1" id="21" mouvement="tracer" objet="crayon" />
+<action sens="-5" angle="-61.04498" mouvement="rotation" objet="regle" />
+<action abscisse="62.06954" ordonnee="369.5" mouvement="translation" objet="regle" />
+<action cible="12" mouvement="translation" objet="crayon" />
+<action cible="18" epaisseur="1" id="22" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<action texte="$\text{On trace le triangle }ABC$" id="57" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+<!-- propriété -->
+<action abscisse="420" ordonnee="310" id="58" mouvement="creer" objet="texte" />
+<action texte="$\text{Le triangle }ABC\text{ est rectangle en }C\text{, d'après la propriété :}$" id="58" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action abscisse="440" ordonnee="340" id="60" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\text{« }\textit{Si on relie un point d'un cercle aux extrémités}\\[-0.1cm] \textit{d'un diamètre de ce cercle alors}\\[-0.1cm] \textit{on obtient un triangle rectangle (en ce point).}\text{ »}\end{array}$" id="60" taille="14" couleur="maroon" mouvement="ecrire" objet="texte"/>
+
+
+
+<!-- Coloriage du triangle -->
+
+<action cibles="12,16,18" epaisseur="0" couleur="darkblue" forme="polygone" id="1500" mouvement="tracer" objet="crayon" opacite="5" />
+
+
+<action abscisse="400" ordonnee="70" mouvement="montrer" objet="crayon" />
+<action abscisse="148.98816" ordonnee="211.45919" mouvement="translation" objet="crayon" />
+<action abscisse="162.11316" ordonnee="218.72103" epaisseur="1" id="23" couleur="crimson" mouvement="tracer" objet="crayon" />
+<action abscisse="169.375" ordonnee="205.59603" epaisseur="1" id="24" couleur="crimson" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+
+
+
+</INSTRUMENPOCHE>

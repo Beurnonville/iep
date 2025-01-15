@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+<action abscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Construire un angle à l'aide d'un rapporteur}$" id="50" taille="19" couleur="noir" mouvement="ecrire" police="arial" objet="texte" />
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+<action abscisse="50" ordonnee="75" id="51" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de construire un angle }\widehat{xOy}\text{ tel que }\widehat{xOy} = 55°$" id="51" taille="16" couleur="rouge" mouvement="ecrire" objet="texte" tempo="30"/>
+
+
+
+<action abscisse="400" ordonnee="120" id="49" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace une demi-droite }[Ox)$" id="49" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="10"/>
+
+
+<action ordonnee="85" abscisse="245" couleur="noir" id="3" mouvement="creer" objet="point" />
+<action ordonnee="-13" abscisse="-35" couleur="noir" nom="O" id="3" mouvement="nommer" objet="point" />
+<action abscisse="110" ordonnee="300" id="3" mouvement="translation" objet="point" tempo="10"/>
+
+<action mouvement="vide" objet="regle" />
+<action mouvement="montrer" objet="regle" tempo="10"/>
+<action cible="3" mouvement="translation" objet="regle" tempo="10"/>
+<action sens="2" angle="20" mouvement="rotation" objet="regle" />
+
+<action abscisse="291" ordonnee="215" mouvement="montrer" objet="crayon" tempo="5"/>
+<action abscisse="110" ordonnee="300" cible="3" mouvement="translation" objet="crayon" tempo="10"/>
+<action abscisse="335.526" ordonnee="382.084" epaisseur="0" couleur="0" id="1" mouvement="tracer" objet="crayon" />
+
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+<action ordonnee="177" abscisse="297" id="4" mouvement="creer" objet="texte" />
+<action couleur="noir" texte="$x$" id="4" mouvement="ecrire" objet="texte" />
+<action abscisse="349" ordonnee="373" id="4" mouvement="translation" objet="texte" />
+
+<action texte="$\text{On trace une demi-droite }[Ox)$" id="49" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+
+<action abscisse="400" ordonnee="140" id="52" mouvement="creer" objet="texte" />
+<action texte="$\text{On place le }\textcolor{red}{\text{centre du rapporteur}}\text{ sur le sommet de l'angle}$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="500" ordonnee="330" mouvement="montrer" objet="rapporteur" tempo="30" />
+<action abscisse="477" ordonnee="140" id="53" mouvement="creer" objet="texte" />
+<action texte="$\text{centre du rapporteur}$" id="53" taille="16" couleur="rouge" mouvement="ecrire" objet="texte" />
+<action texte="$\text{On place le centre du rapporteur sur le sommet de l'angle}$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action mouvement="translation" objet="texte" id="53" abscisse="450" ordonnee="210" />
+<action texte="$\text{centre du rapporteur}$" id="53" taille="12" couleur="rouge" mouvement="ecrire" objet="texte" />
+<action mouvement="translation" objet="texte" id="53" abscisse="445" ordonnee="285" />
+<action couleur="rouge" style="vecteur" epaisseur="1" abscisse1="500" ordonnee1="305" abscisse2="500" ordonnee2="330" mouvement="tracer" objet="trait" id="502" />
+
+<action texte="$\text{On place le centre du rapporteur sur le }\textcolor{blue}{\text{sommet de l'angle}}$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="30" />
+
+<action abscisse="648" ordonnee="140" id="54" mouvement="creer" objet="texte" />
+<action texte="$\text{sommet de l'angle}$" id="54" taille="16" couleur="blue" mouvement="ecrire" objet="texte" />
+<action texte="$\text{On place le centre du rapporteur sur le sommet de l'angle}$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action abscisse="385" ordonnee="202" id="54" mouvement="translation" objet="texte" />
+<action texte="$\text{sommet de l'angle}$" id="54" taille="12" couleur="bleu" mouvement="ecrire" objet="texte" />
+<action abscisse="100" ordonnee="248" id="54" mouvement="translation" objet="texte" />
+<action tempo="20" couleur="bleu" style="vecteur" epaisseur="1" abscisse1="110" ordonnee1="267" abscisse2="110" ordonnee2="300" mouvement="tracer" objet="trait" id="503" />
+
+
+<action mouvement="masquer" id="53" objet="texte" />
+<action mouvement="masquer" id="502" objet="trait" />
+
+
+<action cible="3" mouvement="translation" objet="rapporteur" />
+
+<action mouvement="masquer" id="54" objet="texte" />
+<action mouvement="masquer" id="503" objet="trait" />
+
+
+<action texte="$\text{On place le centre du rapporteur sur le sommet de l'angle}$" id="52" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+
+
+
+
+
+<action abscisse="400" ordonnee="160" id="55" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\text{On fait tourner le rapporteur pour faire coïncider}\\[-1cm] \text{la }\textcolor{red}{\text{graduation 0°}}\text{ avec la demi-droite tracée}\end{array}$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+
+<action abscisse="416" ordonnee="182" id="56" mouvement="creer" objet="texte" />
+<action texte="$\text{graduation 0°}$" id="56" taille="16" couleur="rouge" mouvement="ecrire" objet="texte"  />
+<action texte="$\begin{array}{l}\text{On fait tourner le rapporteur pour faire coïncider}\\[-1cm] \text{la graduation 0° avec la demi-droite tracée}\end{array}$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="312" ordonnee="288" id="56" mouvement="translation" objet="texte" />
+<action couleur="rouge" style="vecteur" epaisseur="1" abscisse2="270" ordonnee2="300" abscisse1="305" ordonnee1="300" mouvement="tracer" objet="trait" id="506" />
+
+<action texte="$\begin{array}{l}\text{On fait tourner le rapporteur pour faire coïncider}\\[-1cm] \text{la graduation 0° avec la }\textcolor{blue}{\text{demi-droite tracée}}\end{array}$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="30" />
+<action abscisse="555" ordonnee="182" id="57" mouvement="creer" objet="texte" />
+<action texte="$\text{demi-droite tracée}$" id="57" taille="16" couleur="blue" mouvement="ecrire" objet="texte" />
+<action texte="$\begin{array}{l}\text{On fait tourner le rapporteur pour faire coïncider}\\[-1cm] \text{la graduation 0° avec la demi-droite tracée}\end{array}$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action abscisse="375" ordonnee="326" id="57" mouvement="translation" objet="texte" />
+<action couleur="bleu" style="vecteur" epaisseur="1" abscisse1="368" ordonnee1="343" abscisse2="323" ordonnee2="375" mouvement="tracer" objet="trait" id="507" />
+
+<action couleur="bleu" epaisseur="2" abscisse1="110" ordonnee1="300" abscisse2="335.526" ordonnee2="382.084" mouvement="tracer" objet="trait" tempo="20" id="508" />
+
+<action mouvement="masquer" id="508" objet="trait" />
+<action mouvement="masquer" id="506" objet="trait" />
+<action mouvement="masquer" id="507" objet="trait" />
+<action mouvement="masquer" id="57" objet="texte" />
+<action mouvement="masquer" id="56" objet="texte" />
+
+
+<action sens="1" angle="20" mouvement="rotation" objet="rapporteur" tempo="20" />
+<action texte="$\begin{array}{l}\text{On fait tourner le rapporteur pour faire coïncider}\\[-1cm] \text{la graduation 0° avec la demi-droite tracée}\end{array}$" id="55" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+
+
+
+
+
+
+<action abscisse="400" ordonnee="207" id="58" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace une marque à 55°}$" id="58" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="256.59" ordonnee="353.35" mouvement="montrer" objet="crayon" />
+
+<action abscisse="263.63" ordonnee="327.089" mouvement="translation" objet="crayon" tempo="5"/>
+
+<action abscisse="266" ordonnee="300" mouvement="translation" objet="crayon" tempo="5"/>
+
+<action abscisse="263.63" ordonnee="272.91" mouvement="translation" objet="crayon" tempo="5"/>
+
+<action abscisse="256.59" ordonnee="246.64" mouvement="translation" objet="crayon" tempo="5"/>
+
+<action abscisse="245.099" ordonnee="222" mouvement="translation" objet="crayon" tempo="5"/>
+
+<action abscisse="237.787" ordonnee="210.522" mouvement="translation" objet="crayon" tempo="5"/>
+
+<action id="2000" objet="crayon" mouvement="tracer" abscisse="241.883" ordonnee="207.654" epaisseur="1" couleur="0"  />
+
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="rapporteur" />
+
+
+<action texte="$\text{On trace une marque à 55°}$" id="58" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+
+
+
+
+<action abscisse="400" ordonnee="227" id="59" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace la demi-droite }[Oy)$" id="59" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+<action tempo="10" mouvement="montrer" objet="regle" />
+<action sens="-3" angle="-35" mouvement="rotation" objet="regle" />
+<action sens="-180" angle="-96" mouvement="rotation" objet="crayon" />
+<action abscisse="119.95" ordonnee="191.85"  mouvement="montrer" objet="crayon" />
+<action  cible="3" mouvement="translation" objet="crayon" />
+<action abscisse="330.771" ordonnee="145.414" epaisseur="0" couleur="0" id="2" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" id="2000" objet="trait" />
+
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+<action ordonnee="124.05" abscisse="111.3" id="5" mouvement="creer" objet="texte" />
+<action couleur="noir" texte="$y$" id="5" mouvement="ecrire" objet="texte" />
+<action abscisse="344.15" ordonnee="118.8" id="5" mouvement="translation" objet="texte" />
+
+
+<action texte="$\text{On trace la demi-droite }[Oy)$" id="59" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+
+
+<action abscisse="400" ordonnee="267" id="60" mouvement="creer" objet="texte" />
+<action texte="$\text{L'angle }\widehat{xOy}\text{ mesure 55°}$" id="60" taille="16" couleur="noir" couleur_fond="burlywood" mouvement="ecrire" objet="texte" />
+
+
+
+<action ordonnee="300" abscisse="110" rayon="45" angle2="20" angle1="-35" forme="simple" couleur="crimson" id="6" mouvement="creer" objet="angle" />
+<action abscisse="167" ordonnee="278.85" id="7" mouvement="creer" objet="texte" />
+<action couleur="crimson" texte="55°" id="7" mouvement="ecrire" objet="texte" />
+
+</INSTRUMENPOCHE>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+<action pris="false" ordonnee="50" abscisse="600" id="51" mouvement="creer" objet="texte" />
+<action couleur="noir" texte="$\textbf{Construire un polygone régulier}$" id="51" mouvement="ecrire" police="arial" objet="texte" />
+<action abscisse="50" ordonnee="50" id="51" mouvement="translation" objet="texte" />
+<action pris="false" ordonnee="75" abscisse="50" id="52" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de construire l'hexagone régulier }HEXAGO\text{ de centre }R$" id="52" couleur="rouge" mouvement="ecrire" objet="texte" taille="16" tempo="15" />
+
+
+<action pris="false" abscisse="450" ordonnee="120" id="53" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace un cercle de centre }R$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="15"/>
+<action type="point" ordonnee="101.65" abscisse="481.4" couleur="noir" id="1" mouvement="creer" objet="point" />
+<action ordonnee="0" abscisse="10" couleur="noir" nom="R" id="1" mouvement="nommer" objet="point" />
+<action abscisse="240" ordonnee="290" id="1" mouvement="translation" objet="point" />
+<action mouvement="montrer" objet="compas" tempo="10"/>
+<action ecart="120" mouvement="ecarter" objet="compas" tempo="10" />
+<action cible="1" mouvement="translation" objet="compas" tempo="6" />
+<action mouvement="lever" objet="compas" tempo="5" />
+<action epaisseur="0" couleur="crimson" sens="-5" fin="-360" debut="0" id="2" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="5" />
+<action mouvement="masquer" objet="compas" />
+<action texte="$\text{On trace un cercle de centre }R$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+
+<action pris="false" abscisse="450" ordonnee="140" id="54" mouvement="creer" objet="texte" />
+<action texte="$\text{On place un point }H\text{ n'importe où sur ce cercle}$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action type="point" ordonnee="87.75" abscisse="502.7" couleur="noir" id="3" mouvement="creer" objet="point" />
+<action ordonnee="-19.75" abscisse="16.25" couleur="noir" nom="H" id="3" mouvement="nommer" objet="point" />
+<action abscisse="348.756" ordonnee="239.285" id="3" mouvement="translation" objet="point" />
+<action texte="$\text{On place un point }H\text{ n'importe où sur ce cercle}$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<action pris="false" abscisse="450" ordonnee="160" id="57" mouvement="creer" objet="texte" />
+<action texte="$\text{À l'aide du compas on reporte la longueur }RH$" id="57" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action ecart="0" mouvement="ecarter" objet="compas" vitesse="100" />
+<action abscisse="400.65" ordonnee="376.85" mouvement="montrer" objet="compas" tempo="10"/>
+<action cible="1" mouvement="translation" objet="compas" tempo="10" />
+<action cible="3" mouvement="rotation" objet="compas" tempo="10"/>
+<action cible="3" mouvement="ecarter" objet="compas" tempo="7" />
+<action cible="3" mouvement="translation" objet="compas" tempo="10" />
+<action sens="-2" angle="-131" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="5" />
+<action couleur="steelblue" epaisseur="0" sens="2" fin="-155" debut="-131" id="4" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="7" />
+<action abscisse="250.458" ordonnee="170.456" mouvement="translation" objet="compas" tempo="10" />
+<action sens="-2" angle="167" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="5" />
+<action couleur="steelblue" epaisseur="0" sens="-2" fin="143" debut="167" id="5" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="7" />
+<action abscisse="141.701" ordonnee="221.17" mouvement="translation" objet="compas" tempo="10" />
+<action sens="-2" angle="105" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="5" />
+<action couleur="steelblue" epaisseur="0" sens="2" fin="83" debut="105" id="6" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="7" />
+<action abscisse="131.243" ordonnee="340.714" mouvement="translation" objet="compas" tempo="10" />
+<action sens="-2" angle="45" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="5" />
+<action couleur="steelblue" epaisseur="0" sens="-2" fin="26" debut="45" id="7" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="7" />
+<action abscisse="229.541" ordonnee="409.543" mouvement="translation" objet="compas" tempo="10" />
+<action sens="-2" angle="-12" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="5" />
+<action couleur="steelblue" epaisseur="0" sens="-2" fin="-34" debut="-12" id="8" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="7" />
+<action mouvement="masquer" objet="compas" />
+<action texte="$\text{À l'aide du compas on reporte la longueur }RH$" id="57" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+
+<action pris="false" abscisse="450" ordonnee="180" id="58" mouvement="creer" objet="texte" />
+<action texte="$\text{On nomme les sommets}$" id="58" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action type="point" ordonnee="116.9" abscisse="104" couleur="noir" id="13" mouvement="creer" objet="point" />
+<action ordonnee="-34.55" abscisse="-19.8" couleur="noir" nom="E" id="13" mouvement="nommer" objet="point" />
+<action abscisse="250.458" ordonnee="170.456" id="13" mouvement="translation" objet="point" />
+<action type="point" ordonnee="131.15" abscisse="85.75" couleur="noir" id="14" mouvement="creer" objet="point" />
+<action ordonnee="-18.35" abscisse="-34.6" couleur="noir" nom="X" id="14" mouvement="nommer" objet="point" />
+<action abscisse="141.701" ordonnee="221.17" id="14" mouvement="translation" objet="point" />
+<action type="point" ordonnee="115.3" abscisse="418.8" couleur="noir" id="15" mouvement="creer" objet="point" />
+<action ordonnee="0.7" abscisse="-31.05" couleur="noir" nom="A" id="15" mouvement="nommer" objet="point" />
+<action abscisse="131.243" ordonnee="340.714" id="15" mouvement="translation" objet="point" />
+<action ordonnee="124.7" abscisse="343.8" couleur="noir" id="16" mouvement="creer" objet="point" />
+<action ordonnee="4.95" abscisse="5.65" couleur="noir" nom="G" id="16" mouvement="nommer" objet="point" />
+<action abscisse="229.541" ordonnee="409.543" id="16" mouvement="translation" objet="point" />
+<action ordonnee="117.25" abscisse="335.55" couleur="noir" id="17" mouvement="creer" objet="point" />
+<action ordonnee="-18.4" abscisse="16.95" couleur="noir" nom="O" id="17" mouvement="nommer" objet="point" />
+<action abscisse="338.298" ordonnee="358.829" id="17" mouvement="translation" objet="point" />
+<action texte="$\text{On nomme les sommets}$" id="58" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+<action pris="false" abscisse="450" ordonnee="200" id="59" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace les côtés du polygone}$" id="59" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action mouvement="vide" objet="regle" />
+<action abscisse="150" ordonnee="462" mouvement="montrer" objet="regle" tempo="10"/>
+<action cible="15" mouvement="translation" objet="regle" tempo="10"/>
+<action cible="16" mouvement="rotation" objet="regle" tempo="5"/>
+<action abscisse="269" ordonnee="222" mouvement="montrer" objet="crayon" tempo="10"/>
+<action cible="15" mouvement="translation" objet="crayon" tempo="10"/>
+<action id="9" epaisseur="2" couleur="darkblue" cible="16" mouvement="tracer" objet="crayon" />
+<action cible="16" mouvement="translation" objet="regle" />
+<action cible="17" mouvement="rotation" objet="regle" />
+<action sens="-5" angle="-83" mouvement="rotation" objet="crayon" />
+<action id="10" epaisseur="2" couleur="darkblue" cible="17" mouvement="tracer" objet="crayon" />
+<action cible="17" mouvement="translation" objet="regle" />
+<action cible="3" mouvement="rotation" objet="regle" />
+<action sens="-5" angle="-149.12" mouvement="rotation" objet="crayon" />
+<action id="11" epaisseur="2" couleur="darkblue" cible="3" mouvement="tracer" objet="crayon" />
+<action cible="15" mouvement="translation" objet="crayon" />
+<action cible="15" mouvement="translation" objet="regle" />
+<action id="12" epaisseur="2" couleur="darkblue" cible="14" mouvement="tracer" objet="crayon" />
+<action cible="14" mouvement="translation" objet="regle" />
+<action cible="13" mouvement="rotation" objet="regle" />
+<action id="18" epaisseur="2" couleur="darkblue" cible="13" mouvement="tracer" objet="crayon" />
+<action cible="13" mouvement="translation" objet="regle" />
+<action cible="3" mouvement="rotation" objet="regle" />
+<action sens="5" angle="-42.5" mouvement="rotation" objet="crayon" />
+<action id="19" epaisseur="2" couleur="darkblue" cible="3" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+<action texte="$\text{On trace les côtés du polygone}$" id="59" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+<action cibles="3,13,14,15,16,17" epaisseur="0" couleur="darkblue" forme="polygone" id="100" mouvement="tracer" objet="crayon" opacite="5" tempo="20"/>
+
+
+
+
+
+<action abscisses="445,732,732,445" ordonnees="235,235,402,402" epaisseur="0" couleur="0" forme="polygone" id="110" mouvement="tracer" objet="crayon" opacite="5" vitesse="1000" />
+<action ordonnee="240" abscisse="450" id="20" mouvement="creer" objet="texte" />
+<action couleur="noir" texte="$\textbf{Justification de la construction :}$" id="20" mouvement="ecrire" taille="13" objet="texte" tempo="20"/>
+<action ordonnee="260" abscisse="450" id="21" mouvement="creer" objet="texte" />
+<action couleur="noir" texte="$\text{Dans un hexagone régulier, l'angle au centre mesure :}$" id="21" mouvement="ecrire" taille="13" objet="texte" />
+<action ordonnee="280" abscisse="510" id="22" mouvement="creer" objet="texte" />
+<action taille="13" couleur="noir" texte="$\widehat{HRE} = \frac{360}{6} = 60°$" id="22" mouvement="ecrire" objet="texte" />
+<action abscisse1="240" ordonnee1="290" abscisse2="348.756" ordonnee2="239.285" epaisseur="0" couleur="gray" id="31" mouvement="tracer" objet="trait" />
+<action abscisse1="240" ordonnee1="290" abscisse2="250.458" ordonnee2="170.456" epaisseur="0" couleur="gray" id="32" mouvement="tracer" objet="trait" />
+<action ordonnee="290" abscisse="240" rayon="30" angle2="-85" angle1="-25" forme="plein" couleur="rosybrown" id="33" mouvement="creer" objet="angle" />
+<action pris="false" abscisse="261" ordonnee="243" id="34" mouvement="creer" objet="texte" />
+<action couleur="noir" texte="60°" id="34" taille="11" mouvement="ecrire" objet="texte" tempo="30"/>
+<action ordonnee="320" abscisse="450" id="23" mouvement="creer" objet="texte" />
+<action taille="13" couleur="noir" texte="$\begin{array}{l}\text{Ainsi, le triangle }HRE\text{ isocèle en }R\text{ possède un angle}\\[-0.1cm] \text{qui mesure 60°. C'est donc un triangle équilatéral.}\end{array}$" id="23" mouvement="ecrire" objet="texte" />
+<action ordonnee="264.8" abscisse="294.25" forme="\" couleur="deeppink" id="36" mouvement="creer" objet="longueur" />
+<action ordonnee="229.05" abscisse="245.85" forme="\" couleur="deeppink" id="37" mouvement="creer" objet="longueur" />
+<action ordonnee="205.8" abscisse="302.55" forme="/" couleur="deeppink" id="38" mouvement="creer" objet="longueur" tempo="30"/>
+<action ordonnee="360" abscisse="450" id="24" mouvement="creer" objet="texte" />
+<action taille="13" couleur="noir" texte="$\begin{array}{l}\text{La longueur des côtés d'un hexagone régulier est}\\[-0.1cm] \text{donc égale au rayon du cercle dans lequel il est inscrit.}\end{array}$" id="24" mouvement="ecrire" couleur_fond="burlywood" objet="texte" />
+</INSTRUMENPOCHE>

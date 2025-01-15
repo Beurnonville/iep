@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="500"
+   width="500"
+   id="svg1170"
+   version="1.1"
+   sodipodi:docname="droites_parallele_equerre.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview44"
+     showgrid="false"
+     inkscape:zoom="1.888"
+     inkscape:cx="251.39718"
+     inkscape:cy="300.41643"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1170" />
+  <metadata
+     id="metadata1174">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     style="visibility:visible;stroke-width:0.95146847"
+     id="g2"
+     transform="matrix(1.0509804,0,0,1.0510336,-10.496239,39.770156)"
+     visibility="visible" />
+  <g
+     style="visibility:visible;stroke-width:0.95146847"
+     id="g4"
+     transform="matrix(1.0509804,0,0,1.0510336,-10.496239,62.892895)"
+     visibility="visible" />
+  <line
+     x1="42.052784"
+     y1="230.00723"
+     x2="486.47141"
+     y2="391.77075"
+     style="visibility:visible;stroke:#00008b;stroke-width:1;stroke-linecap:round;stroke-opacity:1"
+     id="line6" />
+  <g
+     style="visibility:visible;stroke-width:0.95146847"
+     visibility="visible"
+     transform="matrix(1.0509804,0,0,1.0510336,262.75868,177.45555)"
+     id="1">
+    <line
+       id="line9"
+       style="stroke:#000000;stroke-width:0.95146847;stroke-linecap:round;stroke-opacity:1"
+       y2="-5"
+       x2="5"
+       y1="5"
+       x1="-5" />
+    <line
+       id="line11"
+       style="stroke:#000000;stroke-width:0.95146847;stroke-linecap:round;stroke-opacity:1"
+       y2="5"
+       x2="5"
+       y1="-5"
+       x1="-5" />
+  </g>
+  <line
+     x1="444.63818"
+     y1="243.65701"
+     x2="190.18532"
+     y2="151.03993"
+     style="visibility:visible;stroke:#b22222;stroke-width:1;stroke-linecap:round;stroke-opacity:1"
+     id="line39" />
+  <line
+     x1="190.18532"
+     y1="151.03993"
+     x2="72.570107"
+     y2="108.22925"
+     style="visibility:visible;stroke:#b22222;stroke-width:1;stroke-linecap:round;stroke-opacity:1"
+     id="line42" />
+  <g
+     style="visibility:visible;stroke-width:0.95146847"
+     transform="matrix(1.0509804,0,0,1.0510336,461.39398,254.181)"
+     id="5"
+     visibility="visible">
+    <svg
+       style="stroke-width:0.95146847"
+       id="svg57"
+       version="1.1"
+       y="-20"
+       x="0"
+       aria-hidden="true"
+       focusable="false"
+       role="img"
+       viewBox="0 -899.3 876.4 995.8"
+       height="21"
+       width="19">
+      <g
+         style="fill:currentColor;stroke:currentColor;stroke-width:0"
+         id="g55"
+         transform="scale(1,-1)">
+        <g
+           style="fill:#b22222;stroke:#b22222;stroke-width:0"
+           id="g51">
+          <g
+             style="fill:#b22222;stroke:#b22222;stroke-width:0"
+             id="g49">
+            <g
+               style="fill:#b22222;stroke:#b22222;stroke-width:0"
+               id="g47">
+              <use
+                 style="stroke-width:0"
+                 height="100%"
+                 width="100%"
+                 y="0"
+                 x="0"
+                 id="use45"
+                 xlink:href="#STIXWEBMAINI-64" />
+            </g>
+          </g>
+        </g>
+        <use
+           style="stroke-width:0"
+           height="100%"
+           width="100%"
+           id="use53"
+           y="583"
+           x="757"
+           xlink:href="#STIXWEBVARIANTS-2032"
+           transform="scale(0.707)" />
+      </g>
+    </svg>
+  </g>
+  <defs
+     id="defs999">
+    <radialGradient
+       id="radialfonce">
+      <stop
+         id="stop992"
+         style="stop-color:#000099;"
+         offset="0%" />
+      <stop
+         id="stop994"
+         style="stop-color:#9999FF;"
+         offset="80%" />
+      <stop
+         id="stop996"
+         style="stop-color:#000099;"
+         offset="100%" />
+    </radialGradient>
+  </defs>
+  <defs
+     id="defs1008">
+    <radialGradient
+       id="radialclair">
+      <stop
+         id="stop1001"
+         style="stop-color:#666666;"
+         offset="0%" />
+      <stop
+         id="stop1003"
+         style="stop-color:#CCCCCC;"
+         offset="80%" />
+      <stop
+         id="stop1005"
+         style="stop-color:#666666;"
+         offset="100%" />
+    </radialGradient>
+  </defs>
+  <defs
+     id="defs1017">
+    <radialGradient
+       id="radialrouge">
+      <stop
+         id="stop1010"
+         style="stop-color:#FF0000;"
+         offset="0%" />
+      <stop
+         id="stop1012"
+         style="stop-color:#FF9999;"
+         offset="80%" />
+      <stop
+         id="stop1014"
+         style="stop-color:#FF0000;"
+         offset="100%" />
+    </radialGradient>
+  </defs>
+  <g
+     style="visibility:visible;stroke-width:0.95146847"
+     id="g1168"
+     transform="matrix(1.0509804,0,0,1.0510336,275.37045,165.10591)"
+     visibility="visible">
+    <text
+       id="text1166"
+       style="font-size:20px;fill:#000000;stroke-width:0.95146847"
+       y="0"
+       x="0"
+       pointer-events="none">
+      <tspan
+         id="tspan5654"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';stroke-width:0.95146847">A</tspan>
+    </text>
+  </g>
+  <g
+     id="g1168-0"
+     transform="matrix(1.0509804,0,0,1.0510336,7.0344747,231.51323)"
+     visibility="visible"
+     style="visibility:visible;fill:#00008b;fill-opacity:1;stroke-width:0.95146847">
+    <text
+       id="text1166-2"
+       style="font-size:20px;fill:#00008b;fill-opacity:1;stroke-width:0.95146847"
+       y="0"
+       x="0"
+       pointer-events="none">
+      <tspan
+         id="tspan5654-6"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';fill:#00008b;fill-opacity:1;stroke-width:0.95146847">(d)</tspan>
+    </text>
+  </g>
+  <g
+     id="g1168-6"
+     transform="matrix(1.0509804,0,0,1.0510336,460.04258,255.3464)"
+     visibility="visible"
+     style="visibility:visible;fill:#b22121;fill-opacity:1;stroke-width:0.95146847">
+    <text
+       id="text1166-1"
+       style="font-size:20px;fill:#b22121;fill-opacity:1;stroke-width:0.95146847"
+       y="0"
+       x="0"
+       pointer-events="none">
+      <tspan
+         id="tspan5654-8"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';fill:#b22121;fill-opacity:1;stroke-width:0.95146847">(d')</tspan>
+    </text>
+  </g>
+</svg>

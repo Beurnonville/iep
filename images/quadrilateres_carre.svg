@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500"
+   height="500"
+   viewBox="0 0 132.29166 132.29167"
+   version="1.1"
+   id="svg3076"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="quadrilateres_carre.svg">
+  <defs
+     id="defs3070" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="218.26725"
+     inkscape:cy="225.09088"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3073">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-164.70832)">
+    <line
+       x1="3.070349"
+       y1="247.85406"
+       x2="129.22131"
+       y2="281.65604"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line272" />
+    <line
+       x1="31.676823"
+       y1="257.78448"
+       x2="35.249786"
+       y2="254.21149"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line414" />
+    <line
+       x1="31.676823"
+       y1="254.21149"
+       x2="35.249786"
+       y2="257.78448"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line416" />
+    <line
+       x1="93.799019"
+       y1="274.42999"
+       x2="97.372025"
+       y2="270.85703"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line420" />
+    <line
+       x1="93.799019"
+       y1="270.85703"
+       x2="97.372025"
+       y2="274.42999"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line422" />
+    <line
+       x1="33.463348"
+       y1="255.99802"
+       x2="53.793701"
+       y2="180.05406"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line558" />
+    <line
+       x1="34.850365"
+       y1="250.82109"
+       x2="40.027287"
+       y2="252.20815"
+       style="stroke:#dc143c;stroke-width:0.26458333;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line562" />
+    <line
+       x1="40.027287"
+       y1="252.20815"
+       x2="38.639858"
+       y2="257.38504"
+       style="stroke:#dc143c;stroke-width:0.26458333;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line566" />
+    <line
+       x1="95.585541"
+       y1="272.64352"
+       x2="115.91013"
+       y2="196.68633"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line622" />
+    <line
+       x1="96.972565"
+       y1="267.46658"
+       x2="91.796013"
+       y2="266.07956"
+       style="stroke:#dc143c;stroke-width:0.26458333;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line626" />
+    <line
+       x1="91.796013"
+       y1="266.07956"
+       x2="90.408623"
+       y2="271.25647"
+       style="stroke:#dc143c;stroke-width:0.26458333;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line630" />
+    <path
+       inkscape:connector-curvature="0"
+       d="M 62.661102,198.69417 A 64.313609,64.313609 0 0 0 39.068626,191.92913"
+       style="fill:none;stroke:#20b2aa;stroke-width:0.3175;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path750" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 101.19083,208.57464 a 64.313609,64.313609 0 0 1 23.59246,6.76502"
+       style="fill:none;stroke:#20b2aa;stroke-width:0.3175;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path906" />
+    <line
+       x1="110.44489"
+       y1="212.30745"
+       x2="114.0179"
+       y2="208.73447"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line968" />
+    <line
+       x1="110.44489"
+       y1="208.73447"
+       x2="114.0179"
+       y2="212.30745"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line970" />
+    <line
+       x1="48.322365"
+       y1="195.66196"
+       x2="51.895329"
+       y2="192.08896"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line974" />
+    <line
+       x1="48.322365"
+       y1="192.08896"
+       x2="51.895329"
+       y2="195.66196"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line976" />
+    <line
+       x1="50.108803"
+       y1="193.87547"
+       x2="112.23137"
+       y2="210.52097"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line1038" />
+    <line
+       x1="110.84399"
+       y1="215.69786"
+       x2="105.6671"
+       y2="214.31082"
+       style="stroke:#dc143c;stroke-width:0.26458333;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line1042" />
+    <line
+       x1="105.6671"
+       y1="214.31082"
+       x2="107.05449"
+       y2="209.13393"
+       style="stroke:#dc143c;stroke-width:0.26458333;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line1046" />
+    <line
+       x1="55.285728"
+       y1="195.26248"
+       x2="53.898708"
+       y2="200.43941"
+       style="stroke:#dc143c;stroke-width:0.26458333;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line1050" />
+    <line
+       x1="53.898708"
+       y1="200.43941"
+       x2="48.721786"
+       y2="199.05237"
+       style="stroke:#dc143c;stroke-width:0.26458333;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line1054" />
+    <polygon
+       transform="matrix(0.35729929,0,0,0.35729929,-16.558574,138.08924)"
+       points="140,330 313.866,376.587 360.454,202.72 186.587,156.133 "
+       style="visibility:visible;fill:#00008b;fill-opacity:0.05;stroke:#00008b;stroke-width:0.88861078;stroke-miterlimit:4;stroke-dasharray:none"
+       visibility="visible"
+       id="polygon1058" />
+    <line
+       x1="39.999428"
+       y1="223.15005"
+       x2="43.572395"
+       y2="226.72305"
+       style="visibility:visible;stroke:#dc143c;stroke-width:0.26458333;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       visibility="visible"
+       id="line1060" />
+    <line
+       x1="102.12196"
+       y1="239.79591"
+       x2="105.69496"
+       y2="243.36891"
+       style="visibility:visible;stroke:#dc143c;stroke-width:0.26458333;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       visibility="visible"
+       id="line1062" />
+    <line
+       x1="66.310913"
+       y1="262.53409"
+       x2="62.737942"
+       y2="266.10706"
+       style="visibility:visible;stroke:#dc143c;stroke-width:0.26458333;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       visibility="visible"
+       id="line1064" />
+    <line
+       x1="82.956451"
+       y1="200.4119"
+       x2="79.383408"
+       y2="203.98488"
+       style="visibility:visible;stroke:#dc143c;stroke-width:0.26458333;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       visibility="visible"
+       id="line1066" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="24.054258"
+       y="265.9967"
+       id="text3681"><tspan
+         sodipodi:role="line"
+         id="tspan3679"
+         x="24.054258"
+         y="265.9967"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';stroke-width:0.26458332">A</tspan></text>
+    <text
+       id="text3685"
+       y="283.80255"
+       x="96.873405"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';stroke-width:0.26458332"
+         y="283.80255"
+         x="96.873405"
+         id="tspan3683"
+         sodipodi:role="line">B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="119.24413"
+       y="207.5564"
+       id="text3689"><tspan
+         sodipodi:role="line"
+         id="tspan3687"
+         x="119.24413"
+         y="207.5564"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';stroke-width:0.26458332">C</tspan></text>
+    <text
+       id="text3693"
+       y="188.42369"
+       x="41.352432"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';stroke-width:0.26458332"
+         y="188.42369"
+         x="41.352432"
+         id="tspan3691"
+         sodipodi:role="line">D</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#4682b4;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="53.72118"
+       y="275.88568"
+       id="text3697"><tspan
+         sodipodi:role="line"
+         id="tspan3695"
+         x="53.72118"
+         y="275.88568"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:Utopia;-inkscape-font-specification:Utopia;fill:#4682b4;fill-opacity:1;stroke-width:0.26458332">6 cm</tspan></text>
+  </g>
+</svg>

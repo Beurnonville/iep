@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+<action abscisse="600" ordonnee="50" id="40" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Déterminer graphiquement l'image d'un nombre par une fonction}$" id="40" taille="19" couleur="noir" police="arial" mouvement="ecrire" objet="texte" />
+<action mouvement="translation" objet="texte" id="40" abscisse="50" ordonnee="50" />
+<action abscisse="50" ordonnee="75" id="41" mouvement="creer" objet="texte" />
+<action texte="$\text{On considère la fonction }f\text{ dont la courbe représentative est dessinée en bleu ci-dessous}$" id="41" taille="16" couleur="rouge" mouvement="ecrire" objet="texte" />
+
+
+<action hauteur="11" largeur="12" haut="4" gauche="1.5" Ygrad="1" Xgrad="1" Ymax="8" Ymin="-3" Xmax="3" Xmin="-3" couleur="noir" mouvement="creer" objet="repere" />
+
+<action abscisse="82.02" ordonnee="450" mouvement="translation" objet="crayon" vitesse="1000"/>
+<action tempo="30" forme="libre" epaisseur="2" couleur="navy" abscisses="82.02,87,93,99,105,111,117,123,129,135,141,147,153,159,165,171,177,183,189,195,201,207,213,219,225,231,237,243,249,255,261,267,273,279,285,291,297,303,309,315,321,327,333,339,345,351,357,363,369,375,380.34" ordonnees="450,419.01,385.44,355.83,330,307.77,288.96,273.39,260.88,251.25,244.32,239.91,237.84,237.93,240,243.87,249.36,256.29,264.48,273.75,283.92,294.81,306.24,318.03,330,341.97,353.76,365.19,376.08,386.25,395.52,403.71,410.64,416.13,420,422.07,422.16,420.09,415.68,408.75,399.12,386.61,371.04,352.23,330,304.17,274.56,240.99,203.28,161.25,120.064" id="1" mouvement="tracer" vitesse="1000" objet="crayon" />
+
+
+
+<!-- IMAGE DE -1 -->
+
+
+<action abscisse="420" ordonnee="130" id="49" mouvement="creer" objet="texte" />
+<action tempo="20" texte="$\textbf{Déterminer l'image du nombre -1 par la fonction }\mathbf{f}\textbf{ :}$" id="49" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+<!-- la parallèle -->
+
+<action abscisse="420" ordonnee="155" id="50" mouvement="creer" objet="texte" />
+<action tempo="20" texte="$\begin{array}{l}\text{On trace une droite parallèle à l'axe des ordonnées qui passe par}\\[-1cm]\text{le point de coordonnées (-1;0)}\end{array}$" id="50" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="420" ordonnee="177" id="51" mouvement="creer" objet="texte" />
+<action texte="le point de coordonnées (-1;0)" id="51" taille="16" couleur="bleu" mouvement="ecrire" objet="texte" tempo="10"/>
+<action abscisse="105" ordonnee="405" id="51" mouvement="translation" objet="texte" />
+<action texte="le point de coordonnées (-1;0)" id="51" taille="12" couleur="bleu" mouvement="ecrire" objet="texte" tempo="10"/>
+<action ordonnee="360" abscisse="165" couleur="bleu" id="2" mouvement="creer" objet="point" />
+<action couleur="blue" style="vecteur" epaisseur="1"  abscisse1="165" ordonnee1="400" abscisse2="165" ordonnee2="365" mouvement="tracer" id="3" objet="trait" tempo="20"/>
+
+<action mouvement="masquer" id="3" objet="trait" />
+<action mouvement="masquer" id="2" objet="point" />
+<action mouvement="masquer" id="51" objet="texte" />
+
+<action sens="180" angle="90" mouvement="rotation" objet="regle" />
+<action mouvement="vide" objet="regle" />
+<action abscisse="500" ordonnee="180" mouvement="montrer" objet="regle" tempo="10" />
+<action abscisse="165" ordonnee="107" mouvement="translation" objet="regle" tempo="10" />
+
+<action abscisse="304" ordonnee="466" mouvement="montrer" objet="crayon" tempo="10"/>
+<action abscisse="165" ordonnee="450" mouvement="translation" objet="crayon" tempo="10"/>
+<action abscisse="165" ordonnee="120" epaisseur="2" couleur="sienna" id="4" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<action texte="$\begin{array}{l}\text{On trace une droite parallèle à l'axe des ordonnées qui passe par}\\[-1cm]\text{le point de coordonnées (-1;0)}\end{array}$" id="50" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<!-- le point d'intersection -->
+
+<action abscisse="420" ordonnee="200" id="52" mouvement="creer" objet="texte" />
+<action tempo="20" texte="$\begin{array}{l}\text{La droite coupe la courbe représentative de la fonction }f\text{ en}\\[-1cm]\text{un point}\end{array}$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action ordonnee="235.2" abscisse="389.55" couleur="red" id="5" mouvement="creer" objet="point" />
+<action abscisse="165" ordonnee="240" id="5" mouvement="translation" objet="point" tempo="10"/>
+
+<action abscisse="165" ordonnee="240" mouvement="montrer" objet="crayon" tempo="10"/>
+
+<action abscisse="225" ordonnee="240" pointille="tiret" style="vecteur" epaisseur="2" couleur="sienna" id="6" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+
+<action abscisse="478" ordonnee="217" id="53" mouvement="creer" objet="texte" />
+<action tempo="20" texte="$\text{qui a pour ordonnée 4}$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+
+<action texte="$\begin{array}{l}\text{La droite coupe la courbe représentative de la fonction }f\text{ en}\\[-1cm]\text{un point}\end{array}$" id="52" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+<action texte="$\text{qui a pour ordonnée 4}$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" tempo="20"/>
+
+
+
+<!-- Conclusion -->
+
+<action abscisse="420" ordonnee="250" id="54" mouvement="creer" objet="texte" />
+<action tempo="30" texte="$\text{Ainsi, l'image du nombre -1 par la fonction }f\text{ est le nombre 4}$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action mouvement="masquer" id="4" objet="trait" />
+<action mouvement="masquer" id="6" objet="trait" />
+
+<action texte="$\text{Ainsi, l'image du nombre -1 par la fonction }f\text{ est le nombre 4}$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="420" ordonnee="300" id="55" mouvement="creer" objet="texte" />
+<action texte="$\text{Autrement dit :}$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action pointille="tiret"  epaisseur="2" ordonnee2="360" abscisse2="165" ordonnee1="240" abscisse1="165" mouvement="tracer" couleur="crimson" objet="trait" id="7" />
+<action pointille="tiret"  epaisseur="2" ordonnee2="240" abscisse2="225" ordonnee1="240" abscisse1="165" mouvement="tracer" couleur="crimson" objet="trait" id="8" />
+
+
+<action abscisse="530" ordonnee="300" id="56" mouvement="creer" objet="texte" />
+<action couleur_fond="burlywood" texte="$f(-1) = 4$" id="56" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="30"/>
+
+
+
+<action mouvement="masquer" id="49" objet="texte" />
+<action mouvement="masquer" id="50" objet="texte" />
+<action mouvement="masquer" id="52" objet="texte" />
+<action mouvement="masquer" id="53" objet="texte" />
+<action mouvement="masquer" id="54" objet="texte" />
+<action mouvement="masquer" id="55" objet="texte" />
+<action mouvement="masquer" id="56" objet="texte" />
+<action mouvement="masquer" id="7" objet="trait" />
+<action mouvement="masquer" id="8" objet="trait" />
+<action mouvement="masquer" id="5" objet="point" />
+
+
+
+
+
+<!-- IMAGE DE 1 -->
+
+
+<action abscisse="420" ordonnee="130" id="59" mouvement="creer" objet="texte" />
+<action tempo="20" texte="$\textbf{Déterminer l'image du nombre 1 par la fonction }\mathbf{f}\textbf{ :}$" id="59" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+<!-- la parallèle -->
+
+<action abscisse="420" ordonnee="155" id="60" mouvement="creer" objet="texte" />
+<action tempo="20" texte="$\begin{array}{l}\text{On trace une droite parallèle à l'axe des ordonnées qui passe par}\\[-1cm]\text{le point de coordonnées (1;0)}\end{array}$" id="60" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="420" ordonnee="177" id="61" mouvement="creer" objet="texte" />
+<action texte="le point de coordonnées (1;0)" id="61" taille="16" couleur="bleu" mouvement="ecrire" objet="texte" tempo="10"/>
+<action abscisse="285" ordonnee="405" id="61" mouvement="translation" objet="texte" />
+<action texte="le point de coordonnées (1;0)" id="61" taille="12" couleur="bleu" mouvement="ecrire" objet="texte" tempo="10"/>
+<action ordonnee="360" abscisse="285" couleur="bleu" id="12" mouvement="creer" objet="point" />
+<action couleur="blue" style="vecteur" epaisseur="1"  abscisse1="285" ordonnee1="400" abscisse2="285" ordonnee2="365" mouvement="tracer" id="13" objet="trait" tempo="20"/>
+
+<action mouvement="masquer" id="13" objet="trait" />
+<action mouvement="masquer" id="12" objet="point" />
+<action mouvement="masquer" id="61" objet="texte" />
+
+<action sens="180" angle="90" mouvement="rotation" objet="regle" />
+<action mouvement="vide" objet="regle" />
+<action abscisse="500" ordonnee="180" mouvement="montrer" objet="regle" tempo="10" />
+<action abscisse="285" ordonnee="107" mouvement="translation" objet="regle" tempo="10" />
+
+<action abscisse="304" ordonnee="466" mouvement="montrer" objet="crayon" tempo="10"/>
+<action abscisse="285" ordonnee="450" mouvement="translation" objet="crayon" tempo="10"/>
+<action abscisse="285" ordonnee="120" epaisseur="2" couleur="sienna" id="14" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<action texte="$\begin{array}{l}\text{On trace une droite parallèle à l'axe des ordonnées qui passe par}\\[-1cm]\text{le point de coordonnées (1;0)}\end{array}$" id="60" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<!-- le point d'intersection -->
+
+<action abscisse="420" ordonnee="200" id="62" mouvement="creer" objet="texte" />
+<action tempo="20" texte="$\begin{array}{l}\text{La droite coupe la courbe représentative de la fonction }f\text{ en}\\[-1cm]\text{un point}\end{array}$" id="62" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action ordonnee="235.2" abscisse="389.55" couleur="red" id="15" mouvement="creer" objet="point" />
+<action abscisse="285" ordonnee="420" id="15" mouvement="translation" objet="point" tempo="10"/>
+
+<action abscisse="285" ordonnee="420" mouvement="montrer" objet="crayon" tempo="10"/>
+
+<action abscisse="225" ordonnee="420" pointille="tiret" style="vecteur" epaisseur="2" couleur="sienna" id="16" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+
+<action abscisse="478" ordonnee="217" id="63" mouvement="creer" objet="texte" />
+<action tempo="20" texte="$\text{qui a pour ordonnée -2}$" id="63" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+
+<action texte="$\begin{array}{l}\text{La droite coupe la courbe représentative de la fonction }f\text{ en}\\[-1cm]\text{un point}\end{array}$" id="62" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+<action texte="$\text{qui a pour ordonnée -2}$" id="63" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" tempo="20"/>
+
+
+<!-- Conclusion -->
+
+<action abscisse="420" ordonnee="250" id="64" mouvement="creer" objet="texte" />
+<action tempo="30" texte="$\text{Ainsi, l'image du nombre 1 par la fonction }f\text{ est le nombre -2}$" id="64" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action mouvement="masquer" id="14" objet="trait" />
+<action mouvement="masquer" id="16" objet="trait" />
+
+<action texte="$\text{Ainsi, l'image du nombre 1 par la fonction }f\text{ est le nombre -2}$" id="64" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="420" ordonnee="300" id="65" mouvement="creer" objet="texte" />
+<action texte="$\text{Autrement dit :}$" id="65" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action pointille="tiret"  epaisseur="2" ordonnee2="360" abscisse2="285" ordonnee1="420" abscisse1="285" mouvement="tracer" couleur="crimson" objet="trait" id="17" />
+<action pointille="tiret"  epaisseur="2" ordonnee2="420" abscisse2="225" ordonnee1="420" abscisse1="285" mouvement="tracer" couleur="crimson" objet="trait" id="18" />
+
+
+<action abscisse="530" ordonnee="300" id="66" mouvement="creer" objet="texte" />
+<action couleur_fond="burlywood" texte="$f(1) = -2$" id="66" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="30"/>
+
+
+
+</INSTRUMENPOCHE>

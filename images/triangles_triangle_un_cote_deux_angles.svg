@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500"
+   height="500"
+   viewBox="0 0 132.29166 132.29167"
+   version="1.1"
+   id="svg3027"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="triangles_triangle_un_cote_deux_angles.svg">
+  <defs
+     id="defs3021" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="244.41243"
+     inkscape:cy="209.18586"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3024">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-164.70832)">
+    <line
+       x1="14.777679"
+       y1="273.26126"
+       x2="19.986898"
+       y2="268.05197"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="line550" />
+    <line
+       x1="14.777679"
+       y1="268.05197"
+       x2="19.986898"
+       y2="273.26126"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="line552" />
+    <line
+       x1="108.54436"
+       y1="273.26126"
+       x2="113.75358"
+       y2="268.05197"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="line556" />
+    <line
+       x1="108.54436"
+       y1="268.05197"
+       x2="113.75358"
+       y2="273.26126"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="line558" />
+    <line
+       x1="17.382349"
+       y1="270.65659"
+       x2="111.14896"
+       y2="270.65659"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="line562" />
+    <line
+       x1="17.382349"
+       y1="270.65659"
+       x2="118.71333"
+       y2="185.62999"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="line702" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 38.219338,270.65656 a 20.837038,20.837038 0 0 0 -4.874941,-13.3938"
+       style="fill:none;stroke:#20b2aa;stroke-width:0.3175;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path710" />
+    <line
+       x1="111.14896"
+       y1="270.65659"
+       x2="42.692532"
+       y2="189.07332"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="line850" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 97.75518,254.69447 a 20.837038,20.837038 0 0 0 -7.443253,15.96209"
+       style="fill:none;stroke:#20b2aa;stroke-width:0.3175;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path858" />
+    <line
+       x1="69.80201"
+       y1="227.08997"
+       x2="75.011353"
+       y2="221.88074"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="line1028" />
+    <line
+       x1="69.80201"
+       y1="221.88074"
+       x2="75.011353"
+       y2="227.08997"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="line1030" />
+    <polygon
+       transform="matrix(0.52092595,0,0,0.52092595,-86.802891,62.28619)"
+       points="380,400 305.628,311.367 200,400 "
+       style="visibility:visible;fill:#00008b;fill-opacity:0.05;stroke:#00008b;stroke-width:0.60949165;stroke-miterlimit:4;stroke-dasharray:none"
+       visibility="visible"
+       id="polygon1034" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="7.9496889"
+       y="279.82266"
+       id="text3606"><tspan
+         sodipodi:role="line"
+         id="tspan3604"
+         x="7.9496889"
+         y="279.82266"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';stroke-width:0.26458332">A</tspan></text>
+    <text
+       id="text3610"
+       y="279.82266"
+       x="115.52568"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';stroke-width:0.26458332"
+         y="279.82266"
+         x="115.52568"
+         id="tspan3608"
+         sodipodi:role="line">B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="71.292572"
+       y="219.01884"
+       id="text3614"><tspan
+         sodipodi:role="line"
+         id="tspan3612"
+         x="71.292572"
+         y="219.01884"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';stroke-width:0.26458332">C</tspan></text>
+    <text
+       id="text3618"
+       y="186.67923"
+       x="36.814804"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';stroke-width:0.26458332"
+         y="186.67923"
+         x="36.814804"
+         id="tspan3616"
+         sodipodi:role="line">y</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="121.0047"
+       y="183.87289"
+       id="text3622"><tspan
+         sodipodi:role="line"
+         id="tspan3620"
+         x="121.0047"
+         y="183.87289"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';stroke-width:0.26458332">x</tspan></text>
+    <text
+       id="text3626"
+       y="261.1138"
+       x="77.707031"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#4682b4;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:Utopia;-inkscape-font-specification:Utopia;fill:#4682b4;fill-opacity:1;stroke-width:0.26458332"
+         y="261.1138"
+         x="77.707031"
+         id="tspan3624"
+         sodipodi:role="line">50°</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#4682b4;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="58.59726"
+       y="281.29263"
+       id="text3630"><tspan
+         sodipodi:role="line"
+         id="tspan3628"
+         x="58.59726"
+         y="281.29263"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:Utopia;-inkscape-font-specification:Utopia;fill:#4682b4;fill-opacity:1;stroke-width:0.26458332">6 cm</tspan></text>
+    <text
+       id="text3634"
+       y="263.11832"
+       x="41.892914"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#4682b4;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:Utopia;-inkscape-font-specification:Utopia;fill:#4682b4;fill-opacity:1;stroke-width:0.26458332"
+         y="263.11832"
+         x="41.892914"
+         id="tspan3632"
+         sodipodi:role="line">40°</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500"
+   height="500"
+   viewBox="0 0 132.29166 132.29167"
+   version="1.1"
+   id="svg2881"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="triangles_triangle_rectangle.svg">
+  <defs
+     id="defs2875" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="179.56351"
+     inkscape:cy="308.8607"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata2878">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-164.70832)">
+    <line
+       x1="19.658588"
+       y1="235.77402"
+       x2="114.08456"
+       y2="290.29102"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line388" />
+    <line
+       x1="19.658588"
+       y1="235.77402"
+       x2="56.814545"
+       y2="171.41805"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line392" />
+    <line
+       x1="22.707504"
+       y1="230.49303"
+       x2="27.988466"
+       y2="233.54195"
+       style="stroke:#ff0000;stroke-width:0.26458333;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line396" />
+    <line
+       x1="27.988466"
+       y1="233.54195"
+       x2="24.939617"
+       y2="238.82292"
+       style="stroke:#ff0000;stroke-width:0.26458333;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line400" />
+    <line
+       x1="18.206776"
+       y1="237.22586"
+       x2="21.11047"
+       y2="234.32216"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line504" />
+    <line
+       x1="18.206776"
+       y1="234.32216"
+       x2="21.11047"
+       y2="237.22586"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line506" />
+    <line
+       x1="71.015175"
+       y1="267.71494"
+       x2="73.918907"
+       y2="264.81119"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line656" />
+    <line
+       x1="71.015175"
+       y1="264.81119"
+       x2="73.918907"
+       y2="267.71494"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line658" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 56.166691,189.57593 a 78.400359,78.400359 0 0 0 -22.899819,8.79041"
+       style="fill:none;stroke:#20b2aa;stroke-width:0.3175;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path764" />
+    <line
+       x1="42.845676"
+       y1="194.55023"
+       x2="45.749371"
+       y2="191.64651"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line812" />
+    <line
+       x1="42.845676"
+       y1="191.64651"
+       x2="45.749371"
+       y2="194.55023"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line814" />
+    <line
+       x1="44.297489"
+       y1="193.09837"
+       x2="72.467056"
+       y2="266.26309"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line882" />
+    <polygon
+       transform="matrix(0.2903717,0,0,0.2903717,-9.3785658,139.95136)"
+       points="184.853,183.031 100,330 281.865,435 "
+       style="visibility:visible;fill:#00008b;fill-opacity:0.05;stroke:#00008b;stroke-width:1.09342612;stroke-miterlimit:4;stroke-dasharray:none"
+       visibility="visible"
+       id="polygon890" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="8.6862593"
+       y="242.8779"
+       id="text3458"><tspan
+         sodipodi:role="line"
+         id="tspan3456"
+         x="8.6862593"
+         y="242.8779"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';stroke-width:0.26458332">A</tspan></text>
+    <text
+       id="text3462"
+       y="275.88568"
+       x="66.149208"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';stroke-width:0.26458332"
+         y="275.88568"
+         x="66.149208"
+         id="tspan3460"
+         sodipodi:role="line">B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="38.353176"
+       y="188.3549"
+       id="text3466"><tspan
+         sodipodi:role="line"
+         id="tspan3464"
+         x="38.353176"
+         y="188.3549"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';stroke-width:0.26458332">C</tspan></text>
+    <text
+       id="text3470"
+       y="226.44081"
+       x="63.075607"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#4682b4;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:Utopia;-inkscape-font-specification:Utopia;fill:#4682b4;fill-opacity:1;stroke-width:0.26458332"
+         y="226.44081"
+         x="63.075607"
+         id="tspan3468"
+         sodipodi:role="line">9 cm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#4682b4;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="28.330568"
+       y="259.98312"
+       id="text3474"><tspan
+         sodipodi:role="line"
+         id="tspan3472"
+         x="28.330568"
+         y="259.98312"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:Utopia;-inkscape-font-specification:Utopia;fill:#4682b4;fill-opacity:1;stroke-width:0.26458332">7 cm</tspan></text>
+  </g>
+</svg>

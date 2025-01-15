@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+
+<action abscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Construire un rectangle avec l'équerre}$" id="50" taille="19" couleur="noir" mouvement="ecrire" police="arial" objet="texte" />
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+<action abscisse="50" ordonnee="75" id="51" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de construire le rectangle }ABCD\text{ tel que }AB=5\text{ cm et }AD=7\text{ cm}$" id="51" taille="16" couleur="rouge" mouvement="ecrire" objet="texte" tempo="30" />
+<action abscisse="380" ordonnee="150" id="52" mouvement="creer" objet="texte" />
+
+<action texte="$\text{À la règle, on trace un segment }[AB]\text{ de longueur 5 cm}$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action abscisse="344.15" ordonnee="109.8" id="11" mouvement="creer" objet="point" />
+<action ordonnee="1.45" abscisse="-25.45" couleur="0" nom="A" id="11" mouvement="nommer" objet="point" />
+<action abscisse="100" ordonnee="350" id="11" mouvement="translation" objet="point" />
+<action abscisse="392.9" ordonnee="226.4" mouvement="montrer" objet="regle" />
+<action abscisse="100" ordonnee="351" mouvement="translation" objet="regle" />
+<action abscisse="500" ordonnee="150" id="12" mouvement="creer" objet="point" />
+<action ordonnee="1.45" abscisse="11.3" couleur="0" nom="B" id="12" mouvement="nommer" objet="point" />
+<action abscisse="250" ordonnee="350" id="12" mouvement="translation" objet="point" />
+<action abscisse="392.9" ordonnee="226.4" mouvement="montrer" objet="crayon" />
+<action abscisse="100" ordonnee="350" mouvement="translation" objet="crayon" />
+<action abscisse="250" ordonnee="350" epaisseur="1" id="13" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action texte="$\text{À la règle, on trace un segment }[AB]\text{ de longueur 5 cm}$" id="52" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+<action abscisse="380" ordonnee="170" id="53" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace un segment perpendiculaire à }[AB]\text{ et qui mesure 7 cm}$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action mouvement="masquer" objet="regle" />
+<action abscisse="400" ordonnee="200" mouvement="montrer" objet="equerre" />
+<action abscisse="101" ordonnee="350" mouvement="translation" objet="equerre" tempo="15" />
+<action abscisse="100" ordonnee="350" mouvement="montrer" objet="crayon" />
+<action abscisse="100" ordonnee="230" epaisseur="1" id="14" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="equerre" />
+<action sens="-100" angle="-90" mouvement="rotation" objet="regle" />
+<action abscisse="101" ordonnee="350" mouvement="montrer" objet="regle" tempo="10" />
+<action abscisse="100" ordonnee="140" epaisseur="1" id="15" mouvement="tracer" objet="crayon" tempo="10" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+<action abscisse="10" ordonnee="10" id="16" mouvement="creer" objet="point" />
+<action ordonnee="-26.1" abscisse="-29.65" couleur="0" nom="D" id="16" mouvement="nommer" objet="point" />
+<action abscisse="100" ordonnee="140" id="16" mouvement="translation" objet="point" />
+<action abscisse="115" ordonnee="350" mouvement="montrer" objet="crayon" />
+<action abscisse="115" ordonnee="335" epaisseur="1" id="17" mouvement="tracer" couleur="crimson" objet="crayon" />
+<action abscisse="100" ordonnee="335" epaisseur="1" id="18" mouvement="tracer" couleur="crimson" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action texte="$\text{On trace un segment perpendiculaire à }[AB]\text{ et qui mesure 7 cm}$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+<action abscisse="380" ordonnee="190" id="54" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace un segment perpendiculaire à }[AD]\text{ et qui mesure 5 cm}$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action sens="90" angle="90" mouvement="rotation" objet="equerre" />
+<action abscisse="100" ordonnee="141" mouvement="montrer" objet="equerre" tempo="15" />
+<action abscisse="100" ordonnee="140" mouvement="montrer" objet="crayon" />
+<action abscisse="135" ordonnee="140" epaisseur="1" id="19" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="equerre" />
+<action sens="100" angle="0" mouvement="rotation" objet="regle" />
+<action abscisse="100" ordonnee="141" mouvement="montrer" objet="regle" tempo="10" />
+<action abscisse="250" ordonnee="140" epaisseur="1" id="20" mouvement="tracer" objet="crayon" tempo="10" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+<action abscisse="350" ordonnee="10" id="21" mouvement="creer" objet="point" />
+<action ordonnee="-26.8" abscisse="14.1" couleur="0" nom="C" id="21" mouvement="nommer" objet="point" />
+<action abscisse="250" ordonnee="140" id="21" mouvement="translation" objet="point" />
+<action abscisse="100" ordonnee="155" mouvement="montrer" objet="crayon" />
+<action abscisse="115" ordonnee="155" epaisseur="1" id="22" mouvement="tracer" couleur="crimson" objet="crayon" />
+<action abscisse="115" ordonnee="140" epaisseur="1" id="23" mouvement="tracer" couleur="crimson" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action texte="$\text{On trace un segment perpendiculaire à }[AD]\text{ et qui mesure 5 cm}$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+<action abscisse="380" ordonnee="210" id="55" mouvement="creer" objet="texte" />
+<action texte="$\text{On finit en traçant le segment }[BC]$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action sens="100" angle="-180" mouvement="rotation" objet="equerre" />
+<action abscisse="50" ordonnee="70" mouvement="montrer" objet="equerre" />
+<action abscisse="249" ordonnee="140" id="24" mouvement="translation" objet="equerre" tempo="15" />
+<action abscisse="250" ordonnee="140" mouvement="montrer" objet="crayon" />
+<action abscisse="250" ordonnee="350" epaisseur="1" id="25" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="equerre" />
+<action abscisse="235" ordonnee="350" mouvement="montrer" objet="crayon" />
+<action abscisse="235" ordonnee="335" epaisseur="1" id="26" mouvement="tracer" couleur="crimson" objet="crayon" />
+<action abscisse="250" ordonnee="335" epaisseur="1" id="27" mouvement="tracer" couleur="crimson" objet="crayon" />
+<action abscisse="235" ordonnee="140" mouvement="translation" objet="crayon" />
+<action abscisse="235" ordonnee="155" epaisseur="1" id="28" mouvement="tracer" couleur="crimson" objet="crayon" />
+<action abscisse="250" ordonnee="155" epaisseur="1" id="29" mouvement="tracer" couleur="crimson" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action texte="$\text{On finit en traçant le segment }[BC]$" id="55" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+<action cibles="11,12,21,16" epaisseur="0" couleur="darkblue" forme="polygone" id="100" mouvement="tracer" objet="crayon" opacite="5" />
+<action abscisse="160" ordonnee="360" id="57" mouvement="creer" objet="texte" />
+<action texte="5 cm" id="57" taille="16" couleur="steelblue" mouvement="ecrire" objet="texte" />
+<action abscisse="50" ordonnee="230" id="58" mouvement="creer" objet="texte" />
+<action texte="7 cm" id="58" taille="16" couleur="steelblue" mouvement="ecrire" objet="texte" />
+</INSTRUMENPOCHE>

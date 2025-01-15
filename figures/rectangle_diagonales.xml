@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+
+<action abscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Construire un rectangle connaissant la longueur d'une diagonale}$" id="50" taille="19" couleur="noir" mouvement="ecrire" police="arial" objet="texte" />
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+<action abscisse="50" ordonnee="75" id="51" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de construire le rectangle }ABCD\text{ tel que }AC=10\text{ cm}$" id="51" taille="16" couleur="rouge" mouvement="ecrire" objet="texte" tempo="30" />
+
+
+<action  abscisse="500" ordonnee="150" id="52" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace deux droites sécantes en }I$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+<action mouvement="vide" objet="regle" />
+<action mouvement="montrer" objet="regle" tempo="10"/>
+<action abscisse="70.383" ordonnee="391.632" mouvement="translation" objet="regle" tempo="7"/>
+<action sens="-3" angle="-40" mouvement="rotation" objet="regle" />
+<action sens="-180" angle="-78" mouvement="rotation" objet="crayon" />
+<action abscisse="172" ordonnee="197" mouvement="montrer" objet="crayon" tempo="6"/>
+<action abscisse="70.383" ordonnee="391.632" mouvement="translation" objet="crayon" tempo="6"/>
+<action abscisse="381.525" ordonnee="130.554" epaisseur="0" couleur="0" id="1" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+
+<action sens="3" angle="10" mouvement="rotation" objet="regle" />
+<action abscisse="31.767" ordonnee="217.762" mouvement="translation" objet="regle" tempo="7"/>
+<action sens="-180" angle="-45" mouvement="rotation" objet="crayon" />
+<action abscisse="246.75" ordonnee="182.3" mouvement="montrer" objet="crayon" tempo="6"/>
+<action abscisse="31.767" ordonnee="217.762"  mouvement="translation" objet="crayon" tempo="6"/>
+<action abscisse="423.452" ordonnee="286.827"  epaisseur="0" couleur="0" id="2" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+
+<action type="point" ordonnee="126" abscisse="103" couleur="noir" id="3" mouvement="creer" objet="point" />
+<action ordonnee="-36" abscisse="-9" couleur="noir" nom="I" id="3" mouvement="nommer" objet="point" />
+<action abscisse="234.906" ordonnee="253.581" id="3" mouvement="translation" objet="point" />
+
+<action texte="$\text{On trace deux droites sécantes en }I$" id="52" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+
+<action  abscisse="500" ordonnee="170" id="53" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\text{Sur l'une des droites, on place }A\text{ et }C\text{ tels que}\\[-1cm] I\text{ soit le milieu de }[AC]\end{array}$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+<!-- Compas pour placer A et C -->
+<action sens="-180" angle="0" mouvement="rotation" objet="regle" />
+<action mouvement="graduations" objet="regle" />
+<action abscisse="140" ordonnee="380" mouvement="montrer" objet="regle" />
+<action abscisse="395" ordonnee="300" mouvement="montrer" objet="compas" tempo="7"/>
+<action abscisse="140" ordonnee="380" mouvement="translation" objet="compas" tempo="10"/>
+<action ecart="150" mouvement="ecarter" objet="compas" tempo="15"/>
+<action mouvement="masquer" objet="regle" />
+<action cible="3" mouvement="translation" objet="compas" tempo="10"/>
+<action sens="-3" angle="-29" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="lightseagreen" epaisseur="0" sens="-2" fin="-50" debut="-29" id="4" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="5"/>
+<action sens="-3" angle="150" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="lightseagreen" epaisseur="0" sens="-2" fin="130" debut="150" id="5" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="3"/>
+<action mouvement="masquer" objet="compas" />
+
+<!-- On nomme A et C -->
+<action type="point" ordonnee="128" abscisse="102" couleur="noir" id="6" mouvement="creer" objet="point" />
+<action ordonnee="8.5" abscisse="-19.3" couleur="noir" nom="A" id="6" mouvement="nommer" objet="point" />
+<action abscisse="120" ordonnee="350" id="6" mouvement="translation" objet="point" />
+<action type="point" ordonnee="120" abscisse="100" couleur="noir" id="7" mouvement="creer" objet="point" />
+<action ordonnee="-32.6" abscisse="-7.75"  couleur="noir" nom="C" id="7" mouvement="nommer" objet="point" />
+<action abscisse="349.813" ordonnee="157.163" id="7" mouvement="translation" objet="point" />
+
+<!-- Codes longueurs égales AI=IC -->
+<action abscisse="172.75" ordonnee="204.65" mouvement="montrer" objet="crayon" />
+<action abscisse="175.89" ordonnee="292.927" mouvement="translation" objet="crayon" />
+<action abscisse="179.016" ordonnee="310.654" epaisseur="0" couleur="crimson" id="10" mouvement="tracer" objet="crayon" />
+<action abscisse="290.797" ordonnee="196.509" mouvement="translation" objet="crayon" />
+<action abscisse="293.922" ordonnee="214.235" epaisseur="0" couleur="crimson" id="11" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+
+
+<action texte="$\begin{array}{l}\text{Sur l'une des droites, on place }A\text{ et }C\text{ tels que}\\[-1cm] I\text{ soit le milieu de }[AC]\end{array}$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+
+<action  abscisse="500" ordonnee="212" id="54" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\text{Sur l'autre droite, on place }B\text{ et }D\text{ tels que}\\[-1cm] I\text{ soit le milieu de }[BD]\end{array}$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<!-- Compas pour placer B et D -->
+<action cible="7" mouvement="rotation" objet="compas" />
+<action cible="7" mouvement="ecarter" objet="compas" />
+<action mouvement="montrer" objet="compas" tempo="15"/>
+
+<action sens="-4" angle="-160" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="lightseagreen" epaisseur="0" sens="-2" fin="-180" debut="-160" id="8" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="3"/>
+<action sens="-4" angle="18" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="lightseagreen" epaisseur="0" sens="-2" fin="1" debut="18" id="9" mouvement="tracer" objet="compas" tempo="3" />
+<action mouvement="coucher" objet="compas" tempo="3"/>
+<action mouvement="masquer" objet="compas" />
+
+<!-- On nomme B et D -->
+<action ordonnee="118.8" abscisse="112.25" couleur="noir" id="12" mouvement="creer" objet="point" />
+<action ordonnee="7.75" abscisse="4.7" couleur="noir" nom="B" id="12" mouvement="nommer" objet="point" />
+<action abscisse="382.627" ordonnee="279.629" id="12" mouvement="translation" objet="point" />
+
+<action ordonnee="114.25" abscisse="280.95" couleur="noir" id="13" mouvement="creer" objet="point" />
+<action ordonnee="-33.65" abscisse="-18.1" couleur="noir" nom="D" id="13" mouvement="nommer" objet="point" />
+<action abscisse="87.185" ordonnee="227.534" id="13" mouvement="translation" objet="point" />
+
+<!-- Codes longueurs égales BI=ID -->
+<action abscisse="172.75" ordonnee="204.65" mouvement="montrer" objet="crayon" />
+<action abscisse="166.831" ordonnee="233.663" mouvement="translation" objet="crayon" />
+<action abscisse="155.2609" ordonnee="247.452" epaisseur="0" couleur="crimson" id="15" mouvement="tracer" objet="crayon" />
+<action abscisse="314.552" ordonnee="259.711" mouvement="translation" objet="crayon" />
+<action abscisse="302.982" ordonnee="273.499" epaisseur="0" couleur="crimson" id="16" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+
+
+<action texte="$\begin{array}{l}\text{Sur l'autre droite, on place }B\text{ et }D\text{ tels que}\\[-1cm] I\text{ soit le milieu de }[BD]\end{array}$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+
+<action  abscisse="500" ordonnee="254" id="55" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace le quadrilatère }ABCD$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action mouvement="vide" objet="regle" />
+<action abscisse="184.2" ordonnee="404.25" mouvement="montrer" objet="regle" />
+<action cible="6" mouvement="translation" objet="regle" tempo="5"/>
+<action cible="12" mouvement="rotation" objet="regle" tempo="3"/>
+<action sens="-180" angle="-57" mouvement="rotation" objet="crayon" />
+<action cible="6" mouvement="translation" objet="crayon" vitesse="1000" />
+<action tempo="10" mouvement="montrer" objet="crayon" />
+<action id="14" epaisseur="0" couleur="navy" cible="12" mouvement="tracer" objet="crayon" />
+
+<action mouvement="masquer" objet="crayon" />
+<action cible="13" mouvement="rotation" objet="regle" />
+<action cible="6" mouvement="translation" objet="crayon" vitesse="1000" />
+<action sens="-180" angle="-122" mouvement="rotation" objet="crayon" />
+<action mouvement="montrer" objet="crayon" />
+<action id="19" epaisseur="0" couleur="navy" cible="13" mouvement="tracer" objet="crayon" />
+<action cible="12" mouvement="rotation" objet="regle" tempo="5"/>
+<action cible="13" mouvement="translation" objet="regle" />
+<action id="20" epaisseur="0" couleur="navy" cible="7" mouvement="tracer" objet="crayon" />
+<action cible="12" mouvement="translation" objet="regle" />
+<action cible="7" mouvement="rotation" objet="regle" />
+<action id="21" epaisseur="0" couleur="navy" cible="12" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<action texte="$\text{On trace le quadrilatère }ABCD$" id="55" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+
+<action  abscisse="470" ordonnee="300" id="56" mouvement="creer" objet="texte" />
+<action texte="$\definecolor{quadri}{rgb}{0,0,0.5}\begin{array}{l}\text{Le quadrilatère }\textcolor{quadri}{ABCD}\text{ a ses diagonales qui se}\\[-1cm] \text{coupent en leur milieu et qui ont la même longueur}\end{array}$" id="56" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action cibles="6,12,7,13" epaisseur="0" couleur="darkblue" forme="polygone" id="1500" mouvement="tracer" objet="crayon" opacite="5" />
+
+<action abscisse_sommet="105.556" ordonnee_sommet="238.141" abscisse_inter="87.185" ordonnee_inter="227.534"  couleur="goldenrod" id="25" mouvement="creer" objet="angle_droit" />
+<action abscisse_sommet="339.206" ordonnee_sommet="175.534" abscisse_inter="349.813" ordonnee_inter="157.163"  couleur="goldenrod" id="26" mouvement="creer" objet="angle_droit" />
+<action abscisse_sommet="364.256" ordonnee_sommet="269.022" abscisse_inter="382.627" ordonnee_inter="279.629"  couleur="goldenrod" id="27" mouvement="creer" objet="angle_droit" />
+<action abscisse_sommet="130.606" ordonnee_sommet="331.628" abscisse_inter="120" ordonnee_inter="350"  couleur="goldenrod" id="28" mouvement="creer" objet="angle_droit" />
+
+
+<action  abscisse="470" ordonnee="342" id="57" mouvement="creer" objet="texte" />
+<action texte="$\textcolor{quadri}{ABCD}\text{ est donc bien un rectangle}$" id="57" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+
+
+</INSTRUMENPOCHE>

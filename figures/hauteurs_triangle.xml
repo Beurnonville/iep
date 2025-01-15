@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+
+<action  abscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Construire les hauteurs d'un triangle}$" id="50" taille="19" couleur="noir" mouvement="ecrire" police="arial" objet="texte"/>
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+<action abscisse="50" ordonnee="75" id="51" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de tracer les trois hauteurs du triangle }ABC$" id="51" taille="16" couleur="rouge" mouvement="ecrire" objet="texte"/>
+
+
+
+<action abscisse="150" ordonnee="220" couleur="noir" id="1" mouvement="creer" objet="point" />
+<action ordonnee="-28.85" abscisse="-36.4"  couleur="noir" nom="A" id="1" mouvement="nommer" objet="point" />
+
+<action abscisse="410" ordonnee="210" couleur="noir" id="2" mouvement="creer" objet="point" />
+<action ordonnee="-29.95" abscisse="6.25"   couleur="noir" nom="B" id="2" mouvement="nommer" objet="point" />
+
+<action abscisse="110" ordonnee="400" couleur="noir" id="3" mouvement="creer" objet="point" />
+<action ordonnee="3.75" abscisse="-30.95"   couleur="noir" nom="C" id="3" mouvement="nommer" objet="point" />
+
+<action cibles="1,2,3" epaisseur="0" couleur="darkblue" forme="polygone" id="1500" mouvement="tracer" objet="crayon" opacite="5" vitesse="1000" tempo="30"/>
+
+
+
+
+<action  abscisse="500" ordonnee="120" id="52" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace la hauteur issue de }A$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<!-- Mouvement de l'équerre -->
+
+<action abscisse="473" ordonnee="389" mouvement="montrer" objet="equerre" tempo="10"/>
+<action abscisse="292.154" ordonnee="284.635" mouvement="translation" objet="equerre" tempo="10"/>
+<action cible="2" mouvement="rotation" objet="equerre" tempo="10"/>
+<action abscisse="219.912" ordonnee="330.388" mouvement="translation" objet="equerre" tempo="10"/>
+
+<!-- Mouvement de la règle -->
+
+<action mouvement="vide" objet="regle" />
+<action sens="180" angle="57.652" mouvement="rotation" objet="regle" />
+<action abscisse="53" ordonnee="258" mouvement="montrer" objet="regle" tempo="7"/>
+<action abscisse="76.303" ordonnee="103.636" mouvement="translation" objet="regle" tempo="10"/>
+<action mouvement="masquer" objet="equerre" />
+
+<!-- Tracé de la hauteur -->
+
+<action abscisse="259" ordonnee="176" mouvement="montrer" objet="crayon" tempo="6"/>
+<action abscisse="76.303" ordonnee="103.636" mouvement="translation" objet="crayon" tempo="10" />
+<action abscisse="272.66" ordonnee="413.674" epaisseur="0" couleur="gold" id="4" mouvement="tracer" objet="crayon" />
+
+<!-- Codage de l'angle droit -->
+
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+<action ordonnee_sommet="309.69" abscisse_sommet="224.559" ordonnee_inter="330.388" abscisse_inter="219.912" couleur="crimson" id="5" mouvement="creer" objet="angle_droit" />
+
+<action texte="$\text{On trace la hauteur issue de }A$" id="52" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+
+
+
+
+
+
+<action  abscisse="500" ordonnee="140" id="53" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace la hauteur issue de }B$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+<!-- On prolonge le côté [AC] -->
+
+<action sens="-180" angle="-77.471" mouvement="rotation" objet="regle" />
+<action abscisse="85.875" ordonnee="508.561" mouvement="montrer" objet="regle" tempo="10"/>
+
+<action sens="-180" angle="-140" mouvement="rotation" objet="crayon" />
+<action abscisse="84.65" ordonnee="169.65" mouvement="montrer" objet="crayon" tempo="6"/>
+
+<action cible="1" mouvement="translation" objet="crayon" tempo="10"/>
+<action abscisse="174.387" ordonnee="110.256" epaisseur="0" couleur="slategray" pointille="tiret" id="6" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<!-- Mouvement de l'équerre -->
+
+<action sens="180" angle="0" mouvement="rotation" objet="equerre" />
+<action echelle="120" mouvement="zoom" objet="equerre" />
+<action abscisse="473" ordonnee="389" mouvement="montrer" objet="equerre" tempo="10"/>
+<action abscisse="129.273" ordonnee="313.27" mouvement="translation" objet="equerre" tempo="10"/>
+<action cible="3" mouvement="rotation" objet="equerre" tempo="10"/>
+<action abscisse="164.352" ordonnee="155.411" mouvement="translation" objet="equerre" tempo="10"/>
+
+<!-- Mouvement de la règle -->
+
+<action mouvement="vide" objet="regle" />
+<action sens="180" angle="-167.471192" mouvement="rotation" objet="regle" />
+<action abscisse="670" ordonnee="207" mouvement="montrer" objet="regle" tempo="7"/>
+<action abscisse="477.515" ordonnee="225.003" mouvement="translation" objet="regle" tempo="10"/>
+<action mouvement="masquer" objet="equerre" />
+
+<!-- Tracé de la hauteur -->
+
+<action sens="-180" angle="122" mouvement="rotation" objet="crayon" />
+<action abscisse="390" ordonnee="280" mouvement="montrer" objet="crayon" tempo="6"/>
+<action abscisse="477.515" ordonnee="225.003" mouvement="translation" objet="crayon" tempo="10" />
+<action abscisse="26.25" ordonnee="124.722" epaisseur="0" couleur="gold" id="7" mouvement="tracer" objet="crayon" />
+
+<!-- Codage de l'angle droit -->
+
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+<action ordonnee_sommet="173.308" abscisse_sommet="175.741" ordonnee_inter="155.411" abscisse_inter="164.352" couleur="crimson" id="8" mouvement="creer" objet="angle_droit" />
+
+
+<action texte="$\text{On trace la hauteur issue de }B$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+
+
+
+
+<action  abscisse="500" ordonnee="160" id="54" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace la hauteur issue de }C$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+<!-- On prolonge le côté [AB] -->
+
+<action sens="-180" angle="-2.202598" mouvement="rotation" objet="regle" />
+<action abscisse="56.04" ordonnee="223.613" mouvement="montrer" objet="regle" tempo="10"/>
+
+<action sens="-180" angle="-60" mouvement="rotation" objet="crayon" />
+<action abscisse="270" ordonnee="160" mouvement="montrer" objet="crayon" tempo="6"/>
+
+<action cible="1" mouvement="translation" objet="crayon" tempo="10"/>
+<action abscisse="56.04" ordonnee="223.613" epaisseur="0" couleur="slategray" pointille="tiret" id="9" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<!-- Mouvement de l'équerre -->
+
+<action sens="180" angle="0" mouvement="rotation" objet="equerre" />
+<action echelle="140" mouvement="zoom" objet="equerre" />
+<action abscisse="473" ordonnee="389" mouvement="montrer" objet="equerre" tempo="10"/>
+<action abscisse="277.811" ordonnee="215.084" mouvement="translation" objet="equerre" tempo="10"/>
+<action sens="3" angle="87.797402" mouvement="rotation" objet="equerre" tempo="10"/>
+<action abscisse="103.146" ordonnee="221.802" mouvement="translation" objet="equerre" tempo="10"/>
+
+<!-- Mouvement de la règle -->
+
+<action mouvement="vide" objet="regle" />
+<action sens="180" angle="87.797402" mouvement="rotation" objet="regle" />
+<action abscisse="60" ordonnee="80" mouvement="montrer" objet="regle" tempo="7"/>
+<action abscisse="98.431" ordonnee="99.223" mouvement="translation" objet="regle" tempo="10"/>
+<action mouvement="masquer" objet="equerre" />
+
+<!-- Tracé de la hauteur -->
+
+<action sens="-180" angle="-32" mouvement="rotation" objet="crayon" />
+<action abscisse="200" ordonnee="150" mouvement="montrer" objet="crayon" tempo="6"/>
+<action abscisse="98.431" ordonnee="99.223" mouvement="translation" objet="crayon" tempo="10" />
+<action abscisse="112.308" ordonnee="460.014" epaisseur="0" couleur="gold" id="10" mouvement="tracer" objet="crayon" />
+
+<!-- Codage de l'angle droit -->
+
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+<action ordonnee_sommet="236.214" abscisse_sommet="118.711" ordonnee_inter="221.802" abscisse_inter="103.146" couleur="crimson" id="11" mouvement="creer" objet="angle_droit" />
+
+<action texte="$\text{On trace la hauteur issue de }C$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+
+
+
+
+
+
+<action pris="false" ordonnee="290" abscisse="360" id="12" mouvement="creer" objet="texte" />
+<action couleur="noir" texte="$\text{Dans un triangle, les trois hauteurs sont concourantes}$" id="12" mouvement="ecrire" objet="texte" taille="16" tempo="20"/>
+
+<action ordonnee="113.45" abscisse="400.55" couleur="0x08000" id="13" mouvement="creer" objet="point" />
+<action ordonnee="-28.5" abscisse="9.95" couleur="0x08000" nom="H" id="13" mouvement="nommer" objet="point" />
+<action abscisse="100.043" ordonnee="141.12" id="13" mouvement="translation" objet="point" />
+
+<action pris="false" ordonnee="312" abscisse="360" id="14" mouvement="creer" objet="texte" />
+<action couleur="noir" texte="$\definecolor{ptG}{rgb}{0,0.5,0}\text{en un point qui s'appelle l'}\textcolor{ptG}{\textbf{orthocentre}}\text{ du triangle}$" id="14" mouvement="ecrire" objet="texte" taille="16" />
+
+
+</INSTRUMENPOCHE>

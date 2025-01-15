@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500"
+   height="500"
+   viewBox="0 0 132.29166 132.29167"
+   version="1.1"
+   id="svg3704"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="divers_fonction_affine.svg">
+  <defs
+     id="defs3698" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="305.12611"
+     inkscape:cy="274.32354"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3701">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-164.70832)">
+    <line
+       id="line271"
+       y2="291.63803"
+       x2="5.3619871"
+       y1="170.07031"
+       x1="5.3619871"
+       style="visibility:visible;stroke:#000000;stroke-width:0.2026128" />
+    <text
+       id="text273"
+       style="font-size:4.86270761px;visibility:visible;fill:#000000;stroke-width:0.4052256"
+       y="235.71687"
+       x="6.1724505">-5</text>
+    <line
+       id="line275"
+       y2="291.63803"
+       x2="17.518755"
+       y1="170.07031"
+       x1="17.518755"
+       style="visibility:visible;stroke:#000000;stroke-width:0.2026128" />
+    <text
+       id="text277"
+       style="font-size:4.86270761px;visibility:visible;fill:#000000;stroke-width:0.4052256"
+       y="235.71687"
+       x="18.32922">-4</text>
+    <line
+       id="line279"
+       y2="291.63803"
+       x2="29.675524"
+       y1="170.07031"
+       x1="29.675524"
+       style="visibility:visible;stroke:#000000;stroke-width:0.2026128" />
+    <text
+       id="text281"
+       style="font-size:4.86270761px;visibility:visible;fill:#000000;stroke-width:0.4052256"
+       y="235.71687"
+       x="30.485989">-3</text>
+    <line
+       id="line283"
+       y2="291.63803"
+       x2="41.832294"
+       y1="170.07031"
+       x1="41.832294"
+       style="visibility:visible;stroke:#000000;stroke-width:0.2026128" />
+    <text
+       id="text285"
+       style="font-size:4.86270761px;visibility:visible;fill:#000000;stroke-width:0.4052256"
+       y="235.71687"
+       x="42.642757">-2</text>
+    <line
+       id="line287"
+       y2="291.63803"
+       x2="53.989063"
+       y1="170.07031"
+       x1="53.989063"
+       style="visibility:visible;stroke:#000000;stroke-width:0.2026128" />
+    <text
+       id="text289"
+       style="font-size:4.86270761px;visibility:visible;fill:#000000;stroke-width:0.4052256"
+       y="235.71687"
+       x="54.799526">-1</text>
+    <line
+       id="line291"
+       y2="291.63803"
+       x2="66.145828"
+       y1="170.07031"
+       x1="66.145828"
+       style="visibility:visible;stroke:#000000;stroke-width:0.52916667;stroke-miterlimit:4;stroke-dasharray:none" />
+    <text
+       id="text293"
+       style="font-size:4.86270761px;visibility:visible;fill:#000000;stroke-width:0.4052256"
+       y="235.71687"
+       x="66.956299">0</text>
+    <line
+       id="line295"
+       y2="291.63803"
+       x2="78.302597"
+       y1="170.07031"
+       x1="78.302597"
+       style="visibility:visible;stroke:#000000;stroke-width:0.2026128" />
+    <text
+       id="text297"
+       style="font-size:4.86270761px;visibility:visible;fill:#000000;stroke-width:0.4052256"
+       y="235.71687"
+       x="79.113068">1</text>
+    <line
+       id="line299"
+       y2="291.63803"
+       x2="90.459373"
+       y1="170.07031"
+       x1="90.459373"
+       style="visibility:visible;stroke:#000000;stroke-width:0.2026128" />
+    <text
+       id="text301"
+       style="font-size:4.86270761px;visibility:visible;fill:#000000;stroke-width:0.4052256"
+       y="235.71687"
+       x="91.269836">2</text>
+    <line
+       id="line303"
+       y2="291.63803"
+       x2="102.61614"
+       y1="170.07031"
+       x1="102.61614"
+       style="visibility:visible;stroke:#000000;stroke-width:0.2026128" />
+    <text
+       id="text305"
+       style="font-size:4.86270761px;visibility:visible;fill:#000000;stroke-width:0.4052256"
+       y="235.71687"
+       x="103.42661">3</text>
+    <line
+       id="line307"
+       y2="291.63803"
+       x2="114.77291"
+       y1="170.07031"
+       x1="114.77291"
+       style="visibility:visible;stroke:#000000;stroke-width:0.2026128" />
+    <text
+       id="text309"
+       style="font-size:4.86270761px;visibility:visible;fill:#000000;stroke-width:0.4052256"
+       y="235.71687"
+       x="115.58337">4</text>
+    <line
+       id="line311"
+       y2="291.63803"
+       x2="126.92968"
+       y1="170.07031"
+       x1="126.92968"
+       style="visibility:visible;stroke:#000000;stroke-width:0.2026128" />
+    <line
+       id="line315"
+       y2="291.63803"
+       x2="126.92968"
+       y1="291.63803"
+       x1="5.3619871"
+       style="visibility:visible;stroke:#000000;stroke-width:0.2026128" />
+    <line
+       id="line319"
+       y2="279.48126"
+       x2="126.92968"
+       y1="279.48126"
+       x1="5.3619871"
+       style="visibility:visible;stroke:#000000;stroke-width:0.2026128" />
+    <text
+       id="text321"
+       style="font-size:4.86270761px;visibility:visible;fill:#000000;stroke-width:0.4052256"
+       y="284.34396"
+       x="66.956299">-4</text>
+    <line
+       id="line323"
+       y2="267.32449"
+       x2="126.92968"
+       y1="267.32449"
+       x1="5.3619871"
+       style="visibility:visible;stroke:#000000;stroke-width:0.2026128" />
+    <text
+       id="text325"
+       style="font-size:4.86270761px;visibility:visible;fill:#000000;stroke-width:0.4052256"
+       y="272.18719"
+       x="66.956299">-3</text>
+    <line
+       id="line327"
+       y2="255.16772"
+       x2="126.92968"
+       y1="255.16772"
+       x1="5.3619871"
+       style="visibility:visible;stroke:#000000;stroke-width:0.2026128" />
+    <text
+       id="text329"
+       style="font-size:4.86270761px;visibility:visible;fill:#000000;stroke-width:0.4052256"
+       y="260.03043"
+       x="66.956299">-2</text>
+    <line
+       id="line331"
+       y2="243.01096"
+       x2="126.92968"
+       y1="243.01096"
+       x1="5.3619871"
+       style="visibility:visible;stroke:#000000;stroke-width:0.2026128" />
+    <text
+       id="text333"
+       style="font-size:4.86270761px;visibility:visible;fill:#000000;stroke-width:0.4052256"
+       y="247.87364"
+       x="66.956299">-1</text>
+    <line
+       id="line335"
+       y2="230.85419"
+       x2="126.92968"
+       y1="230.85419"
+       x1="5.3619871"
+       style="visibility:visible;stroke:#000000;stroke-width:0.52916667;stroke-miterlimit:4;stroke-dasharray:none" />
+    <text
+       id="text337"
+       style="font-size:4.86270761px;visibility:visible;fill:#000000;stroke-width:0.4052256"
+       y="235.71687"
+       x="66.956299">0</text>
+    <line
+       id="line339"
+       y2="218.69739"
+       x2="126.92968"
+       y1="218.69739"
+       x1="5.3619871"
+       style="visibility:visible;stroke:#000000;stroke-width:0.2026128" />
+    <text
+       id="text341"
+       style="font-size:4.86270761px;visibility:visible;fill:#000000;stroke-width:0.4052256"
+       y="223.56013"
+       x="66.956299">1</text>
+    <line
+       id="line343"
+       y2="206.54062"
+       x2="126.92968"
+       y1="206.54062"
+       x1="5.3619871"
+       style="visibility:visible;stroke:#000000;stroke-width:0.2026128" />
+    <text
+       id="text345"
+       style="font-size:4.86270761px;visibility:visible;fill:#000000;stroke-width:0.4052256"
+       y="211.40334"
+       x="66.956299">2</text>
+    <line
+       id="line347"
+       y2="194.38385"
+       x2="126.92968"
+       y1="194.38385"
+       x1="5.3619871"
+       style="visibility:visible;stroke:#000000;stroke-width:0.2026128" />
+    <text
+       id="text349"
+       style="font-size:4.86270761px;visibility:visible;fill:#000000;stroke-width:0.4052256"
+       y="199.24657"
+       x="66.956299">3</text>
+    <line
+       id="line351"
+       y2="182.22708"
+       x2="126.92968"
+       y1="182.22708"
+       x1="5.3619871"
+       style="visibility:visible;stroke:#000000;stroke-width:0.2026128" />
+    <text
+       id="text353"
+       style="font-size:4.86270761px;visibility:visible;fill:#000000;stroke-width:0.4052256"
+       y="187.0898"
+       x="66.956299">4</text>
+    <line
+       id="line355"
+       y2="170.07031"
+       x2="126.92968"
+       y1="170.07031"
+       x1="5.3619871"
+       style="visibility:visible;stroke:#000000;stroke-width:0.2026128" />
+    <text
+       id="text357"
+       style="font-size:4.86270761px;visibility:visible;fill:#000000;stroke-width:0.4052256"
+       y="174.93303"
+       x="66.956299">5</text>
+    <rect
+       id="rect359"
+       height="121.56769"
+       width="121.56769"
+       y="170.07031"
+       x="5.3619871"
+       style="visibility:visible;fill:none;stroke:#000000;stroke-width:0.4052256" />
+    <line
+       x1="64.119675"
+       y1="220.72356"
+       x2="68.171989"
+       y2="216.67128"
+       style="stroke:#000080;stroke-width:0.81045121;stroke-linecap:round;stroke-opacity:1"
+       id="line1071" />
+    <line
+       x1="64.119675"
+       y1="216.67128"
+       x2="68.171989"
+       y2="220.72356"
+       style="stroke:#000080;stroke-width:0.81045121;stroke-linecap:round;stroke-opacity:1"
+       id="line1073" />
+    <line
+       x1="112.74679"
+       y1="196.40999"
+       x2="116.79902"
+       y2="192.35774"
+       style="stroke:#000080;stroke-width:0.81045121;stroke-linecap:round;stroke-opacity:1"
+       id="line1343" />
+    <line
+       x1="112.74679"
+       y1="192.35774"
+       x2="116.79902"
+       y2="196.40999"
+       style="stroke:#000080;stroke-width:0.81045121;stroke-linecap:round;stroke-opacity:1"
+       id="line1345" />
+    <line
+       x1="5.3619871"
+       y1="249.08934"
+       x2="126.92968"
+       y2="188.30547"
+       style="stroke:#000080;stroke-width:0.81045121;stroke-linecap:round;stroke-opacity:1"
+       id="line1507" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       x="6.8035717"
+       y="253.34373"
+       id="text4351"><tspan
+         sodipodi:role="line"
+         id="tspan4349"
+         x="6.8035717"
+         y="253.34373"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';stroke-width:0.26458332;fill:#000080;fill-opacity:1;">(d)</tspan></text>
+  </g>
+</svg>

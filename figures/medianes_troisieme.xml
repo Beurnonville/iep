@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+
+<action  abscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Construire les médianes d'un triangle}$" id="50" taille="19" couleur="noir" mouvement="ecrire" police="arial" objet="texte"/>
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+<action abscisse="50" ordonnee="75" id="51" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de tracer les trois médianes du triangle }ABC$" id="51" taille="16" couleur="rouge" mouvement="ecrire" objet="texte"/>
+
+
+
+<action abscisse="130" ordonnee="320" couleur="noir" id="1" mouvement="creer" objet="point" />
+<action ordonnee="8" abscisse="-26" couleur="noir" nom="A" id="1" mouvement="nommer" objet="point" />
+
+<action abscisse="366.353" ordonnee="278.324" couleur="noir" id="2" mouvement="creer" objet="point" />
+<action ordonnee="1" abscisse="20" couleur="noir" nom="B" id="2" mouvement="nommer" objet="point" />
+
+<action abscisse="161.256" ordonnee="142.734" couleur="noir" id="3" mouvement="creer" objet="point" />
+<action ordonnee="-31" abscisse="-21" couleur="noir" nom="C" id="3" mouvement="nommer" objet="point" />
+
+<action cibles="1,2,3" epaisseur="0" couleur="darkblue" forme="polygone" id="1500" mouvement="tracer" objet="crayon" opacite="5" vitesse="1000"/>
+
+
+
+
+<action  abscisse="500" ordonnee="120" id="52" mouvement="creer" objet="texte" />
+<action texte="$\text{On place le milieu }C'\text{ de [AB]}$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action tempo="10" mouvement="montrer" objet="regle" />
+<action tempo="10" cible="1" mouvement="translation" objet="regle" />
+<action tempo="10" sens="-1" angle="-10" mouvement="rotation" objet="regle" />
+
+<action couleur="blue" style="vecteur" epaisseur="1"  abscisse1="244.703" ordonnee1="279.466" abscisse2="248.176" ordonnee2="299.162" mouvement="tracer" id="3000" objet="trait" tempo="30"/>
+<action mouvement="masquer" id="3000" objet="trait" />
+
+
+<action ordonnee="125" abscisse="339" couleur="noir" id="4" mouvement="creer" objet="point" />
+<action ordonnee="5.75" abscisse="-0.75" couleur="noir" nom="C&apos;" id="4" mouvement="nommer" objet="point" />
+<action abscisse="248.176" ordonnee="299.162" id="4" mouvement="translation" objet="point" />
+<action mouvement="masquer" objet="regle" />
+
+
+<action ordonnee="309.581" abscisse="189.088" forme="/" couleur="crimson" id="6" mouvement="creer" objet="longueur" />
+<action ordonnee="288.743" abscisse="307.265" forme="/" couleur="crimson" id="7" mouvement="creer" objet="longueur" />
+
+<action texte="$\text{On place le milieu }C'\text{ de [AB]}$" id="52" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+
+
+<action  abscisse="500" ordonnee="140" id="53" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace la médiane }(CC')$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action sens="180" angle="0" mouvement="rotation" objet="regle" />
+<action mouvement="vide" objet="regle" />
+<action abscisse="185" ordonnee="370" mouvement="montrer" objet="regle" tempo="6"/>
+<action cible="3" mouvement="translation" objet="regle" tempo="10"/>
+<action cible="4" mouvement="rotation" objet="regle" />
+<action abscisse="339.25" ordonnee="183.7" mouvement="montrer" objet="crayon" tempo="10"/>
+<action tempo="10" cible="3" mouvement="translation" objet="crayon" />
+<action id="5" epaisseur="0" couleur="gold" cible="4" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<action texte="$\text{On trace la médiane }(CC')$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+<action  abscisse="500" ordonnee="160" id="54" mouvement="creer" objet="texte" />
+<action texte="$\text{On place le milieu }B'\text{ de [AC]}$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+<action sens="180" angle="0" mouvement="rotation" objet="regle" />
+<action mouvement="graduations" objet="regle" />
+<action abscisse="185" ordonnee="370" mouvement="montrer" objet="regle" tempo="6"/>
+<action cible="3" mouvement="translation" objet="regle" tempo="10"/>
+<action cible="1" mouvement="rotation" objet="regle" tempo="10"/>
+
+<action couleur="blue" style="vecteur" epaisseur="1"  abscisse1="165.324" ordonnee1="234.84" abscisse2="145.628" ordonnee2="231.367" mouvement="tracer" id="3001" objet="trait" tempo="30"/>
+<action mouvement="masquer" id="3001" objet="trait" />
+
+
+<action ordonnee="119.25" abscisse="392.25" couleur="noir" id="8" mouvement="creer" objet="point" />
+<action ordonnee="-17.7" abscisse="-36.85" couleur="noir" nom="B&apos;" id="8" mouvement="nommer" objet="point" />
+<action abscisse="145.628" ordonnee="231.367" id="8" mouvement="translation" objet="point" />
+<action mouvement="masquer" objet="regle" />
+
+
+<action ordonnee="187.05" abscisse="153.442" forme="\\" couleur="crimson" id="9" mouvement="creer" objet="longueur" />
+<action ordonnee="275.683" abscisse="137.814" forme="\\" couleur="crimson" id="10" mouvement="creer" objet="longueur" />
+
+
+<action texte="$\text{On place le milieu }B'\text{ de [AC]}$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+<action  abscisse="500" ordonnee="180" id="55" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace la médiane }(BB')$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action sens="180" angle="0" mouvement="rotation" objet="regle" />
+<action mouvement="vide" objet="regle" />
+<action abscisse="185" ordonnee="370" mouvement="montrer" objet="regle" tempo="6"/>
+<action cible="8" mouvement="translation" objet="regle" tempo="10"/>
+<action cible="2" mouvement="rotation" objet="regle" />
+<action abscisse="328.75" ordonnee="175.05" mouvement="montrer" objet="crayon" tempo="10"/>
+<action cible="8" mouvement="translation" objet="crayon" tempo="10"/>
+<action id="11" epaisseur="0" couleur="gold" cible="2" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<action texte="$\text{On trace la médiane }(BB'')$" id="55" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+
+<action  abscisse="500" ordonnee="200" id="56" mouvement="creer" objet="texte" />
+<action texte="$\text{On nomme }G\text{ le point d'intersection des deux médianes}$" id="56" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action ordonnee="113.25" abscisse="411.2" couleur="0x08000" id="12" mouvement="creer" objet="point" />
+<action ordonnee="7.9" abscisse="-14.2" couleur="0x08000" nom="G" id="12" mouvement="nommer" objet="point" />
+<action abscisse="219.203" ordonnee="247.019" id="12" mouvement="translation" objet="point" />
+
+<action texte="$\begin{array}{l}\text{On nomme }G\text{ le point d'intersection}\\[-1cm]\text{des deux médianes}\end{array}$" id="56" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+<action  abscisse="500" ordonnee="242" id="57" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace la droite }(AG)$" id="57" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action sens="180" angle="0" mouvement="rotation" objet="regle" />
+<action mouvement="vide" objet="regle" />
+<action abscisse="185" ordonnee="370" mouvement="montrer" objet="regle" tempo="6"/>
+
+<action cible="1" mouvement="translation" objet="regle" tempo="10"/>
+<action cible="12" mouvement="rotation" objet="regle" tempo="6"/>
+<action sens="-180" angle="-95" mouvement="rotation" objet="crayon" />
+<action abscisse="93.2" ordonnee="205.6" mouvement="montrer" objet="crayon" tempo="6"/>
+<action abscisse="130" ordonnee="320" tempo="10" cible="1" mouvement="translation" objet="crayon" />
+<action abscisse="263.805" ordonnee="210.529" epaisseur="0" couleur="gold" id="13" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<action texte="$\text{On trace la droite }(AG)$" id="57" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+<action  abscisse="500" ordonnee="262" id="58" mouvement="creer" objet="texte" />
+<action texte="$\text{Elle coupe }(BC)\text{ en }A'$" id="58" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action ordonnee="113.25" abscisse="411.2" couleur="noir" id="14" mouvement="creer" objet="point" />
+<action ordonnee="-31.35" abscisse="7.75" couleur="noir" nom="A'" id="14" mouvement="nommer" objet="point" />
+<action abscisse="263.805" ordonnee="210.529" id="14" mouvement="translation" objet="point" />
+
+<action texte="$\text{Elle coupe }(BC)\text{ en }A'$" id="58" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+<action  abscisse="350" ordonnee="320" id="59" mouvement="creer" objet="texte" />
+<action texte="$\definecolor{ptG}{rgb}{0,0.5,0}\begin{array}{l}\text{Puisque, dans un triangle, les trois médianes sont concourantes,}\\[-0.1cm] \textcolor{ptG}{G}\text{ est le centre de gravité du triangle }ABC\text{,}\\[-0.1cm] (AG)\text{ est la médiane issue de }A\text{,}\\[-0.1cm] A'\text{ est le milieu de }[BC]\end{array}$" 
+id="59" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+<action ordonnee="176.63" abscisse="212.53" forme="O" couleur="crimson" id="15" mouvement="creer" objet="longueur" />
+<action ordonnee="244.426" abscisse="315.079" forme="O" couleur="crimson" id="16" mouvement="creer" objet="longueur" />
+
+
+</INSTRUMENPOCHE>

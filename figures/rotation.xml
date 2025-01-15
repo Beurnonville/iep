@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+
+<action abscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Construire l'image d'un point par une rotation}$" id="50" taille="19" couleur="noir" mouvement="ecrire" objet="texte" police="arial" />
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+<action abscisse="50" ordonnee="75" id="51" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de construire le point }M'\text{ image du point }M\text{ par la rotation de centre }O\text{ et d'angle 110°}$" id="51"  taille="16" couleur="rouge" mouvement="ecrire" objet="texte"  />
+
+
+
+<action abscisse="210" ordonnee="360" id="1" mouvement="creer" objet="point" />
+<action ordonnee="4.4" abscisse="-24.25" couleur="0" nom="O"  id="1" mouvement="nommer" objet="point" />
+
+<action abscisse="441.822" ordonnee="297.883" id="2" mouvement="creer" objet="point" />
+<action ordonnee="1.4" abscisse="16.75"  couleur="0" nom="M"  id="2" mouvement="nommer" objet="point" tempo="30" />
+
+
+<action  abscisse="450" ordonnee="150" id="52" mouvement="creer" objet="texte" />
+<action texte="$\text{On construit un angle }\widehat{MOx}\text{ mesurant 110°}$" id="52" taille="16" tempo="30" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+<action mouvement="vide" objet="regle" />
+<action abscisse="288" ordonnee="389" mouvement="montrer" objet="regle" />
+<action tempo="10" cible="1" mouvement="translation" objet="regle" />
+<action tempo="10" cible="2" mouvement="rotation" objet="regle" />
+<action sens="-180" angle="-74" mouvement="rotation" objet="crayon" />
+<action abscisse="289" ordonnee="215" mouvement="montrer" objet="crayon" />
+<action abscisse="210" ordonnee="360" cible="1" mouvement="translation" objet="crayon" tempo="15"/>
+<action abscisse="458.758" ordonnee="293.345" epaisseur="0" couleur="0" id="3" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+<action tempo="10" abscisse="295" ordonnee="252" mouvement="montrer" objet="rapporteur" />
+<action tempo="10" cible="1" mouvement="translation" objet="rapporteur" />
+<action tempo="10" sens="-2" angle="-15" mouvement="rotation" objet="rapporteur" />
+
+<action sens="-180" angle="-53" mouvement="rotation" objet="crayon" />
+<action abscisse="361.65" ordonnee="319.365" mouvement="montrer" objet="crayon" tempo="10" />
+<action abscisse="352.29" ordonnee="293.648" mouvement="translation" objet="crayon" tempo="4" />
+<action sens="-180" angle="-63" mouvement="rotation" objet="crayon" />
+<action abscisse="338.606" ordonnee="269.948" mouvement="translation" objet="crayon" tempo="4" />
+<action sens="-180" angle="-73" mouvement="rotation" objet="crayon" />
+<action abscisse="321.015" ordonnee="248.984" mouvement="translation" objet="crayon" tempo="4" />
+<action sens="-180" angle="-83" mouvement="rotation" objet="crayon" />
+<action abscisse="300.051" ordonnee="231.393" mouvement="translation" objet="crayon" tempo="4" />
+<action sens="-180" angle="-93" mouvement="rotation" objet="crayon" />
+<action abscisse="276.351" ordonnee="217.709" mouvement="translation" objet="crayon" tempo="4" />
+<action sens="-180" angle="-103" mouvement="rotation" objet="crayon" />
+<action abscisse="250.634" ordonnee="208.349" mouvement="translation" objet="crayon" tempo="4" />
+<action sens="-180" angle="-113" mouvement="rotation" objet="crayon" />
+<action abscisse="223.683" ordonnee="203.597" mouvement="translation" objet="crayon" tempo="4" />
+<action sens="-180" angle="-123" mouvement="rotation" objet="crayon" />
+<action abscisse="196.316" ordonnee="203.597" mouvement="translation" objet="crayon" tempo="4" />
+<action sens="-180" angle="-133" mouvement="rotation" objet="crayon" />
+<action abscisse="169.365" ordonnee="208.349" mouvement="translation" objet="crayon" tempo="4" />
+<action sens="-180" angle="-143" mouvement="rotation" objet="crayon" />
+<action abscisse="143.648" ordonnee="217.709" mouvement="translation" objet="crayon" tempo="4" />
+<action sens="-180" angle="-153" mouvement="rotation" objet="crayon" />
+<action abscisse="119.948" ordonnee="231.393" mouvement="translation" objet="crayon" tempo="4" />
+
+<action id="4" objet="crayon" mouvement="tracer" abscisse="114.212" ordonnee="223.201" epaisseur="1" couleur="0" style="segment" />
+
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="rapporteur" />
+
+<action sens="-180" angle="-125" mouvement="rotation" objet="regle" />
+<action abscisse="478" ordonnee="446" mouvement="montrer" objet="regle" />
+
+<action abscisse="313.251" ordonnee="507.458" mouvement="translation" objet="regle" />
+<action sens="-180" angle="-175" mouvement="rotation" objet="crayon" />
+<action abscisse="140.2" ordonnee="432.2" mouvement="montrer" objet="crayon" />
+<action abscisse="210" ordonnee="360" cible="1" mouvement="translation" objet="crayon" tempo="10"/>
+<action abscisse="62.94" ordonnee="149.976" epaisseur="0" couleur="0" id="5" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+<action mouvement="masquer" id="4" objet="trait" />
+<action pris="false" ordonnee="112" abscisse="384" id="6" mouvement="creer" objet="texte" />
+<action couleur="noir" texte="$x$" id="6" mouvement="ecrire" objet="texte" />
+<action abscisse="45" ordonnee="119" id="6" mouvement="translation" objet="texte" />
+<action ordonnee="360" abscisse="210" rayon="36" angle2="-15" angle1="-125" forme="simple" couleur="crimson" id="7" mouvement="creer" objet="angle" />
+<action abscisse="210" ordonnee="291" id="8" mouvement="creer" objet="texte" />
+<action couleur="crimson" texte="110°" id="8" mouvement="ecrire" objet="texte" />
+
+<action texte="$\text{On construit un angle }\widehat{MOx}\text{ mesurant 110°}$" id="52" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+<action  abscisse="450" ordonnee="175" id="53" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace un arc de centre de centre }O\text{ et passant par }M$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action tempo="10" abscisse="333" ordonnee="283" mouvement="montrer" objet="compas" />
+<action cible="1" mouvement="translation" objet="compas" tempo="10"/>
+<action cible="2" mouvement="rotation" objet="compas" tempo="6"/>
+<action tempo="10" cible="2" mouvement="ecarter" objet="compas" />
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="lightseagreen" epaisseur="0" sens="-3" fin="-130" debut="-15" id="9" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="3"/>
+<action mouvement="masquer" objet="compas" />
+
+
+<!-- Codes longueurs égales OM=OM' -->
+<action abscisse="172.75" ordonnee="204.65" mouvement="montrer" objet="crayon" />
+<action abscisse="328.24" ordonnee="320.248" mouvement="translation" objet="crayon" />
+<action abscisse="323.581" ordonnee="337.635" epaisseur="0" couleur="crimson" id="100" mouvement="tracer" objet="crayon" />
+
+<action abscisse="143.5" ordonnee="253.008" mouvement="translation" objet="crayon" />
+<action abscisse="138.841" ordonnee="270.395" epaisseur="0" couleur="crimson" id="101" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+
+<action texte="$\text{On trace un arc de centre de centre }O\text{ et passant par }M$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+<action  abscisse="450" ordonnee="195" id="54" mouvement="creer" objet="texte" />
+<action texte="$\text{L'arc de cercle coupe }[Ox)\text{ en }M'$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="15"/>
+
+<action ordonnee="300" abscisse="100" couleur="noir" id="10" mouvement="creer" objet="point" />
+<action ordonnee="-39.65" abscisse="-3.25" couleur="noir" nom="M&apos;" id="10" mouvement="nommer" objet="point" />
+<action abscisse="72.341" ordonnee="163.403" id="10" mouvement="translation" objet="point" />
+
+<action texte="$\text{L'arc de cercle coupe }[Ox)\text{ en }M'$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+<action  abscisse="500" ordonnee="230" id="55" mouvement="creer" objet="texte" />
+<action texte="$\text{On a bien : }$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action  abscisse="590" ordonnee="230" id="56" mouvement="creer" objet="texte" />
+<action texte="$OM=OM'$" id="56" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action  abscisse="550" ordonnee="260" id="58" mouvement="creer" objet="texte" />
+<action texte="$\text{et}$" id="58" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+<action  abscisse="590" ordonnee="255" id="57" mouvement="creer" objet="texte" />
+<action texte="$\widehat{MOM'}=110°$" id="57" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+
+<action couleur="noir" texte=" " id="6" mouvement="ecrire" objet="texte" />
+
+<action pointille="tiret" couleur="steelblue" epaisseur="1" ordonnee2="297.883" abscisse2="441.822" ordonnee1="360" abscisse1="210" mouvement="tracer" id="3000" objet="trait"/>
+<action pointille="tiret" couleur="steelblue" epaisseur="1" ordonnee2="163.403" abscisse2="72.341" ordonnee1="360" abscisse1="210" mouvement="tracer" id="3001" objet="trait"/>
+<action mouvement="masquer" id="5" objet="trait" />
+<action mouvement="masquer" id="3" objet="trait" />
+
+
+
+<action couleur="crimson" epaisseur="2" abscisse2="323.581" ordonnee2="337.635" abscisse1="328.24" ordonnee1="320.248" mouvement="tracer" id="1000" objet="trait"/>
+<action mouvement="masquer" id="100" objet="trait" />
+
+
+<action couleur="crimson" epaisseur="2" abscisse2="138.841" ordonnee2="270.395" abscisse1="143.5" ordonnee1="253.008" mouvement="tracer" id="1001" objet="trait"/>
+<action mouvement="masquer" id="101" objet="trait" />
+
+
+<action mouvement="masquer" id="9" objet="trait" />
+
+</INSTRUMENPOCHE>

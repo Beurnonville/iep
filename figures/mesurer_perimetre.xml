@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+<action pris="false" abscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action couleur="noir" texte="$\textbf{Mesurer le périmètre d'un polygone en une seule fois}$" id="50" taille="19" mouvement="ecrire" police="arial" objet="texte" />
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+
+<action abscisse="50" ordonnee="75" id="51" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de déterminer le périmètre du triangle }ABC\text{ à l'aide du compas et de la règle graduée}$" id="51" taille="16" couleur="rouge" mouvement="ecrire" objet="texte"/>
+
+
+
+
+<action type="point" ordonnee="210" abscisse="160" couleur="noir" id="1" mouvement="creer" objet="point" />
+<action ordonnee="-15.65" abscisse="-32.5" couleur="noir" nom="A" id="1" mouvement="nommer" objet="point" />
+<action type="point" ordonnee="260" abscisse="300" couleur="noir" id="2" mouvement="creer" objet="point" />
+<action ordonnee="1.1" abscisse="13.65" couleur="noir" nom="C" id="2" mouvement="nommer" objet="point" />
+<action type="point" ordonnee="150" abscisse="320" couleur="noir" id="3" mouvement="creer" objet="point" />
+<action ordonnee="-33.5" abscisse="-10.85" couleur="noir" nom="B" id="3" mouvement="nommer" objet="point" />
+<action cibles="1,2,3" epaisseur="0" couleur="0x1E90FF" forme="polygone" id="4" mouvement="tracer" objet="crayon" opacite="10" vitesse="15" />
+
+<action mouvement="vide" objet="regle" tempo="30"/>
+<action mouvement="montrer" objet="regle" tempo="10"/>
+<action abscisse="70" ordonnee="360" mouvement="translation" objet="regle" tempo="10"/>
+<action abscisse="300" ordonnee="250" mouvement="montrer" objet="crayon" tempo="10"/>
+<action abscisse="70" ordonnee="360" mouvement="translation" objet="crayon" tempo="10" />
+<action abscisse="520" ordonnee="360" epaisseur="0" couleur="0" id="10" mouvement="tracer" objet="crayon" vitesse="13" />
+<action abscisse1="70" ordonnee1="355" abscisse2="70" ordonnee2="365" mouvement="tracer" objet="trait" id="11" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+<action mouvement="montrer" objet="compas" tempo="10"/>
+<action cible="1" mouvement="translation" objet="compas" tempo="10" />
+<action cible="3" mouvement="rotation" objet="compas" tempo="5" />
+<action cible="3" mouvement="ecarter" objet="compas" tempo="10" />
+<action abscisse1="160" ordonnee1="210" abscisse2="320" ordonnee2="150" mouvement="tracer" objet="trait" id="20" couleur="navy" />
+<action abscisse="70" ordonnee="360" mouvement="translation" objet="compas" tempo="10" />
+<action sens="2" angle="-8" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="5" />
+<action couleur="lightseagreen" epaisseur="0" sens="2" fin="11" debut="-8" id="5" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="10" />
+<action abscisse1="70" ordonnee1="360" abscisse2="240.88" ordonnee2="360" mouvement="tracer" objet="trait" id="21" couleur="navy" />
+<action cible="1" mouvement="translation" objet="compas" tempo="10" />
+<action cible="2" mouvement="rotation" objet="compas" tempo="5" />
+<action cible="2" mouvement="ecarter" objet="compas" tempo="10" />
+<action abscisse1="160" ordonnee1="210" abscisse2="300" ordonnee2="260" mouvement="tracer" objet="trait" id="25" couleur="coral" />
+<action abscisse="240.88" ordonnee="360" mouvement="translation" objet="compas" tempo="10" />
+<action sens="-5" angle="12.58" mouvement="rotation" objet="compas" tempo="5" />
+<action mouvement="lever" objet="compas" tempo="10" />
+<action couleur="lightseagreen" epaisseur="0" sens="-2" fin="-9.23" debut="12.58" id="6" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="10" />
+<action abscisse1="240.88" ordonnee1="360" abscisse2="389.54" ordonnee2="360" mouvement="tracer" objet="trait" id="26" couleur="coral" />
+<action cible="2" mouvement="translation" objet="compas" tempo="10" />
+<action cible="3" mouvement="rotation" objet="compas" tempo="10" />
+<action cible="3" mouvement="ecarter" objet="compas" tempo="10" />
+<action abscisse1="300" ordonnee1="260" abscisse2="320" ordonnee2="150" mouvement="tracer" objet="trait" id="30" couleur="mediumvioletred" />
+<action abscisse="389.54" ordonnee="360" mouvement="translation" objet="compas" tempo="10" />
+<action sens="5" angle="-11" mouvement="rotation" objet="compas" tempo="5" />
+<action mouvement="lever" objet="compas" tempo="10" />
+<action couleur="lightseagreen" epaisseur="0" sens="2" fin="15" debut="-11" id="7" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="3"/>
+<action abscisse1="389.54" ordonnee1="360" abscisse2="501.34" ordonnee2="360" mouvement="tracer" objet="trait" id="31" couleur="mediumvioletred" />
+<action mouvement="masquer" objet="compas" />
+<action pris="false" ordonnee="305" abscisse="70" id="8" mouvement="creer" objet="texte" />
+<action couleur="noir" texte="$\text{Périmètre du triangle }ABC\text{ }=" id="8" mouvement="ecrire" objet="texte" tempo="20" />
+<action pris="false" ordonnee="164" abscisse="228" id="9" mouvement="creer" objet="texte" />
+<action couleur="navy" texte="$AB$" id="9" mouvement="ecrire" objet="texte" />
+<action abscisse="306" ordonnee="305" id="9" mouvement="translation" objet="texte" vitesse="3" />
+<action pris="false" ordonnee="303" abscisse="340" id="12" mouvement="creer" objet="texte" />
+<action couleur="noir" texte="$+$" id="12" mouvement="ecrire" objet="texte" />
+<action pris="false" ordonnee="220" abscisse="213" id="13" mouvement="creer" objet="texte" />
+<action couleur="coral" texte="$AC$" id="13" mouvement="ecrire" objet="texte" />
+<action abscisse="364" ordonnee="305" id="13" mouvement="translation" objet="texte" vitesse="3" />
+<action pris="false" ordonnee="303" abscisse="398" id="14" mouvement="creer" objet="texte" />
+<action couleur="noir" texte="$+$" id="14" mouvement="ecrire" objet="texte" />
+<action pris="false" ordonnee="185" abscisse="293" id="15" mouvement="creer" objet="texte" />
+<action couleur="mediumvioletred" texte="$BC$" id="15" mouvement="ecrire" objet="texte" />
+<action abscisse="421" ordonnee="305" id="15" mouvement="translation" objet="texte" vitesse="3" />
+<action pris="false" ordonnee="303" abscisse="458" id="16" mouvement="creer" objet="texte" />
+<action couleur="noir" texte="$\approx$" id="16" mouvement="ecrire" objet="texte" />
+<action mouvement="graduations" objet="regle" />
+<action abscisse="95" ordonnee="415" mouvement="montrer" objet="regle" />
+<action abscisse="70" ordonnee="361.5" mouvement="translation" objet="regle" vitesse="3" tempo="20" />
+<action pris="false" ordonnee="345" abscisse="476" id="17" mouvement="creer" objet="texte" />
+<action couleur="noir" texte="$\text{14,4 cm}$" id="17" mouvement="ecrire" objet="texte" />
+<action abscisse="482" ordonnee="305" id="17" mouvement="translation" objet="texte" vitesse="2" />
+</INSTRUMENPOCHE>

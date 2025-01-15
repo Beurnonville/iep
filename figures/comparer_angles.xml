@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+<action pris="false"  abscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Comparer deux angles à l'aide d'un compas}$" id="50" taille="19" couleur="noir" mouvement="ecrire" police="arial" objet="texte" />
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+<action pris="false" abscisse="445" ordonnee="48" id="51" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de comparer les angles }\widehat{xAy}\text{ et }\widehat{uBv}$" id="51" taille="16" couleur="brown" mouvement="ecrire" objet="texte" />
+
+
+<action type="point" ordonnee="200" abscisse="70" couleur="0xaa4400" id="1" mouvement="creer" objet="point" />
+<action ordonnee="-13.7" abscisse="-32.65" couleur="0xaa4400" nom="A" id="1" mouvement="nommer" objet="point" />
+<action abscisse1="70" ordonnee1="200" abscisse2="260" ordonnee2="115" mouvement="tracer" objet="trait" couleur="0xaa4400" id="2" />
+<action abscisse1="70" ordonnee1="200" abscisse2="290" ordonnee2="280" mouvement="tracer" objet="trait" couleur="0xaa4400" id="3" />
+<action type="point" ordonnee="130" abscisse="610" couleur="0x800066" id="4" mouvement="creer" objet="point" />
+<action ordonnee="-21.5" abscisse="14.55" couleur="0x800066" nom="B" id="4" mouvement="nommer" objet="point" />
+<action abscisse1="610" ordonnee1="130" abscisse2="380" ordonnee2="120" mouvement="tracer" objet="trait" couleur="0x800066" id="5" />
+<action abscisse1="610" ordonnee1="130" abscisse2="460" ordonnee2="300" mouvement="tracer" objet="trait" couleur="0x800066" id="6" />
+<action pris="false" ordonnee="96.15" abscisse="270.4" id="7" mouvement="creer" objet="texte" />
+<action couleur="0xaa4400" texte="$x$" id="7" mouvement="ecrire" objet="texte" />
+<action pris="false" ordonnee="269.75" abscisse="304.25" id="8" mouvement="creer" objet="texte" />
+<action couleur="0xaa4400" texte="$y$" id="8" mouvement="ecrire" objet="texte" />
+<action pris="false" ordonnee="101.8" abscisse="351.6" id="9" mouvement="creer" objet="texte" />
+<action couleur="0x800066" texte="$u$" id="9" mouvement="ecrire" objet="texte" />
+<action pris="false" ordonnee="297.3" abscisse="440.5" id="10" mouvement="creer" objet="texte" />
+<action couleur="0x800066" texte="$v$" id="10" mouvement="ecrire" objet="texte" tempo="30"/>
+
+<action pris="false" largeur="350" abscisse="50" ordonnee="330" id="53" mouvement="creer" objet="texte" />
+<action texte="$\text{Tracer un arc de cercle }\overparen{EF}\text{ qui intercepte l'angle }\widehat{xAy}$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action abscisse="365" ordonnee="430" mouvement="montrer" objet="compas" tempo="10"/>
+<action cible="1" mouvement="translation" objet="compas" tempo="10" />
+<action sens="5" angle="19.983" mouvement="rotation" objet="compas" tempo="7" />
+<action ecart="100" mouvement="ecarter" objet="compas" tempo="7" />
+<action mouvement="lever" objet="compas" tempo="10" />
+<action couleur="lightseagreen" epaisseur="0" sens="-2" fin="-24.102" debut="19.983" id="11" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="15" />
+<action type="point" ordonnee="350" abscisse="70" couleur="noir" id="13" mouvement="creer" objet="point" />
+<action ordonnee="-30" abscisse="-25" couleur="noir" nom="E" id="13" mouvement="nommer" objet="point" />
+<action abscisse="161.281" ordonnee="159.163" id="13" mouvement="translation" objet="point" />
+<action type="point" ordonnee="350.15" abscisse="327.45" couleur="noir" id="14" mouvement="creer" objet="point" />
+<action ordonnee="10" abscisse="-10" couleur="noir" nom="F" id="14" mouvement="nommer" objet="point" />
+<action abscisse="163.979" ordonnee="234.174" id="14" mouvement="translation" objet="point" />
+<action texte="$\text{Tracer un arc de cercle }\overparen{EF}\text{ qui intercepte l'angle }\widehat{xAy}$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+<action pris="false" abscisse="50" ordonnee="350" id="54" mouvement="creer" objet="texte" />
+<action texte="$\textbf{En gardant le même rayon}\text{, tracer un arc de cercle }\overparen{GH}\text{ qui intercepte l'angle }\widehat{uBv}$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action cible="4" mouvement="translation" objet="compas" tempo="10" />
+<action sens="-5" angle="-177.51" mouvement="rotation" objet="compas" tempo="7" />
+<action mouvement="lever" objet="compas" tempo="10" />
+<action couleur="lightseagreen" epaisseur="0" sens="-2" fin="-228.576" debut="-177.51" id="12" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="10" />
+<action type="point" ordonnee="73.75" abscisse="279" couleur="noir" id="15" mouvement="creer" objet="point" />
+<action ordonnee="-34.5" abscisse="-8.7" couleur="noir" nom="G" id="15" mouvement="nommer" objet="point" />
+<action abscisse="510.094" ordonnee="125.656" id="15" mouvement="translation" objet="point" />
+<action type="point" ordonnee="353.4" abscisse="343.25" couleur="noir" id="16" mouvement="creer" objet="point" />
+<action ordonnee="3.15" abscisse="10.85" couleur="noir" nom="H" id="16" mouvement="nommer" objet="point" />
+<action abscisse="543.837" ordonnee="204.983" id="16" mouvement="translation" objet="point" />
+<action texte="$\textbf{En gardant le même rayon}\text{, tracer un arc de cercle }\overparen{GH}\text{ qui intercepte l'angle }\widehat{uBv}$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<action pris="false" abscisse="50" ordonnee="375" id="55" mouvement="creer" objet="texte" />
+<action texte="$\text{À l'aide du compas, comparer les longueurs }EF\text{ et }GH$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action cible="14" mouvement="translation" objet="compas" tempo="10" />
+<action cible="13" mouvement="rotation" objet="compas" tempo="5" />
+<action cible="13" mouvement="ecarter" objet="compas" tempo="15" />
+<action cible="16" mouvement="translation" objet="compas" tempo="10" />
+<action mouvement="lever" objet="compas" tempo="7" />
+<action couleur="crimson" epaisseur="0" sens="-2" fin="-134.24" debut="-92.06" id="17" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" />
+<action mouvement="masquer" objet="compas" />
+<action texte="$\text{À l'aide du compas, comparer les longueurs }EF\text{ et }GH$" id="55" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<action pris="false" abscisse="50" ordonnee="395" id="56" mouvement="creer" objet="texte" />
+<action texte="$\definecolor{xAy}{rgb}{0.666,0.266,0}\definecolor{uBv}{rgb}{0.5,0,0.4}\text{La longueur }EF\text{ est plus petite que la longueur }GH\text{ donc l'angle }\textcolor{xAy}{\widehat{xAy}}\text{ est plus petit que l'angle }\textcolor{uBv}{\widehat{uBv}}$" id="56" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+</INSTRUMENPOCHE>

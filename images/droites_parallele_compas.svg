@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="500"
+   width="500"
+   id="svg2077"
+   version="1.1"
+   sodipodi:docname="droites_parallele_compas.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview40"
+     showgrid="false"
+     inkscape:zoom="1.888"
+     inkscape:cx="145.55364"
+     inkscape:cy="354.41556"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2077" />
+  <metadata
+     id="metadata2081">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <line
+     x1="44.869179"
+     y1="326.09204"
+     x2="492.40317"
+     y2="279.05408"
+     style="visibility:visible;stroke:#00008b;stroke-width:1;stroke-linecap:round;stroke-opacity:1"
+     id="line298" />
+  <line
+     x1="199.86917"
+     y1="211.09204"
+     x2="209.86917"
+     y2="201.09204"
+     style="visibility:visible;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-opacity:1"
+     id="line314" />
+  <line
+     x1="199.86917"
+     y1="201.09204"
+     x2="209.86917"
+     y2="211.09204"
+     style="visibility:visible;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-opacity:1"
+     id="line316" />
+  <path
+     d="M 328.48184,271.81806 A 140,140 0 0 1 97.622959,296.08231"
+     style="visibility:visible;fill:none;stroke:#20b2aa;stroke-width:1;stroke-linecap:round;stroke-opacity:1"
+     id="path394"
+     inkscape:connector-curvature="0" />
+  <line
+     x1="115.88319"
+     y1="323.10205"
+     x2="125.88319"
+     y2="313.10205"
+     style="visibility:visible;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-opacity:1"
+     id="line472" />
+  <line
+     x1="115.88319"
+     y1="313.10205"
+     x2="125.88319"
+     y2="323.10205"
+     style="visibility:visible;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-opacity:1"
+     id="line474" />
+  <line
+     x1="305.30716"
+     y1="303.19305"
+     x2="315.30716"
+     y2="293.19305"
+     style="visibility:visible;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-opacity:1"
+     id="line477" />
+  <line
+     x1="305.30716"
+     y1="293.19305"
+     x2="315.30716"
+     y2="303.19305"
+     style="visibility:visible;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-opacity:1"
+     id="line479" />
+  <path
+     d="m 424.98847,217.89234 a 140,140 0 0 0 -69.10175,-52.0719"
+     style="visibility:visible;fill:none;stroke:#20b2aa;stroke-width:1;stroke-linecap:round;stroke-opacity:1"
+     id="path623"
+     inkscape:connector-curvature="0" />
+  <path
+     d="m 387.01403,150.40477 a 190.46737,190.46737 0 0 1 7.59774,72.28759"
+     style="visibility:visible;fill:none;stroke:#20b2aa;stroke-width:1;stroke-linecap:round;stroke-opacity:1"
+     id="path735"
+     inkscape:connector-curvature="0" />
+  <line
+     x1="389.29318"
+     y1="191.18201"
+     x2="399.29318"
+     y2="181.18201"
+     style="visibility:visible;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-opacity:1"
+     id="line801" />
+  <line
+     x1="389.29318"
+     y1="181.18201"
+     x2="399.29318"
+     y2="191.18201"
+     style="visibility:visible;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-opacity:1"
+     id="line803" />
+  <line
+     x1="45.113178"
+     y1="222.88306"
+     x2="491.96417"
+     y2="175.91705"
+     style="visibility:visible;stroke:#b22222;stroke-width:1;stroke-linecap:round;stroke-opacity:1"
+     id="line901" />
+  <defs
+     id="defs1862">
+    <radialGradient
+       id="radialfonce">
+      <stop
+         id="stop1855"
+         style="stop-color:#000099;"
+         offset="0%" />
+      <stop
+         id="stop1857"
+         style="stop-color:#9999FF;"
+         offset="80%" />
+      <stop
+         id="stop1859"
+         style="stop-color:#000099;"
+         offset="100%" />
+    </radialGradient>
+  </defs>
+  <defs
+     id="defs1871">
+    <radialGradient
+       id="radialclair">
+      <stop
+         id="stop1864"
+         style="stop-color:#666666;"
+         offset="0%" />
+      <stop
+         id="stop1866"
+         style="stop-color:#CCCCCC;"
+         offset="80%" />
+      <stop
+         id="stop1868"
+         style="stop-color:#666666;"
+         offset="100%" />
+    </radialGradient>
+  </defs>
+  <defs
+     id="defs1880">
+    <radialGradient
+       id="radialrouge">
+      <stop
+         id="stop1873"
+         style="stop-color:#FF0000;"
+         offset="0%" />
+      <stop
+         id="stop1875"
+         style="stop-color:#FF9999;"
+         offset="80%" />
+      <stop
+         id="stop1877"
+         style="stop-color:#FF0000;"
+         offset="100%" />
+    </radialGradient>
+  </defs>
+  <text
+     pointer-events="none"
+     x="216.86917"
+     y="194.34204"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';visibility:visible;fill:#000000"
+     id="text2029">A</text>
+  <text
+     pointer-events="none"
+     x="97.883179"
+     y="350.10205"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';visibility:visible;fill:#000000"
+     id="text2065">E</text>
+  <text
+     pointer-events="none"
+     x="324.30716"
+     y="330.19305"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';visibility:visible;fill:#000000"
+     id="text2069">F</text>
+  <text
+     pointer-events="none"
+     x="401.84317"
+     y="176.43201"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';visibility:visible;fill:#000000"
+     id="text2073">G</text>
+  <text
+     id="text6561"
+     y="333.62167"
+     x="23.218529"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:1.25;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#00008b;fill-opacity:0.98571424;stroke:none"
+     xml:space="preserve"><tspan
+       y="333.62167"
+       x="23.218529"
+       id="tspan6559">(d)</tspan></text>
+  <text
+     id="text6565"
+     y="231.4698"
+     x="20.003458"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:1.25;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#b11d1d;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       y="231.4698"
+       x="20.003458"
+       id="tspan6563">(d')</tspan></text>
+</svg>

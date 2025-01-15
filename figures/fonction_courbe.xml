@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+
+<action abscisse="600" ordonnee="50" id="48" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Représenter graphiquement une fonction}$" id="48" taille="19" couleur="noir" police="arial" mouvement="ecrire" objet="texte" />
+<action mouvement="translation" objet="texte" id="48" abscisse="50" ordonnee="50" />
+<action abscisse="50" ordonnee="75" id="49" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de représenter graphiquement la fonction }f\text{ telle que }f(x)= 0,5x² - 3$" id="49" taille="16" couleur="rouge" mouvement="ecrire" objet="texte" />
+
+
+<!-- le repère -->
+
+<!-- Coordoonnées de l'origine : ( 195 ; 270 ) -->
+
+
+<action tempo="40" hauteur="10" largeur="10" haut="4" gauche="1.5" Ygrad="1" Xgrad="1" Ymax="5" Ymin="-5" Xmax="5" Xmin="-5" couleur="noir" mouvement="creer" objet="repere" />
+
+
+<!-- FONCTION f -->
+
+<action abscisse="360" ordonnee="120" id="50" mouvement="creer" objet="texte" />
+<action tempo="50" texte="$\begin{array}{l}\text{Pour représenter graphiquement une fonction, on calcule les images}\\[-1cm]\text{de plusieurs nombres et on place les points correspondant dans le}\\[-1cm]\text{repère}\end{array}$" id="50" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action texte="$\begin{array}{l}\text{Pour représenter graphiquement une fonction, on calcule les images}\\[-1cm]\text{de plusieurs nombres et on place les points correspondant dans le}\\[-1cm]\text{repère}\end{array}$" id="50" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<!-- Calcul de l'image de -4 -->
+
+<action abscisse="360" ordonnee="185" id="51" mouvement="creer" objet="texte" />
+<action tempo="40" texte="$\textbf{Exemple du calcul de l'image de -4 par la fonction }\mathbf{f}\textbf{ :}$" id="51" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="450" ordonnee="210" id="52" mouvement="creer" objet="texte" />
+<action tempo="40" texte="$f(\textcolor{BrickRed}{-4})=0,5\times (\textcolor{BrickRed}{-4})^2-3$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="450" ordonnee="230" id="53" mouvement="creer" objet="texte" />
+<action tempo="40" texte="$f(\textcolor{BrickRed}{-4})= 0,5 \times 16 -3$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="450" ordonnee="250" id="54" mouvement="creer" objet="texte" />
+<action tempo="40" texte="$f(\textcolor{BrickRed}{-4})= 8 -3$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="450" ordonnee="270" id="55" mouvement="creer" objet="texte" />
+<action tempo="40" texte="$f(\textcolor{BrickRed}{-4})=\textcolor{}{5}$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action texte="$\textbf{Exemple du calcul de l'image de -4 par la fonction }\mathbf{f}\textbf{ :}$" id="51" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+<action texte="$f(-4)=0,5\times (-4)^2-3$" id="52" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+<action texte="$f(-4) = 0,5 \times 16 -3$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+<action texte="$f(-4) = 8 -3$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+<action texte="$f(-4) = 5$" id="55" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<!-- Placement du point (-4;5) -->
+
+
+<action abscisse="360" ordonnee="300" id="56" mouvement="creer" objet="texte" />
+<action tempo="40" texte="$\begin{array}{l}\text{Ainsi, }\textcolor{MidnightBlue}{\text{le point de coordonnées (-4;5)}}\text{ appartient à la courbe}\\[-1cm]\text{représentative de la fonction }f\end{array}$" id="56" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action epaisseur="2" ordonnee="316.85" abscisse="530.7" couleur="navy" id="1" mouvement="creer" objet="point" />
+<action abscisse="75" ordonnee="120" id="1" mouvement="translation" objet="point" />
+
+<action texte="$\begin{array}{l}\text{Ainsi, le point de coordonnées (-4;5) appartient à la courbe}\\[-1cm]\text{représentative de la fonction }f\end{array}$" id="56" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action abscisse="402" ordonnee="300" id="57" mouvement="creer" objet="texte" />
+<action texte="$\text{le point de coordonnées (-4;5)}$" id="57" taille="16" couleur="navy" mouvement="ecrire" objet="texte" />
+<action abscisse="122.6" ordonnee="93.2" id="57" mouvement="translation" objet="texte" />
+<action couleur="navy" style="vecteur" epaisseur="1"  abscisse1="120" ordonnee1="108" abscisse2="83" ordonnee2="119" mouvement="tracer" id="2" objet="trait" tempo="20"/>
+<action mouvement="masquer" id="2" objet="trait" />
+<action mouvement="masquer" id="57" objet="texte" />
+
+<action texte="$\begin{array}{l}\text{Ainsi, le point de coordonnées (-4;5) appartient à la courbe}\\[-1cm]\text{représentative de la fonction }f\end{array}$" id="56" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="360" ordonnee="350" id="58" mouvement="creer" objet="texte" />
+<action tempo="40" texte="$\begin{array}{l}\text{Pour le calcul des autres images, nous utiliserons}\\[-1cm]\text{un }\textbf{tableau de valeurs}\end{array}$" id="58" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+<action mouvement="masquer" id="50" objet="texte" />
+<action mouvement="masquer" id="51" objet="texte" />
+<action mouvement="masquer" id="52" objet="texte" />
+<action mouvement="masquer" id="53" objet="texte" />
+<action mouvement="masquer" id="54" objet="texte" />
+<action mouvement="masquer" id="55" objet="texte" />
+<action mouvement="masquer" id="56" objet="texte" />
+<action mouvement="masquer" id="58" objet="texte" />
+
+
+
+<!-- Tableau de valeurs -->
+
+
+<action abscisse="375" ordonnee="120" id="60" mouvement="creer" objet="texte" />
+<action texte="$\text{Tableau de valeurs :}$" id="60" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+
+<action abscisse="390" ordonnee="155" id="100" mouvement="creer" objet="texte" />
+<action texte="$x$" id="100" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="423" ordonnee="155" id="101" mouvement="creer" objet="texte" />
+<action texte="$-4$" id="101" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="463" ordonnee="155" id="102" mouvement="creer" objet="texte" />
+<action texte="$-3$" id="102" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="505" ordonnee="155" id="103" mouvement="creer" objet="texte" />
+<action texte="$-2$" id="103" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="543" ordonnee="155" id="104" mouvement="creer" objet="texte" />
+<action texte="$-1$" id="104" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="590" ordonnee="155" id="105" mouvement="creer" objet="texte" />
+<action texte="$0$" id="105" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="630" ordonnee="155" id="106" mouvement="creer" objet="texte" />
+<action texte="$1$" id="106" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="670" ordonnee="155" id="107" mouvement="creer" objet="texte" />
+<action texte="$2$" id="107" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="710" ordonnee="155" id="108" mouvement="creer" objet="texte" />
+<action texte="$3$" id="108" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="750" ordonnee="155" id="109" mouvement="creer" objet="texte" />
+<action texte="$4$" id="109" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+<action couleur="0" epaisseur="1"  abscisse1="370" ordonnee1="150" abscisse2="775" ordonnee2="150" mouvement="tracer" id="199" objet="trait" />
+
+
+<action couleur="0" epaisseur="1"  abscisse1="370" ordonnee1="150" abscisse2="370" ordonnee2="200" mouvement="tracer" id="200" objet="trait" />
+<action couleur="0" epaisseur="1"  abscisse1="415" ordonnee1="150" abscisse2="415" ordonnee2="200" mouvement="tracer" id="201" objet="trait" />
+<action couleur="0" epaisseur="1"  abscisse1="455" ordonnee1="150" abscisse2="455" ordonnee2="200" mouvement="tracer" id="202" objet="trait" />
+<action couleur="0" epaisseur="1"  abscisse1="495" ordonnee1="150" abscisse2="495" ordonnee2="200" mouvement="tracer" id="203" objet="trait" />
+<action couleur="0" epaisseur="1"  abscisse1="535" ordonnee1="150" abscisse2="535" ordonnee2="200" mouvement="tracer" id="204" objet="trait" />
+<action couleur="0" epaisseur="1"  abscisse1="575" ordonnee1="150" abscisse2="575" ordonnee2="200" mouvement="tracer" id="205" objet="trait" />
+<action couleur="0" epaisseur="1"  abscisse1="615" ordonnee1="150" abscisse2="615" ordonnee2="200" mouvement="tracer" id="206" objet="trait" />
+<action couleur="0" epaisseur="1"  abscisse1="655" ordonnee1="150" abscisse2="655" ordonnee2="200" mouvement="tracer" id="207" objet="trait" />
+<action couleur="0" epaisseur="1"  abscisse1="695" ordonnee1="150" abscisse2="695" ordonnee2="200" mouvement="tracer" id="208" objet="trait" />
+<action couleur="0" epaisseur="1"  abscisse1="735" ordonnee1="150" abscisse2="735" ordonnee2="200" mouvement="tracer" id="209" objet="trait" />
+<action couleur="0" epaisseur="1"  abscisse1="775" ordonnee1="150" abscisse2="775" ordonnee2="200" mouvement="tracer" id="210" objet="trait" />
+
+<action couleur="0" epaisseur="1"  abscisse1="370" ordonnee1="175" abscisse2="775" ordonnee2="175" mouvement="tracer" id="215" objet="trait" />
+
+<action couleur="0" epaisseur="1"  abscisse1="370" ordonnee1="200" abscisse2="775" ordonnee2="200" mouvement="tracer" id="216" objet="trait" />
+
+
+
+<action abscisse="380" ordonnee="180" id="110" mouvement="creer" objet="texte" />
+<action texte="$f(x)$" id="110" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="432" ordonnee="180" id="111" mouvement="creer" objet="texte" />
+<action texte="$5$" id="111" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+
+
+
+<action abscisse="375" ordonnee="230" id="61" mouvement="creer" objet="texte" />
+<action tempo="20" texte="$\text{Calculs :}$" id="61" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+<!-- f(-3) -->
+
+<action texte="$-3$" id="102" taille="16" couleur="BrickRed" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="375" ordonnee="260" id="499" mouvement="creer" objet="texte" />
+<action tempo="30" texte="$f(\hphantom{-3}) =\vphantom{^2}$" id="499" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="463" ordonnee="155" id="500" mouvement="creer" objet="texte" />
+<action texte="$-3$" id="500" taille="16" couleur="BrickRed" mouvement="ecrire" objet="texte" />
+
+<action abscisse="389" ordonnee="262" id="500" mouvement="translation" objet="texte" tempo="15" />
+
+<action mouvement="masquer" id="500" objet="texte" vitesse="1000"/>
+<action mouvement="masquer" id="499" objet="texte" vitesse="1000"/>
+
+
+
+
+<action abscisse="375" ordonnee="260" id="62" mouvement="creer" objet="texte" />
+<action tempo="30" texte="$f ( \textcolor{BrickRed}{-3} ) = 0,5 \times ( \textcolor{BrickRed}{-3} )^2 -3 = 0,5 \times 9 - 3 = 4,5 - 3 = \textcolor{RoyalBlue}{1,5}$" id="62" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="689" ordonnee="262" id="63" mouvement="creer" objet="texte" />
+<action texte="$1,5$" id="63" taille="16" couleur="RoyalBlue" mouvement="ecrire" objet="texte" />
+
+<action abscisse="465" ordonnee="180" id="63" mouvement="translation" objet="texte" tempo="15" />
+<action epaisseur="2" ordonnee="175" abscisse="475.9" couleur="navy" id="3" mouvement="creer" objet="point" />
+<action tempo="20" abscisse="105" ordonnee="225" id="3" mouvement="translation" objet="point" />
+
+<action texte="$-3$" id="102" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action texte="$1,5$" id="63" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action texte="$f ( -3 ) = 0,5 \times (-3)^2 -3 = 0,5 \times 9 - 3 = 4,5 - 3 = 1,5$" id="62" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<!-- f(-2) -->
+
+
+<action texte="$-2$" id="103" taille="16" couleur="BrickRed" mouvement="ecrire" objet="texte" />
+
+<action abscisse="375" ordonnee="280" id="501" mouvement="creer" objet="texte" />
+<action tempo="30" texte="$f(\hphantom{-2}) =\vphantom{^2}$" id="501" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="505" ordonnee="155" id="502" mouvement="creer" objet="texte" />
+<action texte="$-2$" id="502" taille="16" couleur="BrickRed" mouvement="ecrire" objet="texte" />
+
+<action abscisse="389" ordonnee="282" id="502" mouvement="translation" objet="texte" tempo="15" />
+
+<action mouvement="masquer" id="502" objet="texte" vitesse="1000"/>
+<action mouvement="masquer" id="501" objet="texte" vitesse="1000"/>
+
+<action abscisse="375" ordonnee="280" id="64" mouvement="creer" objet="texte" />
+<action tempo="30" texte="$f ( \textcolor{BrickRed}{-2} ) = 0,5 \times ( \textcolor{BrickRed}{-2} )^2 -3 = 0,5 \times 4 - 3 = 2 - 3 = \textcolor{RoyalBlue}{-1}$" id="64" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="676" ordonnee="281" id="65" mouvement="creer" objet="texte" />
+<action texte="$-1$" id="65" taille="16" couleur="RoyalBlue" mouvement="ecrire" objet="texte" />
+
+<action abscisse="504" ordonnee="180" id="65" mouvement="translation" objet="texte" tempo="15"/>
+<action epaisseur="2" ordonnee="175" abscisse="515.9" couleur="navy" id="4" mouvement="creer" objet="point" />
+<action tempo="20" abscisse="135" ordonnee="300" id="4" mouvement="translation" objet="point" />
+
+<action texte="$-2$" id="103" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action texte="$-1$" id="65" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action texte="$f ( -2 ) = 0,5 \times (-2)^2 -3 = 0,5 \times 4 - 3 = 2 - 3 = -1$" id="64" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+<!-- f(-1) -->
+
+
+<action texte="$-1$" id="104" taille="16" couleur="BrickRed" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="375" ordonnee="300" id="503" mouvement="creer" objet="texte" />
+<action tempo="30" texte="$f(\hphantom{-1}) =\vphantom{^2}$" id="503" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="543" ordonnee="155" id="504" mouvement="creer" objet="texte" />
+<action texte="$-1$" id="504" taille="16" couleur="BrickRed" mouvement="ecrire" objet="texte" />
+
+<action abscisse="389" ordonnee="301" id="504" mouvement="translation" objet="texte" tempo="15" />
+
+<action mouvement="masquer" id="504" objet="texte" vitesse="1000"/>
+<action mouvement="masquer" id="503" objet="texte" vitesse="1000"/>
+
+<action abscisse="375" ordonnee="300" id="66" mouvement="creer" objet="texte" />
+<action tempo="30" texte="$f ( \textcolor{BrickRed}{-1} ) = 0,5 \times ( \textcolor{BrickRed}{-1} )^2 -3 = 0,5 \times 1 - 3 = 0,5 - 3 = \textcolor{RoyalBlue}{-2,5}$" id="66" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="687" ordonnee="302" id="67" mouvement="creer" objet="texte" />
+<action texte="$-2,5$" id="67" taille="16" couleur="RoyalBlue" mouvement="ecrire" objet="texte" />
+
+<action abscisse="538" ordonnee="180" id="67" mouvement="translation" objet="texte" tempo="15"/>
+<action epaisseur="2" ordonnee="175" abscisse="555.9" couleur="navy" id="5" mouvement="creer" objet="point" />
+<action tempo="20" abscisse="165" ordonnee="345" id="5" mouvement="translation" objet="point" />
+
+<action texte="$-1$" id="104" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action texte="$-2,5$" id="67" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action texte="$f(-1) = 0,5 \times (-1)^2 -3 = 0,5 \times 1 - 3 = 0,5 - 3 = -2,5$" id="66" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+<!-- f(0) -->
+
+<action texte="$0$" id="105" taille="16" couleur="BrickRed" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="375" ordonnee="320" id="505" mouvement="creer" objet="texte" />
+<action tempo="30" texte="$f(\hphantom{0}) =\vphantom{^2}$" id="505" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="590" ordonnee="155" id="506" mouvement="creer" objet="texte" />
+<action texte="$0$" id="506" taille="16" couleur="BrickRed" mouvement="ecrire" objet="texte" />
+
+<action abscisse="389" ordonnee="322" id="506" mouvement="translation" objet="texte" tempo="15" />
+
+<action mouvement="masquer" id="506" objet="texte" vitesse="1000"/>
+<action mouvement="masquer" id="505" objet="texte" vitesse="1000"/>
+
+<action abscisse="375" ordonnee="320" id="68" mouvement="creer" objet="texte" />
+<action tempo="30" texte="$f ( \textcolor{BrickRed}{0} ) = 0,5 \times  \textcolor{BrickRed}{0}^2 -3 = 0,5 \times 0 - 3 = 0 - 3 = \textcolor{RoyalBlue}{-3}$" id="68" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="647" ordonnee="322" id="69" mouvement="creer" objet="texte" />
+<action texte="$-3$" id="69" taille="16" couleur="RoyalBlue" mouvement="ecrire" objet="texte" />
+
+<action abscisse="584" ordonnee="180" id="69" mouvement="translation" objet="texte" tempo="15"/>
+<action epaisseur="2" ordonnee="175" abscisse="595.9" couleur="navy" id="6" mouvement="creer" objet="point" />
+<action tempo="20" abscisse="195" ordonnee="360" id="6" mouvement="translation" objet="point" />
+
+
+<action texte="$0$" id="105" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action texte="$-3$" id="69" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action texte="$f(0) = 0,5 \times 0^2 -3 = 0,5 \times 0 - 3 = 0 - 3 = -3$" id="68" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+<!-- f(1) -->
+
+<action texte="$1$" id="106" taille="16" couleur="BrickRed" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="375" ordonnee="340" id="507" mouvement="creer" objet="texte" />
+<action tempo="30" texte="$f(\hphantom{1}) =\vphantom{^2}$" id="507" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="630" ordonnee="155" id="508" mouvement="creer" objet="texte" />
+<action texte="$1$" id="508" taille="16" couleur="BrickRed" mouvement="ecrire" objet="texte" />
+
+<action abscisse="389" ordonnee="342" id="508" mouvement="translation" objet="texte" tempo="15" />
+
+<action mouvement="masquer" id="508" objet="texte" vitesse="1000"/>
+<action mouvement="masquer" id="507" objet="texte" vitesse="1000"/>
+
+<action abscisse="375" ordonnee="340" id="70" mouvement="creer" objet="texte" />
+<action tempo="30" texte="$f ( \textcolor{BrickRed}{1} ) = 0,5 \times  \textcolor{BrickRed}{1}^2 -3 = 0,5 \times 1 - 3 = 0,5 - 3 = \textcolor{RoyalBlue}{-2,5}$" id="70" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="658" ordonnee="342" id="71" mouvement="creer" objet="texte" />
+<action texte="$-2,5$" id="71" taille="16" couleur="RoyalBlue" mouvement="ecrire" objet="texte" />
+
+<action abscisse="618" ordonnee="180" id="71" mouvement="translation" objet="texte" tempo="15"/>
+<action epaisseur="2" ordonnee="175" abscisse="635.9" couleur="navy" id="7" mouvement="creer" objet="point" />
+<action tempo="20" abscisse="225" ordonnee="345" id="7" mouvement="translation" objet="point" />
+
+
+<action texte="$1$" id="106" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action texte="$-2,5$" id="71" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action texte="$f(1) = 0,5 \times 1^2 -3 = 0,5 \times 1 - 3 = 0,5 - 3 = -2,5$" id="70" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+<!-- f(2) -->
+
+<action texte="$2$" id="107" taille="16" couleur="BrickRed" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="375" ordonnee="360" id="509" mouvement="creer" objet="texte" />
+<action tempo="30" texte="$f(\hphantom{2}) =\vphantom{^2}$" id="509" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="670" ordonnee="155" id="510" mouvement="creer" objet="texte" />
+<action texte="$2$" id="510" taille="16" couleur="BrickRed" mouvement="ecrire" objet="texte" />
+
+<action abscisse="389" ordonnee="362" id="510" mouvement="translation" objet="texte" tempo="15" />
+
+<action mouvement="masquer" id="510" objet="texte" vitesse="1000"/>
+<action mouvement="masquer" id="509" objet="texte" vitesse="1000"/>
+
+<action abscisse="375" ordonnee="360" id="72" mouvement="creer" objet="texte" />
+<action tempo="30" texte="$f ( \textcolor{BrickRed}{2} ) = 0,5 \times  \textcolor{BrickRed}{2}^2 -3 = 0,5 \times 4 - 3 = 2 - 3 = \textcolor{RoyalBlue}{-1}$" id="72" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="646" ordonnee="362" id="73" mouvement="creer" objet="texte" />
+<action texte="$-1$" id="73" taille="16" couleur="RoyalBlue" mouvement="ecrire" objet="texte" />
+
+<action abscisse="664" ordonnee="180" id="73" mouvement="translation" objet="texte" tempo="15"/>
+<action epaisseur="2" ordonnee="175" abscisse="675.9" couleur="navy" id="8" mouvement="creer" objet="point" />
+<action tempo="20" abscisse="255" ordonnee="300" id="8" mouvement="translation" objet="point" />
+
+<action texte="$2$" id="107" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action texte="$-1$" id="73" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action texte="$f(2) = 0,5 \times 2^2 -3 = 0,5 \times 4 - 3 = 2 - 3 = -1$" id="72" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<!-- f(3) -->
+
+<action texte="$3$" id="108" taille="16" couleur="BrickRed" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="375" ordonnee="380" id="511" mouvement="creer" objet="texte" />
+<action tempo="30" texte="$f(\hphantom{3}) =\vphantom{^2}$" id="511" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="710" ordonnee="155" id="512" mouvement="creer" objet="texte" />
+<action texte="$3$" id="512" taille="16" couleur="BrickRed" mouvement="ecrire" objet="texte" />
+
+<action abscisse="389" ordonnee="382" id="512" mouvement="translation" objet="texte" tempo="15" />
+
+<action mouvement="masquer" id="512" objet="texte" vitesse="1000"/>
+<action mouvement="masquer" id="511" objet="texte" vitesse="1000"/>
+
+<action abscisse="375" ordonnee="380" id="74" mouvement="creer" objet="texte" />
+<action tempo="30" texte="$f ( \textcolor{BrickRed}{3} ) = 0,5 \times  \textcolor{BrickRed}{3}^2 -3 = 0,5 \times 9 - 3 = 4,5 - 3 = \textcolor{RoyalBlue}{1,5}$" id="74" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="658" ordonnee="382" id="75" mouvement="creer" objet="texte" />
+<action texte="$1,5$" id="75" taille="16" couleur="RoyalBlue" mouvement="ecrire" objet="texte" />
+<action abscisse="705" ordonnee="180" id="75" mouvement="translation" objet="texte" tempo="15"/>
+
+<action epaisseur="2" ordonnee="175" abscisse="715.9" couleur="navy" id="9" mouvement="creer" objet="point" />
+<action tempo="20" abscisse="285" ordonnee="225" id="9" mouvement="translation" objet="point" />
+
+
+<action texte="$3$" id="108" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action texte="$1,5$" id="75" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action texte="$f(3) = 0,5 \times 3^2 -3 = 0,5 \times 9 - 3 = 4,5 - 3 = 1,5$" id="74" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+<!-- f(4) -->
+
+<action texte="$4$" id="109" taille="16" couleur="BrickRed" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="375" ordonnee="400" id="513" mouvement="creer" objet="texte" />
+<action tempo="30" texte="$f(\hphantom{4}) =\vphantom{^2}$" id="513" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="750" ordonnee="155" id="514" mouvement="creer" objet="texte" />
+<action texte="$4$" id="514" taille="16" couleur="BrickRed" mouvement="ecrire" objet="texte" />
+
+<action abscisse="389" ordonnee="402" id="514" mouvement="translation" objet="texte" tempo="15" />
+
+<action mouvement="masquer" id="514" objet="texte" vitesse="1000"/>
+<action mouvement="masquer" id="513" objet="texte" vitesse="1000"/>
+
+<action abscisse="375" ordonnee="400" id="76" mouvement="creer" objet="texte" />
+<action tempo="30" texte="$f ( \textcolor{BrickRed}{4} ) = 0,5 \times  \textcolor{BrickRed}{4}^2 -3 = 0,5 \times 16 - 3 = 8 - 3 = \textcolor{RoyalBlue}{5}$" id="76" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="654" ordonnee="401" id="77" mouvement="creer" objet="texte" />
+<action texte="$5$" id="77" taille="16" couleur="RoyalBlue" mouvement="ecrire" objet="texte" />
+
+<action abscisse="750" ordonnee="180" id="77" mouvement="translation" objet="texte" tempo="15"/>
+
+<action epaisseur="2" ordonnee="175" abscisse="755.9" couleur="navy" id="10" mouvement="creer" objet="point" />
+<action tempo="20" abscisse="315" ordonnee="120" id="10" mouvement="translation" objet="point" />
+
+
+<action texte="$4$" id="109" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action texte="$5$" id="77" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action texte="$f(4) = 0,5 \times 4^2 -3 = 0,5 \times 16 - 3 = 8 - 3 = 5$" id="76" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<!-- Courbe -->
+
+
+<action abscisse="375" ordonnee="430" id="80" mouvement="creer" objet="texte" />
+<action tempo="30" texte="$\begin{array}{l}\text{À main levée, on trace la courbe la plus « lisse » possible}\\[-1cm]\text{qui passe par tous ces points}\end{array}$" id="80" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="216.1" ordonnee="176.1" mouvement="montrer" objet="crayon" tempo="10"/>
+<action cible="1" mouvement="translation" objet="crayon" tempo="10" />
+
+<action forme="libre" epaisseur="2" couleur="navy" abscisses="75,78,81,84,87,90,93,96,99,102,105,108,111,114,117,120,123,126,129,132,135,138,141,144,147,150,153,156,159,162,165,168,171,174,177,180,183,186,189,192,195,198,201,204,207,210,213,216,219,222,225,228,231,234,237,240,243,246,249,252,255,258,261,264,267,270,273,276,279,282,285,288,291,294,297,300,303,306,309,312,315" ordonnees="120,131.85,143.4,154.65,165.6,176.25,186.6,196.65,206.4,215.85,225,233.85,242.4,250.65,258.6,266.25,273.6,280.65,287.4,293.85,300,305.85,311.4,316.65,321.6,326.25,330.6,334.65,338.4,341.85,345,347.85,350.4,352.65,354.6,356.25,357.6,358.65,359.4,359.85,360,359.85,359.4,358.65,357.6,356.25,354.6,352.65,350.4,347.85,345,341.85,338.4,334.65,330.6,326.25,321.6,316.65,311.4,305.85,300,293.85,287.4,280.65,273.6,266.25,258.6,250.65,242.4,233.85,225,215.85,206.4,196.65,186.6,176.25,165.6,154.65,143.4,131.85,120" id="11" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+
+<action ordonnee="75" abscisse="406.6" id="13" mouvement="creer" objet="texte" />
+<action couleur="navy" texte="$\mathcal{C}_f$" id="13" taille="16" mouvement="ecrire" objet="texte" />
+<action abscisse="51" ordonnee="123" id="13" mouvement="translation" objet="texte" />
+
+<action abscisse="60" ordonnee="430" id="81" mouvement="creer" objet="texte" />
+<action tempo="30" couleur_fond="burlywood" texte="$\textcolor{navy}{\mathcal{C}_f}\text{ est la courbe représentative de la fonction }f$" id="81" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+<action mouvement="masquer" id="1" objet="point" />
+<action mouvement="masquer" id="3" objet="point" />
+<action mouvement="masquer" id="4" objet="point" />
+<action mouvement="masquer" id="5" objet="point" />
+<action mouvement="masquer" id="6" objet="point" />
+<action mouvement="masquer" id="7" objet="point" />
+<action mouvement="masquer" id="8" objet="point" />
+<action mouvement="masquer" id="9" objet="point" />
+<action mouvement="masquer" id="10" objet="point" />
+
+</INSTRUMENPOCHE>

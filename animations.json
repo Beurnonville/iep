@@ -1,0 +1,548 @@
+{
+  "animations": [
+    {
+      "title": "Symétrie axiale (équerre)",
+      "description": "Construire le symétrique d'un point par rapport à une droite en utilisant l'équerre.",
+      "category": "Transformations",
+      "xml_file": "figures/symetrie_axiale_equerre.xml",
+      "image": "images/transformations_symetrie_axiale_equerre.svg",
+      "id": "reflexion-point-equerre"
+    },
+    {
+      "title": "Symétrie axiale (compas)",
+      "description": "Construire le symétrique d'un point par rapport à une droite en utilisant le compas.",
+      "category": "Transformations",
+      "xml_file": "figures/symetrie_axiale_compas.xml",
+      "image": "images/transformations_symetrie_axiale_compas.svg",
+      "id": "reflexion-point-compas"
+    },
+    {
+      "title": "Symétrie axiale (compas)",
+      "description": "Symétrie axiale au compas et en gardant le même écartement.",
+      "category": "Transformations",
+      "xml_file": "figures/symetrie_axiale_compas_meme_ecartement.xml",
+      "image": "images/transformations_symetrie_axiale_compas_meme_ecartement.svg",
+      "id": "reflexion-point-compas-meme-ecartement"
+    },
+    {
+      "title": "Symétrie centrale",
+      "description": "Construire le symétrique d'un point par rapport à un autre point.",
+      "category": "Transformations",
+      "xml_file": "figures/symetrie_centrale.xml",
+      "image": "images/transformations_symetrie_centrale.svg",
+      "id": "symetrie-centrale-point"
+    },
+    {
+      "title": "Translation",
+      "description": "Construire l'image d'un point par une translation.",
+      "category": "Transformations",
+      "xml_file": "figures/translation.xml",
+      "image": "images/transformations_translation.svg",
+      "id": "translation-point"
+    },
+    {
+      "title": "Translation",
+      "description": "Construire l'image d'un point par une translation à l'aide uniquement du compas.",
+      "category": "Transformations",
+      "xml_file": "figures/translation_compas.xml",
+      "image": "images/transformations_translation_compas.svg",
+      "id": "translation-point-compas"
+    },
+    {
+      "title": "Rotation",
+      "description": "Construire l'image d'un point par une rotation.",
+      "category": "Transformations",
+      "xml_file": "figures/rotation.xml",
+      "image": "images/transformations_rotation.svg",
+      "id": "rotation-point"
+    },
+    {
+      "title": "Homothétie (agrandissement)",
+      "description": "Construire l'image d'un triangle par une homothétie.",
+      "category": "Transformations",
+      "xml_file": "figures/homothetie_agrandissement.xml",
+      "image": "images/homothetie_agrandissement.svg",
+      "id": "homothetie-agrandissement"
+    },
+    {
+      "title": "Homothétie (réduction)",
+      "description": "Construire l'Image d'un triangle par une homothétie.",
+      "category": "Transformations",
+      "xml_file": "figures/homothetie_reduction.xml",
+      "image": "images/homothetie_reduction.svg",
+      "id": "homothetie-reduction"
+    },
+    {
+      "title": "Homothétie (rapport négatif)",
+      "description": "Construire l'Image d'un triangle par une homothétie.",
+      "category": "Transformations",
+      "xml_file": "figures/homothetie_rapport_negatif.xml",
+      "image": "images/homothetie_rapport_negatif.svg",
+      "id": "homothetie-rapport-negatif"
+    },
+    {
+      "title": "Reproduire un triangle",
+      "description": "Reproduire un triangle à la règle et au compas.",
+      "category": "Triangles",
+      "xml_file": "figures/reproduire_triangle.xml",
+      "image": "images/triangles_reproduire.svg",
+      "id": "reproduire-un-triangle"
+    },
+    {
+      "title": "Triangle connaissant trois côtés",
+      "description": "Construire un triangle connaissant les longueurs des trois côtés.",
+      "category": "Triangles",
+      "xml_file": "figures/triangle_longueur_cotes.xml",
+      "image": "images/triangles_triangle_longueur_cotes.svg",
+      "id": "triangle-longueurs-cotes"
+    },
+    {
+      "title": "Triangle isocèle",
+      "description": "Construction d'un triangle isocèle.",
+      "category": "Triangles",
+      "xml_file": "figures/triangle_isocele.xml",
+      "image": "images/triangles_triangle_isocele.svg",
+      "id": "triangle-isocele"
+    },
+    {
+      "title": "Triangle équilatéral",
+      "description": "Construction d'un triangle équilatéral.",
+      "category": "Triangles",
+      "xml_file": "figures/triangle_equilateral.xml",
+      "image": "images/triangles_triangle_equilateral.svg",
+      "id": "triangle-equilateral"
+    },
+    {
+      "title": "Triangle rectangle",
+      "description": "Triangle rectangle connaissant la longueur du plus grand côté.",
+      "category": "Triangles",
+      "xml_file": "figures/triangle_rectangle.xml",
+      "image": "images/triangles_triangle_rectangle.svg",
+      "id": "triangle-rectangle"
+    },
+    {
+      "title": "Triangle rectangle",
+      "description": "Construire un triangle rectangle sans équerre.",
+      "category": "Triangles",
+      "xml_file": "figures/triangle_rectangle_sans_equerre.xml",
+      "image": "images/triangles_triangle_rectangle_sans_equerre.svg",
+      "id": "triangle-rectangle-compas"
+    },
+    {
+      "title": "Triangle avec deux côtés et un angle",
+      "description": "Construire un triangle connaissant les longueurs de deux côtés et la mesure d'un angle.",
+      "category": "Triangles",
+      "xml_file": "figures/triangle_deux_cotes_un_angle.xml",
+      "image": "images/triangles_triangle_deux_cotes_un_angle.svg",
+      "id": "triangle-deux-cotes-un-angle"
+    },
+    {
+      "title": "Triangle avec deux côtés et un angle",
+      "description": "Construire un triangle connaissant les longueurs de deux côtés et la mesure de l'angle adjacent à ces côtés.",
+      "category": "Triangles",
+      "xml_file": "figures/triangle_deux_cotes_un_angle_adjacent.xml",
+      "image": "images/triangles_triangle_deux_cotes_un_angle_adjacent.svg",
+      "id": "triangle-deux-cotes-un-angle-adjacent"
+    },
+    {
+      "title": "Triangle : un côté et deux angles",
+      "description": "Construire un triangle connaissant la longueurs d'un côté et la mesure de deux angles adjacents à ce côté.",
+      "category": "Triangles",
+      "xml_file": "figures/triangle_un_cote_deux_angles.xml",
+      "image": "images/triangles_triangle_un_cote_deux_angles.svg",
+      "id": "triangle-un-cote-deux-angles"
+    },
+    {
+      "title": "Trapèze",
+      "description": "Construire un trapèze connaissant les longueurs des deux bases.",
+      "category": "Quadrilatères",
+      "xml_file": "figures/trapeze.xml",
+      "image": "images/quadrilateres_trapeze.svg",
+      "id": "trapeze"
+    },
+    {
+      "title": "Parallélogramme (règle & équerre)",
+      "description": "Construire un parallélogramme à la règle et à l'équerre.",
+      "category": "Quadrilatères",
+      "xml_file": "figures/parallelogramme_regle_equerre.xml",
+      "image": "images/quadrilateres_parallelogramme_regle_equerre.svg",
+      "id": "parallelogramme-regle-equerre"
+    },
+    {
+      "title": "Parallélogramme (règle & compas)",
+      "description": "Construire un parallélogramme à la règle et au compas.",
+      "category": "Quadrilatères",
+      "xml_file": "figures/parallelogramme_regle_compas.xml",
+      "image": "images/quadrilateres_parallelogramme_regle_compas.svg",
+      "id": "parallelogramme-regle-compas"
+    },
+    {
+      "title": "Parallélogramme (diagonales)",
+      "description": "Construire un parallélogramme connaissant la longueur de ses diagonales.",
+      "category": "Quadrilatères",
+      "xml_file": "figures/parallelogramme_diagonales.xml",
+      "image": "images/quadrilateres_parallelogramme_diagonales.svg",
+      "id": "parallelogramme-diagonales"
+    },
+    {
+      "title": "Losange (règle & compas)",
+      "description": "Construire un losange à la règle et au compas.",
+      "category": "Quadrilatères",
+      "xml_file": "figures/losange_regle_compas.xml",
+      "image": "images/quadrilateres_losange_regle_compas.svg",
+      "id": "losange-regle-compas"
+    },
+    {
+      "title": "Losange (diagonales)",
+      "description": "Construire un losange connaissant la longueur de ses diagonales.",
+      "category": "Quadrilatères",
+      "xml_file": "figures/losange_diagonales.xml",
+      "image": "images/quadrilateres_losange_diagonales.svg",
+      "id": "losange-diagonales"
+    },
+    {
+      "title": "Cerf-volant",
+      "description": "Construire un cerf-volant connaissant deux côtés consécutifs de longueurs différentes.",
+      "category": "Quadrilatères",
+      "xml_file": "figures/cerf_volant_01.xml",
+      "image": "images/quadrilateres_cerf_volant_01.svg",
+      "id": "cerf-volant-01"
+    },
+    {
+      "title": "Cerf-volant",
+      "description": "Construire un cerf-volant connaissant deux côtés consécutifs de longueurs différentes.",
+      "category": "Quadrilatères",
+      "xml_file": "figures/cerf_volant_02.xml",
+      "image": "images/quadrilateres_cerf_volant_02.svg",
+      "id": "cerf-volant-02"
+    },
+    {
+      "title": "Rectangle",
+      "description": "Construire un rectangle avec l'équerre.",
+      "category": "Quadrilatères",
+      "xml_file": "figures/rectangle_equerre.xml",
+      "image": "images/quadrilateres_rectangle_equerre.svg",
+      "id": "rectangle-equerre"
+    },
+    {
+      "title": "Rectangle",
+      "description": "Construire un rectangle connaissant la longueur d'une diagonale.",
+      "category": "Quadrilatères",
+      "xml_file": "figures/rectangle_diagonales.xml",
+      "image": "images/quadrilateres_rectangle_diagonales.svg",
+      "id": "rectangle-diagonale"
+    },
+    {
+      "title": "Carré",
+      "description": "Construire un carré connaissant la longueur d'un côté.",
+      "category": "Quadrilatères",
+      "xml_file": "figures/carre.xml",
+      "image": "images/quadrilateres_carre.svg",
+      "id": "carre"
+    },
+    {
+      "title": "Carré",
+      "description": "Construire un carré connaissant la longueur d'une diagonale.",
+      "category": "Quadrilatères",
+      "xml_file": "figures/carre_diagonales.xml",
+      "image": "images/quadrilateres_carre_diagonales.svg",
+      "id": "carre-diagonale"
+    },
+    {
+      "title": "Reproduire un arc de cercle",
+      "description": "Reproduire un arc de cercle.",
+      "category": "Divers",
+      "xml_file": "figures/reproduire_arc.xml",
+      "image": "images/divers_reproduire_arc.svg",
+      "id": "reproduire-un-arc-de-cercle"
+    },
+    {
+      "title": "Comparer des longueurs",
+      "description": "Comparer des longueurs de segments à l'aide d'un compas.",
+      "category": "Divers",
+      "xml_file": "figures/comparer_longueurs.xml",
+      "image": "images/divers_comparer_longueurs.svg",
+      "id": "comparer-des-longueurs"
+    },
+    {
+      "title": "Mesurer un périmètre",
+      "description": "Mesurer le périmètre d'un polygone en une seule fois.",
+      "category": "Divers",
+      "xml_file": "figures/mesurer_perimetre.xml",
+      "image": "images/divers_mesurer_perimetre.svg",
+      "id": "mesurer-un-perimetre-compas"
+    },
+    {
+      "title": "Rosace",
+      "description": "Construire une rosace.",
+      "category": "Divers",
+      "xml_file": "figures/rosace.xml",
+      "image": "images/divers_rosace.svg",
+      "id": "rosace"
+    },
+    {
+      "title": "Pentagone régulier",
+      "description": "Construire un pentagone régulier.",
+      "category": "Divers",
+      "xml_file": "figures/pentagone_regulier.xml",
+      "image": "images/divers_pentagone_regulier.svg",
+      "id": "pentagone-regulier"
+    },
+    {
+      "title": "Hexagone régulier",
+      "description": "Construire un hexagone régulier.",
+      "category": "Divers",
+      "xml_file": "figures/hexagone_regulier.xml",
+      "image": "images/divers_hexagone_regulier.svg",
+      "id": "hexagone-regulier"
+    },
+    {
+      "title": "Partager un segment",
+      "description": "Partager, en parts égales, un segment à la règle non graduée et au compas.",
+      "category": "Divers",
+      "xml_file": "figures/partager_segment.xml",
+      "image": "images/divers_partager_segment.svg",
+      "id": "partager-segment"
+    },
+    {
+      "title": "Pavé droit",
+      "description": "Représenter un pavé droit en perspective cavalière.",
+      "category": "Divers",
+      "xml_file": "figures/pave_droit.xml",
+      "image": "images/divers_pave_droit.svg",
+      "id": "pave-droit-perspective"
+    },
+    {
+      "title": "Image d'un nombre",
+      "description": "Déterminer graphiquement l'image d'un nombre par une fonction.",
+      "category": "Divers",
+      "xml_file": "figures/fonction_image.xml",
+      "image": "images/divers_fonction_image.svg",
+      "id": "fonction-image-nombre"
+    },
+    {
+      "title": "Antécédent(s) d'un nombre",
+      "description": "Déterminer graphiquement le (ou les) antécédent(s) d'un nombre par une fonction (s'ils existent).",
+      "category": "Divers",
+      "xml_file": "figures/fonction_antecedent.xml",
+      "image": "images/divers_fonction_antecedent.svg",
+      "id": "fonction-antecedent"
+    },
+    {
+      "title": "Courbe représentative",
+      "description": "Tracer la représentation graphique d'une fonction.",
+      "category": "Divers",
+      "xml_file": "figures/fonction_courbe.xml",
+      "image": "images/divers_fonction_courbe.svg",
+      "id": "fonction-courbe-representative"
+    },
+    {
+      "title": "Fonction linéaire",
+      "description": "Tracer la représentation graphique d'une fonction linéaire.",
+      "category": "Divers",
+      "xml_file": "figures/fonction_lineaire.xml",
+      "image": "images/divers_fonction_lineaire.svg",
+      "id": "fonction-lineaire"
+    },
+    {
+      "title": "Fonction affine",
+      "description": "Tracer la représentation graphique d'une fonction affine.",
+      "category": "Divers",
+      "xml_file": "figures/fonction_affine.xml",
+      "image": "images/divers_fonction_affine.svg",
+      "id": "fonction-affine"
+    },
+    {
+      "title": "Droites perpendiculaires",
+      "description": "Construire une droite perpendiculaire à une droite donnée.",
+      "category": "Droites",
+      "xml_file": "figures/perpendiculaire.xml",
+      "image": "images/droites_perpendiculaire.svg",
+      "id": "droites-perpendiculaires"
+    },
+    {
+      "title": "Droites parallèles (équerre)",
+      "description": "Construire une droite parallèle à une droite donnée à la règle et à l'équerre.",
+      "category": "Droites",
+      "xml_file": "figures/parallele_equerre.xml",
+      "image": "images/droites_parallele_equerre.svg",
+      "id": "droites-paralleles-regle-equerre"
+    },
+    {
+      "title": "Droite parallèle (compas)",
+      "description": "Construire une droite parallèle à une droite donnée à l'aide du compas.",
+      "category": "Droites",
+      "xml_file": "figures/parallele_compas.xml",
+      "image": "images/droites_parallele_compas.svg",
+      "id": "droites-paralleles-compas"
+    },
+    {
+      "title": "Médiatrice (équerre)",
+      "description": "Construire la médiatrice d'un segment à l'aide d'une équerre.",
+      "category": "Droites",
+      "xml_file": "figures/mediatrice_equerre.xml",
+      "image": "images/droites_mediatrice_equerre.svg",
+      "id": "mediatrice-equerre"
+    },
+    {
+      "title": "Médiatrice (compas)",
+      "description": "Construire la médiatrice d'un segment à l'aide d'un compas.",
+      "category": "Droites",
+      "xml_file": "figures/mediatrice_compas.xml",
+      "image": "images/droites_mediatrice_compas.svg",
+      "id": "mediatrice-compas"
+    },
+    {
+      "title": "Médiatrice (compas)",
+      "description": "Médiatrice d'un segment au compas en gardant le même écartement.",
+      "category": "Droites",
+      "xml_file": "figures/mediatrice_compas_meme_ecartement.xml",
+      "image": "images/droites_mediatrice_compas_meme_ecartement.svg",
+      "id": "mediatrice-compas-meme-ecartement"
+    },
+    {
+      "title": "Bissectrice (rapporteur)",
+      "description": "Construire la bissectrice d'un angle avec le rapporteur.",
+      "category": "Droites",
+      "xml_file": "figures/bissectrice_rapporteur.xml",
+      "image": "images/droites_bissectrice_rapporteur.svg",
+      "id": "bissectrice-rapporteur"
+    },
+    {
+      "title": "Bissectrice (compas)",
+      "description": "Construire la bissectrice d'un angle avec le compas.",
+      "category": "Droites",
+      "xml_file": "figures/bissectrice_compas.xml",
+      "image": "images/droites_bissectrice_compas.svg",
+      "id": "bissectrice-compas"
+    },
+    {
+      "title": "Tangente à un cercle",
+      "description": "Construire la tangente à un cercle passant par un point du cercle.",
+      "category": "Droites",
+      "xml_file": "figures/tangente.xml",
+      "image": "images/droites_tangente.svg",
+      "id": "tangente-cercle"
+    },
+    {
+      "title": "Cercle tangent à une droite",
+      "description": "Construire le cercle tangent à une droite passant par un point de la droite.",
+      "category": "Droites",
+      "xml_file": "figures/cercle_tangent.xml",
+      "image": "images/droites_cercle_tangent.svg",
+      "id": "cercle-tangent"
+    },
+    {
+      "title": "Tangentes à un cercle",
+      "description": "Construire les tangentes à un cercle passant par un point extérieur au cercle.",
+      "category": "Droites",
+      "xml_file": "figures/tangentes_cercle.xml",
+      "image": "images/droites_tangentes_cercle.svg",
+      "id": "tangentes-cercle"
+    },
+    {
+      "title": "Médiatrices d'un triangle",
+      "description": "Construire les médiatrices d'un triangle.",
+      "category": "Droites",
+      "xml_file": "figures/mediatrices_triangle.xml",
+      "image": "images/droites_mediatrices_triangle.svg",
+      "id": "mediatrices-triangle"
+    },
+    {
+      "title": "Médiatrice d'un côté d'un triangle",
+      "description": "Construire la médiatrice d'un côté d'un triangle en utilisant uniquement une règle graduée",
+      "category": "Droites",
+      "xml_file": "figures/mediatrice_cote.xml",
+      "image": "images/droites_mediatrice_cote.svg",
+      "id": "mediatrice-cote-triangle-regle"
+    },
+    {
+      "title": "Médiatrice d'un côté d'un triangle",
+      "description": "Construire la médiatrice d'un côté d'un triangle en utilisant uniquement une équerre",
+      "category": "Droites",
+      "xml_file": "figures/mediatrice_triangle_equerre.xml",
+      "image": "images/droites_mediatrice_triangle_equerre.svg",
+      "id": "mediatrice-cote-triangle-equerre"
+    },
+    {
+      "title": "Médianes d'un triangle",
+      "description": "Construire les médianes d'un triangle.",
+      "category": "Droites",
+      "xml_file": "figures/medianes_triangle.xml",
+      "image": "images/droites_medianes_triangle.svg",
+      "id": "medianes-triangle"
+    },
+    {
+      "title": "Troisième médiane d'un triangle",
+      "description": "Construire la troisième médiane d'un triangle en utilisant uniquement une règle non graduée.",
+      "category": "Droites",
+      "xml_file": "figures/medianes_troisieme.xml",
+      "image": "images/droites_medianes_troisieme.svg",
+      "id": "mediane-regle-non-graduee"
+    },
+    {
+      "title": "Hauteurs d'un triangle",
+      "description": "Construire les hauteurs d'un triangle.",
+      "category": "Droites",
+      "xml_file": "figures/hauteurs_triangle.xml",
+      "image": "images/droites_hauteurs_triangle.svg",
+      "id": "hauteurs-triangle"
+    },
+    {
+      "title": "Bissectrices d'un triangle",
+      "description": "Construire les bissectrices d'un triangle.",
+      "category": "Droites",
+      "xml_file": "figures/bissectrices_triangle.xml",
+      "image": "images/droites_bissectrices_triangle.svg",
+      "id": "bissectrices-triangle"
+    },
+    {
+      "title": "Reproduire un angle",
+      "description": "Reproduire un angle à l'aide du compas et d'une règle non graduée.",
+      "category": "Angles",
+      "xml_file": "figures/reproduire_angle.xml",
+      "image": "images/angles_reproduire.svg",
+      "id": "reproduire-angle"
+    },
+    {
+      "title": "Comparer deux angles",
+      "description": "Comparer deux angles à l'aide du compas.",
+      "category": "Angles",
+      "xml_file": "figures/comparer_angles.xml",
+      "image": "images/angles_comparer_angles.svg",
+      "id": "comparer-angles-compas"
+    },
+    {
+      "title": "Mesurer un angle",
+      "description": "Mesurer un angle à l'aide d'un rapporteur.",
+      "category": "Angles",
+      "xml_file": "figures/mesurer_angle_01.xml",
+      "image": "images/angles_mesurer_angle_01.svg",
+      "id": "mesurer-angle-01"
+    },
+    {
+      "title": "Mesurer un angle",
+      "description": "Mesurer un angle à l'aide d'un rapporteur.",
+      "category": "Angles",
+      "xml_file": "figures/mesurer_angle_02.xml",
+      "image": "images/angles_mesurer_angle_02.svg",
+      "id": "mesurer-angle-02"
+    },
+    {
+      "title": "Construire un angle",
+      "description": "Construire un angle à l'aide d'un rapporteur.",
+      "category": "Angles",
+      "xml_file": "figures/tracer_angle_01.xml",
+      "image": "images/angles_tracer_angle_01.svg",
+      "id": "construire-angle-01"
+    },
+    {
+      "title": "Construire un angle",
+      "description": "Construire un angle à l'aide d'un rapporteur.",
+      "category": "Angles",
+      "xml_file": "figures/tracer_angle_02.xml",
+      "image": "images/angles_tracer_angle_02.svg",
+      "id": "construire-angle-02"
+    }
+  ]
+}

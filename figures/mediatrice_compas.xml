@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+
+
+<action  abscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Tracer la médiatrice d'un segment à l'aide d'un compas}$" id="50" taille="19" couleur="noir" mouvement="ecrire" police="arial" objet="texte"/>
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+
+<action abscisse="50" ordonnee="75" id="51" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de tracer la médiatrice du segment }[AB]\text{ en utilisant un compas}$" id="51" taille="16" couleur="rouge" mouvement="ecrire" objet="texte"/>
+
+
+
+
+<action abscisse="70" ordonnee="370" id="11" mouvement="creer" objet="point" />
+<action ordonnee="-14.15" abscisse="-34.6" couleur="0" nom="A"  id="11" mouvement="nommer" objet="point" />
+
+<action abscisse="295.52" ordonnee="452.08" id="12" mouvement="creer" objet="point" />
+<action ordonnee="2.85" abscisse="16.25" couleur="0" nom="B"  id="12" mouvement="nommer" objet="point" />
+
+
+<action couleur="0" epaisseur="1" ordonnee2="452.08" abscisse2="295.52" ordonnee1="370" abscisse1="70" mouvement="tracer" id="3500" objet="trait"/>
+
+<action  abscisse="450" ordonnee="140" id="52" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\text{On choisit un écartement du compas plus grand}\\[-1cm]\text{que la moitié de }AB\end{array}$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action abscisse="400" ordonnee="50" mouvement="montrer" objet="compas" />
+<action abscisse="450" ordonnee="350" mouvement="translation" objet="compas" tempo="10"/>
+<action ecart="180" mouvement="ecarter" objet="compas" tempo="10"/>
+
+<action texte="$\begin{array}{l}\text{On choisit un écartement du compas plus grand}\\[-1cm]\text{que la moitié de }AB\end{array}$" id="52" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+<action  abscisse="450" ordonnee="182" id="53" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\text{On trace deux arcs de cercles, l'un de centre }A\text{,}\\[-1cm] \text{l'autre de centre }B\end{array}$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+<action cible="11" mouvement="translation" objet="compas" tempo="10"/>
+<action sens="-2" angle="-40" mouvement="rotation" objet="compas" tempo="5" />
+<action mouvement="lever" objet="compas" tempo="5" />
+<action couleur="lightseagreen" epaisseur="0" sens="2" fin="-15" debut="-40" id="1" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="8" />
+<action cible="12" mouvement="translation" objet="compas" tempo="10" />
+<action sens="-2" angle="-100" mouvement="rotation" objet="compas" />
+<action mouvement="lever" objet="compas" tempo="5" />
+<action couleur="lightseagreen" epaisseur="0" sens="-2" fin="-125" debut="-100" id="2" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="5" />
+
+
+<action texte="$\begin{array}{l}\text{On trace deux arcs de cercles, l'un de centre }A\text{,}\\[-1cm] \text{l'autre de centre }B\end{array}$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+<action  abscisse="450" ordonnee="224" id="54" mouvement="creer" objet="texte" />
+<action texte="$\text{Ces deux arcs se coupent en }M$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+<action abscisse="20" ordonnee="50" id="13" mouvement="creer" objet="point" />
+<action ordonnee="-24" abscisse="-37.4" couleur="0" nom="M"  id="13" mouvement="nommer" objet="point" />
+<action abscisse="228.65" ordonnee="284.97" id="13" mouvement="translation" objet="point" />
+
+
+<action texte="$\text{Ces deux arcs se coupent en }M$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+<action  abscisse="450" ordonnee="244" id="55" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\text{On choisit un nouvel écartement du compas}\\[-1cm] \text{(plus grand que }AB \div 2\text{)}\end{array}$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="15"/>
+
+
+<action ecart="300" mouvement="ecarter" objet="compas" tempo="20"/>
+
+
+<action texte="$\begin{array}{l}\text{On choisit un nouvel écartement du compas}\\[-1cm] \text{(plus grand que }AB \div 2\text{)}\end{array}$" id="55" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+
+<action  abscisse="450" ordonnee="291" id="56" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\text{Et on trace à nouveau deux arcs de cercles,}\\[-1cm] \text{qui se coupent en }N\end{array}$" id="56" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action sens="2" angle="-100" mouvement="rotation" objet="compas" tempo="4" />
+<action mouvement="lever" objet="compas" tempo="5" />
+<action couleur="lightseagreen" epaisseur="0" sens="2" fin="-85" debut="-100" id="3" mouvement="tracer" objet="compas" tempo="3" />
+<action mouvement="coucher" objet="compas" tempo="3" />
+<action cible="11" mouvement="translation" objet="compas" tempo="10" />
+<action sens="2" angle="-55" mouvement="rotation" objet="compas" tempo="5"/>
+<action mouvement="lever" objet="compas" tempo="5" />
+<action couleur="lightseagreen" epaisseur="0" sens="2" fin="-40" debut="-55" id="4" mouvement="tracer" objet="compas" tempo="3" />
+<action mouvement="coucher" objet="compas" tempo="3" />
+<action mouvement="masquer" objet="compas" />
+
+<action abscisse="20" ordonnee="50" id="14" mouvement="creer" objet="point" />
+<action ordonnee="-27.5" abscisse="15.55" couleur="0" nom="N"  id="14" mouvement="nommer" objet="point" />
+<action abscisse="276.8" ordonnee="152.67" id="14" mouvement="translation" objet="point" />
+
+<action texte="$\begin{array}{l}\text{Et on trace à nouveau deux arcs de cercles,}\\[-1cm] \text{qui se coupent en }N\end{array}$" id="56" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+<action  abscisse="450" ordonnee="333" id="57" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace la droite }(MN)$" id="57" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action sens="180" angle="110" mouvement="rotation" objet="regle" />
+<action mouvement="vide" objet="regle" />
+<action abscisse="10" ordonnee="20" mouvement="montrer" objet="regle" />
+<action abscisse="290" ordonnee="112.9" mouvement="translation" objet="regle" tempo="20" />
+<action abscisse="500" ordonnee="50" mouvement="montrer" objet="crayon" />
+<action abscisse="291.27" ordonnee="112.9" mouvement="translation" objet="crayon" />
+<action abscisse="153.32" ordonnee="491.91" epaisseur="1" id="24" mouvement="tracer" objet="crayon" couleur="navy" />
+
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+
+<action texte="$\text{On trace la droite }(MN)$" id="57" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+<action  abscisse="450" ordonnee="365" id="58" mouvement="creer" objet="texte" />
+<action texte="$\definecolor{dMN}{rgb}{0,0,0.5}\text{La droite }\textcolor{dMN}{(MN)}\text{ est la médiatrice du segment }[AB]$" id="58" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+<action abscisse="500" ordonnee="50" mouvement="montrer" objet="crayon" />
+<action abscisse="134.04" ordonnee="384.09" mouvement="translation" objet="crayon" />
+<action abscisse="118.72" ordonnee="396.95" epaisseur="1" id="30" mouvement="tracer" objet="crayon" couleur="crimson" />
+<action abscisse="246.8" ordonnee="425.13" mouvement="translation" objet="crayon" />
+<action abscisse="231.48" ordonnee="437.99" epaisseur="1" id="31" mouvement="tracer" objet="crayon" couleur="crimson" />
+
+<action abscisse="186.86" ordonnee="399.76" mouvement="translation" objet="crayon" />
+<action abscisse="198.14" ordonnee="403.87" epaisseur="1" id="32" mouvement="tracer" objet="crayon" couleur="crimson" />
+<action abscisse="194.03" ordonnee="415.14" epaisseur="1" id="33" mouvement="tracer" objet="crayon" couleur="crimson" />
+
+<action mouvement="masquer" objet="crayon" />
+
+
+</INSTRUMENPOCHE>

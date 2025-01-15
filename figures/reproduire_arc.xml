@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+
+<action  abscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Reproduire un arc de cercle}$" id="50" taille="19" couleur="noir" mouvement="ecrire" police="arial" objet="texte"/>
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+<action abscisse="50" ordonnee="75" id="51" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de reproduire l'arc de cercle }\overparen{AB}$" id="51" taille="16" couleur="rouge" mouvement="ecrire" objet="texte"/>
+
+
+
+<action mouvement="masquer" objet="crayon" />
+<action abscisses="30,470,470,30" ordonnees="110,110,270,270" epaisseur="0" couleur="0" forme="polygone" id="5000" mouvement="tracer" objet="crayon" opacite="5" vitesse="1000" />
+
+
+
+
+<action abscisse="418.53" ordonnee="255.61" id="11" mouvement="creer" objet="point" />
+<action ordonnee="-13.45" abscisse="16.95" couleur="0" nom="O" id="11" mouvement="nommer" objet="point" />
+<action abscisse="68.53" ordonnee="255.61" id="12" mouvement="creer" objet="point" />
+<action ordonnee="-12" abscisse="-33.15" couleur="0" nom="A"  id="12" mouvement="nommer" objet="point" />
+<action abscisse="89.64" ordonnee="135.9" id="13" mouvement="creer" objet="point" />
+<action ordonnee="-24.7" abscisse="-34.6" couleur="0" nom="B"  id="13" mouvement="nommer" objet="point" />
+
+<action mouvement="masquer" objet="compas" />
+<action mouvement="translation" abscisse="418.53" ordonnee="255.61" objet="compas" vitesse="1000"/>
+<action ecart="350" mouvement="ecarter" objet="compas" vitesse="1000"/>
+<action mouvement="lever" objet="compas" />
+<action sens="-180" epaisseur="1" fin="-180" debut="-160" id="14" couleur="bleu" mouvement="tracer" objet="compas" />
+<action mouvement="coucher" objet="compas" />
+
+
+<action  pointille="tiret" couleur="darkred" epaisseur="1" ordonnee2="255.61" abscisse2="68.53" ordonnee1="255.61" abscisse1="418.53" id="6000" mouvement="tracer" objet="trait"/>
+<action  pointille="tiret" couleur="darkred" epaisseur="1" ordonnee2="135.9" abscisse2="89.64" ordonnee1="255.61" abscisse1="68.53" id="6001" mouvement="tracer" objet="trait"/>
+
+
+
+<action mouvement="masquer" objet="crayon" />
+<action abscisses="30,470,470,30" ordonnees="280,280,470,470" epaisseur="0" couleur="0" forme="polygone" id="5001" mouvement="tracer" objet="crayon" opacite="0" vitesse="1000" tempo="40" />
+
+
+
+
+<action  abscisse="500" ordonnee="150" id="52" mouvement="creer" objet="texte" />
+<action texte="$\text{On place le centre de l'arc de cercle.}$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action abscisse="600" ordonnee="150" id="15" mouvement="creer" objet="point" tempo="10"/>
+<action ordonnee="-13.4" abscisse="16.25" couleur="0" nom="O" id="15" mouvement="nommer" objet="point" />
+<action mouvement="translation" id="15" abscisse="418.53" ordonnee="390" objet="point" />
+
+<action texte="$\text{On place le centre de l'arc de cercle.}$" id="52" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+<action  abscisse="500" ordonnee="170" id="53" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace un arc de cercle de même rayon.}$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action ecart="0" mouvement="ecarter" objet="compas" />
+<action sens="180" angle="0" mouvement="rotation" objet="compas" />
+<action mouvement="montrer" abscisse="600" ordonnee="300" objet="compas" />
+<action tempo="10" cible="11" mouvement="translation" objet="compas" />
+<action cible="12" mouvement="rotation" objet="compas" />
+<action tempo="10" cible="12" mouvement="ecarter" objet="compas" />
+<action cible="15" mouvement="translation" objet="compas" tempo="10" />
+<action sens="-1" angle="168.92" mouvement="rotation" objet="compas" />
+<action mouvement="lever" objet="compas" tempo="6" />
+<action couleur="navy" epaisseur="0" sens="2" fin="196.66" debut="168.92" id="1" mouvement="tracer" objet="compas" />
+<action mouvement="coucher" objet="compas" tempo="5" />
+<action mouvement="masquer" objet="compas" />
+
+<action texte="$\text{On trace un arc de cercle de même rayon.}$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+<action  abscisse="500" ordonnee="190" id="54" mouvement="creer" objet="texte" />
+<action texte="$\text{On place le point }A\text{ sur l'arc de cercle.}$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action abscisse="250" ordonnee="60" id="17" mouvement="creer" objet="point" />
+<action ordonnee="-1.4" abscisse="-31.05" couleur="0" nom="A" id="17" mouvement="nommer" objet="point" />
+<action mouvement="translation" id="17" abscisse="71.13" ordonnee="432.65" objet="point" />
+
+<action texte="$\text{On place le point }A\text{ sur l'arc de cercle.}$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+<action  abscisse="500" ordonnee="210" id="55" mouvement="creer" objet="texte" />
+<action texte="$\text{On reporte la longueur }AB\text{.}$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action ecart="0" mouvement="ecarter" objet="compas" />
+<action sens="180" angle="0" mouvement="rotation" objet="compas" />
+<action mouvement="montrer" abscisse="500" ordonnee="300" objet="compas" />
+<action cible="13" mouvement="translation" objet="compas" tempo="10" />
+<action cible="12" mouvement="rotation" objet="compas" />
+<action tempo="10" cible="12" mouvement="ecarter" objet="compas" />
+<action cible="17" mouvement="translation" objet="compas" tempo="10" />
+<action sens="-3" angle="-67.05" mouvement="rotation" objet="compas" />
+<action mouvement="lever" objet="compas" tempo="6" />
+<action couleur="lightseagreen" epaisseur="0" sens="-2" fin="-105.1" debut="-67.05" id="18" mouvement="tracer" objet="compas" />
+<action mouvement="coucher" objet="compas" tempo="5" />
+<action mouvement="masquer" objet="compas" />
+<action texte="$\text{On reporte la longueur }AB\text{.}$" id="55" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+<action  abscisse="500" ordonnee="230" id="56" mouvement="creer" objet="texte" />
+<action texte="$\text{On nomme le point }B\text{.}$" id="56" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+<action abscisse="300" ordonnee="70" id="19" mouvement="creer" objet="point" />
+<action ordonnee="-26.85" abscisse="-31.1" couleur="0" nom="B"  id="19" mouvement="nommer" objet="point" />
+<action mouvement="translation" id="19" abscisse="77.5" ordonnee="311.26" objet="point" />
+
+
+
+<action texte="$\text{On nomme le point }B\text{.}$" id="56" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+<action abscisse="418.53" ordonnee="390" mouvement="translation" objet="compas" vitesse="1000"/>
+<action cible="17" mouvement="rotation" objet="compas" vitesse="1000"/>
+<action cible="17" mouvement="ecarter" objet="compas" vitesse="1000"/>
+<action mouvement="lever" objet="compas" />
+<action couleur="navy" epaisseur="2" sens="180" fin="-167" debut="-187" id="500" mouvement="tracer" objet="compas" />
+
+</INSTRUMENPOCHE>

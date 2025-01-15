@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+
+
+<action abscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Construire la tangente à un cercle passant par un point du cercle}$" id="50" taille="19" couleur="noir" mouvement="ecrire" police="arial" objet="texte"/>
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+
+
+
+
+<action abscisse="200" ordonnee="300" mouvement="translation" objet="compas" vitesse="50"/>
+<action ecart="110" mouvement="ecarter" objet="compas" />
+<action mouvement="lever" objet="compas" />
+<action sens="360" epaisseur="1" debut="0" fin="360" id="11" couleur="saddlebrown" mouvement="tracer" objet="compas" />
+<action mouvement="coucher" objet="compas"/>
+
+
+<action abscisse="200" ordonnee="300" id="10" mouvement="creer" objet="point" />
+<action ordonnee="-24.7" abscisse="-31.05" couleur="0" nom="O" id="10" mouvement="nommer" objet="point" />
+
+<action abscisse="255" ordonnee="204.737" id="12" mouvement="creer" objet="point" />
+<action ordonnee="-39.5" abscisse="-2.8" couleur="0" nom="A" id="12" mouvement="nommer" objet="point" />
+
+<action abscisse="50" ordonnee="75" id="51" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de tracer la la droite }(d)\text{, tangente au cercle de centre }O\text{ passant par le point }A$" id="51" taille="16" couleur="rouge" mouvement="ecrire" objet="texte" tempo="30"/>
+
+
+
+<!-- Segment [OA] -->
+<action abscisse="450" ordonnee="130" id="52" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace le segment }[OA]$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action mouvement="vide" objet="regle" />
+<action abscisse="200" ordonnee="430" mouvement="montrer" objet="regle" />
+<action sens="-2" angle="-60" mouvement="rotation" objet="regle" />
+<action abscisse="136.5" ordonnee="412" mouvement="translation" objet="regle" tempo="10"/>
+
+<action sens="-180" angle="-125" mouvement="rotation" objet="crayon" />
+<action abscisse="50" ordonnee="50" mouvement="montrer" objet="crayon" />
+<action cible="10" mouvement="translation" objet="crayon" tempo="10"/>
+<action cible="12" epaisseur="1" id="14" mouvement="tracer" objet="crayon" />
+
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<action texte="$\text{On trace le segment }[OA]$" id="52" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+<!-- droite d -->
+<action abscisse="450" ordonnee="150" id="53" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace la perpendiculaire à }(OA)\text{ passant par }A$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action abscisse="250" ordonnee="400" mouvement="montrer" objet="equerre" tempo="10"/>
+<action sens="2" angle="90" mouvement="rotation" objet="equerre" />
+<action abscisse="215.84" ordonnee="272.565" mouvement="translation" objet="equerre" tempo="10"/>
+<action sens="2" angle="120" mouvement="rotation" objet="equerre" tempo="10"/>
+<action abscisse="255" ordonnee="204.737" mouvement="translation" objet="equerre" tempo="10"/>
+
+<action sens="-50" angle="-150" mouvement="rotation" objet="regle" />
+<action abscisse="350" ordonnee="170" mouvement="montrer" objet="regle" tempo="10"/>
+<action abscisse="495.341" ordonnee="342" mouvement="translation" objet="regle" tempo="10"/>
+
+<action sens="-180" angle="150" mouvement="rotation" objet="crayon" />
+<action abscisse="30" ordonnee="400" mouvement="montrer" objet="crayon" />
+<action abscisse="116.708" ordonnee="124.894" mouvement="translation" objet="crayon" tempo="10"/>
+<action mouvement="masquer" objet="equerre" />
+<action abscisse="469.713" ordonnee="328.702" epaisseur="1" id="15" couleur="navy" mouvement="tracer" objet="crayon" />
+
+<action mouvement="masquer" objet="regle" />
+
+<action abscisse="246.5" ordonnee="219.46" mouvement="translation" objet="crayon" />
+<action abscisse="261.222" ordonnee="227.96" epaisseur="1" id="16" couleur="crimson" mouvement="tracer" objet="crayon" />
+<action abscisse="269.722" ordonnee="213.237" epaisseur="1" id="17" couleur="crimson" mouvement="tracer" objet="crayon" />
+
+
+<action mouvement="masquer" objet="crayon" />
+
+
+<action texte="$\text{On trace la perpendiculaire à }(OA)\text{ passant par }A$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+<!-- Nom d -->
+<action abscisse="450" ordonnee="170" id="54" mouvement="creer" objet="texte" />
+<action texte="$\text{On nomme la droite }(d)$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action abscisse="400" ordonnee="450" id="18" mouvement="creer" objet="texte" />
+<action texte="$(d)$" id="18" taille="16" couleur="navy" mouvement="ecrire" objet="texte"/>
+<action mouvement="translation" objet="texte" id="18" abscisse="484" ordonnee="325.8" />
+
+<action texte="$\text{On nomme la droite }(d)$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+<!-- Conclusion -->
+<action abscisse="420" ordonnee="220" id="55" mouvement="creer" objet="texte" />
+<action texte="$\definecolor{dd}{rgb}{0,0,0.5}\definecolor{cercle}{rgb}{0.54,0.27,0.075}\text{La droite }\textcolor{dd}{(d)}\text{ est la tangente en }A\text{ au }\textcolor{cercle}{\text{cercle}}\text{ de centre }O$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+</INSTRUMENPOCHE>

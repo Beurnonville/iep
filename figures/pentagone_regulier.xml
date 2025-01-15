@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+<action pris="false" ordonnee="50" abscisse="600" id="51" mouvement="creer" objet="texte" />
+<action couleur="noir" texte="$\textbf{Construire un polygone régulier}$" id="51" mouvement="ecrire" police="arial" objet="texte" />
+<action abscisse="50" ordonnee="50" id="51" mouvement="translation" objet="texte" />
+<action pris="false" ordonnee="75" abscisse="50" id="52" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de construire le pentagone régulier }PENTA\text{ de centre }O$" id="52" couleur="rouge" mouvement="ecrire" objet="texte" taille="16" tempo="15" />
+
+
+<action pris="false" abscisse="450" ordonnee="120" id="53" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace un cercle de centre }O$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+<action type="point" ordonnee="101.65" abscisse="481.4" couleur="noir" id="1" mouvement="creer" objet="point" />
+<action ordonnee="0" abscisse="10" couleur="noir" nom="O" id="1" mouvement="nommer" objet="point" />
+<action abscisse="240" ordonnee="290" id="1" mouvement="translation" objet="point" />
+<action mouvement="montrer" objet="compas" />
+<action ecart="120" mouvement="ecarter" objet="compas" tempo="10" />
+<action cible="1" mouvement="translation" objet="compas" tempo="6" />
+<action mouvement="lever" objet="compas" tempo="5" />
+<action epaisseur="0" couleur="crimson" sens="-5" fin="-360" debut="0" id="2" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="5" />
+<action mouvement="masquer" objet="compas" />
+<action texte="$\text{On trace un cercle de centre }O$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+<action pris="false" abscisse="450" ordonnee="140" id="54" mouvement="creer" objet="texte" />
+<action texte="$\text{On place un point }P\text{ n'importe où sur ce cercle}$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action type="point" ordonnee="87.75" abscisse="502.7" couleur="noir" id="3" mouvement="creer" objet="point" />
+<action ordonnee="-9.9" abscisse="15.5" couleur="noir" nom="P" id="3" mouvement="nommer" objet="point" />
+<action abscisse="348.756" ordonnee="239.285" id="3" mouvement="translation" objet="point" />
+<action texte="$\text{On place un point }P\text{ n'importe où sur ce cercle}$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<action pris="false" abscisse="450" ordonnee="160" id="55" mouvement="creer" objet="texte" />
+<action texte="$\text{On place un point }E\text{ sur le cercle tel que :}$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action pris="false" abscisse="530" ordonnee="190" id="56" mouvement="creer" objet="texte" />
+<action texte="$\widehat{POE} = \frac{360}{5} = 72°$" id="56" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20" />
+<action mouvement="vide" objet="regle" />
+<action mouvement="montrer" objet="regle" tempo="10"/>
+<action cible="1" mouvement="translation" objet="regle" tempo="10"/>
+<action cible="3" mouvement="rotation" objet="regle" tempo="10"/>
+<action sens="80" angle="-77" mouvement="rotation" objet="crayon" />
+<action abscisse="108" ordonnee="200" mouvement="montrer" objet="crayon" tempo="10"/>
+<action cible="1" mouvement="translation" objet="crayon" tempo="5" />
+<action id="4" epaisseur="0" couleur="gray" cible="3" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+<action abscisse="358" ordonnee="468" mouvement="montrer" objet="rapporteur" tempo="7" />
+<action cible="1" mouvement="translation" objet="rapporteur" tempo="10" />
+<action sens="-1" angle="-25" mouvement="rotation" objet="rapporteur" tempo="15" />
+<action abscisse="54" ordonnee="188" mouvement="montrer" objet="crayon" />
+<action abscisse="220.812" ordonnee="133.73" mouvement="translation" objet="crayon" tempo="20" />
+<action id="5" epaisseur="0" couleur="gray" abscisse="220.089" ordonnee="127.839" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="rapporteur" />
+<action sens="-97" angle="-97" mouvement="rotation" objet="regle" />
+<action abscisse="465" ordonnee="501" mouvement="montrer" objet="regle" />
+<action abscisse="269.415" ordonnee="529.572" mouvement="translation" objet="regle" />
+<action sens="-150" angle="-150" mouvement="rotation" objet="crayon" />
+<action abscisse="101" ordonnee="400" mouvement="montrer" objet="crayon" />
+<action abscisse="240" ordonnee="290" cible="1" mouvement="translation" objet="crayon" tempo="7" />
+<action abscisse="225.375" ordonnee="170.894" epaisseur="0" couleur="gray" id="6" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="trait" id="5" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+<action type="point" ordonnee="125.65" abscisse="73.25" couleur="noir" id="7" mouvement="creer" objet="point" />
+<action ordonnee="-32.45" abscisse="-21.85" couleur="noir" nom="E" id="7" mouvement="nommer" objet="point" />
+<action abscisse="225.375" ordonnee="170.894" id="7" mouvement="translation" objet="point" />
+<action ordonnee="290" abscisse="240" rayon="30" angle2="-97" angle1="-25" forme="plein" couleur="rosybrown" id="8" mouvement="creer" objet="angle" />
+<action pris="false" ordonnee="240" abscisse="250" id="9" mouvement="creer" objet="texte" />
+<action couleur="noir" texte="72°" id="9" taille="11" mouvement="ecrire" objet="texte" tempo="15" />
+<action texte="$\text{On place un point }E\text{ sur le cercle tel que :}$" id="55" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+<action texte="$\widehat{POE} = \frac{360}{5} = 72°$" id="56" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+<action pris="false" abscisse="450" ordonnee="240" id="57" mouvement="creer" objet="texte" />
+<action texte="$\text{À l'aide du compas on reporte la longueur }EP$" id="57" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action ecart="0" mouvement="ecarter" objet="compas" vitesse="100" />
+<action abscisse="400.65" ordonnee="376.85" mouvement="montrer" objet="compas" tempo="10"/>
+<action cible="7" mouvement="translation" objet="compas" tempo="10" />
+<action cible="3" mouvement="rotation" objet="compas" tempo="10"/>
+<action cible="3" mouvement="ecarter" objet="compas" tempo="7" />
+<action sens="2" angle="127" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="5" />
+<action couleur="steelblue" epaisseur="0" sens="2" fin="149" debut="127" id="10" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="7" />
+<action abscisse="122.204" ordonnee="267.102" mouvement="translation" objet="compas" tempo="7" />
+<action sens="-2" angle="76.39" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="5" />
+<action couleur="steelblue" epaisseur="0" sens="2" debut="76.54" fin="56.8" id="11" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="7" />
+<action abscisse="181.822" ordonnee="394.954" mouvement="translation" objet="compas" tempo="7" />
+<action sens="-2" angle="2.06" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="5" />
+<action couleur="steelblue" epaisseur="0" sens="-2" fin="-14.09" debut="2.06" id="12" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="10" />
+<action mouvement="masquer" objet="compas" />
+<action texte="$\text{À l'aide du compas on reporte la longueur }EP$" id="57" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+<action pris="false" abscisse="450" ordonnee="260" id="58" mouvement="creer" objet="texte" />
+<action texte="$\text{On nomme les sommets}$" id="58" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action type="point" ordonnee="116.9" abscisse="104" couleur="noir" id="13" mouvement="creer" objet="point" />
+<action ordonnee="-2.85" abscisse="-33.15" couleur="noir" nom="N" id="13" mouvement="nommer" objet="point" />
+<action abscisse="122.204" ordonnee="267.102" id="13" mouvement="translation" objet="point" />
+<action type="point" ordonnee="131.15" abscisse="85.75" couleur="noir" id="14" mouvement="creer" objet="point" />
+<action ordonnee="10.6" abscisse="-2.1" couleur="noir" nom="T" id="14" mouvement="nommer" objet="point" />
+<action abscisse="181.822" ordonnee="394.954" id="14" mouvement="translation" objet="point" />
+<action type="point" ordonnee="115.3" abscisse="418.8" couleur="noir" id="15" mouvement="creer" objet="point" />
+<action ordonnee="-5.65" abscisse="12.7" couleur="noir" nom="A" id="15" mouvement="nommer" objet="point" />
+<action abscisse="321.839" ordonnee="377.762" id="15" mouvement="translation" objet="point" />
+<action texte="$\text{On nomme les sommets}$" id="58" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+<action pris="false" abscisse="450" ordonnee="280" id="59" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace les côtés du polygone}$" id="59" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action sens="-115" angle="-115" mouvement="rotation" objet="regle" />
+<action abscisse="327" ordonnee="530" mouvement="montrer" objet="regle" />
+<action cible="14" mouvement="translation" objet="regle" />
+<action abscisse="102" ordonnee="421" mouvement="montrer" objet="crayon" />
+<action cible="14" mouvement="translation" objet="crayon" />
+<action id="16" epaisseur="2" couleur="darkblue" cible="13" mouvement="tracer" objet="crayon" />
+<action sens="5" angle="-43" mouvement="rotation" objet="regle" />
+<action cible="13" mouvement="translation" objet="regle" />
+<action id="17" epaisseur="2" couleur="darkblue" cible="7" mouvement="tracer" objet="crayon" />
+<action sens="5" angle="29" mouvement="rotation" objet="regle" />
+<action cible="7" mouvement="translation" objet="regle" />
+<action sens="5" angle="-75.12" mouvement="rotation" objet="crayon" />
+<action id="18" epaisseur="2" couleur="darkblue" cible="3" mouvement="tracer" objet="crayon" />
+<action cible="14" mouvement="rotation" objet="regle" />
+<action cible="3" mouvement="translation" objet="regle" />
+<action sens="5" angle="-17.8" mouvement="rotation" objet="crayon" />
+<action id="19" epaisseur="2" couleur="darkblue" cible="15" mouvement="tracer" objet="crayon" />
+<action cible="13" mouvement="rotation" objet="regle" />
+<action cible="15" mouvement="translation" objet="regle" />
+<action sens="5" angle="38.36" mouvement="rotation" objet="crayon" />
+<action id="20" epaisseur="2" couleur="darkblue" cible="14" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+<action texte="$\text{On trace les côtés du polygone}$" id="59" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+<action cibles="3,7,13,14,15" epaisseur="0" couleur="darkblue" forme="polygone" id="100" mouvement="tracer" objet="crayon" opacite="5" />
+</INSTRUMENPOCHE>

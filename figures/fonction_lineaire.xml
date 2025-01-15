@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+
+<action abscisse="600" ordonnee="50" id="48" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Représenter graphiquement une fonction linéaire}$" id="48" taille="19" couleur="noir" police="arial" mouvement="ecrire" objet="texte" />
+<action mouvement="translation" objet="texte" id="48" abscisse="50" ordonnee="50" />
+<action abscisse="50" ordonnee="75" id="49" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de représenter graphiquement les fonctions }f\text{ et }g\text{ telles que }f(x)=-2x\text{ et }g(x)=\frac{2}{3}x$" id="49" taille="16" couleur="rouge" mouvement="ecrire" objet="texte" />
+
+
+<!-- le repère -->
+
+<!-- Coordoonnées de l'origine : ( 195 ; 270 ) -->
+
+
+<action tempo="40" hauteur="10" largeur="10" haut="4" gauche="1.5" Ygrad="1" Xgrad="1" Ymax="5" Ymin="-5" Xmax="5" Xmin="-5" couleur="noir" mouvement="creer" objet="repere" />
+
+
+<!-- FONCTION f -->
+
+
+
+
+<action abscisse="360" ordonnee="130" id="50" mouvement="creer" objet="texte" />
+<action tempo="30" texte="$\textbf{Représentation graphique de la fonction }\mathbf{f}\text{ :}$" id="50" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<!-- origine du repère -->
+
+<action abscisse="360" ordonnee="160" id="51" mouvement="creer" objet="texte" />
+<action tempo="20" texte="$\begin{array}{l}\text{Puisque }f\text{ est une fonction linéaire, sa représentation graphique est}\\[-1cm]\text{une droite }(d)\text{ qui passe par }\textcolor{navy}{\text{l'origine du repère}}\end{array}$" id="51" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="525" ordonnee="177" id="52" mouvement="creer" objet="texte" />
+<action texte="$\text{l'origine du repère}$" id="52" taille="16" couleur="navy" mouvement="ecrire" objet="texte" />
+<action texte="$\begin{array}{l}\text{Puisque }f\text{ est une fonction linéaire, sa représentation graphique est}\\[-1cm]\text{une droite }(d)\text{ qui passe par l'origine du repère}\end{array}$" id="51" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="220.3" ordonnee="235.9" id="52" mouvement="translation" objet="texte" />
+<action epaisseur="2" ordonnee="270" abscisse="195" couleur="navy" id="2" mouvement="creer" objet="point" />
+<action couleur="navy" style="vecteur" epaisseur="1"  abscisse1="218" ordonnee1="249" abscisse2="198" ordonnee2="268" mouvement="tracer" id="3" objet="trait" tempo="20"/>
+
+<action mouvement="masquer" id="3" objet="trait" />
+<action mouvement="masquer" id="52" objet="texte" />
+
+
+<action texte="$\begin{array}{l}\text{Puisque }f\text{ est une fonction linéaire, sa représentation graphique est}\\[-1cm]\text{une droite }(d)\text{ qui passe par l'origine du repère}\end{array}$" id="51" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<!-- calcul de l'image de 1 -->
+
+
+<action abscisse="360" ordonnee="210" id="53" mouvement="creer" objet="texte" />
+<action tempo="20" texte="$\text{Calculons l'image du nombre 1 par la fonction }f\text{ :}$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="460" ordonnee="235" id="54" mouvement="creer" objet="texte" />
+<action tempo="40" texte="$f(1) = -2 \times 1 = -2$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action texte="$\text{Calculons l'image du nombre 1 par la fonction }f\text{ :}$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+<action texte="$f(1) = -2 \times 1 = -2$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<!-- 2eme point / coordonnées ( 225 ; 330 )-->
+
+
+<action abscisse="360" ordonnee="260" id="55" mouvement="creer" objet="texte" />
+<action tempo="20" texte="$\text{La droite }(d)\text{ passe donc par }\textcolor{navy}{\text{le point de coordonnées (1;-2)}}$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action epaisseur="2" ordonnee="285.05" abscisse="621.05" couleur="navy" id="4" mouvement="creer" objet="point" />
+<action abscisse="225" ordonnee="330" id="4" mouvement="translation" objet="point" />
+
+<action texte="$\text{La droite }(d)\text{ passe donc par le point de coordonnées (1;-2)}$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action abscisse="528" ordonnee="260" id="56" mouvement="creer" objet="texte" />
+<action texte="$\text{le point de coordonnées (1;-2)}$" id="56" taille="16" couleur="navy" mouvement="ecrire" objet="texte" />
+<action abscisse="275" ordonnee="300" id="56" mouvement="translation" objet="texte" />
+
+<action couleur="navy" style="vecteur" epaisseur="1"  abscisse1="271" ordonnee1="315" abscisse2="235" ordonnee2="327" mouvement="tracer" id="5" objet="trait" tempo="20"/>
+<action mouvement="masquer" id="5" objet="trait" />
+<action mouvement="masquer" id="56" objet="texte" />
+
+
+
+<action texte="$\text{La droite }(d)\text{ passe donc par le point de coordonnées (1;-2)}$" id="55" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<!-- droite d -->
+
+<action abscisse="360" ordonnee="285" id="57" mouvement="creer" objet="texte" />
+<action tempo="20" texte="$\text{Traçons la droite qui passe par ces deux points}$" id="57" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action mouvement="vide" objet="regle" />
+<action mouvement="montrer" objet="regle" tempo="10" />
+<action sens="3" angle="63.434949" mouvement="rotation" objet="regle" tempo="5" />
+<action abscisse="113.022" ordonnee="106.044" mouvement="translation" objet="regle" tempo="10" />
+<action abscisse="301" ordonnee="176" mouvement="montrer" objet="crayon" tempo="10" />
+<action abscisse="120" ordonnee="120" mouvement="translation" objet="crayon" tempo="10" />
+<action abscisse="270" ordonnee="420" epaisseur="2" couleur="navy" id="6" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<action ordonnee="82.6" abscisse="361.4" id="7" mouvement="creer" objet="texte" />
+<action couleur="navy" texte="$(d)$" id="7" mouvement="ecrire" objet="texte" />
+<action abscisse="100" ordonnee="121.1" id="7" mouvement="translation" objet="texte" />
+
+<action texte="$\text{Traçons la droite qui passe par ces deux points}$" id="57" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<!-- Conclusion -->
+
+<action abscisse="360" ordonnee="320" id="58" mouvement="creer" objet="texte" />
+<action tempo="30" couleur_fond="burlywood" texte="$\text{La droite }\textcolor{navy}{(d)}\text{ est la représentation graphique de la fonction linéaire }f$" id="58" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+
+
+<action mouvement="masquer" id="50" objet="texte" />
+<action mouvement="masquer" id="51" objet="texte" />
+<action mouvement="masquer" id="53" objet="texte" />
+<action mouvement="masquer" id="54" objet="texte" />
+<action mouvement="masquer" id="55" objet="texte" />
+<action mouvement="masquer" id="57" objet="texte" />
+<action mouvement="masquer" id="58" objet="texte" />
+
+
+<action mouvement="masquer" id="2" objet="point" />
+<action mouvement="masquer" id="4" objet="point" />
+
+
+
+
+
+
+<!-- FONCTION g -->
+
+
+
+
+<action abscisse="360" ordonnee="130" id="60" mouvement="creer" objet="texte" />
+<action tempo="30" texte="$\textbf{Représentation graphique de la fonction }\mathbf{g}\text{ :}$" id="60" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<!-- origine du repère -->
+
+<action abscisse="360" ordonnee="160" id="61" mouvement="creer" objet="texte" />
+<action tempo="20" texte="$\begin{array}{l}\text{Puisque }g\text{ est une fonction linéaire, sa représentation graphique est}\\[-1cm]\text{une droite }(d')\text{ qui passe par }\textcolor{darkred}{\text{l'origine du repère}}\end{array}$" id="61" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="530" ordonnee="177" id="62" mouvement="creer" objet="texte" />
+<action texte="$\text{l'origine du repère}$" id="62" taille="16" couleur="darkred" mouvement="ecrire" objet="texte" />
+<action texte="$\begin{array}{l}\text{Puisque }g\text{ est une fonction linéaire, sa représentation graphique est}\\[-1cm]\text{une droite }(d')\text{ qui passe par l'origine du repère}\end{array}$" id="61" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="220.3" ordonnee="235.9" id="62" mouvement="translation" objet="texte" />
+<action epaisseur="2" ordonnee="270" abscisse="195" couleur="darkred" id="12" mouvement="creer" objet="point" />
+<action couleur="darkred" style="vecteur" epaisseur="1"  abscisse1="218" ordonnee1="249" abscisse2="198" ordonnee2="268" mouvement="tracer" id="13" objet="trait" tempo="20"/>
+
+<action mouvement="masquer" id="13" objet="trait" />
+<action mouvement="masquer" id="62" objet="texte" />
+
+
+<action texte="$\begin{array}{l}\text{Puisque }g\text{ est une fonction linéaire, sa représentation graphique est}\\[-1cm]\text{une droite }(d')\text{ qui passe par l'origine du repère}\end{array}$" id="61" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<!-- calcul de l'image de 1 -->
+
+
+<action abscisse="360" ordonnee="210" id="63" mouvement="creer" objet="texte" />
+<action tempo="20" texte="$\text{Calculons l'image du nombre 1 par la fonction }g\text{ :}$" id="63" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="460" ordonnee="235" id="64" mouvement="creer" objet="texte" />
+<action tempo="40" texte="$g(1) = \frac{2}{3} \times 1 = \frac{2}{3}$" id="64" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action texte="$\text{Calculons l'image du nombre 1 par la fonction }g\text{ :}$" id="63" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+<action texte="$g(1) = \frac{2}{3} \times 1 = \frac{2}{3}$" id="64" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="360" ordonnee="270" id="65" mouvement="creer" objet="texte" />
+<action tempo="30" texte="$\text{La droite }(d')\text{ passe donc par le point de coordonnées }(1;\frac{2}{3})$" id="65" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action texte="$\text{La droite }(d')\text{ passe donc par le point de coordonnées }(1;\frac{2}{3})$" id="65" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+
+<action abscisse="360" ordonnee="330" id="66" mouvement="creer" objet="texte" />
+<action tempo="30" texte="$\begin{array}{l}\text{Mais, avec le repère fourni, il est impossible de placer précisément}\\[-1cm]\text{un point dont l'ordonnée vaut }\frac{2}{3}\text{ !}\end{array}$" id="66" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+<action couleur="red"  epaisseur="1"  abscisse1="360" ordonnee1="214" abscisse2="745" ordonnee2="311" mouvement="tracer" id="23" objet="trait" />
+<action couleur="red"  epaisseur="1"  abscisse1="745" ordonnee1="214" abscisse2="360" ordonnee2="311" mouvement="tracer" id="24" objet="trait" />
+
+
+<action  texte="$\begin{array}{l}\text{Mais, avec le repère fourni, il est impossible de placer précisément}\\[-1cm]\text{un point dont l'ordonnée vaut }\frac{2}{3}\text{ !}\end{array}$" id="66" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="360" ordonnee="375" id="67" mouvement="creer" objet="texte" />
+<action tempo="30" texte="$\text{Il convient de choisir un nombre dont l'image est un nombre entier}$" id="67" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action texte="$\text{Il convient de choisir un nombre dont l'image est un nombre entier}$" id="67" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="360" ordonnee="395" id="68" mouvement="creer" objet="texte" />
+<action tempo="30" texte="$\text{Recommençons en choisissant un multiple de 3}$" id="68" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action texte="$\text{Recommençons en choisissant un multiple de 3}$" id="68" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+<action mouvement="masquer" id="23" objet="trait" />
+<action mouvement="masquer" id="24" objet="trait" />
+
+<action mouvement="masquer" id="63" objet="texte" />
+<action mouvement="masquer" id="64" objet="texte" />
+<action mouvement="masquer" id="65" objet="texte" />
+<action mouvement="masquer" id="66" objet="texte" />
+<action mouvement="masquer" id="67" objet="texte" />
+<action mouvement="masquer" id="68" objet="texte" />
+
+
+<!-- calcul de l'image de 3 -->
+
+
+<action abscisse="360" ordonnee="210" id="73" mouvement="creer" objet="texte" />
+<action tempo="30" texte="$\text{Calculons l'image du nombre 3 par la fonction }g\text{ :}$" id="73" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action abscisse="460" ordonnee="235" id="74" mouvement="creer" objet="texte" />
+<action tempo="40" texte="$g(3) = \frac{2}{3} \times 3 = \frac{6}{3} = 2$" id="74" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action texte="$\text{Calculons l'image du nombre 3 par la fonction }g\text{ :}$" id="73" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+<action texte="$g(3) = \frac{2}{3} \times 3 = \frac{6}{3} = 2$" id="74" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<!-- 2eme point / coordonnées ( 285 ; 210 )-->
+
+
+<action abscisse="360" ordonnee="280" id="75" mouvement="creer" objet="texte" />
+<action tempo="20" texte="$\text{La droite }(d')\text{ passe donc par }\textcolor{darkred}{\text{le point de coordonnées (3;2)}}$" id="75" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action epaisseur="2" ordonnee="285.05" abscisse="621.05" couleur="darkred" id="14" mouvement="creer" objet="point" />
+<action abscisse="285" ordonnee="210" id="14" mouvement="translation" objet="point" />
+
+<action texte="$\text{La droite }(d')\text{ passe donc par le point de coordonnées (3;2)}$" id="75" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action abscisse="532" ordonnee="282" id="76" mouvement="creer" objet="texte" />
+<action texte="$\text{le point de coordonnées (3;2)}$" id="76" taille="16" couleur="darkred" mouvement="ecrire" objet="texte" />
+<action abscisse="256" ordonnee="243" id="76" mouvement="translation" objet="texte" />
+
+<action couleur="darkred" style="vecteur" epaisseur="1"  abscisse1="264" ordonnee1="245" abscisse2="279" ordonnee2="220" mouvement="tracer" id="15" objet="trait" tempo="20"/>
+<action mouvement="masquer" id="15" objet="trait" />
+<action mouvement="masquer" id="76" objet="texte" />
+
+<action texte="$\text{La droite }(d')\text{ passe donc par le point de coordonnées (3;2)}$" id="75" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+<!-- droite d -->
+
+<action abscisse="360" ordonnee="305" id="77" mouvement="creer" objet="texte" />
+<action tempo="20" texte="$\text{Traçons la droite qui passe par ces deux points}$" id="77" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action sens="180" angle="0" mouvement="rotation" objet="regle" />
+<action mouvement="vide" objet="regle" />
+<action abscisse="322" ordonnee="359" mouvement="montrer" objet="regle" tempo="10" />
+<action sens="-3" angle="-33.690068" mouvement="rotation" objet="regle" tempo="5" />
+<action abscisse="41.858" ordonnee="372.094" mouvement="translation" objet="regle" tempo="10" />
+<action sens="-180" angle="-75" mouvement="rotation" objet="crayon" />
+<action abscisse="110" ordonnee="230" mouvement="montrer" objet="crayon" tempo="10" />
+<action abscisse="45" ordonnee="370" mouvement="translation" objet="crayon" tempo="10" />
+<action abscisse="345" ordonnee="170" epaisseur="2" couleur="darkred" id="16" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+
+<action ordonnee="75" abscisse="390" id="9" mouvement="creer" objet="texte" />
+<action couleur="darkred" texte="$(d')$" id="9" mouvement="ecrire" objet="texte" />
+<action abscisse="54.6" ordonnee="361.25" id="9" mouvement="translation" objet="texte" />
+
+<action texte="$\text{Traçons la droite qui passe par ces deux points}$" id="77" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+<!-- Conclusion -->
+
+<action abscisse="360" ordonnee="330" id="78" mouvement="creer" objet="texte" />
+<action tempo="30" couleur_fond="burlywood" texte="$\text{La droite }\textcolor{darkred}{(d')}\text{ est la représentation graphique de la fonction linéaire }g$" id="78" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action mouvement="masquer" id="12" objet="point" />
+<action mouvement="masquer" id="14" objet="point" />
+
+
+
+</INSTRUMENPOCHE>

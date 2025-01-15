@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+
+<actionabscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Tracer le symétrique d'un point par rapport à une droite}$" id="50" taille="19" couleur="noir" mouvement="ecrire" police="arial" objet="texte"/>
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+
+<action abscisse="50" ordonnee="75" id="51" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de tracer le symétrique du point }A\text{ par rapport à la droite }(d)\text{ en utilisant l'équerre}$" id="51" taille="16" couleur="rouge" mouvement="ecrire" objet="texte"/>
+
+
+
+<action epaisseur="1" ordonnee2="125.19" abscisse2="304.84" ordonnee1="480" abscisse1="100" mouvement="tracer" couleur="navy" id="5000" objet="trait"/>
+<action abscisse="112.3" ordonnee="474.6" id="10" mouvement="creer" objet="texte" />
+<action texte="$(d)$" id="10" taille="18" couleur="navy" mouvement="ecrire" objet="texte"/>
+
+
+<action abscisse="70" ordonnee="230" id="11" mouvement="creer" objet="point" />
+<action ordonnee="-7.75" abscisse="-33.9" couleur="0" nom="A" id="11" mouvement="nommer" objet="point" />
+
+
+
+
+<action abscisse="450" ordonnee="140" id="52" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\text{On trace la droite }(d')\text{ perpendiculaire à la droite }(d) \\[-1cm] \text{et qui passe par le point }A\text{.}\end{array}$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action abscisse="600" ordonnee="430" mouvement="montrer" objet="equerre" tempo="5"/>
+<action abscisse="250.64" ordonnee="219.06" mouvement="translation" objet="equerre" tempo="10"/>
+<action sens="-1" angle="-60" mouvement="rotation" objet="equerre" tempo="10"/>
+<action abscisse="200.75" ordonnee="305.49" mouvement="translation" objet="equerre" tempo="10"/>
+
+<action mouvement="vide" objet="regle" />
+<action abscisse="400" ordonnee="330" mouvement="montrer" objet="regle" tempo="10"/>
+<action sens="2" angle="30" mouvement="rotation" objet="regle" />
+<action abscisse="0.49" ordonnee="192" mouvement="translation" objet="regle" tempo="10"/>
+
+<action mouvement="masquer" objet="equerre" />
+
+<action abscisse="300" ordonnee="80" mouvement="montrer" objet="crayon" tempo="10"/>
+<action abscisse="0.49" ordonnee="189.86" mouvement="translation" objet="crayon" tempo="10" />
+<action abscisse="385.36" ordonnee="412.07" epaisseur="1" id="20" mouvement="tracer" objet="crayon" couleur="saddlebrown" tempo="10"/>
+
+<action mouvement="masquer" objet="regle" />
+
+
+<action abscisse="208.25" ordonnee="292.495" mouvement="translation" objet="crayon" />
+<action abscisse="195.26" ordonnee="284.995" epaisseur="1" id="21" mouvement="tracer" objet="crayon" couleur="crimson" />
+<action abscisse="187.76" ordonnee="297.985" epaisseur="1" id="22" mouvement="tracer" objet="crayon" couleur="crimson" />
+
+<action mouvement="masquer" objet="crayon" />
+
+<action abscisse="398.4" ordonnee="407.5" id="12" mouvement="creer" objet="texte" />
+<action texte="$(d')$" id="12" taille="18" couleur="saddlebrown" mouvement="ecrire" objet="texte"/>
+
+<action texte="$\begin{array}{l}\text{On trace la droite }(d')\text{ perpendiculaire à la droite }(d) \\[-1cm] \text{et qui passe par le point }A\text{.}\end{array}$" id="52" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+<action abscisse="450" ordonnee="182" id="53" mouvement="creer" objet="texte" />
+<action texte="$\text{Les droites }(d)\text{ et }(d')\text{ se coupent en }I\text{.}$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action abscisse="20" ordonnee="80" id="13" mouvement="creer" objet="point" />
+<action ordonnee="13.4" abscisse="-2.8" couleur="0" nom="I" id="13" mouvement="nommer" objet="point" />
+<action abscisse="200.75" ordonnee="305.49" id="13" mouvement="translation" objet="point" />
+
+<action texte="$\text{Les droites }(d)\text{ et }(d')\text{ se coupent en }I\text{.}$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+<action abscisse="450" ordonnee="202" id="54" mouvement="creer" objet="texte" />
+<action texte="$\text{On reporte, avec le compas, la longueur }IA\text{.}$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action abscisse="500" ordonnee="430" mouvement="montrer" objet="compas" />
+<action cible="13" mouvement="translation" objet="compas" tempo="10" />
+<action cible="11" mouvement="rotation" objet="compas" />
+<action cible="11" mouvement="ecarter" objet="compas" tempo="10" />
+<action sens="5" angle="19" mouvement="rotation" objet="compas" tempo="5"/>
+<action mouvement="lever" objet="compas" tempo="7" />
+<action couleur="lightseagreen" epaisseur="0" sens="1" fin="42" debut="19" id="23" mouvement="tracer" objet="compas" />
+<action mouvement="coucher" objet="compas" tempo="5"/>
+<action mouvement="masquer" objet="compas" />
+
+
+<action abscisse="300" ordonnee="330" mouvement="montrer" objet="crayon" />
+<action abscisse="144.03" ordonnee="262.74" mouvement="translation" objet="crayon" />
+<action abscisse="126.71" ordonnee="272.74" epaisseur="1" id="24" mouvement="tracer" objet="crayon" couleur="crimson" />
+<action abscisse="274.79" ordonnee="338.23" mouvement="translation" objet="crayon" />
+<action abscisse="257.46" ordonnee="348.23" epaisseur="1" id="25" mouvement="tracer" objet="crayon" couleur="crimson" />
+<action mouvement="masquer" objet="crayon" />
+
+
+<action texte="$\text{On reporte, avec le compas, la longueur }IA\text{.}$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+<action abscisse="450" ordonnee="222" id="55" mouvement="creer" objet="texte" />
+<action texte="$\text{On nomme le point }A'\text{.}$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action abscisse="20" ordonnee="80" id="26" mouvement="creer" objet="point" />
+<action ordonnee="-22.6" abscisse="17.65" couleur="0" nom="A'" id="26" mouvement="nommer" objet="point" />
+<action abscisse="331.5" ordonnee="380.98" id="26" mouvement="translation" objet="point" />
+
+<action texte="$\text{On nomme le point }A'\text{.}$" id="55" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+<action abscisse="400" ordonnee="250" id="56" mouvement="creer" objet="texte" />
+<action texte="$A'\textbf{ est le symétrique du point }A\textbf{ par rapport à la droite } {\color{#000080}(d)}\textbf{.}$" id="56" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+
+
+</INSTRUMENPOCHE>

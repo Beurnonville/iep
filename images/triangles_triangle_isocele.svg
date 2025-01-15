@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg1868"
+   width="500"
+   height="500">
+  <metadata
+     id="metadata1872">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <line
+     id="line347"
+     style="visibility:visible;stroke:#000000;stroke-width:0.99999994;stroke-linecap:round;stroke-opacity:1"
+     y2="429.05896"
+     x2="122.37364"
+     y1="447.99963"
+     x1="103.43296" />
+  <line
+     id="line349"
+     style="visibility:visible;stroke:#000000;stroke-width:0.99999994;stroke-linecap:round;stroke-opacity:1"
+     y2="447.99963"
+     x2="122.37364"
+     y1="429.05896"
+     x1="103.43296" />
+  <line
+     id="line352"
+     style="visibility:visible;stroke:#000000;stroke-width:0.99999994;stroke-linecap:round;stroke-opacity:1"
+     y2="429.05896"
+     x2="406.4838"
+     y1="447.99963"
+     x1="387.54312" />
+  <line
+     id="line354"
+     style="visibility:visible;stroke:#000000;stroke-width:0.99999994;stroke-linecap:round;stroke-opacity:1"
+     y2="447.99963"
+     x2="406.4838"
+     y1="429.05896"
+     x1="387.54312" />
+  <line
+     id="line357"
+     style="visibility:visible;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-opacity:1"
+     y2="438.5293"
+     x2="397.01346"
+     y1="438.5293"
+     x1="112.9033" />
+  <path
+     id="path459"
+     style="visibility:visible;fill:none;stroke:#20b2aa;stroke-width:1.5;stroke-linecap:round;stroke-opacity:1"
+     d="M 368.5748,133.83188 A 397.75424,397.75424 0 0 0 112.9033,40.775051" />
+  <path
+     id="path561"
+     style="visibility:visible;fill:none;stroke:#20b2aa;stroke-width:1.5;stroke-linecap:round;stroke-opacity:1"
+     d="M 431.68005,42.28862 A 397.75424,397.75424 0 0 0 115.75876,157.27459" />
+  <line
+     id="line611"
+     style="visibility:visible;stroke:#000000;stroke-width:0.99999994;stroke-linecap:round;stroke-opacity:1"
+     y2="57.518597"
+     x2="264.61813"
+     y1="76.459274"
+     x1="245.67746" />
+  <line
+     id="line613"
+     style="visibility:visible;stroke:#000000;stroke-width:0.99999994;stroke-linecap:round;stroke-opacity:1"
+     y2="76.459274"
+     x2="264.61813"
+     y1="57.518597"
+     x1="245.67746" />
+  <line
+     id="line699"
+     style="visibility:visible;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-opacity:1"
+     y2="66.988937"
+     x2="255.1478"
+     y1="438.5293"
+     x1="112.9033" />
+  <line
+     id="line702"
+     style="visibility:visible;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-opacity:1"
+     y2="438.5293"
+     x2="397.01346"
+     y1="66.988937"
+     x1="255.1478" />
+  <line
+     id="line705"
+     style="visibility:visible;stroke:#cd5c5c;stroke-width:1.5;stroke-linecap:round;stroke-opacity:1"
+     y2="277.59033"
+     x2="197.73859"
+     y1="227.92789"
+     x1="170.12309" />
+  <line
+     id="line708"
+     style="visibility:visible;stroke:#cd5c5c;stroke-width:1.5;stroke-linecap:round;stroke-opacity:1"
+     y2="277.59033"
+     x2="312.17819"
+     y1="227.92789"
+     x1="339.79364" />
+  <polygon
+     points="175.1,153.84 100,350 250,350 "
+     style="visibility:visible;fill:#00008b;fill-opacity:0.05;stroke:#00008b;stroke-width:0.52796417"
+     visibility="visible"
+     id="100"
+     transform="matrix(1.8940678,0,0,1.8940678,-76.503484,-224.39443)" />
+  <text
+     id="text712"
+     style="font-size:30.30508423px;visibility:visible;fill:#708090;stroke-width:0.99999994"
+     y="487.77505"
+     x="226.54736"
+     pointer-events="none">5 cm</text>
+  <text
+     id="text715"
+     style="font-size:30.30508423px;visibility:visible;fill:#708090;stroke-width:0.99999994"
+     y="279.42758"
+     x="75.021942"
+     pointer-events="none">7 cm</text>
+  <defs
+     id="defs1657">
+    <radialGradient
+       id="radialfonce">
+      <stop
+         offset="0%"
+         style="stop-color:#000099;"
+         id="stop1650" />
+      <stop
+         offset="80%"
+         style="stop-color:#9999FF;"
+         id="stop1652" />
+      <stop
+         offset="100%"
+         style="stop-color:#000099;"
+         id="stop1654" />
+    </radialGradient>
+  </defs>
+  <defs
+     id="defs1666">
+    <radialGradient
+       id="radialclair">
+      <stop
+         offset="0%"
+         style="stop-color:#666666;"
+         id="stop1659" />
+      <stop
+         offset="80%"
+         style="stop-color:#CCCCCC;"
+         id="stop1661" />
+      <stop
+         offset="100%"
+         style="stop-color:#666666;"
+         id="stop1663" />
+    </radialGradient>
+  </defs>
+  <defs
+     id="defs1675">
+    <radialGradient
+       id="radialrouge">
+      <stop
+         offset="0%"
+         style="stop-color:#FF0000;"
+         id="stop1668" />
+      <stop
+         offset="80%"
+         style="stop-color:#FF9999;"
+         id="stop1670" />
+      <stop
+         offset="100%"
+         style="stop-color:#FF0000;"
+         id="stop1672" />
+    </radialGradient>
+  </defs>
+  <text
+     id="text1824"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.88135529px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';visibility:visible;fill:#000000;stroke-width:0.99999994"
+     y="483.13455"
+     x="67.445671"
+     pointer-events="none">B</text>
+  <text
+     id="text1828"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.88135529px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';visibility:visible;fill:#000000;stroke-width:0.99999994"
+     y="487.11212"
+     x="404.96854"
+     pointer-events="none">C</text>
+  <text
+     id="text1864"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.88135529px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';visibility:visible;fill:#000000;stroke-width:0.99999994"
+     y="38.00972"
+     x="239.1429"
+     pointer-events="none">A</text>
+</svg>

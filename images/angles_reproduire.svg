@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   height="500"
+   width="500"
+   id="svg1278"
+   version="1.1">
+  <metadata
+     id="metadata1282">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     style="visibility:visible"
+     id="g7"
+     transform="translate(50,491)"
+     visibility="visible" />
+  <polygon
+     transform="matrix(1.0626481,0,0,1.0626797,-15.662025,-58.177113)"
+     id="5000"
+     visibility="visible"
+     style="visibility:visible;fill:#000000;fill-opacity:0.05;stroke:#000000;stroke-width:0.94103128"
+     points="470,110 470,270 30,270 30,110 " />
+  <g
+     transform="matrix(1.0626481,0,0,1.0626797,-15.662025,-58.177113)"
+     style="visibility:visible;stroke-width:0.94103128"
+     id="200"
+     visibility="visible">
+    <line
+       id="line10"
+       style="stroke:#000000;stroke-width:0.94103128;stroke-linecap:round;stroke-opacity:1"
+       y2="254.752"
+       x2="410.69"
+       y1="200"
+       x1="65" />
+  </g>
+  <g
+     transform="matrix(1.0626481,0,0,1.0626797,-15.662025,-58.177113)"
+     style="visibility:visible;stroke-width:0.94103128"
+     id="201"
+     visibility="visible">
+    <line
+       id="line13"
+       style="stroke:#000000;stroke-width:0.94103128;stroke-linecap:round;stroke-opacity:1"
+       y2="133.216"
+       x2="408.569"
+       y1="200"
+       x1="65" />
+  </g>
+  <g
+     style="visibility:visible;stroke-width:0.94103128"
+     visibility="visible"
+     transform="matrix(1.0626481,0,0,1.0626797,53.410104,154.35883)"
+     id="1">
+    <line
+       id="line16"
+       style="stroke:#000000;stroke-width:0.94103128;stroke-linecap:round;stroke-opacity:1"
+       y2="-5"
+       x2="5"
+       y1="5"
+       x1="-5" />
+    <line
+       id="line18"
+       style="stroke:#000000;stroke-width:0.94103128;stroke-linecap:round;stroke-opacity:1"
+       y2="5"
+       x2="5"
+       y1="-5"
+       x1="-5" />
+  </g>
+  <g
+     style="visibility:visible;stroke-width:0.94103128"
+     transform="matrix(1.0626481,0,0,1.0626797,434.90079,84.221966)"
+     id="2"
+     visibility="visible">
+    <text
+       id="text21"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';fill:#000000;stroke-width:0.94103128"
+       y="0"
+       x="0"
+       pointer-events="none">y</text>
+  </g>
+  <g
+     style="visibility:visible;stroke-width:0.94103128"
+     transform="matrix(1.0626481,0,0,1.0626797,439.15138,219.18229)"
+     id="3"
+     visibility="visible">
+    <text
+       id="text24"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';fill:#000000;stroke-width:0.94103128"
+       y="0"
+       x="0"
+       pointer-events="none">x</text>
+  </g>
+  <polygon
+     transform="matrix(1.0626481,0,0,1.0626797,-15.662025,-58.177113)"
+     id="5001"
+     visibility="visible"
+     style="visibility:visible;fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:0.94103128"
+     points="470,280 470,470 30,470 30,280 " />
+  <g
+     style="visibility:visible;stroke-width:0.94103128"
+     visibility="visible"
+     transform="matrix(1.0626481,0,0,1.0626797,53.410104,335.01438)"
+     id="4">
+    <line
+       id="line31"
+       style="stroke:#000000;stroke-width:0.94103128;stroke-linecap:round;stroke-opacity:1"
+       y2="-5"
+       x2="5"
+       y1="5"
+       x1="-5" />
+    <line
+       id="line33"
+       style="stroke:#000000;stroke-width:0.94103128;stroke-linecap:round;stroke-opacity:1"
+       y2="5"
+       x2="5"
+       y1="-5"
+       x1="-5" />
+  </g>
+  <g
+     style="visibility:visible;stroke-width:0.94103128"
+     visibility="visible"
+     id="5"
+     transform="matrix(1.0626481,0,0,1.0626797,53.410104,154.35883)">
+    <path
+       id="path39"
+       style="fill:none;stroke:#20b2aa;stroke-width:0.94103128;stroke-linecap:round;stroke-opacity:1"
+       d="m 151.28297,-52.090905 a 160,160 -19 0 1 0,104.18181" />
+  </g>
+  <g
+     style="visibility:visible;stroke-width:0.94103128"
+     visibility="visible"
+     transform="matrix(1.0626481,0,0,1.0626797,221.34039,180.95664)"
+     id="6">
+    <line
+       id="line45"
+       style="stroke:#000000;stroke-width:0.94103128;stroke-linecap:round;stroke-opacity:1"
+       y2="-5"
+       x2="5"
+       y1="5"
+       x1="-5" />
+    <line
+       id="line47"
+       style="stroke:#000000;stroke-width:0.94103128;stroke-linecap:round;stroke-opacity:1"
+       y2="5"
+       x2="5"
+       y1="-5"
+       x1="-5" />
+  </g>
+  <g
+     style="visibility:visible;stroke-width:0.94103128"
+     visibility="visible"
+     transform="matrix(1.0626481,0,0,1.0626797,220.30962,121.91522)"
+     id="7">
+    <line
+       id="line50"
+       style="stroke:#000000;stroke-width:0.94103128;stroke-linecap:round;stroke-opacity:1"
+       y2="-5"
+       x2="5"
+       y1="5"
+       x1="-5" />
+    <line
+       id="line52"
+       style="stroke:#000000;stroke-width:0.94103128;stroke-linecap:round;stroke-opacity:1"
+       y2="5"
+       x2="5"
+       y1="-5"
+       x1="-5" />
+  </g>
+  <g
+     style="visibility:visible;stroke-width:0.94103128"
+     visibility="visible"
+     id="8"
+     transform="matrix(1.0626481,0,0,1.0626797,53.410104,335.01438)">
+    <path
+       id="path62"
+       style="fill:none;stroke:#20b2aa;stroke-width:0.94103128;stroke-linecap:round;stroke-opacity:1"
+       d="M 134.18711,87.142129 A 159.99979,159.99979 33 0 0 143.80686,-70.13929" />
+  </g>
+  <g
+     style="visibility:visible;stroke-width:0.94103128"
+     visibility="visible"
+     transform="matrix(1.0626481,0,0,1.0626797,219.50945,371.33146)"
+     id="9">
+    <line
+       id="line68"
+       style="stroke:#000000;stroke-width:0.94103128;stroke-linecap:round;stroke-opacity:1"
+       y2="-5"
+       x2="5"
+       y1="5"
+       x1="-5" />
+    <line
+       id="line70"
+       style="stroke:#000000;stroke-width:0.94103128;stroke-linecap:round;stroke-opacity:1"
+       y2="5"
+       x2="5"
+       y1="-5"
+       x1="-5" />
+  </g>
+  <g
+     style="visibility:visible;stroke-width:0.94103128"
+     visibility="visible"
+     id="10"
+     transform="matrix(1.0626481,0,0,1.0626797,219.50945,371.33146)">
+    <path
+       id="path76"
+       style="fill:none;stroke:#20b2aa;stroke-width:0.94103128;stroke-linecap:round;stroke-opacity:1"
+       d="m -14.381919,-53.674051 a 55.567467,55.567467 -105 0 1 33.387112,1.457712" />
+  </g>
+  <g
+     style="visibility:visible;stroke-width:0.94103128"
+     visibility="visible"
+     transform="matrix(1.0626481,0,0,1.0626797,221.91316,312.33042)"
+     id="11">
+    <line
+       id="line82"
+       style="stroke:#000000;stroke-width:0.94103128;stroke-linecap:round;stroke-opacity:1"
+       y2="-5"
+       x2="5"
+       y1="5"
+       x1="-5" />
+    <line
+       id="line84"
+       style="stroke:#000000;stroke-width:0.94103128;stroke-linecap:round;stroke-opacity:1"
+       y2="5"
+       x2="5"
+       y1="-5"
+       x1="-5" />
+  </g>
+  <g
+     transform="matrix(1.0626481,0,0,1.0626797,-15.662025,-58.177113)"
+     style="visibility:visible;stroke-width:0.94103128"
+     id="12"
+     visibility="visible">
+    <line
+       id="line90"
+       style="stroke:#000000;stroke-width:0.94103128;stroke-linecap:round;stroke-opacity:1"
+       y2="445.237"
+       x2="409.108"
+       y1="370"
+       x1="65" />
+  </g>
+  <g
+     transform="matrix(1.0626481,0,0,1.0626797,-15.662025,-58.177113)"
+     style="visibility:visible;stroke-width:0.94103128"
+     id="13"
+     visibility="visible">
+    <line
+       id="line93"
+       style="stroke:#000000;stroke-width:0.94103128;stroke-linecap:round;stroke-opacity:1"
+       y2="325.01501"
+       x2="399.17801"
+       y1="370"
+       x1="65" />
+  </g>
+  <g
+     style="visibility:visible"
+     id="g96"
+     transform="translate(500,766)"
+     visibility="visible" />
+  <g
+     style="visibility:visible;stroke-width:0.94103128"
+     transform="matrix(1.0626481,0,0,1.0626797,437.23861,423.96067)"
+     id="14"
+     visibility="visible">
+    <text
+       id="text98"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';fill:#000000;stroke-width:0.94103128"
+       y="0"
+       x="0"
+       pointer-events="none">x'</text>
+  </g>
+  <g
+     style="visibility:visible;stroke-width:0.94103128"
+     transform="matrix(1.0626481,0,0,1.0626797,426.02767,289.85049)"
+     id="16"
+     visibility="visible">
+    <text
+       id="text101"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';fill:#000000;stroke-width:0.94103128"
+       y="0"
+       x="0"
+       pointer-events="none">y'</text>
+  </g>
+  <g
+     transform="matrix(1.0626481,0,0,1.0626797,-15.662025,-58.177113)"
+     style="visibility:visible;stroke-width:0.94103128"
+     id="g108"
+     visibility="visible">
+    <path
+       id="path104"
+       style="fill:#008000;fill-opacity:0.5;stroke:#008000;stroke-width:0.94103128"
+       d="m 65,370 69.37438,-9.33787 a 70,70 -7.666 0 1 -0.98979,24.28939 z" />
+    <line
+       id="line106"
+       style="fill:#008000;fill-opacity:0.5;stroke:#008000;stroke-width:0.94103128"
+       y2="373.05371"
+       x2="139.93781"
+       y1="372.64655"
+       x1="129.94611" />
+  </g>
+  <g
+     transform="matrix(1.0626481,0,0,1.0626797,-15.662025,-58.177113)"
+     style="visibility:visible;stroke-width:0.94103128"
+     id="g114"
+     visibility="visible">
+    <path
+       id="path110"
+       style="fill:#008000;fill-opacity:0.5;stroke:#008000;stroke-width:0.94103128"
+       d="m 65,200 68.7139,-13.35663 a 70,70 -11 0 1 0.42428,24.30704 z" />
+    <line
+       id="line112"
+       style="fill:#008000;fill-opacity:0.5;stroke:#008000;stroke-width:0.94103128"
+       y2="198.69107"
+       x2="139.98857"
+       y1="198.8656"
+       x1="129.9901" />
+  </g>
+  <defs
+     id="defs1055">
+    <radialGradient
+       id="radialfonce">
+      <stop
+         id="stop1048"
+         style="stop-color:#000099;"
+         offset="0%" />
+      <stop
+         id="stop1050"
+         style="stop-color:#9999FF;"
+         offset="80%" />
+      <stop
+         id="stop1052"
+         style="stop-color:#000099;"
+         offset="100%" />
+    </radialGradient>
+  </defs>
+  <defs
+     id="defs1064">
+    <radialGradient
+       id="radialclair">
+      <stop
+         id="stop1057"
+         style="stop-color:#666666;"
+         offset="0%" />
+      <stop
+         id="stop1059"
+         style="stop-color:#CCCCCC;"
+         offset="80%" />
+      <stop
+         id="stop1061"
+         style="stop-color:#666666;"
+         offset="100%" />
+    </radialGradient>
+  </defs>
+  <defs
+     id="defs1073">
+    <radialGradient
+       id="radialrouge">
+      <stop
+         id="stop1066"
+         style="stop-color:#FF0000;"
+         offset="0%" />
+      <stop
+         id="stop1068"
+         style="stop-color:#FF9999;"
+         offset="80%" />
+      <stop
+         id="stop1070"
+         style="stop-color:#FF0000;"
+         offset="100%" />
+    </radialGradient>
+  </defs>
+  <g
+     style="visibility:visible;stroke-width:0.94103128"
+     id="g1224"
+     transform="matrix(1.0626481,0,0,1.0626797,23.655956,160.20357)"
+     visibility="visible">
+    <text
+       id="text1222"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';fill:#000000;stroke-width:0.94103128"
+       y="0"
+       x="0"
+       pointer-events="none">O</text>
+  </g>
+  <g
+     style="visibility:visible;stroke-width:0.94103128"
+     id="g1228"
+     transform="matrix(1.0626481,0,0,1.0626797,20.468012,343.51582)"
+     visibility="visible">
+    <text
+       id="text1226"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';fill:#000000;stroke-width:0.94103128"
+       y="0"
+       x="0"
+       pointer-events="none">O'</text>
+  </g>
+  <g
+     style="visibility:visible;stroke-width:0.94103128"
+     id="g1264"
+     transform="matrix(1.0626481,0,0,1.0626797,225.59098,207.52363)"
+     visibility="visible">
+    <text
+       id="text1262"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';fill:#000000;stroke-width:0.94103128"
+       y="0"
+       x="0"
+       pointer-events="none">E</text>
+  </g>
+  <g
+     style="visibility:visible;stroke-width:0.94103128"
+     id="g1268"
+     transform="matrix(1.0626481,0,0,1.0626797,226.68551,109.16306)"
+     visibility="visible">
+    <text
+       id="text1266"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';fill:#000000;stroke-width:0.94103128"
+       y="0"
+       x="0"
+       pointer-events="none">F</text>
+  </g>
+  <g
+     style="visibility:visible;stroke-width:0.94103128"
+     id="g1272"
+     transform="matrix(1.0626481,0,0,1.0626797,221.10342,398.53606)"
+     visibility="visible">
+    <text
+       id="text1270"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';fill:#000000;stroke-width:0.94103128"
+       y="0"
+       x="0"
+       pointer-events="none">E'</text>
+  </g>
+  <g
+     style="visibility:visible;stroke-width:0.94103128"
+     id="g1276"
+     transform="matrix(1.0626481,0,0,1.0626797,224.67604,301.01288)"
+     visibility="visible">
+    <text
+       id="text1274"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Utopia;-inkscape-font-specification:'Utopia Italic';fill:#000000;stroke-width:0.94103128"
+       y="0"
+       x="0"
+       pointer-events="none">F'</text>
+  </g>
+</svg>

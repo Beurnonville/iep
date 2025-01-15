@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+
+<action  abscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Construire les médiatrices d'un triangle}$" id="50" taille="19" couleur="noir" mouvement="ecrire" police="arial" objet="texte"/>
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+<action abscisse="50" ordonnee="75" id="51" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de tracer les trois médiatrices du triangle }ABC$" id="51" taille="16" couleur="rouge" mouvement="ecrire" objet="texte"/>
+
+
+
+<action abscisse="370" ordonnee="370" couleur="noir" id="1" mouvement="creer" objet="point" />
+<action ordonnee="1.75" abscisse="11.95"  couleur="noir" nom="A" id="1" mouvement="nommer" objet="point" />
+
+<action abscisse="90" ordonnee="210" couleur="noir" id="2" mouvement="creer" objet="point" />
+<action ordonnee="-23.55" abscisse="-28.95"   couleur="noir" nom="B" id="2" mouvement="nommer" objet="point" />
+
+<action abscisse="170" ordonnee="410" couleur="noir" id="3" mouvement="creer" objet="point" />
+<action ordonnee="8.35" abscisse="-11.6"  couleur="noir" nom="C" id="3" mouvement="nommer" objet="point" />
+
+<action cibles="1,2,3" epaisseur="0" couleur="darkblue" forme="polygone" id="1500" mouvement="tracer" objet="crayon" opacite="5" vitesse="1000" tempo="30"/>
+
+
+
+
+<action  abscisse="500" ordonnee="120" id="52" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace la médiatrice de }[AB]$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+<action tempo="10" abscisse="452" ordonnee="367" mouvement="montrer" objet="compas" />
+<action tempo="10" cible="2" mouvement="translation" objet="compas" />
+<action sens="5" angle="29.39" tempo="10" cible="1" mouvement="rotation" objet="compas" />
+<action tempo="10" ecart="240" mouvement="ecarter" objet="compas" />
+
+<action sens="-3" angle="-23" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="lightseagreen" epaisseur="0" sens="-2" fin="90" debut="-23" id="4" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="3"/>
+
+<action cible="1" mouvement="translation" objet="compas" tempo="10"/>
+<action sens="3" angle="155" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="lightseagreen" epaisseur="0" sens="2" fin="268" debut="155" id="5" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" />
+<action mouvement="masquer" objet="compas" tempo="15"/>
+
+
+<action mouvement="vide" objet="regle" />
+<action abscisse="283" ordonnee="454" mouvement="montrer" objet="regle" tempo="10"/>
+<action abscisse="124.612" ordonnee="474.428" mouvement="translation" objet="regle" tempo="10"/>
+<action sens="-3" angle="-60.255119" mouvement="rotation" objet="regle"  tempo="5"/>
+<action sens="-180" angle="-100" mouvement="rotation" objet="crayon" />
+<action abscisse="178.5" ordonnee="282.85" mouvement="montrer" objet="crayon" tempo="5"/>
+<action abscisse="124.612" ordonnee="474.428" mouvement="translation" objet="crayon" tempo="10"/>
+<action abscisse="330.148" ordonnee="114.739" epaisseur="1" couleur="gold" id="6" mouvement="tracer" objet="crayon" />
+
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+<action ordonnee_sommet="310.858" abscisse_sommet="236.315" ordonnee_inter="290" abscisse_inter="230" couleur="crimson" id="7" mouvement="creer" objet="angle_droit" />
+
+<action mouvement="masquer" id="4" objet="trait" />
+<action mouvement="masquer" id="5" objet="trait" />
+
+<action ordonnee="250" abscisse="160" forme="/" couleur="crimson" id="8" mouvement="creer" objet="longueur" />
+<action ordonnee="330" abscisse="300" forme="/" couleur="crimson" id="9" mouvement="creer" objet="longueur" />
+
+<action texte="$\text{On trace la médiatrice de }[AB]$" id="52" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+
+
+
+
+<action  abscisse="500" ordonnee="140" id="53" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace la médiatrice de }[BC]$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action sens="180" angle="0" mouvement="rotation" objet="compas"/>
+<action ecart="0" mouvement="ecarter" objet="compas" vitesse="1000"/>
+<action tempo="10" abscisse="452" ordonnee="367" mouvement="montrer" objet="compas" />
+<action tempo="10" cible="2" mouvement="translation" objet="compas" />
+<action tempo="10" cible="3" mouvement="rotation" objet="compas" />
+<action tempo="10" ecart="150" mouvement="ecarter" objet="compas" />
+
+<action sens="3" angle="120" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="lightseagreen" epaisseur="0" sens="-2" fin="15" debut="120" id="10" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="3"/>
+
+<action cible="3" mouvement="translation" objet="compas" tempo="10"/>
+<action sens="-3" angle="-60" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="lightseagreen" epaisseur="0" sens="-2" fin="-165" debut="-60" id="11" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" />
+<action mouvement="masquer" objet="compas" tempo="15"/>
+
+<action sens="180" angle="0" mouvement="rotation" objet="regle" />
+<action mouvement="vide" objet="regle" />
+<action abscisse="283" ordonnee="454" mouvement="montrer" objet="regle" tempo="10"/>
+<action abscisse="13.01" ordonnee="356.795" mouvement="translation" objet="regle" tempo="10"/>
+<action sens="-3" angle="-21.801409" mouvement="rotation" objet="regle"  tempo="5"/>
+<action sens="-180" angle="-80" mouvement="rotation" objet="crayon" />
+<action abscisse="139.15" ordonnee="220.45"  mouvement="montrer" objet="crayon" tempo="5"/>
+<action abscisse="13.01" ordonnee="356.795" mouvement="translation" objet="crayon" tempo="10"/>
+<action abscisse="378.215" ordonnee="210.713" epaisseur="1" couleur="gold" id="12" mouvement="tracer" objet="crayon" />
+
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<action ordonnee_sommet="318.356" abscisse_sommet="149.498" ordonnee_inter="310" abscisse_inter="130" couleur="crimson" id="13" mouvement="creer" objet="angle_droit" />
+
+<action mouvement="masquer" id="10" objet="trait" />
+<action mouvement="masquer" id="11" objet="trait" />
+
+<action ordonnee="260" abscisse="110" forme="//" couleur="crimson" id="14" mouvement="creer" objet="longueur" />
+<action ordonnee="360" abscisse="150" forme="//" couleur="crimson" id="15" mouvement="creer" objet="longueur" />
+
+<action texte="$\text{On trace la médiatrice de }[BC]$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+
+
+
+
+<action  abscisse="500" ordonnee="160" id="54" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace la médiatrice de }[AC]$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action sens="180" angle="0" mouvement="rotation" objet="compas"/>
+<action ecart="0" mouvement="ecarter" objet="compas" vitesse="1000"/>
+<action tempo="10" abscisse="452" ordonnee="367" mouvement="montrer" objet="compas" />
+<action tempo="10" cible="3" mouvement="translation" objet="compas" />
+<action tempo="10" cible="1" mouvement="rotation" objet="compas" />
+<action tempo="10" ecart="150" mouvement="ecarter" objet="compas" />
+
+<action sens="-3" angle="-70" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="lightseagreen" epaisseur="0" sens="2" fin="43" debut="-70" id="16" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="3"/>
+
+<action cible="1" mouvement="translation" objet="compas" tempo="10"/>
+<action sens="3" angle="115" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="lightseagreen" epaisseur="0" sens="2" fin="225" debut="115" id="17" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" />
+<action mouvement="masquer" objet="compas" tempo="15"/>
+
+<action sens="180" angle="0" mouvement="rotation" objet="regle" />
+<action mouvement="vide" objet="regle" />
+<action abscisse="283" ordonnee="454" mouvement="montrer" objet="regle" tempo="10"/>
+<action abscisse="296.594" ordonnee="522.974" mouvement="translation" objet="regle" tempo="10"/>
+<action sens="-3" angle="-101.309932" mouvement="rotation" objet="regle"  tempo="5"/>
+<action sens="-180" angle="-165" mouvement="rotation" objet="crayon" />
+<action abscisse="140" ordonnee="160"  mouvement="montrer" objet="crayon" tempo="5"/>
+<action abscisse="220.685" ordonnee="143.426" mouvement="translation" objet="crayon" tempo="10"/>
+<action abscisse="296.594" ordonnee="522.974" epaisseur="1" couleur="gold" id="18" mouvement="tracer" objet="crayon" />
+
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<action ordonnee_sommet="372.349" abscisse_sommet="281.766" ordonnee_inter="390" abscisse_inter="270" couleur="crimson" id="19" mouvement="creer" objet="angle_droit" />
+
+<action mouvement="masquer" id="16" objet="trait" />
+<action mouvement="masquer" id="17" objet="trait" />
+
+<action ordonnee="400" abscisse="220" forme="O" couleur="crimson" id="20" mouvement="creer" objet="longueur" />
+<action ordonnee="380" abscisse="320" forme="O" couleur="crimson" id="21" mouvement="creer" objet="longueur" />
+
+<action texte="$\text{On trace la médiatrice de }[AC]$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+
+
+<action  abscisse="440" ordonnee="230" id="55" mouvement="creer" objet="texte" />
+<action texte="$\text{Les trois médiatrices sont concourantes}$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action ordonnee="112.3" abscisse="447.65" couleur="noir" id="22" mouvement="creer" objet="point" />
+<action ordonnee="-4.85" abscisse="11.05" couleur="noir" nom="O" id="22" mouvement="nommer" objet="point" />
+<action abscisse="244.814" ordonnee="264.074" id="22" mouvement="translation" objet="point" />
+
+<action sens="180" angle="0" mouvement="rotation" objet="compas"/>
+<action ecart="0" mouvement="ecarter" objet="compas" vitesse="1000"/>
+<action tempo="10" abscisse="452" ordonnee="367" mouvement="montrer" objet="compas" />
+
+<action tempo="10" cible="22" mouvement="translation" objet="compas" />
+<action sens="2" angle="40.236358" mouvement="rotation" objet="compas" tempo="6"/>
+<action tempo="10" cible="1" mouvement="ecarter" objet="compas" />
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="sienna" epaisseur="0" sens="4" fin="400.236358" debut="40.236358" id="23" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="4"/>
+<action mouvement="masquer" objet="compas" />
+
+<action  abscisse="440" ordonnee="245" id="56" mouvement="creer" objet="texte" />
+<action texte="$\definecolor{cercle}{rgb}{0.54,0.27,0.075}\begin{array}{l}\text{en un point qui est le centre }\\[-1cm]\text{du }\textcolor{cercle}{\text{cercle circonscrit}}\text{ au triangle }ABC\end{array}$" id="56" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+</INSTRUMENPOCHE>

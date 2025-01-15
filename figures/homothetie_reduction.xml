@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+
+<action  abscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Construire l'image d'un triangle par une homothétie}$" id="50" taille="19" couleur="noir" mouvement="ecrire" police="arial" objet="texte"/>
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+<action abscisse="50" ordonnee="75" id="51" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de construire l'image du triangle }ABC\text{ par l'homothétie de centre }O\text{ et de rapport 0,6}$" id="51" taille="16" couleur="rouge" mouvement="ecrire" objet="texte"/>
+
+
+<!-- Le triangle ABC -->
+
+<action abscisse="164.732" ordonnee="365.942" couleur="noir" id="1" mouvement="creer" objet="point" />
+<action ordonnee="3.75" abscisse="-15"  couleur="noir" nom="A" id="1" mouvement="nommer" objet="point" />
+
+<action abscisse="420.744" ordonnee="334.088" couleur="noir" id="2" mouvement="creer" objet="point" />
+<action ordonnee="3.75" abscisse="0"  couleur="noir" nom="B" id="2" mouvement="nommer" objet="point" />
+
+<action abscisse="418.549" ordonnee="182.281" couleur="noir" id="3" mouvement="creer" objet="point" />
+<action ordonnee="-30" abscisse="-3"  couleur="noir" nom="C" id="3" mouvement="nommer" objet="point" />
+
+<action abscisse="60" ordonnee="150" couleur="noir" id="20" mouvement="creer" objet="point" />
+<action ordonnee="-28.65" abscisse="-18.6"  couleur="noir" nom="O" id="20" mouvement="nommer" objet="point" />
+
+<action cibles="1,2,3" epaisseur="0" couleur="darkblue" forme="polygone" id="1500" mouvement="tracer" objet="crayon" opacite="5" vitesse="1000" tempo="30"/>
+
+
+
+<action abscisse="120" ordonnee="100" id="52" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{ll}\text{Remarque : }&amp;\textit{Puisque le rapport de l'homothétie est positif, les points }A'\textit{, }B'\textit{ et }C'\textit{, images des points }A\textit{, }B\textit{ et }C\textit{,}\\[-1cm] &amp; \textit{sont, respectivement, sur les demi-droites }[OA)\textit{, }[OB) \textit{ et }[OC)\end{array}$" id="52" taille="12" couleur="gray" mouvement="ecrire" objet="texte" tempo="30"/>
+
+
+
+
+<action  abscisse="470" ordonnee="130" id="53" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\text{On trace les demi-droites }[OA)\text{, }[OB)\text{ et }[OC)\end{array}$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="15"/>
+
+<action abscisse="150" ordonnee="370" mouvement="translation" objet="regle" vitesse="100"/>
+<action mouvement="vide" objet="regle" />
+<action mouvement="montrer" objet="regle" tempo="5"/>
+<action abscisse="60" ordonnee="151" mouvement="translation" objet="regle" tempo="5"/>
+<action sens="5" angle="64.126" mouvement="rotation" objet="regle" tempo="5"/>
+<action abscisse="200" ordonnee="100" mouvement="montrer" objet="crayon" tempo="5"/>
+<action cible="20" mouvement="translation" objet="crayon" tempo="10"/>
+<action abscisse="186.161" ordonnee="410.127" epaisseur="0" couleur="gray" id="5" mouvement="tracer" objet="crayon" tempo="10"/>
+<action sens="5" angle="27.035" mouvement="rotation" objet="regle" tempo="5"/>
+<action cible="20" mouvement="translation" objet="crayon" tempo="10"/>
+<action abscisse="466.28" ordonnee="357.325" epaisseur="0" couleur="gray" id="6" mouvement="tracer" objet="crayon" tempo="10"/>
+<action sens="5" angle="5.144" mouvement="rotation" objet="regle" tempo="5"/>
+<action cible="20" mouvement="translation" objet="crayon" tempo="10"/>
+<action abscisse="462.11" ordonnee="186.202" epaisseur="0" couleur="gray" id="7" mouvement="tracer" objet="crayon" tempo="10"/>
+
+<action mouvement="masquer" objet="crayon" tempo="5"/>
+<action mouvement="masquer" objet="regle" />
+<action sens="100" angle="0" mouvement="rotation" objet="regle" />
+
+<action texte="$\begin{array}{l}\text{On trace les demi-droites }[OA)\text{, }[OB)\text{ et }[OC)\end{array}$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+
+<action  abscisse="470" ordonnee="152" id="54" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\text{On mesure la longueur }OA\text{ : }\end{array}$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+
+<action mouvement="graduations" objet="regle" />
+<action sens="500" angle="64.126" mouvement="rotation" objet="regle" tempo="5"/>
+<action cible="20" mouvement="montrer" objet="regle" tempo="5"/>
+<action cible="20" mouvement="translation" objet="crayon" vitesse="500"/>
+<action cible="1" epaisseur="10" couleur="yellow" id="8" opacite="40" mouvement="tracer" objet="crayon" tempo="10"/>
+<action abscisse="0" ordonnee="365.942" id="55" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\phantom{\text{On mesure la longueur }OA\text{ : }}OA=8\text{ cm}\end{array}$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+<action mouvement="translation" objet="texte" id="55" abscisse="470" ordonnee="152" vitesse="16" tempo="20"/>
+<action cible="1" epaisseur="0" couleur="yellow" id="8" opacite="0" mouvement="tracer" objet="crayon"/>
+<action mouvement="masquer" objet="regle" />
+
+<action texte="$\begin{array}{l}\text{On mesure la longueur }OA\text{ : }\end{array}$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+<action texte="$\begin{array}{l}\phantom{\text{On mesure la longueur }OA\text{ : }}OA=8\text{ cm}\end{array}$" id="55" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+<action  abscisse="470" ordonnee="174" id="56" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\text{Sur }[OA)\text{, on place le point }A'\text{ tel que :}\end{array}$" id="56" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+
+<action  abscisse="500" ordonnee="196" id="57" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}OA'=0,6\times OA\end{array}$" id="57" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+
+<action  abscisse="500" ordonnee="196" id="58" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\phantom{OA'=0,6\times OA}=0,6\times 8\end{array}$" id="58" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+
+<action  abscisse="500" ordonnee="196" id="59" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\phantom{OA'=0,6\times OA=0,6\times 8}=4,8\text{ cm}\end{array}$" id="59" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+
+<action cible="20" mouvement="montrer" objet="regle" tempo="15"/>
+<action cible="20" mouvement="translation" objet="crayon" vitesse="500"/>
+<action abscisse="122.839" ordonnee="279.565" epaisseur="10" couleur="yellow" id="8" opacite="40" mouvement="tracer" objet="crayon" tempo="10"/>
+
+<action abscisse="400" ordonnee="120" couleur="noir" id="10" mouvement="creer" objet="point" />
+<action abscisse="-18" ordonnee="3.75" couleur="noir" nom="A&apos;" id="10" mouvement="nommer" objet="point" />
+<action abscisse="122.839" ordonnee="279.565" id="10" mouvement="translation" objet="point" tempo="20"/>
+<action abscisse="122.839" ordonnee="279.565" epaisseur="0" couleur="yellow" id="8" opacite="0" mouvement="tracer" objet="crayon"/>
+<action mouvement="masquer" objet="regle" />
+
+<action texte="$\begin{array}{l}\text{Sur }[OA)\text{, on place le point }A'\text{ tel que :}\end{array}$" id="56" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+<action texte="$\begin{array}{l}OA'=0,6\times OA\end{array}$" id="57" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+<action texte="$\begin{array}{l}\phantom{OA'=0,6\times OA}=0,6\times 8\end{array}$" id="58" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+<action texte="$\begin{array}{l}\phantom{OA'=0,6\times OA=0,6\times 8}=4,8\text{ cm}\end{array}$" id="59" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<action  abscisse="470" ordonnee="218" id="60" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\text{De la même façon :}\end{array}$" id="60" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+
+<action  abscisse="500" ordonnee="240" id="61" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}OB=\end{array}$" id="61" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+
+<action sens="500" angle="27.035" mouvement="rotation" objet="regle" tempo="5"/>
+<action cible="20" mouvement="montrer" objet="regle" tempo="15"/>
+<action cible="20" mouvement="translation" objet="crayon" vitesse="500"/>
+<action cible="2" epaisseur="10" couleur="yellow" id="8" opacite="40" mouvement="tracer" objet="crayon" tempo="20"/>
+
+<action  abscisse="300" ordonnee="334" id="62" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\phantom{OB=}13,5\text{ cm}\end{array}$" id="62" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action mouvement="translation" objet="texte" id="62" abscisse="500" ordonnee="240" vitesse="16" />
+<action texte="" id="62" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action texte="$\begin{array}{l}OB=13,5\text{ cm}\end{array}$" id="61" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+<action texte="$\begin{array}{l}OB=13,5\text{ cm}\hspace{1cm}\text{donc}\end{array}$" id="61" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+
+<action cible="2" epaisseur="0" couleur="yellow" id="8" opacite="0" mouvement="tracer" objet="crayon" />
+
+<action  abscisse="500" ordonnee="262" id="63" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}OB'=\end{array}$" id="63" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+<action texte="$\begin{array}{l}OB'=0,6\times OB\end{array}$" id="63" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+<action texte="$\begin{array}{l}OB'=0,6\times OB=0,6\times 13,5\end{array}$" id="63" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+<action texte="$\begin{array}{l}OB'=0,6\times OB=0,6\times 13,5=8,1\text{ cm}\end{array}$" id="63" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+
+
+<action cible="20" mouvement="translation" objet="crayon" vitesse="500"/>
+<action abscisse="276.446" ordonnee="260.452" epaisseur="10" couleur="yellow" id="8" opacite="40" mouvement="tracer" objet="crayon" tempo="20"/>
+
+<action abscisse="470" ordonnee="110" couleur="noir" id="11" mouvement="creer" objet="point" />
+<action abscisse="-18" ordonnee="3.75" couleur="noir" nom="B&apos;" id="11" mouvement="nommer" objet="point" />
+<action abscisse="276.446" ordonnee="260.452" id="11" mouvement="translation" objet="point" tempo="20"/>
+<action cible="11" epaisseur="0" couleur="yellow" id="8" opacite="0" mouvement="tracer" objet="crayon"/>
+<action mouvement="masquer" objet="regle" />
+
+<action texte="$\begin{array}{l}OB=13,5\text{ cm}\hspace{1cm}\text{donc}\end{array}$" id="61" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+<action texte="$\begin{array}{l}OB'=0,6\times OB=0,6\times 13,5=8,1\text{ cm}\end{array}$" id="63" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+<action  abscisse="470" ordonnee="284" id="64" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\text{et :}\end{array}$" id="64" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+
+<action  abscisse="500" ordonnee="306" id="65" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}OC=\end{array}$" id="65" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+
+<action sens="500" angle="5.144" mouvement="rotation" objet="regle" tempo="5"/>
+<action cible="20" mouvement="montrer" objet="regle" tempo="15"/>
+<action cible="20" mouvement="translation" objet="crayon" vitesse="500"/>
+<action cible="3" epaisseur="10" couleur="yellow" id="8" opacite="40" mouvement="tracer" objet="crayon" tempo="20"/>
+
+
+<action  abscisse="370" ordonnee="182" id="66" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\phantom{OC=}12\text{ cm}\end{array}$" id="66" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action mouvement="translation" objet="texte" id="66" abscisse="500" ordonnee="306" vitesse="16" />
+<action texte="" id="66" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action texte="$\begin{array}{l}OC=12\text{ cm}\end{array}$" id="65" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+<action cible="3" epaisseur="0" couleur="yellow" id="8" opacite="0" mouvement="tracer" objet="crayon" />
+<action texte="$\begin{array}{l}OC=12\text{ cm}\hspace{1cm}\text{donc}\end{array}$" id="65" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+
+<action  abscisse="500" ordonnee="328" id="67" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}OC'=\end{array}$" id="67" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+<action texte="$\begin{array}{l}OC'=0,6\times OC\end{array}$" id="67" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+<action texte="$\begin{array}{l}OC'=0,6\times OC=0,6\times 12\end{array}$" id="67" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+<action texte="$\begin{array}{l}OC'=0,6\times OC=0,6\times 12=7,2\text{ cm}\end{array}$" id="67" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+
+<action cible="20" mouvement="translation" objet="crayon" vitesse="500"/>
+<action abscisse="275.129" ordonnee="169.368" epaisseur="10" couleur="yellow" id="8" opacite="40" mouvement="tracer" objet="crayon" tempo="20"/>
+
+<action abscisse="600" ordonnee="50" couleur="noir" id="12" mouvement="creer" objet="point" />
+<action abscisse="-3" ordonnee="-30" couleur="noir" nom="C&apos;" id="12" mouvement="nommer" objet="point" />
+<action abscisse="275.129" ordonnee="169.368" id="12" mouvement="translation" objet="point" tempo="20"/>
+<action cible="12" epaisseur="0" couleur="yellow" id="8" opacite="0" mouvement="tracer" objet="crayon"/>
+<action mouvement="masquer" objet="regle" />
+
+<action texte="$\begin{array}{l}\text{De la même façon :}\end{array}$" id="60" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+<action texte="$\begin{array}{l}\text{et :}\end{array}$" id="64" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+<action texte="$\begin{array}{l}OC'=0,6\times OC=0,6\times 12=7,2\text{ cm}\end{array}$" id="67" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+<action texte="$\begin{array}{l}OC=12\text{ cm}\end{array}$" id="65" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+
+
+<action  abscisse="470" ordonnee="350" id="68" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\text{On trace le triangle }A'B'C'\end{array}$" id="68" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+
+<action mouvement="vide" objet="regle" />
+<action objet="crayon" mouvement="rotation" angle="-85" sens="-500" />
+<action sens="500" angle="0" mouvement="rotation" objet="regle" />
+<action abscisse="300" ordonnee="200" mouvement="montrer" objet="regle" tempo="5"/>
+<action abscisse="68.299" ordonnee="287.351" mouvement="translation" objet="regle" tempo="5"/>
+<action sens="-5" angle="-7.092" mouvement="rotation" objet="regle" tempo="5"/>
+
+<action abscisse="350" ordonnee="150" mouvement="montrer" objet="crayon" tempo="5"/>
+<action cible="10" mouvement="translation" objet="crayon" tempo="10"/>
+<action cible="11" epaisseur="0" couleur="black" id="21" mouvement="tracer" objet="crayon" tempo="10"/>
+<action abscisse="73.066" ordonnee="315.581" mouvement="translation" objet="regle" tempo="5"/>
+<action sens="-5" angle="-35.889" mouvement="rotation" objet="regle" tempo="5"/>
+<action cible="10" mouvement="translation" objet="crayon" tempo="10"/>
+<action cible="12" epaisseur="0" couleur="black" id="22" mouvement="tracer" objet="crayon" tempo="10"/>
+
+<action sens="-5" angle="0" mouvement="rotation" objet="regle" tempo="5"/>
+<action abscisse="274.148" ordonnee="101.513" mouvement="translation" objet="regle" tempo="5"/>
+<action sens="5" angle="89.171" mouvement="rotation" objet="regle" tempo="5"/>
+<action objet="crayon" mouvement="rotation" angle="-45" sens="-5" />
+<action cible="11" epaisseur="0" couleur="black" id="23" mouvement="tracer" objet="crayon" tempo="10"/>
+<action mouvement="masquer" objet="crayon" tempo="5"/>
+<action mouvement="masquer" objet="regle" />
+
+
+<action texte="$\begin{array}{l}\text{On trace le triangle }A'B'C'\end{array}$" id="68" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+<action  abscisse="400" ordonnee="372" id="70" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\text{Le triangle }{\color{darkcyan}A'B'C'}\text{est l'image du triangle }{\color{darkblue}ABC}\text{ par}\\[-1cm]\text{l'homothétie de centre }O\text{ et de rapport 3}\end{array}$" id="70" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+
+<!-- Coloriage du triangle -->
+
+<action cibles="10,11,12" epaisseur="0" couleur="darkcyan" forme="polygone" id="1501" mouvement="tracer" objet="crayon" opacite="5" />
+
+
+<action abscisse="340" ordonnee="410" id="71" mouvement="creer" objet="texte" />
+<action texte="$\text{Remarque : }A'B'C'\textit{est une réduction du triangle }ABC\textit{ à l'échelle 0,6}$" id="71" taille="14" couleur="maroon" mouvement="ecrire" objet="texte"/>
+
+
+
+</INSTRUMENPOCHE>

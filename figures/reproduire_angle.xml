@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+
+<action  abscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Reproduire un angle à l'aide du compas et d'une règle non graduée}$" id="50" taille="19" couleur="noir" mouvement="ecrire" police="arial" objet="texte"/>
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+<action abscisse="50" ordonnee="75" id="51" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de reproduire l'angle }\widehat{xOy}\text{ à l'aide du compas et d'une règle non graduée}$" id="51" taille="16" couleur="rouge" mouvement="ecrire" objet="texte"/>
+
+
+
+<action mouvement="masquer" objet="crayon" />
+<action abscisses="30,470,470,30" ordonnees="110,110,270,270" epaisseur="0" couleur="0" forme="polygone" id="5000" mouvement="tracer" objet="crayon" opacite="5" vitesse="1000" />
+
+<action epaisseur="1" ordonnee2="254.752" abscisse2="410.69" ordonnee1="200" abscisse1="65" mouvement="tracer" couleur="0" objet="trait" id="200" />
+<action epaisseur="1" ordonnee2="133.216" abscisse2="408.569" ordonnee1="200" abscisse1="65" mouvement="tracer" couleur="0" objet="trait" id="201" />
+<action ordonnee="200" abscisse="65" couleur="noir" id="1" mouvement="creer" objet="point" />
+<action ordonnee="-14.5" abscisse="-28" couleur="noir" nom="O" id="1" mouvement="nommer" objet="point" />
+<action abscisse="424" ordonnee="114"  id="2" mouvement="creer" objet="texte" />
+<action couleur="noir" texte="y" id="2" mouvement="ecrire" objet="texte" />
+<action abscisse="428" ordonnee="241" id="3" mouvement="creer" objet="texte" />
+<action couleur="noir" texte="x" id="3" mouvement="ecrire" objet="texte" />
+
+
+<action abscisses="30,470,470,30" ordonnees="280,280,470,470" epaisseur="0" couleur="0" forme="polygone" id="5001" mouvement="tracer" objet="crayon" opacite="0" vitesse="1000" tempo="40" />
+
+
+
+<action  abscisse="500" ordonnee="150" id="52" mouvement="creer" objet="texte" />
+<action texte="$\text{On place un point }O'\text{ n'importe où.}$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action ordonnee="137" abscisse="109" couleur="noir" id="4" mouvement="creer" objet="point" />
+<action ordonnee="-12" abscisse="-31" couleur="noir" nom="O'" id="4" mouvement="nommer" objet="point" />
+<action abscisse="65" ordonnee="370" id="4" mouvement="translation" objet="point" />
+
+<action texte="$\text{On place un point }O'\text{ n'importe où.}$" id="52" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+<action  abscisse="500" ordonnee="170" id="53" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace un arc de cercle de centre }O\text{,}$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action mouvement="montrer" objet="compas" tempo="10" />
+<action ecart="160" mouvement="ecarter" objet="compas" tempo="10" />
+<action tempo="10" cible="1" mouvement="translation" objet="compas" />
+<action sens="-2" angle="-19" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="5"/>
+<action couleur="lightseagreen" epaisseur="0" sens="2" fin="19" debut="-19" id="5" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="3"/>
+<action mouvement="masquer" objet="compas" />
+
+<action texte="$\text{On trace un arc de cercle de centre }O\text{,}$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+<action  abscisse="500" ordonnee="190" id="54" mouvement="creer" objet="texte" />
+<action texte="$\text{qui coupe }[Ox)\text{ en }E\text{ et }[Oy)\text{ en }F\text{.}$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+<action type="point" ordonnee="124" abscisse="88" couleur="noir" id="6" mouvement="creer" objet="point" />
+<action ordonnee="5" abscisse="4" couleur="noir" nom="E" id="6" mouvement="nommer" objet="point" />
+<action abscisse="223.03" ordonnee="225.029" id="6" mouvement="translation" objet="point" />
+
+<action type="point" ordonnee="129" abscisse="82" couleur="noir" id="7" mouvement="creer" objet="point" />
+<action ordonnee="-32" abscisse="6" couleur="noir" nom="F" id="7" mouvement="nommer" objet="point" />
+<action abscisse="222.06" ordonnee="169.47" id="7" mouvement="translation" objet="point" />
+
+<action texte="$\text{qui coupe }[Ox)\text{ en }E\text{ et }[Oy)\text{ en }F\text{.}$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+<action  abscisse="500" ordonnee="212" id="55" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\text{En gardant le même écartement, on trace} \\[-1cm] \text{un arc de cercle de centre }O'\text{.}\end{array}$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action cible="6" mouvement="rotation" objet="compas" />
+<action cible="6" mouvement="ecarter" objet="compas" />
+<action mouvement="montrer" objet="compas" tempo="15" />
+<action tempo="10" cible="4" mouvement="translation" objet="compas" />
+<action sens="2" angle="33" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="lightseagreen" epaisseur="0" sens="-2" fin="-26" debut="33" id="8" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="3"/>
+<action mouvement="masquer" objet="compas" />
+
+<action texte="$\begin{array}{l}\text{En gardant le même écartement, on trace} \\[-1cm] \text{un arc de cercle de centre }O'\text{.}\end{array}$" id="55" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+<action  abscisse="500" ordonnee="254" id="56" mouvement="creer" objet="texte" />
+<action texte="$\text{On place un point }E'\text{ sur cet arc.}$" id="56" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+<action type="point" ordonnee="173" abscisse="368" couleur="noir" id="9" mouvement="creer" objet="point" />
+<action ordonnee="5.6" abscisse="1.5" couleur="noir" nom="E'" id="9" mouvement="nommer" objet="point" />
+<action abscisse="221.307" ordonnee="404.175" id="9" mouvement="translation" objet="point" />
+
+<action texte="$\text{On place un point }E'\text{ sur cet arc.}$" id="56" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+<action  abscisse="500" ordonnee="274" id="57" mouvement="creer" objet="texte" />
+<action texte="$\text{On reporte la longueur }EF\text{.}$" id="57" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action sens="180" angle="0" mouvement="rotation" objet="compas" />
+<action ecart="0" mouvement="ecarter" objet="compas" />
+<action tempo="10" abscisse="110" ordonnee="370" mouvement="montrer" objet="compas" />
+<action cible="6" mouvement="translation" objet="compas" tempo="10"/>
+<action sens="-3" angle="-92" mouvement="rotation" objet="compas" tempo="5"/>
+<action tempo="10" cible="7" mouvement="ecarter" objet="compas" />
+<action cible="9" mouvement="translation" objet="compas" tempo="10"/>
+<action sens="-2" angle="-105" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="lightseagreen" epaisseur="0" sens="2" fin="-70" debut="-105" id="10" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="3"/>
+<action mouvement="masquer" objet="compas" />
+
+<action texte="$\text{On reporte la longueur }EF\text{.}$" id="57" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+<action  abscisse="500" ordonnee="294" id="58" mouvement="creer" objet="texte" />
+<action texte="$\text{Les deux arcs se coupent en }F'\text{.}$" id="58" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+<action type="point" ordonnee="168.25" abscisse="360.35" couleur="noir" id="11" mouvement="creer" objet="point" />
+<action ordonnee="-30.65" abscisse="2.6" couleur="noir" nom="F'" id="11" mouvement="nommer" objet="point" />
+<action abscisse="223.569" ordonnee="348.654" id="11" mouvement="translation" objet="point" />
+
+<action texte="$\text{Les deux arcs se coupent en }F'\text{.}$" id="58" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+<action  abscisse="500" ordonnee="314" id="59" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace les demi-droites }[O'E')\text{ et }[O'F')\text{.}$" id="59" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+<action mouvement="vide" objet="regle" />
+<action abscisse="95" ordonnee="483" mouvement="montrer" objet="regle" />
+<action cible="4" mouvement="translation" objet="regle" tempo="10" />
+<action cible="9" mouvement="rotation" objet="regle" />
+<action abscisse="329.6" ordonnee="319.9" mouvement="montrer" objet="crayon" />
+<action abscisse="65" ordonnee="370" cible="4" mouvement="translation" objet="crayon" tempo="5"/>
+<action abscisse="409.108" ordonnee="445.237" epaisseur="0" couleur="0" id="12" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action cible="11" mouvement="rotation" objet="regle" tempo="5"/>
+<action abscisse="65" ordonnee="370" mouvement="montrer" objet="crayon" tempo="5"/>
+
+<action abscisse="399.178" ordonnee="325.015" epaisseur="0" couleur="0" id="13" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<action texte="$\text{On trace les demi-droites }[O'E')\text{ et }[O'F')\text{.}$" id="59" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+<action  abscisse="500" ordonnee="350" id="60" mouvement="creer" objet="texte" />
+<action texte="$\text{Les angles }{\color{#000080} \widehat{xOy}}\text{ et }{\color{#000080} \widehat{x'O'y'}}\text{ ont la même mesure.}$" id="60" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+
+<action abscisse="426.2" ordonnee="433.7" id="14" mouvement="creer" objet="texte" />
+<action couleur="noir" texte="x'" id="14" mouvement="ecrire" objet="texte" />
+<action abscisse="415.65" ordonnee="307.5" id="16" mouvement="creer" objet="texte" />
+<action couleur="noir" texte="y'" id="16" mouvement="ecrire" objet="texte" />
+
+
+<action ordonnee="370" abscisse="65" rayon="70" angle2="12.333" angle1="-7.666" forme="plein/" couleur="green" id="15" mouvement="creer" objet="angle" />
+
+<action ordonnee="200" abscisse="65" rayon="70" angle2="9" angle1="-11" forme="plein/" couleur="green" id="17" mouvement="creer" objet="angle" />
+</INSTRUMENPOCHE>

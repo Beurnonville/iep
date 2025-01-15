@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+
+<action abscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Construire un carré connaissant la longueur d'un côté}$" id="50" taille="19" couleur="noir" mouvement="ecrire" police="arial" objet="texte" />
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+<action abscisse="50" ordonnee="75" id="51" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de construire le carré }ABCD\text{ tel que }AB=6\text{ cm}$" id="51" taille="16" couleur="rouge" mouvement="ecrire" objet="texte" tempo="30" />
+
+
+<action  abscisse="500" ordonnee="120" id="52" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace une droite}$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+<action mouvement="vide" objet="regle" />
+<action abscisse="200" ordonnee="400" mouvement="montrer" objet="regle" />
+
+<action sens="2" angle="15" mouvement="rotation" objet="regle" />
+<action abscisse="54.937" ordonnee="307.207" mouvement="translation" objet="regle" tempo="7"/>
+
+<action abscisse="298" ordonnee="213" mouvement="montrer" objet="crayon" tempo="6"/>
+<action abscisse="54.937" ordonnee="307.207" mouvement="translation" objet="crayon" tempo="10"/>
+<action abscisse="408.005" ordonnee="401.811" epaisseur="0" couleur="0" id="1" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<action texte="$\text{On trace une droite}$" id="52" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+<action  abscisse="500" ordonnee="140" id="53" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\text{Sur cette droite on place deux points}\\[-1cm] A\text{ et }B\text{ tels que } AB=6 \text{ cm}\end{array}$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action type="point" ordonnee="136" abscisse="142" couleur="noir" id="2" mouvement="creer" objet="point" />
+<action ordonnee="4" abscisse="-31" couleur="noir" nom="A" id="2" mouvement="nommer" objet="point" />
+<action abscisse="140" ordonnee="330" id="2" mouvement="translation" objet="point" tempo="10"/>
+<action mouvement="graduations" objet="regle" />
+<action cible="2" mouvement="translation" objet="regle" />
+<action mouvement="montrer" objet="regle" tempo="15"/>
+<action type="point" ordonnee="126" abscisse="270" couleur="noir" id="3" mouvement="creer" objet="point" />
+<action ordonnee="9" abscisse="8" couleur="noir" nom="B" id="3" mouvement="nommer" objet="point" />
+<action abscisse="313.866" ordonnee="376.587" id="3" mouvement="translation" objet="point" tempo="15"/>
+<action mouvement="masquer" objet="regle" />
+
+<action texte="$\begin{array}{l}\text{Sur cette droite on place deux points}\\[-1cm] A\text{ et }B\text{ tels que } AB=6 \text{ cm}\end{array}$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+
+<action  abscisse="500" ordonnee="182" id="54" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace deux perpendiculaires à }(AB)$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action abscisse="245" ordonnee="290" mouvement="montrer" objet="equerre" />
+<action tempo="10" abscisse="221.541" ordonnee="351.848" mouvement="translation" objet="equerre" />
+<action tempo="10" sens="2" angle="15" mouvement="rotation" objet="equerre" />
+
+<action  abscisse="530" ordonnee="202" id="200" mouvement="creer" objet="texte" />
+<action texte="$\text{- l'une passant par }A$" id="200" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+<action cible="2" mouvement="translation" objet="equerre" />
+<action sens="-180" angle="-113" mouvement="rotation" objet="crayon" />
+<action abscisse="79" ordonnee="198.8" mouvement="montrer" objet="crayon" />
+<action abscisse="140" ordonnee="330" tempo="10" cible="2" mouvement="translation" objet="crayon" />
+<action abscisse="196.9" ordonnee="117.45" epaisseur="0" couleur="0" id="4" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="equerre" />
+
+<!-- Code angle droit-->
+
+<action abscisse="143.882" ordonnee="315.511" mouvement="translation" objet="crayon" />
+<action abscisse="158.371" ordonnee="319.393" epaisseur="0" couleur="crimson" id="5" mouvement="tracer" objet="crayon" />
+<action abscisse="154.488" ordonnee="333.882" epaisseur="0" couleur="crimson" id="6" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+
+<action texte="$\text{- l'une passant par }A$" id="200" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+<action  abscisse="530" ordonnee="222" id="201" mouvement="creer" objet="texte" />
+<action texte="$\text{- l'autre passant par }B$" id="201" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action tempo="10" mouvement="montrer" objet="equerre" />
+<action cible="3" mouvement="translation" objet="equerre" />
+<action abscisse="251.45" ordonnee="271.85" mouvement="montrer" objet="crayon" />
+<action abscisse="313.85" ordonnee="376.55" tempo="10" cible="3" mouvement="translation" objet="crayon" />
+<action abscisse="370.75" ordonnee="164" epaisseur="0" couleur="0" id="7" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="equerre" />
+
+<action texte="$\text{- l'autre passant par }B$" id="201" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+<!-- Code angle droit-->
+
+<action abscisse="317.748" ordonnee="362.098" mouvement="translation" objet="crayon" />
+<action abscisse="303.26" ordonnee="358.216" epaisseur="0" couleur="crimson" id="8" mouvement="tracer" objet="crayon" />
+<action abscisse="299.377" ordonnee="372.705" epaisseur="0" couleur="crimson" id="9" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+
+<action texte="$\text{On trace deux perpendiculaires à }(AB)$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+<action  abscisse="500" ordonnee="242" id="55" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\text{On trace un arc de cercle de}\\[-1cm] \text{centre }A\text{ et passant par }B\end{array}$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action abscisse="430" ordonnee="344" mouvement="montrer" objet="compas" tempo="6"/>
+<action cible="2" mouvement="translation" objet="compas" tempo="10"/>
+<action cible="3" mouvement="rotation" objet="compas" tempo="6"/>
+<action cible="3" mouvement="ecarter" objet="compas" tempo="10"/>
+<action sens="-3" angle="-63" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="lightseagreen" epaisseur="0" sens="-2" fin="-85" debut="-63" id="10" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="3"/>
+
+<action texte="$\begin{array}{l}\text{On trace un arc de cercle de}\\[-1cm] \text{centre }A\text{ et passant par }B\end{array}$" id="55" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+<action  abscisse="500" ordonnee="284" id="56" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\text{Sans modifier l'écartement du compas,}\\[-1cm] \text{on trace un arc de cercle de centre }B\end{array}$" id="56" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action tempo="10" cible="3" mouvement="translation" objet="compas" />
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="lightseagreen" epaisseur="0" sens="2" fin="-63" debut="-85" id="11" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="3"/>
+<action mouvement="masquer" objet="compas" />
+
+<action texte="$\begin{array}{l}\text{Sans modifier l'écartement du compas,}\\[-1cm] \text{on trace un arc de cercle de centre }B\end{array}$" id="56" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+<action  abscisse="500" ordonnee="326" id="57" mouvement="creer" objet="texte" />
+<action texte="$\text{On nomme les points }C\text{ et }D$" id="57" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+<action ordonnee="111" abscisse="242" couleur="noir" id="13" mouvement="creer" objet="point" />
+<action ordonnee="-26" abscisse="16" couleur="noir" nom="C" id="13" mouvement="nommer" objet="point" />
+<action abscisse="360.454" ordonnee="202.72" id="13" mouvement="translation" objet="point" />
+
+<action ordonnee="110" abscisse="424" couleur="noir" id="12" mouvement="creer" objet="point" />
+<action ordonnee="-33" abscisse="-26" couleur="noir" nom="D" id="12" mouvement="nommer" objet="point" />
+<action abscisse="186.587" ordonnee="156.133" id="12" mouvement="translation" objet="point" />
+
+<action texte="$\text{On nomme les points }C\text{ et }D$" id="57" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+<action  abscisse="500" ordonnee="346" id="58" mouvement="creer" objet="texte" />
+<action texte="$\text{On termine le tracé du carré}$" id="58" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+<action sens="-180" angle="0" mouvement="rotation" objet="equerre" />
+<action abscisse="246.85" ordonnee="283.55" mouvement="montrer" objet="equerre" />
+<action tempo="10" abscisse="161.038" ordonnee="251.483" mouvement="translation" objet="equerre" />
+<action sens="3" angle="105" mouvement="rotation" objet="equerre" tempo="6"/>
+<action cible="12" mouvement="translation" objet="equerre" tempo="6"/>
+<action sens="180" angle="-45" mouvement="rotation" objet="crayon" />
+<action abscisse="399.35" ordonnee="169.7" mouvement="montrer" objet="crayon" />
+<action tempo="10" cible="12" mouvement="translation" objet="crayon" />
+<action id="14" epaisseur="0" couleur="noir" cible="13" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="equerre" />
+
+<!-- Code angle droit-->
+
+<action abscisse="356.571" ordonnee="217.209" mouvement="translation" objet="crayon" />
+<action abscisse="342.082" ordonnee="213.327" epaisseur="0" couleur="crimson" id="15" mouvement="tracer" objet="crayon" />
+<action abscisse="345.965" ordonnee="198.838" epaisseur="0" couleur="crimson" id="16" mouvement="tracer" objet="crayon" />
+
+<!-- Code angle droit-->
+
+<action abscisse="201.076" ordonnee="160.015" mouvement="translation" objet="crayon" />
+<action abscisse="197.194" ordonnee="174.504" epaisseur="0" couleur="crimson" id="17" mouvement="tracer" objet="crayon" />
+<action abscisse="182.705" ordonnee="170.622" epaisseur="0" couleur="crimson" id="18" mouvement="tracer" objet="crayon" />
+
+<action mouvement="masquer" objet="crayon" />
+
+<action texte="$\text{On termine le tracé du carré}$" id="58" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+<action cibles="2,3,13,12" epaisseur="0" couleur="darkblue" forme="polygone" id="100" mouvement="tracer" objet="crayon" opacite="5" />
+
+
+
+<action ordonnee="243.066" abscisse="163.293" forme="\" couleur="crimson" id="19" mouvement="creer" objet="longueur" />
+<action ordonnee="289.654" abscisse="337.16" forme="\" couleur="crimson" id="20" mouvement="creer" objet="longueur" />
+
+<action ordonnee="353.293" abscisse="226.933" forme="/" couleur="crimson" id="21" mouvement="creer" objet="longueur" />
+<action ordonnee="179.427" abscisse="273.52" forme="/" couleur="crimson" id="22" mouvement="creer" objet="longueur" />
+
+<action abscisse="205" ordonnee="370" id="203" mouvement="creer" objet="texte" />
+<action texte="6 cm" id="203" taille="16" couleur="steelblue" mouvement="ecrire" objet="texte" />
+
+
+</INSTRUMENPOCHE>

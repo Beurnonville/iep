@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+<action abscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Construire un triangle rectangle connaissant la longueur du plus grand côté}$" id="50" taille="19" couleur="noir" mouvement="ecrire" police="arial" objet="texte"/>
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+<action abscisse="50" ordonnee="75" id="51" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de tracer le triangle }ABC\text{ rectangle en }A\text{ tel que }AB=7\text{ cm et }BC=9\text{ cm}$" id="51" taille="16" couleur="rouge" mouvement="ecrire" objet="texte" tempo="30"/>
+
+
+
+<!-- Tracé de l'angle droit -->
+<action abscisse="440" ordonnee="150" id="52" mouvement="creer" objet="texte" />
+<action texte="$\text{On commence par tracer un angle droit}$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action mouvement="vide" objet="regle" />
+<action abscisse="350" ordonnee="130" mouvement="montrer" objet="regle" />
+<action abscisse="100" ordonnee="331" id="11" mouvement="translation" objet="regle" />
+<action sens="5" angle="30" mouvement="rotation" objet="regle" />
+
+<action abscisse="400" ordonnee="230" mouvement="montrer" objet="crayon" />
+<action abscisse="100" ordonnee="330" mouvement="translation" objet="crayon" />
+<action abscisse="425.19" ordonnee="517.749" epaisseur="1" id="13" mouvement="tracer" objet="crayon" />
+
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<action echelle="120" mouvement="zoom" objet="equerre" />
+<action abscisse="400" ordonnee="280" mouvement="montrer" objet="equerre" />
+<action sens="5" angle="30" mouvement="rotation" objet="equerre" />
+<action abscisse="100" ordonnee="330" mouvement="translation" objet="equerre" />
+
+<action abscisse="400" ordonnee="230" mouvement="montrer" objet="crayon" />
+<action abscisse="100" ordonnee="330" mouvement="translation" objet="crayon" />
+<action abscisse="227.96" ordonnee="108.367" epaisseur="1" id="14" mouvement="tracer" objet="crayon" />
+
+<action mouvement="masquer" objet="equerre" />
+
+<action abscisse="110.5" ordonnee="311.813" mouvement="translation" objet="crayon" />
+<action abscisse="128.687" ordonnee="322.313" epaisseur="1" id="15" couleur="rouge" mouvement="tracer" objet="crayon" />
+<action abscisse="118.187" ordonnee="340.5" epaisseur="1" id="16" couleur="rouge" mouvement="tracer" objet="crayon" />
+
+<action mouvement="masquer" objet="crayon" />
+
+
+<action texte="$\text{On commence par tracer un angle droit}$" id="52" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+<!-- On place le point A -->
+<action abscisse="440" ordonnee="170" id="53" mouvement="creer" objet="texte" />
+<action texte="$\text{Le triangle est rectangle en }A\text{ : on nomme le point }A$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action abscisse="400" ordonnee="80" id="17" mouvement="creer" objet="point" />
+<action ordonnee="-4.95" abscisse="-33.2" couleur="0" nom="A" id="17" mouvement="nommer" objet="point" />
+<action abscisse="100" ordonnee="330" id="17" mouvement="translation" objet="point" />
+
+<action texte="$\text{Le triangle est rectangle en }A\text{ : on nomme le point }A$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+<!-- Point B -->
+
+<action abscisse="440" ordonnee="190" id="54" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\text{On place le point }B\text{ à 7 cm du point }A\text{ sur l'un}\\[-1cm] \text{des côtés de l'angle droit}\end{array}$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action sens="50" angle="0" mouvement="rotation" objet="regle" />
+<action mouvement="graduations" objet="regle" />
+<action abscisse="250" ordonnee="230" mouvement="montrer" objet="regle" />
+<action cible="17" id="18" mouvement="translation" objet="regle" />
+<action sens="2" angle="30" mouvement="rotation" objet="regle" tempo="10"/>
+
+<action abscisse="400" ordonnee="80" id="19" mouvement="creer" objet="point" />
+<action ordonnee="11.3" abscisse="-5.65" couleur="0" nom="B" angle="0" id="19" mouvement="nommer" objet="point" />
+<action abscisse="281.865" ordonnee="435" id="19" mouvement="translation" objet="point" tempo="15"/>
+
+<action mouvement="masquer" objet="regle" />
+
+<!-- Affichage de 7 cm-->
+<action abscisse="158.6" ordonnee="393.2" id="20" mouvement="creer" objet="texte" />
+<action texte="7 cm" id="20" taille="16" couleur="steelblue" mouvement="ecrire" objet="texte" tempo="15"/>
+
+
+<action texte="$\begin{array}{l}\text{On place le point }B\text{ à 7 cm du point }A\text{ sur l'un}\\[-1cm] \text{des côtés de l'angle droit}\end{array}$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+<!-- ------------------------------------------ -->
+
+<!-- Arc de cercle -->
+<action abscisse="440" ordonnee="232" id="55" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace un arc de cercle de centre }B\text{ et de rayon 9 cm}$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action mouvement="graduations" objet="regle" />
+<action sens="-180" angle="0" mouvement="rotation" objet="regle" />
+<action abscisse="170" ordonnee="350" mouvement="montrer" objet="regle" />
+<action abscisse="403" ordonnee="200" mouvement="montrer" objet="compas" tempo="20"/>
+<action tempo="10" abscisse="170" ordonnee="350" mouvement="translation" objet="compas" />
+<action tempo="10" ecart="270" mouvement="ecarter" objet="compas" />
+<action mouvement="masquer" objet="regle" />
+<action cible="19" mouvement="translation" objet="compas" tempo="10" />
+<action sens="-4" angle="-102" mouvement="rotation" objet="compas" tempo="5" />
+<action mouvement="lever" objet="compas" tempo="5" />
+<action couleur="lightseagreen" epaisseur="0" sens="-2" fin="-120" debut="-102" id="22" mouvement="tracer" objet="compas" />
+<action mouvement="coucher" objet="compas" tempo="5" />
+<action mouvement="masquer" objet="compas" />
+
+<action texte="$\text{On trace un arc de cercle de centre }B\text{ et de rayon 9 cm}$" id="55" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+<!-- Point C -->
+<action abscisse="440" ordonnee="252" id="56" mouvement="creer" objet="texte" />
+<action texte="$\text{On place le point }C$" id="56" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action abscisse="200" ordonnee="80" id="23" mouvement="creer" objet="point" />
+<action ordonnee="-34.55" abscisse="-25.4" couleur="0" nom="C" id="23" mouvement="nommer" objet="point" />
+<action abscisse="184.853" ordonnee="183.031" id="23" mouvement="translation" objet="point" />
+
+<action texte="$\text{On place le point }C$" id="56" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+<!-- Côté [BC} -->
+<action abscisse="440" ordonnee="272" id="57" mouvement="creer" objet="texte" />
+<action texte="$\text{On termine le tracé du triangle}$" id="57" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action mouvement="vide" objet="regle" />
+<action abscisse="50" ordonnee="180" mouvement="montrer" objet="regle" />
+<action sens="5" angle="68.942" mouvement="rotation" objet="regle" />
+<action abscisse="156.106" ordonnee="109" id="24" mouvement="translation" objet="regle" />
+<action abscisse="184.853" ordonnee="183.031" mouvement="montrer" objet="crayon" />
+<action cible="19" epaisseur="1" id="25" mouvement="tracer" objet="crayon" />
+
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<action texte="$\text{On termine le tracé du triangle}$" id="57" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+<!-- Affichage de 9 cm -->
+<action abscisse="240.7" ordonnee="272.6" id="30" mouvement="creer" objet="texte" />
+<action texte="9 cm" id="30" taille="16" couleur="steelblue" mouvement="ecrire" objet="texte"/>
+
+
+
+<!-- Coloriage du triangle -->
+<action cibles="17,19,23" epaisseur="0" couleur="darkblue" forme="polygone" id="1500" mouvement="tracer" objet="crayon" opacite="5" />
+
+
+
+
+</INSTRUMENPOCHE>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+
+<action abscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Construire l'image d'un point par une translation}$" id="50" taille="19" couleur="noir" mouvement="ecrire" objet="texte" police="arial" />
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+<action abscisse="50" ordonnee="75" id="51" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de construire le point }M'\text{ image du point }M\text{ par la translation de vecteur }\overrightarrow{AB}$" id="51" taille="16" couleur="rouge" mouvement="ecrire" objet="texte"  />
+
+
+<action abscisse="100" ordonnee="300" id="1" mouvement="creer" objet="point" />
+<action ordonnee="4.4" abscisse="-24.25" couleur="0" nom="A"  id="1" mouvement="nommer" objet="point" />
+
+<action abscisse="302.844" ordonnee="245.648" id="2" mouvement="creer" objet="point" />
+<action ordonnee="-0.8" abscisse="14.1" couleur="0" nom="B"  id="2" mouvement="nommer" objet="point" />
+
+<action abscisse="130" ordonnee="200" id="3" mouvement="creer" objet="point" />
+<action ordonnee="-30.5" abscisse="-32.6"  couleur="0" nom="M"  id="3" mouvement="nommer" objet="point" />
+
+<action couleur="0" style="vecteur" epaisseur="1" ordonnee2="245.648" abscisse2="302.844" ordonnee1="300" abscisse1="100" mouvement="tracer" id="3000" objet="trait" tempo="30"/>
+
+
+
+
+
+<action  abscisse="450" ordonnee="150" id="52" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace la parallèle à }(AB)\text{ passant par }M\text{.}$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+<action echelle="120" mouvement="zoom" objet="requerre" />
+<action abscisse="381" ordonnee="372" mouvement="montrer" objet="requerre" tempo="7"/>
+<action sens="3" angle="75" mouvement="rotation" objet="requerre" tempo="4"/>
+<action tempo="10" abscisse="224.851" ordonnee="266.546" mouvement="translation" objet="requerre" />
+<action tempo="10" abscisse="127.757" ordonnee="292.562" mouvement="translation" objet="requerre" />
+<action abscisse="-74.023" mouvement="glisser" objet="requerre" tempo="10"/>
+<action sens="-180" angle="-66" mouvement="rotation" objet="crayon" />
+<action abscisse="343.05" ordonnee="280.6" mouvement="montrer" objet="crayon" />
+<action tempo="10" abscisse="109" ordonnee="205.6" mouvement="translation" objet="crayon" />
+<action abscisse="109" ordonnee="205.626" mouvement="translation" objet="crayon" />
+<action abscisse="229.264" ordonnee="173.402" epaisseur="0" couleur="0" id="4" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="requerre" />
+<action mouvement="vide" objet="regle" />
+<action sens="-180" angle="-15" mouvement="rotation" objet="regle" />
+<action abscisse="63.763" ordonnee="217.747" mouvement="montrer" objet="regle" />
+<action abscisse="393.661" ordonnee="129.352" epaisseur="0" couleur="0" id="5" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<action texte="$\text{On trace la parallèle à }(AB)\text{ passant par }M\text{.}$" id="52" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+
+<action  abscisse="450" ordonnee="170" id="53" mouvement="creer" objet="texte" />
+<action texte="$\text{On reporte la longueur }AB\text{ à partir du point }M\text{.}$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+
+<action abscisse="374.6" ordonnee="328.35" mouvement="montrer" objet="compas" tempo="6"/>
+<action cible="1" mouvement="translation" objet="compas" tempo="10"/>
+<action cible="2" mouvement="rotation" objet="compas" tempo="5"/>
+<action cible="2" mouvement="ecarter" objet="compas" tempo="10"/>
+<action cible="3" mouvement="translation" objet="compas" tempo="10"/>
+<action sens="-2" angle="-20" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="6"/>
+<action couleur="lightseagreen" epaisseur="0" sens="2" fin="-10" debut="-20" id="6" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="3"/>
+<action mouvement="masquer" objet="compas" />
+
+
+<action texte="$\text{On reporte la longueur }AB\text{ à partir du point }M\text{.}$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+<action  abscisse="450" ordonnee="190" id="54" mouvement="creer" objet="texte" />
+<action texte="$\text{On nomme le point }M'\text{.}$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action ordonnee="126" abscisse="97.55" couleur="noir" id="7" mouvement="creer" objet="point" />
+<action ordonnee="-35.65" abscisse="8.75" couleur="noir" nom="M&apos;" id="7" mouvement="nommer" objet="point" />
+<action abscisse="332.844" ordonnee="145.648" id="7" mouvement="translation" objet="point" />
+
+<action texte="$\text{On nomme le point }M'\text{.}$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+<action  abscisse="450" ordonnee="230" id="55" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\text{Le quadrilatère }ABM'M\text{ a deux côtés parallèles} \\[-1cm] \text{et de même longueur, c'est donc un parallélogramme.}\end{array}$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action couleur="steelblue" pointille="tiret"  epaisseur="1" ordonnee2="200" abscisse2="130" ordonnee1="300" abscisse1="100" mouvement="tracer" id="3001" objet="trait"/>
+<action couleur="steelblue" pointille="tiret"  epaisseur="1" ordonnee2="245.648" abscisse2="302.844" abscisse1="332.844" ordonnee1="145.648" mouvement="tracer" id="3002" objet="trait" tempo="20"/>
+
+<action texte="$\begin{array}{l}\text{Le quadrilatère }ABM'M\text{ a deux côtés parallèles} \\[-1cm] \text{et de même longueur, c'est donc un parallélogramme.}\end{array}$" id="55" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+<action  abscisse="450" ordonnee="275" id="56" mouvement="creer" objet="texte" />
+<action texte="$\text{Par conséquent, } {\color{#000080} \overrightarrow{MM'}=\overrightarrow{AB}}\text{.}$" id="56" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action couleur="navy" style="vecteur"  epaisseur="2" ordonnee1="200" abscisse1="130" abscisse2="332.844" ordonnee2="145.648" mouvement="tracer" id="4001" objet="trait"/>
+<action couleur="navy" style="vecteur" epaisseur="2" ordonnee2="245.648" abscisse2="302.844" ordonnee1="300" abscisse1="100" mouvement="tracer" id="3000" objet="trait"/>
+
+
+</INSTRUMENPOCHE>

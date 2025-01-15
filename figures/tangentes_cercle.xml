@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+
+
+<action abscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Construire les tangentes à un cercle passant par un point extérieur au cercle}$" id="50" taille="19" couleur="noir" mouvement="ecrire" police="arial" objet="texte"/>
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+
+
+
+<action abscisse="150" ordonnee="290" mouvement="translation" objet="compas" vitesse="50"/>
+<action ecart="100" mouvement="ecarter" objet="compas" />
+<action mouvement="lever" objet="compas" />
+<action sens="360" epaisseur="1" debut="0" fin="360" id="11" couleur="saddlebrown" mouvement="tracer" objet="compas" />
+<action mouvement="coucher" objet="compas"/>
+
+<action abscisse="150" ordonnee="290" id="10" mouvement="creer" objet="point" />
+<action ordonnee="-11.3" abscisse="-36.7" couleur="0" nom="O" id="10" mouvement="nommer" objet="point" />
+
+<action abscisse="420" ordonnee="290" id="12" mouvement="creer" objet="point" />
+<action ordonnee="-15.5" abscisse="21.2" couleur="0" nom="A" id="12" mouvement="nommer" objet="point" />
+
+<action abscisse="50" ordonnee="75" id="51" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de tracer les tangentes au cercle de centre }O\text{ et qui passent par le point }A$" id="51" taille="16" couleur="rouge" mouvement="ecrire" objet="texte" tempo="30"/>
+
+
+
+<!-- Point I -->
+<action abscisse="500" ordonnee="140" id="52" mouvement="creer" objet="texte" />
+<action texte="$\text{On place le milieu }I\text{ du segment }[OA]$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action mouvement="graduations" objet="regle" />
+<action abscisse="350" ordonnee="150" mouvement="montrer" objet="regle" />
+<action abscisse="150" ordonnee="291" mouvement="translation" objet="regle" />
+
+<action abscisse="400" ordonnee="100" mouvement="montrer" objet="crayon" />
+<action cible="10" mouvement="translation" objet="crayon" tempo="10"/>
+<action abscisse="420" ordonnee="290" epaisseur="1" id="14" mouvement="tracer" objet="crayon" />
+
+<action mouvement="masquer" objet="crayon" />
+
+<action abscisse="150" ordonnee="80" id="13" mouvement="creer" objet="point" />
+<action ordonnee="8.5" abscisse="-5.65" couleur="0" nom="I" id="13" mouvement="nommer" objet="point" />
+<action abscisse="285" ordonnee="290" id="13" mouvement="translation" objet="point" tempo="15" />
+
+<action mouvement="masquer" objet="regle" />
+
+<action forme="//" abscisse="217.5" ordonnee="290" id="15" epaisseur="1.5" couleur="crimson" mouvement="tracer" objet="longueur" />
+<action forme="//" abscisse="352.5" ordonnee="290" id="16" epaisseur="1.5" couleur="crimson" mouvement="tracer" objet="longueur" tempo="20"/>
+
+<action texte="$\text{On place le milieu }I\text{ du segment }[OA]$" id="52" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+<!-- cercle de diamètre [OA] -->
+<action abscisse="500" ordonnee="160" id="53" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace le cercle de diamètre }[OA]$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action ecart="0" mouvement="ecarter" objet="compas" />
+<action abscisse="100" ordonnee="100" mouvement="montrer" objet="compas" tempo="10"/>
+<action cible="13" mouvement="translation" objet="compas" tempo="10"/>
+<action ecart="135" mouvement="ecarter" objet="compas" tempo="10"/>
+<action mouvement="lever" objet="compas" tempo="5"/>
+<action sens="-5" epaisseur="1" debut="0" fin="-360" id="17" couleur="seagreen" mouvement="tracer" objet="compas" />
+<action mouvement="coucher" objet="compas"tempo="6"/>
+
+<action mouvement="masquer" objet="compas" />
+
+<action texte="$\text{On trace le cercle de diamètre }[OA]$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+<!-- Points M et N -->
+<action abscisse="500" ordonnee="180" id="54" mouvement="creer" objet="texte" />
+<action texte="$\text{Les deux cercles se coupent en }M\text{ et }N$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action abscisse="50" ordonnee="100" id="18" mouvement="creer" objet="point" />
+<action ordonnee="-38.15" abscisse="-19.75" couleur="0" nom="M" id="18" mouvement="nommer" objet="point" />
+<action abscisse="187.037" ordonnee="197.112" id="18" mouvement="translation" objet="point" />
+
+
+<action abscisse="250" ordonnee="100" id="19" mouvement="creer" objet="point" />
+<action ordonnee="11.3" abscisse="-14.1" couleur="0" nom="N" id="19" mouvement="nommer" objet="point" />
+<action abscisse="187.037" ordonnee="382.888" id="19" mouvement="translation" objet="point" />
+
+<action texte="$\text{Les deux cercles se coupent en }M\text{ et }N$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+<!-- Tracé de (AM) -->
+<action abscisse="500" ordonnee="200" id="55" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace la droite }(AM)$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action mouvement="vide" objet="regle" />
+<action abscisse="300" ordonnee="300" mouvement="montrer" objet="regle" tempo="5"/>
+<action sens="1" angle="21.738" mouvement="rotation" objet="regle" />
+<action abscisse="91.08" ordonnee="160" mouvement="translation" objet="regle" tempo="5"/>
+
+<action abscisse="400" ordonnee="150" mouvement="montrer" objet="crayon" />
+<action abscisse="91.08" ordonnee="158.851" mouvement="translation" objet="crayon" tempo="5"/>
+<action abscisse="466.406" ordonnee="308.503" epaisseur="1" id="20" mouvement="tracer" couleur="navy" objet="crayon" />
+
+<action mouvement="masquer" objet="crayon" />
+
+<action texte="$\text{On trace la droite }(AM)$" id="55" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+<!-- Tracé de (AN) -->
+<action abscisse="500" ordonnee="220" id="56" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace la droite }(AN)$" id="56" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action sens="-1" angle="-21.738" mouvement="rotation" objet="regle" />
+<action abscisse="91.08" ordonnee="421.148" mouvement="translation" objet="regle" tempo="5"/>
+
+<action sens="-90" angle="-75" mouvement="rotation" objet="crayon" />
+<action abscisse="91.08" ordonnee="421.148" mouvement="montrer" objet="crayon" tempo="5"/>
+<action abscisse="466.406" ordonnee="271.497" epaisseur="1" id="21" mouvement="tracer" couleur="navy" objet="crayon" />
+
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<action texte="$\text{On trace la droite }(AN)$" id="56" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+<!-- Conclusion -->
+<action abscisse="500" ordonnee="250" id="57" mouvement="creer" objet="texte" />
+<action texte="$\definecolor{dd}{rgb}{0,0,0.5}\definecolor{cercle}{rgb}{0.54,0.27,0.075}\begin{array}{l}\text{Les droites }\textcolor{dd}{(AM)}\text{ et }\textcolor{dd}{(AN)}\text{ sont tangentes}\\[-1cm]\text{au }\textcolor{cercle}{\text{cercle}}\text{ de centre }O\end{array}$" id="57" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="50"/>
+
+
+
+
+
+
+<action abscisse="550" ordonnee="310" id="58" mouvement="creer" objet="texte" />
+<action texte="(car :" id="58" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="30"/>
+
+<!-- Triangle AOM -->
+<action abscisse="550" ordonnee="340" id="59" mouvement="creer" objet="texte" />
+<action texte="$AOM\text{ est rectangle en }M$" id="59" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<!-- Coloriage du triangle -->
+<action cibles="10,12,18" epaisseur="0" couleur="darkblue" forme="polygone" id="24" mouvement="tracer" objet="crayon" opacite="5" vitesse="1000" />
+<action couleur="crimson" abscisse_inter="187.037" ordonnee_inter="197.112" abscisse_sommet="194.129" ordonnee_sommet="213.61" id="22" epaisseur="1" mouvement="creer" objet="angle_droit" tempo="60"/>
+
+
+
+<action texte="$AOM\text{ est rectangle en }M$" id="59" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+<action cibles="10,12,18" epaisseur="0" couleur="black" forme="polygone" id="24" mouvement="tracer" objet="crayon" opacite="0" vitesse="1000" />
+
+<!-- Triangle AON -->
+<action abscisse="550" ordonnee="360" id="60" mouvement="creer" objet="texte" />
+<action texte="$AON\text{ est rectangle en }N\text{)}$" id="60" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<!-- Coloriage du triangle -->
+<action epaisseur="1" ordonnee2="197.112" abscisse2="187.037" ordonnee1="290" abscisse1="150" mouvement="tracer" couleur="0" id="5000" objet="trait"/>
+
+<action cibles="10,12,19" epaisseur="0" couleur="darkblue" forme="polygone" id="24" mouvement="tracer" objet="crayon" opacite="5" vitesse="1000" />
+<action couleur="crimson" abscisse_inter="187.037" ordonnee_inter="382.888" abscisse_sommet="194.129" ordonnee_sommet="366.39" id="23" epaisseur="1" mouvement="creer" objet="angle_droit" tempo="60"/>
+
+
+<action texte="$AON\text{ est rectangle en }N\text{)}$" id="60" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+<action texte="(car :" id="58" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+<action epaisseur="1" ordonnee2="382.888" abscisse2="187.037" ordonnee1="290" abscisse1="150" mouvement="tracer" couleur="0" id="5001" objet="trait"/> 
+
+
+<action cibles="10" epaisseur="0" couleur="darkblue" forme="polygone" id="24" mouvement="tracer" objet="crayon" opacite="5" vitesse="100" />
+
+
+</INSTRUMENPOCHE>

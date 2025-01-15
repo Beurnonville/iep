@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+<action pris="false" abscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Comparer des longueurs de segments à l'aide d'un compas}$" id="50" taille="19" couleur="noir" mouvement="ecrire" police="arial" objet="texte" />
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+
+<action abscisse="50" ordonnee="75" id="51" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit d'ordonner les longueurs des segments }[AB]\text{, }[CD]\text{ et }[EF]$" id="51" taille="16" couleur="rouge" mouvement="ecrire" objet="texte"/>
+
+
+
+<action type="point" ordonnee="230" abscisse="90" couleur="darkslateblue" id="1" mouvement="creer" objet="point" />
+<action ordonnee="-24.75" abscisse="-30.4" couleur="darkslateblue" nom="A" id="1" mouvement="nommer" objet="point" />
+<action type="point" ordonnee="200" abscisse="230" couleur="darkslateblue" id="2" mouvement="creer" objet="point" />
+<action ordonnee="-25.3" abscisse="9.35" couleur="darkslateblue" nom="B" id="2" mouvement="nommer" objet="point" />
+<action type="point" ordonnee="175" abscisse="310" couleur="goldenrod" id="3" mouvement="creer" objet="point" />
+<action ordonnee="-28.55" abscisse="-25" couleur="goldenrod" nom="C" id="3" mouvement="nommer" objet="point" />
+<action type="point" ordonnee="240" abscisse="460" couleur="goldenrod" id="4" mouvement="creer" objet="point" />
+<action ordonnee="-6.5" abscisse="13.7" couleur="goldenrod" nom="D" id="4" mouvement="nommer" objet="point" />
+<action type="point" ordonnee="170" abscisse="420" couleur="indianred" id="5" mouvement="creer" objet="point" />
+<action ordonnee="-30.4" abscisse="-24.65" couleur="indianred" nom="E" id="5" mouvement="nommer" objet="point" />
+<action type="point" ordonnee="180" abscisse="620" couleur="indianred" id="6" mouvement="creer" objet="point" />
+<action ordonnee="-24.45" abscisse="11.5" couleur="indianred" nom="F" id="6" mouvement="nommer" objet="point" />
+<action abscisse1="90" ordonnee1="230" abscisse2="230" ordonnee2="200" mouvement="tracer" objet="trait" couleur="darkslateblue" id="7" />
+<action abscisse1="310" ordonnee1="175" abscisse2="460" ordonnee2="240" mouvement="tracer" objet="trait" couleur="goldenrod" id="8" />
+<action abscisse1="420" ordonnee1="170" abscisse2="620" ordonnee2="180" mouvement="tracer" objet="trait" couleur="indianred" id="9" />
+
+
+
+<action mouvement="vide" objet="regle" tempo="30"/>
+<action mouvement="montrer" objet="regle" tempo="10"/>
+<action abscisse="70" ordonnee="360" mouvement="translation" objet="regle" />
+
+<action mouvement="montrer" objet="crayon" tempo="10"/>
+<action abscisse="70" ordonnee="360" mouvement="translation" objet="crayon" tempo="10"/>
+<action abscisse="520" ordonnee="360" epaisseur="0" couleur="0" id="10" mouvement="tracer" objet="crayon" vitesse="13" />
+
+<action abscisse1="70" ordonnee1="355" abscisse2="70" ordonnee2="365" mouvement="tracer" objet="trait" id="11" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<action mouvement="montrer" objet="compas" tempo="10"/>
+<action cible="1" mouvement="translation" objet="compas" tempo="10" />
+<action cible="2" mouvement="rotation" objet="compas" tempo="10"/>
+<action cible="2" mouvement="ecarter" objet="compas" tempo="10" />
+
+<action abscisse="70" ordonnee="360" mouvement="translation" objet="compas" tempo="10" />
+<action mouvement="lever" objet="compas" tempo="5" />
+<action couleur="darkslateblue" epaisseur="0" sens="2" debut="-12.35" fin="14.28" id="12" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="5" />
+
+<action cible="3" mouvement="translation" objet="compas" tempo="10" />
+<action cible="4" mouvement="rotation" objet="compas" tempo="10" />
+<action cible="4" mouvement="ecarter" objet="compas" tempo="10" />
+<action abscisse="70" ordonnee="360" mouvement="translation" objet="compas" tempo="10" />
+<action sens="-2" angle="12.94" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="5" />
+<action couleur="goldenrod" epaisseur="0" sens="-2" fin="-11.38" debut="12.94" id="13" mouvement="tracer" objet="compas" tempo="3"/>
+<action mouvement="coucher" objet="compas" tempo="5" />
+<action cible="5" mouvement="translation" objet="compas" tempo="10" />
+<action cible="6" mouvement="rotation" objet="compas" tempo="10" />
+<action cible="6" mouvement="ecarter" objet="compas" tempo="10" />
+<action abscisse="70" ordonnee="360" mouvement="translation" objet="compas" tempo="10" />
+<action sens="2" angle="10.27" mouvement="rotation" objet="compas" tempo="3"/>
+<action mouvement="lever" objet="compas" tempo="5" />
+<action couleur="indianred" epaisseur="0" sens="-2" fin="-8.17" debut="10.27" id="14" mouvement="tracer" objet="compas" tempo="3" />
+<action mouvement="coucher" objet="compas" tempo="5" />
+<action mouvement="masquer" objet="compas" />
+
+<action pris="false" ordonnee="220" abscisse="150" id="15" mouvement="creer" objet="texte" />
+<action couleur="darkslateblue" texte="$AB$" id="15" taille="25" mouvement="ecrire" objet="texte" />
+<action abscisse="155" ordonnee="290" id="15" mouvement="translation" objet="texte" />
+<action pris="false" ordonnee="287" abscisse="198" id="16" mouvement="creer" objet="texte" />
+<action couleur="noir" texte="&lt; " taille="25" id="16" mouvement="ecrire" objet="texte" />
+<action pris="false" ordonnee="192" abscisse="363" id="17" mouvement="creer" objet="texte" />
+<action couleur="goldenrod" texte="$CD$" id="17" taille="25" mouvement="ecrire" objet="texte" />
+<action abscisse="225" ordonnee="290" id="17" mouvement="translation" objet="texte" />
+<action pris="false" ordonnee="287" abscisse="267" id="18" mouvement="creer" objet="texte" />
+<action couleur="noir" texte="&lt; " taille="25" id="18" mouvement="ecrire" objet="texte" />
+<action pris="false" ordonnee="160" abscisse="510" id="19" mouvement="creer" objet="texte" />
+<action couleur="indianred" texte="$EF$" taille="25" id="19" mouvement="ecrire" objet="texte" />
+<action abscisse="295" ordonnee="290" id="19" mouvement="translation" objet="texte" />
+</INSTRUMENPOCHE>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+<action abscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Construire la bissectrice d'un angle à l'aide d'un compas}$" id="50" taille="19" couleur="noir" police="arial" mouvement="ecrire" objet="texte" />
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+<action abscisse="50" ordonnee="75" id="51" mouvement="creer" objet="texte" />
+
+
+<action texte="$\text{Il s'agit de construire la demi-droite }[OU)\text{, bissectrice de l'angle }\widehat{xOy}\text{, en utilisant le compas}$" id="51" taille="16" couleur="rouge" mouvement="ecrire" objet="texte" />
+
+<action epaisseur="1" ordonnee2="370" abscisse2="550" ordonnee1="250" abscisse1="90" mouvement="tracer" couleur="0" objet="trait" id="200" />
+<action epaisseur="1" ordonnee2="123.92" abscisse2="548.37" ordonnee1="250" abscisse1="90" mouvement="tracer" couleur="0" objet="trait" id="201" />
+<action abscisse="90" ordonnee="250" id="11" mouvement="creer" objet="point" />
+<action ordonnee="-14.15" abscisse="-33.15" couleur="0" nom="O" id="11" mouvement="nommer" objet="point" />
+<action abscisse="564.8" ordonnee="365" id="12" mouvement="creer" objet="texte" />
+<action texte="$x$" id="12" taille="18" couleur="0" mouvement="ecrire" objet="texte" />
+<action abscisse="564.1" ordonnee="110" id="13" mouvement="creer" objet="texte" />
+<action texte="$y$" id="13" taille="18" couleur="0" mouvement="ecrire" objet="texte" tempo="40" />
+
+
+<action abscisse="50" ordonnee="370" id="52" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace un arc de cercle de centre }O\text{ (l'écartement est pris au hasard).}$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="30" />
+<action tempo="10" abscisse="500" ordonnee="450" mouvement="montrer" objet="compas" />
+<action tempo="10" cible="11" mouvement="translation" objet="compas" />
+<action sens="-5" angle="-22" mouvement="rotation" objet="compas" />
+<action ecart="180" mouvement="ecarter" objet="compas" tempo="7" />
+<action mouvement="lever" objet="compas" tempo="6" />
+<action couleur="lightseagreen" epaisseur="0" sens="2" fin="22" debut="-22" id="1" mouvement="tracer" objet="compas" />
+<action mouvement="coucher" objet="compas" />
+<action mouvement="masquer" objet="compas" />
+<action texte="$\text{On trace un arc de cercle de centre }O\text{ (l'écartement est pris au hasard).}$" id="52" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="50" ordonnee="390" id="53" mouvement="creer" objet="texte" />
+<action texte="$\text{Cet arc de cercle coupe respectivement les demi-droites }[Ox)\text{ et }[Oy)\text{ en }M\text{ et }N\text{.}$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+<action abscisse="20" ordonnee="50" id="12" mouvement="creer" objet="point" />
+<action ordonnee="9.9" abscisse="1.4" couleur="0" nom="M" id="12" mouvement="nommer" objet="point" />
+<action abscisse="264.17" ordonnee="295.43" id="12" mouvement="translation" objet="point" />
+<action abscisse="20" ordonnee="50" id="13" mouvement="creer" objet="point" />
+<action ordonnee="-37.4" abscisse="2.8" couleur="0" nom="N" id="13" mouvement="nommer" objet="point" />
+<action abscisse="263.55" ordonnee="202.26" id="13" mouvement="translation" objet="point" />
+
+<action texte="$\text{Cet arc de cercle coupe respectivement les demi-droites }[Ox)\text{ et }[Oy)\text{ en }M\text{ et }N\text{.}$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" tempo="10"/>
+
+
+<action abscisse="50" ordonnee="410" id="54" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace un arc de cercle de centre }M\text{.}$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+<action mouvement="montrer" objet="compas" />
+<action tempo="10" cible="12" mouvement="translation" objet="compas" />
+<action sens="-2" angle="-4" mouvement="rotation" objet="compas" />
+<action mouvement="lever" objet="compas" tempo="6" />
+<action couleur="lightseagreen" epaisseur="0" sens="-2" fin="-25" debut="-4" id="2" mouvement="tracer" objet="compas" />
+<action mouvement="coucher" objet="compas" />
+
+<action texte="$\text{On trace un arc de cercle de centre }M\text{.}$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" tempo="10"/>
+
+
+<action abscisse="50" ordonnee="430" id="55" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace un arc de cercle de centre }N\text{.}$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+<action tempo="10" cible="13" mouvement="translation" objet="compas" />
+<action sens="2" angle="4.4" mouvement="rotation" objet="compas" tempo="5" />
+<action mouvement="lever" objet="compas" tempo="6" />
+<action couleur="lightseagreen" epaisseur="0" sens="2" fin="26.8" debut="4.4" id="3" mouvement="tracer" objet="compas" />
+<action mouvement="coucher" objet="compas" />
+
+<action texte="$\text{On trace un arc de cercle de centre }N\text{.}$" id="55" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<action mouvement="masquer" objet="compas" />
+<action abscisse="50" ordonnee="450" id="56" mouvement="creer" objet="texte" />
+<action texte="$\text{Les deux arcs de cercles se coupent en }U\text{.}$" id="56" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20" />
+<action abscisse="500" ordonnee="50" id="14" mouvement="creer" objet="point" />
+<action ordonnee="-29.65" abscisse="12.7" couleur="0" nom="U" id="14" mouvement="nommer" objet="point" />
+<action abscisse="437.72" ordonnee="247.69" id="14" mouvement="translation" objet="point" />
+
+<action texte="$\text{Les deux arcs de cercles se coupent en }U\text{.}$" id="56" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+<action mouvement="vide" objet="regle" />
+<action abscisse="500" ordonnee="450" mouvement="montrer" objet="regle" />
+<action abscisse="90" ordonnee="250" mouvement="translation" objet="regle" />
+<action sens="-5" angle="-0.379" mouvement="rotation" objet="regle" />
+<action abscisse="300" ordonnee="100" mouvement="montrer" objet="crayon" />
+<action cible="11" mouvement="translation" objet="crayon" />
+<action abscisse="500.02" ordonnee="247.28" epaisseur="1" id="30" mouvement="tracer" objet="crayon" couleur="darkblue" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<action abscisse="390" ordonnee="179" id="57" mouvement="creer" objet="texte" />
+<action texte="$[OU)\text{ est la bissectrice de l'angle }\widehat{xOy}$" id="57" taille="16" couleur="darkblue" mouvement="ecrire" objet="texte" />
+<action abscisse="90" ordonnee="250" id="11" mouvement="translation" objet="point" />
+<action ordonnee="250" abscisse="90" rayon="80" angle2="-15" angle1="-0.64" forme="/" couleur="crimson" id="4" mouvement="creer" objet="angle" />
+<action abscisse="90" ordonnee="250" id="11" mouvement="translation" objet="point" />
+<action ordonnee="250" abscisse="90" rayon="95" angle2="-0.3" angle1="14.3" forme="/" couleur="crimson" id="5" mouvement="creer" objet="angle" />
+</INSTRUMENPOCHE>

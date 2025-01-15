@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+
+<action abscisse="600" ordonnee="50" id="48" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Représenter graphiquement une fonction affine}$" id="48" taille="19" couleur="noir" police="arial" mouvement="ecrire" objet="texte" />
+<action mouvement="translation" objet="texte" id="48" abscisse="50" ordonnee="50" />
+<action abscisse="50" ordonnee="75" id="49" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de représenter graphiquement la fonction }f\text{ telle que }f(x)=0,5x+1$" id="49" taille="16" couleur="rouge" mouvement="ecrire" objet="texte" />
+
+
+<!-- le repère -->
+
+<!-- Coordoonnées de l'origine : ( 195 ; 270 ) -->
+
+
+<action tempo="40" hauteur="10" largeur="10" haut="4" gauche="1.5" Ygrad="1" Xgrad="1" Ymax="5" Ymin="-5" Xmax="5" Xmin="-5" couleur="noir" mouvement="creer" objet="repere" />
+
+
+<!-- FONCTION f -->
+
+<action abscisse="360" ordonnee="120" id="50" mouvement="creer" objet="texte" />
+<action tempo="40" texte="$\begin{array}{l}\text{Puisque }f\text{ est une fonction affine, sa représentation graphique est}\\[-1cm]\text{une droite }(d)\end{array}$" id="50" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action texte="$\begin{array}{l}\text{Puisque }f\text{ est une fonction affine, sa représentation graphique est}\\[-1cm]\text{une droite }(d)\end{array}$" id="50" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="360" ordonnee="162" id="51" mouvement="creer" objet="texte" />
+<action tempo="40" texte="$\begin{array}{l}\text{Or, pour tracer une droite, il est nécessaire d'en connaître deux}\\[-1cm]\text{points distincts}\end{array}$" id="51" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action texte="$\begin{array}{l}\text{Or, pour tracer une droite, il est nécessaire d'en connaître deux}\\[-1cm]\text{points distincts}\end{array}$" id="51" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="360" ordonnee="204" id="52" mouvement="creer" objet="texte" />
+<action tempo="40" texte="$\begin{array}{l}\text{Il suffit donc de calculer les images de deux nombres différents}\\[-1cm]\text{par la fonctions }f\text{ :}\end{array}$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action texte="$\begin{array}{l}\text{Il suffit donc de calculer les images de deux nombres différents}\\[-1cm]\text{par la fonctions }f\text{ :}\end{array}$" id="52" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<!-- calcul de l'image de 0 -->
+
+<action abscisse="400" ordonnee="246" id="53" mouvement="creer" objet="texte" />
+<action tempo="50" texte="$f(0) = 0,5 \times 0 + 1 = 0 + 1 = 1$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action texte="$f(0) = 0,5 \times 0 + 1 = 0 + 1 = 1$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+<action abscisse="360" ordonnee="266" id="54" mouvement="creer" objet="texte" />
+<action tempo="40" texte="$\text{La droite }(d)\text{ passe donc par }\textcolor{navy}{\text{le point de coordonnées (0;1)}}$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action epaisseur="2" ordonnee="285.6" abscisse="714.2" couleur="navy" id="1" mouvement="creer" objet="point" />
+<action abscisse="195" ordonnee="240" id="1" mouvement="translation" objet="point" />
+
+<action texte="$\text{La droite }(d)\text{ passe donc par le point de coordonnées (0;1)}$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action abscisse="526" ordonnee="266" id="55" mouvement="creer" objet="texte" />
+<action texte="$\text{le point de coordonnées (0;1)}$" id="55" taille="16" couleur="navy" mouvement="ecrire" objet="texte" />
+<action abscisse="122" ordonnee="183" id="55" mouvement="translation" objet="texte" />
+<action couleur="navy" style="vecteur" epaisseur="1"  abscisse1="130" ordonnee1="205" abscisse2="183" ordonnee2="234" mouvement="tracer" id="5" objet="trait" tempo="20"/>
+<action mouvement="masquer" id="5" objet="trait" />
+<action mouvement="masquer" id="55" objet="texte" />
+<action texte="$\text{La droite }(d)\text{ passe donc par le point de coordonnées (0;1)}$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<!-- calcul de l'image de 4 -->
+
+<action abscisse="400" ordonnee="286" id="56" mouvement="creer" objet="texte" />
+<action tempo="50" texte="$f(4) = 0,5 \times 4 + 1 = 2 + 1 = 3$" id="56" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action texte="$f(4) = 0,5 \times 4 + 1 = 2 + 1 = 3$" id="56" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+<action abscisse="360" ordonnee="306" id="57" mouvement="creer" objet="texte" />
+<action tempo="40" texte="$\text{La droite }(d)\text{ passe donc par }\textcolor{navy}{\text{le point de coordonnées (4;3)}}$" id="57" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action epaisseur="2" ordonnee="322.6" abscisse="633.25" couleur="navy" id="2" mouvement="creer" objet="point" />
+<action abscisse="315" ordonnee="180" id="2" mouvement="translation" objet="point" />
+<action texte="$\text{La droite }(d)\text{ passe donc par le point de coordonnées (4;3)}$" id="57" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action abscisse="526" ordonnee="306" id="58" mouvement="creer" objet="texte" />
+<action texte="$\text{le point de coordonnées (4;3)}$" id="58" taille="16" couleur="navy" mouvement="ecrire" objet="texte" />
+<action abscisse="286.4" ordonnee="96.95" id="58" mouvement="translation" objet="texte" />
+<action couleur="navy" style="vecteur" epaisseur="1"  abscisse1="295" ordonnee1="119" abscisse2="313" ordonnee2="171" mouvement="tracer" id="6" objet="trait" tempo="20"/>
+<action mouvement="masquer" id="6" objet="trait" />
+<action mouvement="masquer" id="58" objet="texte" />
+<action texte="$\text{La droite }(d)\text{ passe donc par le point de coordonnées (4;3)}$" id="57" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<!-- tracé de la droite d -->
+
+<action abscisse="360" ordonnee="326" id="59" mouvement="creer" objet="texte" />
+<action tempo="20" texte="$\text{Traçons la droite qui passe par ces deux points}$" id="59" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+<action mouvement="vide" objet="regle" />
+<action mouvement="montrer" objet="regle" tempo="10" />
+<action sens="-3" angle="-26.565051" mouvement="rotation" objet="regle" tempo="5"/>
+<action abscisse="20.063" ordonnee="327.468" mouvement="translation" objet="regle" tempo="10"/>
+<action sens="-180" angle="-72" mouvement="rotation" objet="crayon" />
+<action abscisse="100" ordonnee="200" mouvement="montrer" objet="crayon" tempo="10"/>
+<action abscisse="45" ordonnee="315" mouvement="translation" objet="crayon" tempo="10"/>
+<action abscisse="345" ordonnee="165" epaisseur="2" couleur="navy" id="3" mouvement="tracer" objet="crayon" tempo="3"/>
+
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<action ordonnee="104.45" abscisse="478.6" id="4" mouvement="creer" objet="texte" />
+<action couleur="navy" texte="$(d)$" id="4" mouvement="ecrire" objet="texte" />
+<action abscisse="53" ordonnee="310" id="4" mouvement="translation" objet="texte" />
+
+<action texte="$\text{Traçons la droite qui passe par ces deux points}$" id="59" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+<!-- Conclusion -->
+
+<action abscisse="360" ordonnee="360" id="60" mouvement="creer" objet="texte" />
+<action tempo="30" couleur_fond="burlywood" texte="$\text{La droite }\textcolor{navy}{(d)}\text{ est la représentation graphique de la fonction affine }f$" id="60" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+
+
+<action mouvement="masquer" id="1" objet="point" />
+<action mouvement="masquer" id="2" objet="point" />
+
+
+</INSTRUMENPOCHE>

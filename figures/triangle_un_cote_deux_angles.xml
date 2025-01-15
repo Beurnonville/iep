@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+<action abscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Construire un triangle connaissant la longueur d'un côté et la mesure des deux angles adjacents à ce côté}$" id="50" taille="14" couleur="noir" mouvement="ecrire" police="arial" objet="texte"/>
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+<action abscisse="50" ordonnee="75" id="51" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de tracer le triangle }ABC\text{ tel que }AB=6\text{ cm, }\widehat{BAC}=40°\text{ et }\widehat{ABC}=50°$" id="51" taille="16" couleur="rouge" mouvement="ecrire" objet="texte" tempo="30"/>
+
+
+
+<!-- Affichage du schéma -->
+<action abscisse="460" ordonnee="150" id="52" mouvement="creer" objet="texte" />
+<action texte="$\text{On commence par tracer un schéma}$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action mouvement="masquer" objet="crayon" />
+<action abscisses="10,190,190,10" ordonnees="270,270,125,125" epaisseur="0" couleur="0" forme="polygone" id="3000" mouvement="tracer" objet="crayon" opacite="5" vitesse="1000" />
+
+
+<action id="1000" url="figures/trg_un_cote_deux_angles.svg" mouvement="chargement" objet="image" />
+<action abscisse="10" ordonnee="125" id="1000" mouvement="translation" objet="image" vitesse="1000" />
+
+
+<!-- petite astuce pour temporiser et gagner du temps plus tard -->
+<action abscisse="200" ordonnee="400" mouvement="translation" objet="compas" tempo="50"/>
+
+
+<action texte="$\text{On commence par tracer un schéma}$" id="52" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+<!-- Tracé de [AB] -->
+<action abscisse="460" ordonnee="170" id="53" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace un segment }[AB]\text{ qui mesure 6 cm}$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+<action abscisse="344.15" ordonnee="109.8" id="11" mouvement="creer" objet="point" />
+<action ordonnee="1.4" abscisse="-27.5" couleur="0" nom="A"  id="11" mouvement="nommer" objet="point" />
+<action abscisse="200" ordonnee="400" id="11" mouvement="translation" objet="point" />
+<action mouvement="graduations" objet="regle" />
+<action abscisse="392.9" ordonnee="226.4" mouvement="montrer" objet="regle" />
+<action abscisse="200" ordonnee="401" mouvement="translation" objet="regle" />
+<action abscisse="500" ordonnee="150" id="12" mouvement="creer" objet="point" />
+<action ordonnee="3.5" abscisse="14.85" couleur="0" nom="B"  id="12" mouvement="nommer" objet="point" />
+<action abscisse="380" ordonnee="400" id="12" mouvement="translation" objet="point" />
+<action abscisse="392.9" ordonnee="226.4" mouvement="montrer" objet="crayon" />
+<action abscisse="200" ordonnee="400" mouvement="translation" objet="crayon" />
+<action abscisse="380" ordonnee="400" epaisseur="1" id="13" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<!-- Affichage de 6 cm -->
+<action  abscisse="271.6" ordonnee="407.5" id="100" mouvement="creer" objet="texte" />
+<action texte="6 cm" id="100" taille="16" couleur="steelblue" mouvement="ecrire" objet="texte"/>
+
+<action texte="$\text{On trace un segment }[AB]\text{ qui mesure 6 cm}$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+
+<!-- Tracé de [Ax) -->
+<action abscisse="460" ordonnee="190" id="54" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace une demi-droite }[Ax)\text{ telle que }\widehat{BAx}=40°$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<!-- Partie Rapporteur -->
+<action abscisse="400" ordonnee="200" mouvement="montrer" objet="rapporteur" tempo="10"/>
+<action cible="11" mouvement="translation" objet="rapporteur" tempo="10"/>
+
+<action abscisse="359" ordonnee="400" mouvement="montrer" objet="crayon" />
+
+<!-- 10° -->
+<action abscisse="356.584" ordonnee="372.39" mouvement="translation" objet="crayon" tempo="10"/>
+<!-- 20° -->
+<action abscisse="349.411" ordonnee="345.619" mouvement="translation" objet="crayon" tempo="10"/>
+<!-- 30° -->
+<action abscisse="337.698" ordonnee="320.5" mouvement="translation" objet="crayon" tempo="10" />
+<!-- 40° -->
+<action abscisse="321.801" ordonnee="297.797" mouvement="translation" objet="crayon" tempo="10" />
+
+<action abscisse="319.345" ordonnee="299.858" mouvement="translation" objet="crayon" />
+<action abscisse="323.964" ordonnee="295.982" epaisseur="1" id="14" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="rapporteur" />
+<action mouvement="masquer" objet="crayon" />
+
+<!-- Tracé de la demi-droite [Ax) -->
+<action mouvement="vide" objet="regle" />
+<action mouvement="montrer" objet="regle" tempo="10"/>
+<action sens="-2" angle="-40" mouvement="rotation" objet="regle" />
+<action sens="-180" angle="-96" mouvement="rotation" objet="crayon" />
+<action abscisse="200" ordonnee="400" mouvement="montrer" objet="crayon" />
+<action abscisse="394.521" ordonnee="236.778" epaisseur="1" id="15" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action sens="-180" angle="-45" mouvement="rotation" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<!-- Affichage de x -->
+<action abscisse="100" ordonnee="100" id="16" mouvement="creer" objet="texte" />
+<action texte="$x$" id="16" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+<action mouvement="translation" objet="texte" id="16" abscisse="400" ordonnee="218" />
+
+<!-- Affichage de l'arc de cercle -->
+<action ecart="40" mouvement="ecarter" objet="compas" />
+<action mouvement="lever" objet="compas" />
+<action sens="-20" epaisseur="1" fin="-40" debut="0" id="17" couleur="lightseagreen" mouvement="tracer" objet="compas" />
+<action mouvement="coucher" objet="compas" />
+
+<!-- Affichage de 40° -->
+<action abscisse="242.8" ordonnee="371.1"  id="18" mouvement="creer" objet="texte" />
+<action texte="40°" id="18" taille="16" couleur="steelblue" mouvement="ecrire" objet="texte"/>
+
+
+<action texte="$\text{On trace une demi-droite }[Ax)\text{ telle que }\widehat{BAx}=40°$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" tempo="20"/>
+
+
+<!-- ------------------------------------------ -->
+
+<!-- Tracé de [Ay) -->
+<action abscisse="460" ordonnee="215" id="55" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace une demi-droite }[Ay)\text{ telle que }\widehat{ABy}=50°$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<!-- Partie Rapporteur -->
+
+<action mouvement="graduations" objet="rapporteur" />
+<action mouvement="masquer_nombres" objet="rapporteur" />
+
+<action abscisse="150" ordonnee="100" mouvement="montrer" objet="rapporteur" tempo="10"/>
+<action cible="12" mouvement="translation" objet="rapporteur" tempo="10"/>
+
+
+<action abscisse="290" ordonnee="400" mouvement="montrer" objet="crayon" />
+
+<!-- 10° -->
+<action abscisse="291.367" ordonnee="384.372" mouvement="translation" objet="crayon" tempo="10"/>
+<!-- 20° -->
+<action abscisse="295.428" ordonnee="369.218" mouvement="translation" objet="crayon" tempo="10"/>
+<!-- 30° -->
+<action abscisse="302.058" ordonnee="355" mouvement="translation" objet="crayon" tempo="10" />
+<!-- 40° -->
+<action abscisse="311.056" ordonnee="342.149" mouvement="translation" objet="crayon" tempo="10" />
+<!-- 50° -->
+<action abscisse="322.149" ordonnee="331.056" mouvement="translation" objet="crayon" tempo="10" />
+
+<action abscisse="324.683" ordonnee="334.139" epaisseur="1" id="19" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="rapporteur" />
+<action mouvement="masquer" objet="crayon" />
+
+<!-- Tracé de la demi-droite [Ay) -->
+<action mouvement="vide" objet="regle" />
+<action abscisse="200" ordonnee="200" mouvement="montrer" objet="regle" />
+<action sens="5" angle="50" mouvement="rotation" objet="regle" />
+<action abscisse="234" ordonnee="227" mouvement="translation" objet="regle" />
+<action abscisse="380" ordonnee="400" mouvement="montrer" objet="crayon" />
+<action abscisse="248.587" ordonnee="243.388" epaisseur="1" id="20" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<!-- Affichage de y -->
+<action abscisse="200" ordonnee="100" id="21" mouvement="creer" objet="texte" />
+<action texte="$y$" id="21" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+<action mouvement="translation" objet="texte" id="21" abscisse="234" ordonnee="220" />
+
+<!-- Affichage de l'arc de cercle -->
+<action cible="12" mouvement="translation" objet="compas" />
+<action sens="180" angle="0" mouvement="rotation" objet="compas" />
+<action ecart="40" mouvement="ecarter" objet="compas" />
+<action mouvement="lever" objet="compas" />
+<action sens="50" epaisseur="1" fin="-180" debut="-130" id="22" couleur="lightseagreen" mouvement="tracer" objet="compas" />
+
+<!-- Affichage de 50° -->
+<action abscisse="312.7" ordonnee="366.8" id="23" mouvement="creer" objet="texte" />
+<action texte="50°" id="23" taille="16" couleur="steelblue" mouvement="ecrire" objet="texte"/>
+
+
+<action texte="$\text{On trace une demi-droite }[Ay)\text{ telle que }\widehat{ABy}=50°$" id="55" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" tempo="20"/>
+
+
+
+<!-- Point C -->
+<action abscisse="460" ordonnee="240" id="56" mouvement="creer" objet="texte" />
+<action texte="$\begin{array}{l}\text{Le point }C\text{ est le point d'intersection}\\[-0.1cm] \text{des demi-droites }[Ax)\text{ et }[By)\end{array}$" id="56" taille="16" couleur="noir" mouvement="ecrire" objet="texte"/>
+
+<action abscisse="200" ordonnee="70" id="24" mouvement="creer" objet="point" />
+<action ordonnee="-37.4" abscisse="-7.75" couleur="0" nom="C" id="24" mouvement="nommer" objet="point" />
+<action abscisse="305.628" ordonnee="311.367" id="24" mouvement="translation" objet="point" />
+
+<action texte="$\begin{array}{l}\text{Le point }C\text{ est le point d'intersection}\\[-0.1cm] \text{des demi-droites }[Ax)\text{ et }[By)\end{array}$" id="56" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+<!-- Coloriage du triangle -->
+
+<action cibles="11,12,24" epaisseur="0" couleur="darkblue" forme="polygone" id="1500" mouvement="tracer" objet="crayon" opacite="5" />
+
+
+</INSTRUMENPOCHE>

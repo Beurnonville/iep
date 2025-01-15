@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+
+<action abscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Construire un triangle connaissant les longueurs des trois côtés}$" id="50" taille="19" couleur="noir" mouvement="ecrire" police="arial" objet="texte" />
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+<action abscisse="50" ordonnee="75" id="51" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de tracer le triangle }ABC\text{ tel que }AB=6\text{ cm, }BC=5\text{ cm et }AC=4\text{ cm}$" id="51" taille="16" couleur="rouge" mouvement="ecrire" objet="texte" tempo="30" />
+
+
+<action abscisse="400" ordonnee="125" id="52" mouvement="creer" objet="texte" />
+<action texte="$\text{À la règle, on trace un segment }[AB]\text{ de longueur 6 cm}$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="15" />
+<action abscisse="294.15" ordonnee="109.8" id="11" mouvement="creer" objet="point" />
+<action ordonnee="0" abscisse="-30" couleur="0" nom="A" id="11" mouvement="nommer" objet="point" />
+<action abscisse="150" ordonnee="300" id="11" mouvement="translation" objet="point" />
+<action abscisse="343" ordonnee="226" mouvement="montrer" objet="regle" />
+<action abscisse="150" ordonnee="301" mouvement="translation" objet="regle" />
+<action abscisse="450" ordonnee="150" id="12" mouvement="creer" objet="point" />
+<action ordonnee="-0.7" abscisse="14.15" couleur="0" nom="B" id="12" mouvement="nommer" objet="point" />
+<action abscisse="330" ordonnee="300" id="12" mouvement="translation" objet="point" />
+<action abscisse="342.9" ordonnee="226.4" mouvement="montrer" objet="crayon" />
+<action abscisse="150" ordonnee="300" mouvement="translation" objet="crayon" />
+<action abscisse="330" ordonnee="300" epaisseur="1" id="13" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action texte="$\text{À la règle, on trace un segment }[AB]\text{ de longueur 6 cm}$" id="52" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+<action abscisse="400" ordonnee="150" id="53" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace un arc de cercle de centre }A\text{ et de rayon 4 cm}$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action abscisse="342.9" ordonnee="226.4" mouvement="montrer" objet="compas" tempo="10" />
+<action abscisse="150" ordonnee="300" mouvement="translation" objet="compas" tempo="10" />
+<action ecart="120" mouvement="ecarter" objet="compas" tempo="10" />
+<action sens="-2" angle="-30" mouvement="rotation" objet="compas" tempo="5" />
+<action mouvement="lever" objet="compas" tempo="7" />
+<action sens="-2" epaisseur="1" fin="-90" debut="-30" id="14" couleur="lightseagreen" mouvement="tracer" objet="compas" />
+<action mouvement="coucher" objet="compas" />
+<action texte="$\text{On trace un arc de cercle de centre }A\text{ et de rayon 4 cm}$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+<action abscisse="400" ordonnee="170" id="54" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace un arc de cercle de centre }B\text{ et de rayon 5 cm}$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="10" />
+<action sens="5" angle="0" mouvement="rotation" objet="compas" tempo="10" />
+<action ecart="150" mouvement="ecarter" objet="compas" tempo="30" />
+<action mouvement="masquer" objet="regle" />
+<action abscisse="330" ordonnee="300" mouvement="translation" objet="compas" tempo="10" />
+<action sens="-2" angle="-120" mouvement="rotation" objet="compas" tempo="5" />
+<action mouvement="lever" objet="compas" tempo="5" />
+<action sens="-2" epaisseur="1" fin="-160" debut="-120" id="15" couleur="lightseagreen" mouvement="tracer" objet="compas" />
+<action mouvement="masquer" objet="compas" />
+<action texte="$\text{On trace un arc de cercle de centre }B\text{ et de rayon 5 cm}$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+<action abscisse="400" ordonnee="190" id="55" mouvement="creer" objet="texte" />
+<action texte="$\text{On nomme le point }C$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action abscisse="350" ordonnee="75" id="16" mouvement="creer" objet="point" />
+<action ordonnee="-38.1" abscisse="-7.1" couleur="0" nom="C" id="16" mouvement="nommer" objet="point" />
+<action abscisse="217.5" ordonnee="200.78" id="16" mouvement="translation" objet="point" />
+<action texte="$\text{On nomme le point }C$" id="55" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+<action abscisse="400" ordonnee="210" id="56" mouvement="creer" objet="texte" />
+<action texte="$\text{On trace les côtés du triangle}$" id="56" taille="16" couleur="noir" mouvement="ecrire" objet="texte" />
+<action mouvement="vide" objet="regle" />
+<action mouvement="montrer" objet="regle" />
+<action sens="-5" angle="-55.77" mouvement="rotation" objet="regle" />
+<action abscisse="150" ordonnee="300" mouvement="montrer" objet="crayon" />
+<action abscisse="217.5" ordonnee="200.78" epaisseur="1" id="17" mouvement="tracer" objet="crayon" />
+<action sens="-5" angle="-138.59" mouvement="rotation" objet="regle" />
+<action abscisse="425.05" ordonnee="381" id="18" mouvement="translation" objet="regle" />
+<action abscisse="330" ordonnee="300" epaisseur="1" id="19" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+<action texte="$\text{On trace les côtés du triangle}$" id="56" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+
+<action cibles="11,12,16" epaisseur="0" couleur="darkblue" forme="polygone" id="100" mouvement="tracer" objet="crayon" opacite="5" />
+<action abscisse="224.7" ordonnee="306.8" id="57" mouvement="creer" objet="texte" />
+<action texte="6 cm" id="57" taille="16" couleur="steelblue" mouvement="ecrire" objet="texte" />
+<action abscisse="139.1" ordonnee="229.7" id="58" mouvement="creer" objet="texte" />
+<action texte="4 cm" id="58" taille="16" couleur="steelblue" mouvement="ecrire" objet="texte" />
+<action abscisse="283.4" ordonnee="229.7" id="59" mouvement="creer" objet="texte" />
+<action texte="5 cm" id="59" taille="16" couleur="steelblue" mouvement="ecrire" objet="texte" />
+</INSTRUMENPOCHE>

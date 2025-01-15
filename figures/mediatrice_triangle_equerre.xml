@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INSTRUMENPOCHE version="2">
+
+
+<!-- Régis Deleuze (rdeleuze@ac-reims.fr) -->
+
+
+
+<action  abscisse="600" ordonnee="50" id="50" mouvement="creer" objet="texte" />
+<action texte="$\textbf{Construire la médiatrice d'un côté d'un triangle}$" id="50" taille="19" couleur="noir" mouvement="ecrire" police="arial" objet="texte"/>
+<action mouvement="translation" objet="texte" id="50" abscisse="50" ordonnee="50" />
+<action abscisse="50" ordonnee="75" id="51" mouvement="creer" objet="texte" />
+<action texte="$\text{Il s'agit de construire la médiatrice de }[AB]\text{ en utilisant uniquement une équerre}$" id="51" taille="16" couleur="rouge" mouvement="ecrire" objet="texte"/>
+
+
+<!-- Le triangle ABC -->
+
+<action abscisse="140" ordonnee="350" couleur="noir" id="1" mouvement="creer" objet="point" />
+<action ordonnee="3.75" abscisse="-26.05"  couleur="noir" nom="A" id="1" mouvement="nommer" objet="point" />
+
+<action abscisse="371.822" ordonnee="287.883" couleur="noir" id="2" mouvement="creer" objet="point" />
+<action ordonnee="-4.55" abscisse="14.05"  couleur="noir" nom="B" id="2" mouvement="nommer" objet="point" />
+
+<action abscisse="160" ordonnee="140" couleur="noir" id="3" mouvement="creer" objet="point" />
+<action ordonnee="-28.65" abscisse="-18.6"  couleur="noir" nom="C" id="3" mouvement="nommer" objet="point" />
+
+<action cibles="1,2,3" epaisseur="0" couleur="darkblue" forme="polygone" id="1500" mouvement="tracer" objet="crayon" opacite="5" vitesse="1000" />
+
+<!-- Les deux médiatrices -->
+
+<action couleur="gold" epaisseur="1"  abscisse1="302.865" ordonnee1="161.01" abscisse2="145.725" ordonnee2="386.091" mouvement="tracer" id="4" objet="trait" />
+
+<action couleur="gold" epaisseur="1"  abscisse1="84.727" ordonnee1="238.784" abscisse2="410.211" ordonnee2="269.782" mouvement="tracer" id="5" objet="trait" />
+
+
+<!-- Le codage -->
+
+<action abscisse="145" ordonnee="297.5" forme="\\" couleur="crimson" id="6" mouvement="creer" objet="longueur" />
+<action abscisse="155" ordonnee="192.5" forme="\\" couleur="crimson" id="7" mouvement="creer" objet="longueur" />
+
+<action abscisse="212.955" ordonnee="176.97" forme="/" couleur="crimson" id="8" mouvement="creer" objet="longueur" />
+<action abscisse="318.866" ordonnee="250.912" forme="/" couleur="crimson" id="9" mouvement="creer" objet="longueur" />
+
+
+<action abscisse_sommet="163.51" ordonnee_sommet="261.354" abscisse_inter="150" ordonnee_inter="245" couleur="crimson" id="10" mouvement="creer" objet="angle_droit" />
+<action abscisse_sommet="269.623" ordonnee_sommet="234.827" abscisse_inter="265.911" ordonnee_inter="213.941" couleur="crimson" id="11" mouvement="creer" objet="angle_droit" tempo="30" />
+
+
+
+
+
+
+<action  abscisse="400" ordonnee="120" id="52" mouvement="creer" objet="texte" />
+<action texte="$\text{Dans un triangle, les trois médiatrices sont concourantes}$" id="52" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="15"/>
+
+<action ordonnee="70" abscisse="480" couleur="noir" id="12" mouvement="creer" objet="point" />
+<action ordonnee="-27.25" abscisse="-28.75"  couleur="noir" nom="O" id="12" mouvement="nommer" objet="point" />
+<action abscisse="238.353" ordonnee="253.414" id="12" mouvement="translation" objet="point" />
+
+<action texte="$\text{Dans un triangle, les trois médiatrices sont concourantes}$" id="52" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte"/>
+
+
+
+
+
+
+<action  abscisse="400" ordonnee="142" id="53" mouvement="creer" objet="texte" />
+<action texte="$\text{La médiatrice de }[AB]\text{ est donc la droite :}$" id="53" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+
+<action  abscisse="500" ordonnee="164" id="54" mouvement="creer" objet="texte" />
+<action texte="$\text{- qui passe par }O$" id="54" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+
+<action  abscisse="500" ordonnee="186" id="55" mouvement="creer" objet="texte" />
+<action texte="$\text{- qui est perpendiculaire à }(AB)$" id="55" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+
+<!-- Mouvements de l'équerre -->
+
+<action tempo="10" abscisse="467" ordonnee="408" mouvement="montrer" objet="equerre" />
+<action tempo="10" abscisse="315.324" ordonnee="303.021" mouvement="translation" objet="equerre" />
+<action tempo="10" sens="-1" angle="-15" mouvement="rotation" objet="equerre" />
+<action tempo="10" abscisse="255.911" ordonnee="318.941" mouvement="translation" objet="equerre" />
+
+<!-- Mouvements de la règle -->
+
+<action mouvement="vide" objet="regle" />
+<action mouvement="montrer" objet="regle" tempo="5"/>
+<action sens="5" angle="75" mouvement="rotation" objet="regle" tempo="10"/>
+<action abscisse="199.994" ordonnee="110.256" mouvement="translation" objet="regle" tempo="10"/>
+
+<!-- Tracé de la médiatrice -->
+
+<action mouvement="masquer" objet="equerre" />
+<action abscisse="309" ordonnee="198" mouvement="montrer" objet="crayon" tempo="5"/>
+<action abscisse="199.994" ordonnee="110.256" mouvement="translation" objet="crayon" tempo="10"/>
+<action abscisse="270.651" ordonnee="373.954" epaisseur="0" couleur="gold" id="13" mouvement="tracer" objet="crayon" />
+<action mouvement="masquer" objet="crayon" />
+<action mouvement="masquer" objet="regle" />
+
+<!-- Codage -->
+
+<action abscisse_sommet="237.539" ordonnee_sommet="308.335" abscisse_inter="255.911" ordonnee_inter="318.941" couleur="crimson" id="14" mouvement="creer" objet="angle_droit" />
+
+
+<action texte="$\text{La médiatrice de }[AB]\text{ est donc la droite :}$" id="53" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+<action texte="$\text{- qui passe par }O$" id="54" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+<action texte="$\text{- qui est perpendiculaire à }(AB)$" id="55" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+
+
+
+
+
+<action  abscisse="400" ordonnee="208" id="56" mouvement="creer" objet="texte" />
+<action texte="$\text{La médiatrice de }[AB]\text{ coupe }[AB]\text{ en son milieu}$" id="56" taille="16" couleur="noir" mouvement="ecrire" objet="texte" tempo="20"/>
+
+<action ordonnee="116" abscisse="346" couleur="noir" id="15" mouvement="creer" objet="point" />
+<action ordonnee="0" abscisse="14" couleur="noir" nom="A&apos;" id="15" mouvement="nommer" objet="point" />
+<action abscisse="255.911" ordonnee="318.941" id="15" mouvement="translation" objet="point" />
+
+<action abscisse="197.955" ordonnee="334.47" forme="O" couleur="crimson" id="16" mouvement="creer" objet="longueur" />
+<action abscisse="313.866" ordonnee="303.412" forme="O" couleur="crimson" id="17" mouvement="creer" objet="longueur" />
+
+<action texte="$\text{La médiatrice de }[AB]\text{ coupe }[AB]\text{ en son milieu}$" id="56" taille="16" couleur="darkgray" mouvement="ecrire" objet="texte" />
+
+
+</INSTRUMENPOCHE>
